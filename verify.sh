@@ -104,6 +104,31 @@ verify_postgres() {
                           WHERE table_schema='public' AND table_type='BASE TABLE';")
     is_num "$stray" && [ "$stray" -gt 0 ] && \
         fail "default 'postgres' database has $stray stray table(s) — expected 0"
+
+    # ── Views (informational) ─────────────────────────────────────────────────
+    echo
+    printf '  %-11s %-42s %11s\n' DATABASE VIEW ROWS
+    printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
+    _pg_any_views=0
+    for db in chinook pagila employees northwind ecommerce world; do
+        vout=$(pg "$db" "
+            SELECT table_schema || '.' || table_name || '|' ||
+                   (xpath('/row/c/text()',
+                        query_to_xml(format('SELECT count(*) AS c FROM %I.%I',
+                                            table_schema, table_name),
+                                     false, true, '')))[1]::text
+              FROM information_schema.views
+             WHERE table_schema NOT IN ('pg_catalog','information_schema')
+             ORDER BY table_schema, table_name;" 2>/dev/null)
+        while IFS= read -r line; do
+            line=$(printf '%s' "$line" | xargs 2>/dev/null || printf '%s' "$line")
+            [ -z "$line" ] && continue
+            vname=${line%%|*}; vcnt=${line##*|}
+            printf '  %-11s %-42s %11s\n' "$db" "$vname" "$vcnt"
+            _pg_any_views=1
+        done <<< "$vout"
+    done
+    [ "$_pg_any_views" -eq 0 ] && printf '  (no views)\n'
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -160,6 +185,23 @@ verify_mysql() {
                    WHERE SCHEMA_NAME = 'Chinook' COLLATE utf8mb4_bin;")
     is_num "$stray" && [ "$stray" -gt 0 ] && \
         fail "a capital-C 'Chinook' database exists — expected only lower-case 'chinook'"
+
+    # ── Views (informational) ─────────────────────────────────────────────────
+    echo
+    printf '  %-11s %-42s %11s\n' DATABASE VIEW ROWS
+    printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
+    _my_any_views=0
+    for db in chinook sakila northwind world menagerie; do
+        mapfile -t _vnames < <(my_q "SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA='$db' ORDER BY TABLE_NAME;" | grep -v '^$')
+        for vname in "${_vnames[@]}"; do
+            vname=$(printf '%s' "$vname" | tr -d '\r')
+            [ -z "$vname" ] && continue
+            vcnt=$(my_q "SELECT COUNT(*) FROM \`$db\`.\`$vname\`;" | tr -d '\r')
+            printf '  %-11s %-42s %11s\n' "$db" "$vname" "$vcnt"
+            _my_any_views=1
+        done
+    done
+    [ "$_my_any_views" -eq 0 ] && printf '  (no views)\n'
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -219,6 +261,30 @@ verify_sqlserver() {
     left=$(mssql -Q "SET NOCOUNT ON;
         SELECT COUNT(*) FROM sys.server_principals WHERE name = 'nw_seeder';" | tr -cd '0-9')
     [ "${left:-0}" = "0" ] || echo "  NOTE: seeding login nw_seeder still exists (harmless, dev only)."
+
+    # ── Views (informational) ─────────────────────────────────────────────────
+    echo
+    printf '  %-11s %-42s %11s\n' DATABASE VIEW ROWS
+    printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
+    _ms_any_views=0
+    for db in Chinook Northwind; do
+        # Emit schema TAB viewname — tab is safe (no object name contains a tab)
+        mapfile -t _vlist < <(mssql -d "$db" -Q "
+            SET NOCOUNT ON;
+            SELECT s.name + CHAR(9) + v.name FROM sys.views v
+             JOIN sys.schemas s ON s.schema_id = v.schema_id
+            ORDER BY s.name, v.name;" 2>/dev/null \
+            | grep $'^\t*[A-Za-z]' | sed 's/\r$//')
+        for _entry in "${_vlist[@]}"; do
+            _schema=${_entry%%	*}; _vname=${_entry#*	}
+            [ -z "$_schema" ] || [ -z "$_vname" ] && continue
+            _vcnt=$(mssql -d "$db" -Q "SET NOCOUNT ON; SELECT COUNT(*) FROM [$_schema].[$_vname];" 2>/dev/null \
+                   | grep -m1 -E '^ *[0-9]' | tr -cd '0-9')
+            printf '  %-11s %-42s %11s\n' "$db" "${_schema}.${_vname}" "${_vcnt:-?}"
+            _ms_any_views=1
+        done
+    done
+    [ "$_ms_any_views" -eq 0 ] && printf '  (no views)\n'
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -291,6 +357,42 @@ SQL
                 ;;
         esac
     done
+
+    # ── Views & Materialized Views (informational) ────────────────────────────
+    echo
+    printf '  %-11s %-42s %11s\n' PDB VIEW ROWS
+    printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
+    _ora_view_out=$(docker exec -i db_oracle \
+            sqlplus -s "system/${ORA_PASS}@//localhost/XEPDB1" <<'VSQL' 2>/dev/null
+SET SERVEROUTPUT ON SIZE UNLIMITED
+SET HEADING OFF FEEDBACK OFF PAGESIZE 0
+DECLARE
+    v_cnt NUMBER;
+BEGIN
+    FOR v IN (SELECT owner, view_name AS oname FROM dba_views
+               WHERE owner IN ('CHINOOK','HR','CO','SH') ORDER BY owner, view_name) LOOP
+        EXECUTE IMMEDIATE 'SELECT COUNT(*) FROM "' || v.owner || '"."' || v.oname || '"' INTO v_cnt;
+        DBMS_OUTPUT.PUT_LINE('VROW|' || v.owner || '.' || v.oname || '|' || v_cnt);
+    END LOOP;
+    FOR m IN (SELECT owner, mview_name AS oname FROM dba_mviews
+               WHERE owner IN ('CHINOOK','HR','CO','SH') ORDER BY owner, mview_name) LOOP
+        EXECUTE IMMEDIATE 'SELECT COUNT(*) FROM "' || m.owner || '"."' || m.oname || '"' INTO v_cnt;
+        DBMS_OUTPUT.PUT_LINE('VROW|' || m.owner || '.' || m.oname || ' (MVIEW)|' || v_cnt);
+    END LOOP;
+END;
+/
+EXIT;
+VSQL
+)
+    mapfile -t _ora_vlines < <(printf '%s\n' "$_ora_view_out" | grep '^VROW|')
+    if [ "${#_ora_vlines[@]}" -eq 0 ]; then
+        printf '  (no views)\n'
+    else
+        for _vline in "${_ora_vlines[@]}"; do
+            IFS='|' read -r _ _vname _vcnt <<< "$_vline"
+            printf '  %-11s %-42s %11s\n' XEPDB1 "$_vname" "$_vcnt"
+        done
+    fi
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
