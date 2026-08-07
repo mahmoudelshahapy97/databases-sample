@@ -1,0 +1,221 @@
+# =============================================================================
+# Multi-Database Docker Compose
+# =============================================================================
+# Engines  : PostgreSQL 16 | MySQL 8.4 | SQL Server 2022 | Oracle XE 21c | SQLite
+#
+# Every dataset is seeded on first start into its own database *and* its own
+# named schema — nothing is left in `public` / `dbo`, and nothing ships as
+# schema-only:
+#   postgres  → chinook.chinook, pagila.pagila, employees.employees,
+#               northwind.northwind, ecommerce.ecommerce, world.world
+#   mysql     → chinook, sakila, northwind, world, menagerie
+#               (a database *is* the schema in MySQL — no second level)
+#   sqlserver → Chinook.chinook, Northwind.northwind
+#   oracle    → CHINOOK, HR, CO, SH schemas  (inside XEPDB1)
+#   sqlite    → chinook.db, menagerie.db, northwind.db  (Datasette UI on :8001)
+#
+# Usage:
+#   docker compose up -d            # start all
+#   docker compose up -d postgres   # start one engine only
+#   docker compose down -v          # stop + wipe volumes
+#   ./verify.sh                     # row counts across every engine
+#
+# First run is slow: postgres spends a few minutes on the 4 M-row employees
+# data, and oracle 10–20 minutes on the 1 M-row SH schema (ORACLE_SKIP_SH=true
+# opts out). Both are one-time costs — the named volumes keep the result.
+# =============================================================================
+
+services:
+
+  # ---------------------------------------------------------------------------
+  # PostgreSQL 16  —  6 sample databases, one named schema each
+  # ---------------------------------------------------------------------------
+  postgres:
+    image: postgres:16-alpine
+    container_name: db_postgres
+    restart: unless-stopped
+    # Raised from 384m: the employees bulk load (~4 M rows) needs headroom for
+    # index maintenance on top of shared_buffers.
+    mem_limit: 512m
+    environment:
+      POSTGRES_USER:     ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres123}
+      POSTGRES_DB:       postgres
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      # Persistent data
+      - postgres_data:/var/lib/postgresql/data
+      # Init scripts (run once on first start, alphabetical order).
+      # Only the numbered .sh loaders live here — the entrypoint executes every
+      # *.sql it finds in this directory too, which would run hand-written DDL
+      # standalone against the default `postgres` database.
+      - ./postgres/init:/docker-entrypoint-initdb.d:ro
+      # SQL assets @-called by those loaders (world_pg.sql)
+      - ./postgres/assets:/seed:ro
+      # Vendored upstream SQL/data — chinook, pagila, employees, northwind,
+      # ecommerce, world (see postgres/data/SOURCE.md)
+      - ./postgres/data:/source:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - db_network
+
+  # ---------------------------------------------------------------------------
+  # MySQL 8.4  —  5 sample databases (a database *is* the schema here)
+  # ---------------------------------------------------------------------------
+  mysql:
+    image: mysql:8.4
+    container_name: db_mysql
+    restart: unless-stopped
+    mem_limit: 1g
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-mysql123}
+    ports:
+      - "${MYSQL_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      # Init scripts (run once on first start, alphabetical order).
+      # Only the numbered .sh loaders live here — the entrypoint also executes
+      # every *.sql it finds in this directory, which would run the dataset DDL
+      # standalone against the default database.
+      - ./mysql/init:/docker-entrypoint-initdb.d:ro
+      # Shell helpers sourced by those loaders (socket discovery, client wrapper)
+      - ./mysql/assets:/seed:ro
+      # Vendored upstream SQL — chinook, sakila, northwind, world, menagerie
+      # (see mysql/data/SOURCE.md)
+      - ./mysql/data:/source:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -u root -p\"$$MYSQL_ROOT_PASSWORD\" --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+    networks:
+      - db_network
+
+  # ---------------------------------------------------------------------------
+  # SQL Server 2022 Developer Edition  —  2 databases, one named schema each
+  # ---------------------------------------------------------------------------
+  sqlserver:
+    build:
+      context: ./sqlserver
+      dockerfile: Dockerfile
+    container_name: db_sqlserver
+    restart: unless-stopped
+    mem_limit: 2g
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: ${MSSQL_PASSWORD:-SqlServer123!}
+      MSSQL_PID:   Developer
+    ports:
+      - "${MSSQL_PORT:-1433}:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+      # Vendored upstream SQL — chinook, northwind (see sqlserver/data/SOURCE.md)
+      - ./sqlserver/data:/source:ro
+    healthcheck:
+      test:
+        - "CMD-SHELL"
+        - >
+          test -f /tmp/seed_done &&
+          /opt/mssql-tools18/bin/sqlcmd
+          -S localhost -U sa -P "$$SA_PASSWORD" -No
+          -Q "SELECT 1" > /dev/null 2>&1
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
+    networks:
+      - db_network
+
+  # ---------------------------------------------------------------------------
+  # Oracle XE 21c  —  CHINOOK + HR + CO + SH schemas  (inside XEPDB1)
+  # ---------------------------------------------------------------------------
+  oracle:
+    build:
+      context: ./oracle
+      dockerfile: Dockerfile
+    container_name: db_oracle
+    restart: unless-stopped
+    # Raised from 2.5g: SH adds ~1 M rows, partitioned tables, bitmap index
+    # builds and a full stats gather on top of the other three schemas.
+    mem_limit: 3g
+    environment:
+      ORACLE_PASSWORD: ${ORACLE_PASSWORD:-Oracle123!}
+      ORACLE_DATABASE: XEPDB1
+      # Set to true to skip the SH (Sales History) schema — the single slowest
+      # part of a first start. Everything else is unaffected.
+      ORACLE_SKIP_SH:  ${ORACLE_SKIP_SH:-false}
+    ports:
+      - "${ORACLE_PORT:-1521}:1521"
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+      # Vendored upstream SQL/CSV — chinook, human_resources (HR),
+      # customer_orders (CO) and sales_history (SH, including its six CSV data
+      # files, read through the SH_CSV_DIR directory object). See
+      # oracle/data/SOURCE.md
+      - ./oracle/data:/source:ro
+    healthcheck:
+      test: ["CMD-SHELL", "healthcheck.sh"]
+      interval: 30s
+      timeout: 20s
+      retries: 15
+      # SH seeding runs inside container init, so first-start readiness is
+      # measured in tens of minutes, not minutes.
+      start_period: 1500s
+    networks:
+      - db_network
+
+  # ---------------------------------------------------------------------------
+  # SQLite  —  chinook.db + menagerie.db + northwind.db  (Datasette on :8001)
+  # ---------------------------------------------------------------------------
+  sqlite:
+    build:
+      context: ./sqlite
+      dockerfile: Dockerfile
+    container_name: db_sqlite
+    restart: unless-stopped
+    mem_limit: 128m
+    ports:
+      - "${SQLITE_PORT:-8001}:8001"
+    volumes:
+      - sqlite_data:/data
+      # Vendored upstream SQL — chinook, northwind (menagerie is hand-converted
+      # and baked into the image). See sqlite/data/SOURCE.md
+      - ./sqlite/data:/source:ro
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O- --tries=1 --timeout=3 http://127.0.0.1:8001/-/versions.json || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - db_network
+
+# =============================================================================
+# Persistent named volumes
+# =============================================================================
+volumes:
+  postgres_data:
+    name: multidb_postgres_data
+  mysql_data:
+    name: multidb_mysql_data
+  sqlserver_data:
+    name: multidb_sqlserver_data
+  oracle_data:
+    name: multidb_oracle_data
+  sqlite_data:
+    name: multidb_sqlite_data
+
+# =============================================================================
+# Shared network
+# =============================================================================
+networks:
+  db_network:
+    name: multidb_network
+    driver: bridge

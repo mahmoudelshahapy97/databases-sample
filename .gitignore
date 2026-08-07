@@ -1,0 +1,9 @@
+# Secrets
+.env
+
+# Docker build artifacts
+*.log
+
+# Editor folders
+.vscode/
+.idea/
