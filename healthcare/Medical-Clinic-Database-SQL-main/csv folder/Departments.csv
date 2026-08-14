@@ -1,0 +1,10 @@
+DepartmentID,DepartmentName,Description,ContactNumber,Email
+4,Dermatology,Skin-related issues,4164672414,dermatology@clinic6sql.com
+5,Orthopedics,Bone and joint care,4164449816,orthopedics@clinic6sql.com
+6,Gastroenterology,Digestive system treatment,4164450396,gastroenterology@clinic6sql.com
+7,Endocrinology,Hormonal disorders,4165307102,endocrinology@clinic6sql.com
+8,Ophthalmology,Eye care,4164425701,ophthalmology@clinic6sql.com
+9,Psychiatry,Mental health,4167360529,psychiatry@clinic6sql.com
+10,Gynecology,Female reproductive system,4160275123,gynecology@clinic6sql.com
+11,Administrative,Admin support and logistics,4169088818,administrative@clinic6sql.com
+12,Urology,Urinary system,4160494465,urology@clinic6sql.com

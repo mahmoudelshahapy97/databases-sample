@@ -1,0 +1,1686 @@
+AppointmentID,MedicationName,StartDate,EndDate,Dosage,Instructions
+1,Metoprolol,2024-03-25,2024-04-22,50 mg,Take before bed
+2,Pantoprazole,2024-03-25,2024-04-05,40 mg,Three times daily
+2,Atorvastatin,2024-03-25,2024-04-18,20 mg,Take after meals
+5,Metformin,2024-03-25,2024-04-22,850 mg,Once a day
+5,Pantoprazole,2024-03-25,2024-04-24,40 mg,Take before bed
+5,Azithromycin,2024-03-25,2024-04-01,250 mg,Once a day
+10,Doxycycline,2024-03-26,2024-04-15,100 mg,Twice daily
+10,Simvastatin,2024-03-26,2024-04-12,20 mg,Take with food
+11,Lisinopril,2024-03-26,2024-04-17,10 mg,Take after meals
+11,Metformin,2024-03-26,2024-04-19,850 mg,Twice daily
+12,Amoxicillin,2024-03-26,2024-04-21,500 mg,Once a day
+12,Simvastatin,2024-03-26,2024-04-03,20 mg,Once a day
+14,Metoprolol,2024-03-27,2024-04-05,50 mg,Three times daily
+15,Atorvastatin,2024-03-27,2024-04-16,20 mg,Three times daily
+15,Ibuprofen,2024-03-27,2024-04-11,200 mg,Twice daily
+15,Lisinopril,2024-03-27,2024-04-11,10 mg,Twice daily
+16,Azithromycin,2024-03-27,2024-04-16,250 mg,Take on an empty stomach
+21,Gabapentin,2024-03-27,2024-04-26,300 mg,Twice daily
+21,Ibuprofen,2024-03-27,2024-04-25,200 mg,Take with food
+21,Metformin,2024-03-27,2024-04-18,850 mg,Once a day
+23,Omeprazole,2024-03-28,2024-04-10,40 mg,Take with food
+23,Gabapentin,2024-03-28,2024-04-05,300 mg,Three times daily
+24,Doxycycline,2024-03-28,2024-04-16,100 mg,Three times daily
+24,Atorvastatin,2024-03-28,2024-04-22,20 mg,Twice daily
+25,Doxycycline,2024-03-28,2024-04-23,100 mg,Take on an empty stomach
+27,Metformin,2024-03-28,2024-04-27,850 mg,Take before bed
+27,Omeprazole,2024-03-28,2024-04-09,40 mg,Three times daily
+27,Omeprazole,2024-03-28,2024-04-16,40 mg,Twice daily
+29,Levothyroxine,2024-03-29,2024-04-03,75 mcg,Once a day
+29,Azithromycin,2024-03-29,2024-04-26,250 mg,Take with food
+30,Amoxicillin,2024-03-29,2024-04-27,500 mg,Twice daily
+31,Levothyroxine,2024-03-29,2024-04-13,75 mcg,Three times daily
+31,Lisinopril,2024-03-29,2024-04-08,10 mg,Take before bed
+36,Gabapentin,2024-04-01,2024-04-23,300 mg,Once a day
+36,Omeprazole,2024-04-01,2024-04-22,40 mg,Twice daily
+36,Levothyroxine,2024-04-01,2024-04-19,75 mcg,Take on an empty stomach
+37,Ibuprofen,2024-04-01,2024-04-13,200 mg,Take after meals
+37,Doxycycline,2024-04-01,2024-04-26,100 mg,Take on an empty stomach
+37,Simvastatin,2024-04-01,2024-04-17,20 mg,Take after meals
+41,Prednisone,2024-04-02,2024-04-15,10 mg,Twice daily
+41,Gabapentin,2024-04-02,2024-04-29,300 mg,Once a day
+43,Pantoprazole,2024-04-02,2024-04-09,40 mg,Take with food
+47,Ibuprofen,2024-04-03,2024-04-26,200 mg,Three times daily
+47,Simvastatin,2024-04-03,2024-04-22,20 mg,Take after meals
+47,Ibuprofen,2024-04-03,2024-04-15,200 mg,Take before bed
+49,Omeprazole,2024-04-03,2024-04-26,40 mg,Take after meals
+49,Amlodipine,2024-04-03,2024-04-28,5 mg,Take after meals
+50,Pantoprazole,2024-04-03,2024-05-03,40 mg,Once a day
+50,Gabapentin,2024-04-03,2024-04-08,300 mg,Three times daily
+51,Ibuprofen,2024-04-03,2024-04-17,200 mg,Once a day
+51,Doxycycline,2024-04-03,2024-05-03,100 mg,Take with food
+51,Metoprolol,2024-04-03,2024-04-16,50 mg,Take after meals
+52,Gabapentin,2024-04-03,2024-04-15,300 mg,Take with food
+52,Atorvastatin,2024-04-03,2024-04-23,20 mg,Take on an empty stomach
+52,Doxycycline,2024-04-03,2024-04-19,100 mg,Three times daily
+53,Prednisone,2024-04-04,2024-04-21,10 mg,Three times daily
+53,Atorvastatin,2024-04-04,2024-04-10,20 mg,Take on an empty stomach
+60,Prednisone,2024-04-05,2024-04-27,10 mg,Once a day
+60,Doxycycline,2024-04-05,2024-04-27,100 mg,Take on an empty stomach
+61,Atorvastatin,2024-04-08,2024-05-02,20 mg,Twice daily
+61,Gabapentin,2024-04-08,2024-04-24,300 mg,Once a day
+61,Metformin,2024-04-08,2024-04-14,850 mg,Twice daily
+62,Omeprazole,2024-04-08,2024-05-07,40 mg,Take with food
+70,Amlodipine,2024-04-09,2024-05-08,5 mg,Take before bed
+71,Lisinopril,2024-04-09,2024-04-16,10 mg,Once a day
+71,Amlodipine,2024-04-09,2024-04-16,5 mg,Take with food
+73,Metformin,2024-04-09,2024-04-14,850 mg,Take with food
+73,Gabapentin,2024-04-09,2024-04-14,300 mg,Take with food
+73,Levothyroxine,2024-04-09,2024-04-19,75 mcg,Twice daily
+74,Metformin,2024-04-09,2024-05-05,850 mg,Once a day
+74,Lisinopril,2024-04-09,2024-05-01,10 mg,Take before bed
+74,Omeprazole,2024-04-09,2024-04-18,40 mg,Take on an empty stomach
+75,Levothyroxine,2024-04-10,2024-04-26,75 mcg,Take with food
+76,Amlodipine,2024-04-10,2024-05-01,5 mg,Take with food
+78,Omeprazole,2024-04-10,2024-04-18,40 mg,Twice daily
+79,Simvastatin,2024-04-10,2024-04-23,20 mg,Take after meals
+79,Metformin,2024-04-10,2024-04-19,850 mg,Once a day
+79,Azithromycin,2024-04-10,2024-04-30,250 mg,Take before bed
+80,Amoxicillin,2024-04-10,2024-05-02,500 mg,Take with food
+80,Pantoprazole,2024-04-10,2024-04-30,40 mg,Three times daily
+80,Pantoprazole,2024-04-10,2024-04-26,40 mg,Twice daily
+83,Atorvastatin,2024-04-10,2024-04-23,20 mg,Take before bed
+84,Levothyroxine,2024-04-11,2024-05-02,75 mcg,Once a day
+84,Ibuprofen,2024-04-11,2024-04-17,200 mg,Take with food
+84,Levothyroxine,2024-04-11,2024-04-24,75 mcg,Three times daily
+85,Simvastatin,2024-04-11,2024-04-24,20 mg,Twice daily
+85,Amlodipine,2024-04-11,2024-05-02,5 mg,Take after meals
+86,Doxycycline,2024-04-11,2024-05-04,100 mg,Take after meals
+86,Amlodipine,2024-04-11,2024-04-22,5 mg,Three times daily
+86,Pantoprazole,2024-04-11,2024-05-01,40 mg,Take on an empty stomach
+87,Pantoprazole,2024-04-11,2024-05-02,40 mg,Take on an empty stomach
+87,Metoprolol,2024-04-11,2024-04-20,50 mg,Take after meals
+87,Prednisone,2024-04-11,2024-05-03,10 mg,Take on an empty stomach
+90,Azithromycin,2024-04-11,2024-04-19,250 mg,Once a day
+90,Simvastatin,2024-04-11,2024-04-21,20 mg,Take on an empty stomach
+93,Prednisone,2024-04-12,2024-05-09,10 mg,Take before bed
+93,Ibuprofen,2024-04-12,2024-04-30,200 mg,Take on an empty stomach
+93,Omeprazole,2024-04-12,2024-04-23,40 mg,Take before bed
+95,Metoprolol,2024-04-12,2024-05-11,50 mg,Take with food
+96,Ibuprofen,2024-04-12,2024-05-01,200 mg,Once a day
+96,Metoprolol,2024-04-12,2024-04-25,50 mg,Once a day
+101,Amoxicillin,2024-04-15,2024-05-01,500 mg,Take with food
+101,Lisinopril,2024-04-15,2024-05-11,10 mg,Take before bed
+102,Simvastatin,2024-04-15,2024-05-10,20 mg,Twice daily
+107,Azithromycin,2024-04-16,2024-05-11,250 mg,Take after meals
+107,Amoxicillin,2024-04-16,2024-05-04,500 mg,Three times daily
+111,Gabapentin,2024-04-17,2024-04-28,300 mg,Twice daily
+111,Levothyroxine,2024-04-17,2024-04-23,75 mcg,Three times daily
+112,Amlodipine,2024-04-17,2024-05-17,5 mg,Three times daily
+112,Atorvastatin,2024-04-17,2024-04-28,20 mg,Take on an empty stomach
+112,Pantoprazole,2024-04-17,2024-05-16,40 mg,Take on an empty stomach
+116,Pantoprazole,2024-04-17,2024-04-29,40 mg,Twice daily
+120,Levothyroxine,2024-04-18,2024-05-07,75 mcg,Three times daily
+120,Amoxicillin,2024-04-18,2024-05-01,500 mg,Take with food
+121,Prednisone,2024-04-18,2024-05-08,10 mg,Once a day
+121,Doxycycline,2024-04-18,2024-05-12,100 mg,Three times daily
+126,Prednisone,2024-04-19,2024-04-24,10 mg,Take before bed
+128,Pantoprazole,2024-04-19,2024-05-09,40 mg,Take after meals
+129,Metformin,2024-04-19,2024-05-06,850 mg,Take with food
+129,Amlodipine,2024-04-19,2024-05-04,5 mg,Take on an empty stomach
+129,Prednisone,2024-04-19,2024-05-07,10 mg,Take after meals
+131,Ibuprofen,2024-04-19,2024-05-03,200 mg,Take before bed
+132,Metformin,2024-04-22,2024-05-06,850 mg,Three times daily
+132,Ibuprofen,2024-04-22,2024-05-01,200 mg,Take on an empty stomach
+132,Ibuprofen,2024-04-22,2024-05-21,200 mg,Once a day
+134,Azithromycin,2024-04-22,2024-05-12,250 mg,Twice daily
+134,Atorvastatin,2024-04-22,2024-05-11,20 mg,Take on an empty stomach
+134,Atorvastatin,2024-04-22,2024-05-17,20 mg,Take before bed
+136,Ibuprofen,2024-04-22,2024-05-02,200 mg,Once a day
+136,Atorvastatin,2024-04-22,2024-05-02,20 mg,Take after meals
+136,Atorvastatin,2024-04-22,2024-05-11,20 mg,Once a day
+137,Metoprolol,2024-04-22,2024-05-02,50 mg,Take with food
+138,Gabapentin,2024-04-22,2024-04-28,300 mg,Take with food
+138,Lisinopril,2024-04-22,2024-05-14,10 mg,Take on an empty stomach
+140,Levothyroxine,2024-04-23,2024-04-30,75 mcg,Take with food
+146,Atorvastatin,2024-04-23,2024-05-13,20 mg,Once a day
+150,Levothyroxine,2024-04-24,2024-05-12,75 mcg,Twice daily
+150,Omeprazole,2024-04-24,2024-05-23,40 mg,Take after meals
+150,Amoxicillin,2024-04-24,2024-05-02,500 mg,Take after meals
+151,Gabapentin,2024-04-24,2024-05-23,300 mg,Twice daily
+153,Amlodipine,2024-04-24,2024-05-09,5 mg,Take with food
+154,Pantoprazole,2024-04-24,2024-05-10,40 mg,Three times daily
+155,Amlodipine,2024-04-24,2024-05-04,5 mg,Three times daily
+156,Metoprolol,2024-04-24,2024-05-02,50 mg,Three times daily
+156,Amoxicillin,2024-04-24,2024-05-23,500 mg,Once a day
+156,Azithromycin,2024-04-24,2024-05-18,250 mg,Twice daily
+158,Atorvastatin,2024-04-25,2024-05-16,20 mg,Take on an empty stomach
+158,Atorvastatin,2024-04-25,2024-05-18,20 mg,Three times daily
+158,Omeprazole,2024-04-25,2024-05-04,40 mg,Twice daily
+160,Lisinopril,2024-04-25,2024-05-09,10 mg,Take before bed
+160,Metoprolol,2024-04-25,2024-05-17,50 mg,Take on an empty stomach
+160,Simvastatin,2024-04-25,2024-05-17,20 mg,Take before bed
+161,Metoprolol,2024-04-25,2024-05-09,50 mg,Take with food
+161,Gabapentin,2024-04-25,2024-05-14,300 mg,Take on an empty stomach
+165,Levothyroxine,2024-04-25,2024-05-14,75 mcg,Once a day
+165,Ibuprofen,2024-04-25,2024-05-21,200 mg,Once a day
+166,Metoprolol,2024-04-25,2024-05-21,50 mg,Take with food
+167,Amlodipine,2024-04-26,2024-05-12,5 mg,Three times daily
+167,Lisinopril,2024-04-26,2024-05-13,10 mg,Take after meals
+168,Pantoprazole,2024-04-26,2024-05-05,40 mg,Take after meals
+169,Doxycycline,2024-04-26,2024-05-02,100 mg,Three times daily
+169,Prednisone,2024-04-26,2024-05-15,10 mg,Take with food
+169,Atorvastatin,2024-04-26,2024-05-11,20 mg,Take before bed
+170,Doxycycline,2024-04-26,2024-05-05,100 mg,Take after meals
+171,Lisinopril,2024-04-26,2024-05-13,10 mg,Three times daily
+171,Doxycycline,2024-04-26,2024-05-17,100 mg,Take before bed
+171,Ibuprofen,2024-04-26,2024-05-05,200 mg,Take before bed
+174,Atorvastatin,2024-04-26,2024-05-10,20 mg,Take on an empty stomach
+175,Amoxicillin,2024-04-26,2024-05-16,500 mg,Three times daily
+181,Omeprazole,2024-04-29,2024-05-12,40 mg,Take before bed
+183,Gabapentin,2024-04-29,2024-05-19,300 mg,Once a day
+184,Prednisone,2024-04-30,2024-05-30,10 mg,Twice daily
+184,Atorvastatin,2024-04-30,2024-05-30,20 mg,Once a day
+184,Amlodipine,2024-04-30,2024-05-27,5 mg,Take on an empty stomach
+185,Amoxicillin,2024-04-30,2024-05-28,500 mg,Take with food
+185,Omeprazole,2024-04-30,2024-05-30,40 mg,Take with food
+188,Prednisone,2024-04-30,2024-05-19,10 mg,Take with food
+188,Amoxicillin,2024-04-30,2024-05-17,500 mg,Take before bed
+190,Prednisone,2024-04-30,2024-05-09,10 mg,Once a day
+190,Ibuprofen,2024-04-30,2024-05-15,200 mg,Twice daily
+191,Metoprolol,2024-05-01,2024-05-11,50 mg,Take with food
+191,Azithromycin,2024-05-01,2024-05-24,250 mg,Twice daily
+197,Simvastatin,2024-05-02,2024-05-25,20 mg,Twice daily
+197,Azithromycin,2024-05-02,2024-05-14,250 mg,Take after meals
+197,Doxycycline,2024-05-02,2024-05-19,100 mg,Take with food
+198,Azithromycin,2024-05-02,2024-05-14,250 mg,Three times daily
+198,Omeprazole,2024-05-02,2024-05-25,40 mg,Take on an empty stomach
+200,Azithromycin,2024-05-02,2024-06-01,250 mg,Take after meals
+200,Prednisone,2024-05-02,2024-05-28,10 mg,Three times daily
+200,Azithromycin,2024-05-02,2024-05-25,250 mg,Once a day
+204,Levothyroxine,2024-05-03,2024-05-12,75 mcg,Take with food
+204,Prednisone,2024-05-03,2024-05-24,10 mg,Take on an empty stomach
+204,Ibuprofen,2024-05-03,2024-05-15,200 mg,Once a day
+206,Levothyroxine,2024-05-03,2024-05-13,75 mcg,Once a day
+206,Omeprazole,2024-05-03,2024-05-08,40 mg,Take with food
+206,Gabapentin,2024-05-03,2024-05-25,300 mg,Take after meals
+212,Lisinopril,2024-05-06,2024-05-31,10 mg,Take on an empty stomach
+212,Metoprolol,2024-05-06,2024-05-29,50 mg,Take on an empty stomach
+212,Atorvastatin,2024-05-06,2024-05-14,20 mg,Take after meals
+214,Omeprazole,2024-05-06,2024-06-03,40 mg,Take on an empty stomach
+217,Atorvastatin,2024-05-06,2024-05-27,20 mg,Twice daily
+217,Atorvastatin,2024-05-06,2024-06-01,20 mg,Once a day
+217,Pantoprazole,2024-05-06,2024-06-02,40 mg,Twice daily
+219,Amoxicillin,2024-05-07,2024-05-20,500 mg,Three times daily
+219,Levothyroxine,2024-05-07,2024-05-21,75 mcg,Take with food
+219,Pantoprazole,2024-05-07,2024-05-17,40 mg,Three times daily
+220,Prednisone,2024-05-07,2024-05-29,10 mg,Take after meals
+220,Amlodipine,2024-05-07,2024-05-13,5 mg,Three times daily
+221,Atorvastatin,2024-05-07,2024-05-21,20 mg,Take with food
+222,Lisinopril,2024-05-07,2024-05-20,10 mg,Twice daily
+222,Amlodipine,2024-05-07,2024-05-30,5 mg,Three times daily
+226,Omeprazole,2024-05-08,2024-05-15,40 mg,Take with food
+226,Levothyroxine,2024-05-08,2024-05-24,75 mcg,Twice daily
+226,Lisinopril,2024-05-08,2024-06-03,10 mg,Twice daily
+227,Amlodipine,2024-05-09,2024-06-05,5 mg,Take on an empty stomach
+230,Gabapentin,2024-05-09,2024-06-03,300 mg,Take before bed
+230,Simvastatin,2024-05-09,2024-05-20,20 mg,Take after meals
+230,Ibuprofen,2024-05-09,2024-05-19,200 mg,Take after meals
+234,Azithromycin,2024-05-10,2024-06-07,250 mg,Take after meals
+234,Azithromycin,2024-05-10,2024-05-28,250 mg,Take on an empty stomach
+234,Lisinopril,2024-05-10,2024-06-08,10 mg,Take on an empty stomach
+235,Metformin,2024-05-10,2024-05-31,850 mg,Take with food
+235,Lisinopril,2024-05-10,2024-06-01,10 mg,Take after meals
+236,Amoxicillin,2024-05-10,2024-06-06,500 mg,Take before bed
+236,Ibuprofen,2024-05-10,2024-05-21,200 mg,Twice daily
+237,Prednisone,2024-05-13,2024-06-12,10 mg,Twice daily
+241,Levothyroxine,2024-05-13,2024-05-26,75 mcg,Three times daily
+241,Atorvastatin,2024-05-13,2024-05-25,20 mg,Take after meals
+246,Pantoprazole,2024-05-14,2024-05-29,40 mg,Take before bed
+248,Pantoprazole,2024-05-14,2024-05-25,40 mg,Take on an empty stomach
+250,Prednisone,2024-05-14,2024-05-29,10 mg,Take with food
+250,Lisinopril,2024-05-14,2024-06-05,10 mg,Once a day
+250,Metoprolol,2024-05-14,2024-06-04,50 mg,Take after meals
+254,Amoxicillin,2024-05-15,2024-05-21,500 mg,Three times daily
+254,Metoprolol,2024-05-15,2024-05-24,50 mg,Take on an empty stomach
+254,Atorvastatin,2024-05-15,2024-06-14,20 mg,Once a day
+256,Lisinopril,2024-05-15,2024-05-31,10 mg,Twice daily
+257,Prednisone,2024-05-15,2024-05-30,10 mg,Once a day
+261,Amoxicillin,2024-05-15,2024-06-03,500 mg,Twice daily
+261,Prednisone,2024-05-15,2024-05-30,10 mg,Three times daily
+262,Metoprolol,2024-05-15,2024-05-20,50 mg,Take on an empty stomach
+262,Doxycycline,2024-05-15,2024-06-02,100 mg,Three times daily
+263,Omeprazole,2024-05-15,2024-06-08,40 mg,Take before bed
+263,Amlodipine,2024-05-15,2024-05-27,5 mg,Once a day
+265,Pantoprazole,2024-05-16,2024-05-21,40 mg,Three times daily
+265,Metoprolol,2024-05-16,2024-06-14,50 mg,Take with food
+265,Azithromycin,2024-05-16,2024-06-08,250 mg,Once a day
+268,Metformin,2024-05-17,2024-05-31,850 mg,Twice daily
+268,Lisinopril,2024-05-17,2024-06-08,10 mg,Take with food
+269,Ibuprofen,2024-05-17,2024-06-02,200 mg,Three times daily
+269,Doxycycline,2024-05-17,2024-06-03,100 mg,Three times daily
+270,Omeprazole,2024-05-17,2024-06-16,40 mg,Take with food
+272,Ibuprofen,2024-05-17,2024-06-13,200 mg,Twice daily
+272,Prednisone,2024-05-17,2024-06-15,10 mg,Twice daily
+277,Simvastatin,2024-05-20,2024-06-05,20 mg,Take with food
+277,Doxycycline,2024-05-20,2024-06-12,100 mg,Take with food
+278,Pantoprazole,2024-05-20,2024-06-05,40 mg,Take on an empty stomach
+280,Levothyroxine,2024-05-21,2024-05-29,75 mcg,Take before bed
+280,Omeprazole,2024-05-21,2024-06-14,40 mg,Once a day
+281,Pantoprazole,2024-05-21,2024-06-01,40 mg,Three times daily
+287,Omeprazole,2024-05-21,2024-06-09,40 mg,Once a day
+287,Omeprazole,2024-05-21,2024-06-08,40 mg,Twice daily
+290,Levothyroxine,2024-05-22,2024-06-06,75 mcg,Take after meals
+291,Omeprazole,2024-05-22,2024-06-02,40 mg,Three times daily
+294,Doxycycline,2024-05-22,2024-06-13,100 mg,Three times daily
+295,Prednisone,2024-05-22,2024-05-30,10 mg,Take on an empty stomach
+295,Ibuprofen,2024-05-22,2024-06-14,200 mg,Take on an empty stomach
+295,Atorvastatin,2024-05-22,2024-06-07,20 mg,Three times daily
+297,Lisinopril,2024-05-22,2024-06-19,10 mg,Take after meals
+297,Atorvastatin,2024-05-22,2024-06-21,20 mg,Twice daily
+300,Amlodipine,2024-05-23,2024-06-20,5 mg,Take on an empty stomach
+300,Simvastatin,2024-05-23,2024-06-22,20 mg,Take before bed
+301,Azithromycin,2024-05-23,2024-06-05,250 mg,Take with food
+302,Metformin,2024-05-23,2024-06-21,850 mg,Take after meals
+302,Simvastatin,2024-05-23,2024-06-02,20 mg,Twice daily
+302,Doxycycline,2024-05-23,2024-06-19,100 mg,Take before bed
+306,Prednisone,2024-05-24,2024-06-17,10 mg,Twice daily
+306,Doxycycline,2024-05-24,2024-06-07,100 mg,Take after meals
+306,Simvastatin,2024-05-24,2024-06-23,20 mg,Take with food
+307,Atorvastatin,2024-05-24,2024-06-16,20 mg,Twice daily
+307,Atorvastatin,2024-05-24,2024-06-01,20 mg,Twice daily
+307,Metformin,2024-05-24,2024-06-22,850 mg,Three times daily
+310,Gabapentin,2024-05-24,2024-06-04,300 mg,Take before bed
+310,Lisinopril,2024-05-24,2024-06-11,10 mg,Twice daily
+310,Gabapentin,2024-05-24,2024-06-16,300 mg,Take before bed
+311,Lisinopril,2024-05-24,2024-06-13,10 mg,Take before bed
+311,Simvastatin,2024-05-24,2024-06-18,20 mg,Once a day
+311,Amlodipine,2024-05-24,2024-06-23,5 mg,Once a day
+312,Amlodipine,2024-05-24,2024-06-05,5 mg,Take with food
+312,Metformin,2024-05-24,2024-06-23,850 mg,Take on an empty stomach
+314,Omeprazole,2024-05-27,2024-06-24,40 mg,Take with food
+317,Amlodipine,2024-05-27,2024-06-02,5 mg,Take on an empty stomach
+317,Atorvastatin,2024-05-27,2024-06-14,20 mg,Take with food
+318,Levothyroxine,2024-05-27,2024-06-06,75 mcg,Twice daily
+318,Pantoprazole,2024-05-27,2024-06-02,40 mg,Take with food
+320,Omeprazole,2024-05-27,2024-06-12,40 mg,Three times daily
+320,Doxycycline,2024-05-27,2024-06-24,100 mg,Twice daily
+322,Omeprazole,2024-05-28,2024-06-02,40 mg,Take before bed
+323,Levothyroxine,2024-05-28,2024-06-17,75 mcg,Twice daily
+323,Amlodipine,2024-05-28,2024-06-11,5 mg,Take on an empty stomach
+323,Atorvastatin,2024-05-28,2024-06-18,20 mg,Three times daily
+325,Ibuprofen,2024-05-29,2024-06-11,200 mg,Three times daily
+325,Doxycycline,2024-05-29,2024-06-12,100 mg,Take with food
+327,Simvastatin,2024-05-29,2024-06-22,20 mg,Take on an empty stomach
+327,Omeprazole,2024-05-29,2024-06-07,40 mg,Twice daily
+327,Doxycycline,2024-05-29,2024-06-16,100 mg,Once a day
+329,Amlodipine,2024-05-29,2024-06-21,5 mg,Take on an empty stomach
+329,Simvastatin,2024-05-29,2024-06-12,20 mg,Once a day
+329,Atorvastatin,2024-05-29,2024-06-09,20 mg,Take with food
+330,Gabapentin,2024-05-29,2024-06-05,300 mg,Once a day
+330,Ibuprofen,2024-05-29,2024-06-07,200 mg,Once a day
+333,Amoxicillin,2024-05-30,2024-06-27,500 mg,Once a day
+334,Pantoprazole,2024-05-30,2024-06-11,40 mg,Take before bed
+334,Azithromycin,2024-05-30,2024-06-26,250 mg,Take before bed
+334,Gabapentin,2024-05-30,2024-06-21,300 mg,Three times daily
+335,Metformin,2024-05-30,2024-06-12,850 mg,Take with food
+335,Pantoprazole,2024-05-30,2024-06-16,40 mg,Once a day
+338,Levothyroxine,2024-05-30,2024-06-15,75 mcg,Once a day
+338,Azithromycin,2024-05-30,2024-06-07,250 mg,Twice daily
+340,Ibuprofen,2024-05-30,2024-06-18,200 mg,Three times daily
+340,Prednisone,2024-05-30,2024-06-07,10 mg,Take on an empty stomach
+340,Atorvastatin,2024-05-30,2024-06-29,20 mg,Take before bed
+348,Pantoprazole,2024-06-03,2024-06-18,40 mg,Take after meals
+350,Simvastatin,2024-06-03,2024-07-01,20 mg,Take after meals
+350,Azithromycin,2024-06-03,2024-06-16,250 mg,Take on an empty stomach
+350,Prednisone,2024-06-03,2024-07-01,10 mg,Once a day
+351,Doxycycline,2024-06-03,2024-06-14,100 mg,Take before bed
+351,Simvastatin,2024-06-03,2024-06-10,20 mg,Three times daily
+351,Prednisone,2024-06-03,2024-06-11,10 mg,Take with food
+353,Levothyroxine,2024-06-04,2024-06-28,75 mcg,Twice daily
+353,Doxycycline,2024-06-04,2024-06-19,100 mg,Three times daily
+353,Omeprazole,2024-06-04,2024-06-29,40 mg,Twice daily
+354,Azithromycin,2024-06-04,2024-06-16,250 mg,Take after meals
+354,Ibuprofen,2024-06-04,2024-06-16,200 mg,Take before bed
+354,Metoprolol,2024-06-04,2024-06-09,50 mg,Take before bed
+356,Pantoprazole,2024-06-04,2024-06-21,40 mg,Take after meals
+356,Doxycycline,2024-06-04,2024-06-12,100 mg,Take before bed
+356,Amoxicillin,2024-06-04,2024-06-24,500 mg,Twice daily
+357,Amoxicillin,2024-06-04,2024-06-23,500 mg,Take after meals
+357,Doxycycline,2024-06-04,2024-06-11,100 mg,Take on an empty stomach
+362,Doxycycline,2024-06-06,2024-06-16,100 mg,Once a day
+362,Doxycycline,2024-06-06,2024-06-20,100 mg,Once a day
+363,Metoprolol,2024-06-06,2024-06-25,50 mg,Take on an empty stomach
+363,Amoxicillin,2024-06-06,2024-06-28,500 mg,Once a day
+365,Doxycycline,2024-06-06,2024-06-21,100 mg,Take before bed
+367,Simvastatin,2024-06-07,2024-06-19,20 mg,Take after meals
+367,Simvastatin,2024-06-07,2024-06-12,20 mg,Take on an empty stomach
+369,Doxycycline,2024-06-07,2024-07-02,100 mg,Twice daily
+370,Amoxicillin,2024-06-07,2024-06-25,500 mg,Three times daily
+376,Prednisone,2024-06-10,2024-07-09,10 mg,Twice daily
+376,Simvastatin,2024-06-10,2024-07-06,20 mg,Take after meals
+376,Prednisone,2024-06-10,2024-06-25,10 mg,Take with food
+379,Prednisone,2024-06-11,2024-06-30,10 mg,Once a day
+379,Omeprazole,2024-06-11,2024-06-23,40 mg,Take on an empty stomach
+379,Metoprolol,2024-06-11,2024-07-02,50 mg,Three times daily
+380,Metformin,2024-06-11,2024-07-11,850 mg,Take with food
+380,Prednisone,2024-06-11,2024-06-29,10 mg,Twice daily
+380,Metformin,2024-06-11,2024-07-02,850 mg,Three times daily
+381,Atorvastatin,2024-06-11,2024-07-01,20 mg,Take on an empty stomach
+385,Amoxicillin,2024-06-12,2024-07-08,500 mg,Take before bed
+386,Gabapentin,2024-06-12,2024-07-10,300 mg,Take before bed
+386,Pantoprazole,2024-06-12,2024-06-18,40 mg,Take with food
+387,Gabapentin,2024-06-12,2024-07-10,300 mg,Take with food
+387,Atorvastatin,2024-06-12,2024-06-23,20 mg,Take before bed
+390,Atorvastatin,2024-06-13,2024-07-11,20 mg,Twice daily
+390,Pantoprazole,2024-06-13,2024-07-02,40 mg,Twice daily
+390,Simvastatin,2024-06-13,2024-07-11,20 mg,Three times daily
+393,Levothyroxine,2024-06-13,2024-06-25,75 mcg,Take before bed
+393,Metoprolol,2024-06-13,2024-06-21,50 mg,Take after meals
+394,Pantoprazole,2024-06-13,2024-07-10,40 mg,Twice daily
+394,Metformin,2024-06-13,2024-06-25,850 mg,Twice daily
+395,Ibuprofen,2024-06-14,2024-06-21,200 mg,Take after meals
+395,Ibuprofen,2024-06-14,2024-07-05,200 mg,Three times daily
+395,Prednisone,2024-06-14,2024-06-25,10 mg,Take before bed
+396,Prednisone,2024-06-14,2024-07-01,10 mg,Take before bed
+396,Omeprazole,2024-06-14,2024-06-27,40 mg,Once a day
+396,Metformin,2024-06-14,2024-06-19,850 mg,Take on an empty stomach
+397,Simvastatin,2024-06-14,2024-07-03,20 mg,Take before bed
+398,Omeprazole,2024-06-14,2024-07-09,40 mg,Once a day
+404,Lisinopril,2024-06-17,2024-07-16,10 mg,Take with food
+404,Atorvastatin,2024-06-17,2024-07-12,20 mg,Take after meals
+404,Lisinopril,2024-06-17,2024-06-27,10 mg,Take after meals
+405,Metoprolol,2024-06-17,2024-06-27,50 mg,Once a day
+405,Azithromycin,2024-06-17,2024-06-27,250 mg,Take after meals
+405,Prednisone,2024-06-17,2024-07-13,10 mg,Take after meals
+406,Metformin,2024-06-17,2024-07-15,850 mg,Take with food
+406,Atorvastatin,2024-06-17,2024-07-06,20 mg,Take on an empty stomach
+406,Amoxicillin,2024-06-17,2024-06-28,500 mg,Take before bed
+409,Azithromycin,2024-06-17,2024-07-07,250 mg,Once a day
+409,Omeprazole,2024-06-17,2024-06-26,40 mg,Twice daily
+410,Doxycycline,2024-06-17,2024-06-27,100 mg,Take before bed
+413,Pantoprazole,2024-06-18,2024-07-03,40 mg,Take with food
+414,Omeprazole,2024-06-18,2024-06-27,40 mg,Take on an empty stomach
+417,Metformin,2024-06-19,2024-06-24,850 mg,Take after meals
+418,Metoprolol,2024-06-19,2024-07-18,50 mg,Once a day
+418,Azithromycin,2024-06-19,2024-07-01,250 mg,Take before bed
+421,Amoxicillin,2024-06-20,2024-07-18,500 mg,Three times daily
+421,Metoprolol,2024-06-20,2024-07-01,50 mg,Take after meals
+421,Azithromycin,2024-06-20,2024-07-17,250 mg,Take on an empty stomach
+423,Metoprolol,2024-06-20,2024-07-18,50 mg,Twice daily
+423,Ibuprofen,2024-06-20,2024-07-04,200 mg,Three times daily
+423,Ibuprofen,2024-06-20,2024-06-25,200 mg,Take after meals
+427,Ibuprofen,2024-06-20,2024-07-06,200 mg,Take with food
+428,Amoxicillin,2024-06-20,2024-07-16,500 mg,Take before bed
+428,Atorvastatin,2024-06-20,2024-07-09,20 mg,Three times daily
+434,Pantoprazole,2024-06-21,2024-06-29,40 mg,Twice daily
+437,Simvastatin,2024-06-21,2024-06-26,20 mg,Take before bed
+437,Prednisone,2024-06-21,2024-07-03,10 mg,Once a day
+437,Ibuprofen,2024-06-21,2024-07-11,200 mg,Take before bed
+439,Gabapentin,2024-06-24,2024-07-02,300 mg,Once a day
+439,Omeprazole,2024-06-24,2024-07-20,40 mg,Once a day
+440,Omeprazole,2024-06-24,2024-07-07,40 mg,Once a day
+445,Ibuprofen,2024-06-25,2024-06-30,200 mg,Three times daily
+445,Pantoprazole,2024-06-25,2024-07-01,40 mg,Take with food
+446,Simvastatin,2024-06-25,2024-07-11,20 mg,Take on an empty stomach
+448,Metoprolol,2024-06-25,2024-07-10,50 mg,Take after meals
+448,Simvastatin,2024-06-25,2024-07-05,20 mg,Once a day
+448,Ibuprofen,2024-06-25,2024-07-10,200 mg,Twice daily
+449,Pantoprazole,2024-06-25,2024-07-13,40 mg,Take after meals
+449,Omeprazole,2024-06-25,2024-07-13,40 mg,Twice daily
+449,Ibuprofen,2024-06-25,2024-07-11,200 mg,Take before bed
+451,Metformin,2024-06-25,2024-07-07,850 mg,Take with food
+451,Gabapentin,2024-06-25,2024-07-19,300 mg,Three times daily
+451,Omeprazole,2024-06-25,2024-07-03,40 mg,Once a day
+452,Metformin,2024-06-26,2024-07-21,850 mg,Take after meals
+453,Amlodipine,2024-06-26,2024-07-15,5 mg,Take before bed
+456,Ibuprofen,2024-06-26,2024-07-01,200 mg,Take on an empty stomach
+456,Gabapentin,2024-06-26,2024-07-08,300 mg,Take with food
+457,Amoxicillin,2024-06-26,2024-07-13,500 mg,Take after meals
+457,Lisinopril,2024-06-26,2024-07-12,10 mg,Twice daily
+458,Atorvastatin,2024-06-26,2024-07-01,20 mg,Once a day
+458,Amoxicillin,2024-06-26,2024-07-04,500 mg,Three times daily
+462,Simvastatin,2024-06-27,2024-07-16,20 mg,Three times daily
+465,Pantoprazole,2024-06-27,2024-07-16,40 mg,Three times daily
+465,Amoxicillin,2024-06-27,2024-07-16,500 mg,Take on an empty stomach
+465,Gabapentin,2024-06-27,2024-07-20,300 mg,Take after meals
+466,Lisinopril,2024-06-27,2024-07-23,10 mg,Twice daily
+467,Metoprolol,2024-06-28,2024-07-22,50 mg,Once a day
+467,Levothyroxine,2024-06-28,2024-07-07,75 mcg,Three times daily
+467,Pantoprazole,2024-06-28,2024-07-17,40 mg,Take after meals
+468,Lisinopril,2024-06-28,2024-07-03,10 mg,Once a day
+468,Ibuprofen,2024-06-28,2024-07-21,200 mg,Take before bed
+470,Levothyroxine,2024-06-28,2024-07-07,75 mcg,Once a day
+470,Gabapentin,2024-06-28,2024-07-12,300 mg,Twice daily
+481,Metformin,2024-07-02,2024-07-25,850 mg,Twice daily
+481,Amoxicillin,2024-07-02,2024-07-14,500 mg,Take after meals
+481,Lisinopril,2024-07-02,2024-07-18,10 mg,Take before bed
+482,Gabapentin,2024-07-02,2024-07-27,300 mg,Take on an empty stomach
+482,Prednisone,2024-07-02,2024-07-11,10 mg,Take with food
+486,Prednisone,2024-07-03,2024-07-12,10 mg,Once a day
+489,Gabapentin,2024-07-03,2024-07-31,300 mg,Three times daily
+489,Lisinopril,2024-07-03,2024-07-23,10 mg,Take on an empty stomach
+489,Simvastatin,2024-07-03,2024-07-24,20 mg,Take with food
+494,Metoprolol,2024-07-04,2024-07-26,50 mg,Twice daily
+497,Omeprazole,2024-07-04,2024-08-01,40 mg,Take on an empty stomach
+502,Pantoprazole,2024-07-05,2024-07-26,40 mg,Take before bed
+504,Amlodipine,2024-07-08,2024-08-01,5 mg,Take before bed
+504,Metformin,2024-07-08,2024-08-05,850 mg,Once a day
+514,Gabapentin,2024-07-09,2024-07-20,300 mg,Take after meals
+515,Prednisone,2024-07-10,2024-07-30,10 mg,Once a day
+515,Simvastatin,2024-07-10,2024-07-20,20 mg,Take after meals
+515,Pantoprazole,2024-07-10,2024-07-28,40 mg,Take on an empty stomach
+520,Metformin,2024-07-10,2024-08-05,850 mg,Take before bed
+520,Doxycycline,2024-07-10,2024-08-05,100 mg,Take before bed
+524,Lisinopril,2024-07-11,2024-08-06,10 mg,Take before bed
+524,Gabapentin,2024-07-11,2024-07-18,300 mg,Take before bed
+524,Gabapentin,2024-07-11,2024-07-31,300 mg,Take on an empty stomach
+528,Ibuprofen,2024-07-12,2024-07-23,200 mg,Take with food
+528,Amlodipine,2024-07-12,2024-08-03,5 mg,Take after meals
+529,Prednisone,2024-07-12,2024-07-18,10 mg,Once a day
+529,Azithromycin,2024-07-12,2024-07-25,250 mg,Take on an empty stomach
+533,Lisinopril,2024-07-12,2024-08-06,10 mg,Three times daily
+534,Azithromycin,2024-07-15,2024-08-04,250 mg,Take before bed
+535,Metformin,2024-07-15,2024-08-06,850 mg,Three times daily
+537,Prednisone,2024-07-15,2024-08-05,10 mg,Three times daily
+539,Atorvastatin,2024-07-16,2024-07-23,20 mg,Take with food
+542,Levothyroxine,2024-07-16,2024-07-24,75 mcg,Take before bed
+542,Gabapentin,2024-07-16,2024-08-01,300 mg,Once a day
+544,Lisinopril,2024-07-17,2024-08-10,10 mg,Once a day
+544,Omeprazole,2024-07-17,2024-08-14,40 mg,Take before bed
+544,Prednisone,2024-07-17,2024-08-14,10 mg,Three times daily
+550,Prednisone,2024-07-17,2024-08-09,10 mg,Take with food
+554,Atorvastatin,2024-07-18,2024-08-14,20 mg,Once a day
+554,Atorvastatin,2024-07-18,2024-08-16,20 mg,Take with food
+556,Azithromycin,2024-07-18,2024-08-09,250 mg,Take after meals
+556,Lisinopril,2024-07-18,2024-08-16,10 mg,Three times daily
+556,Amlodipine,2024-07-18,2024-07-28,5 mg,Three times daily
+558,Metformin,2024-07-18,2024-08-03,850 mg,Take before bed
+558,Ibuprofen,2024-07-18,2024-08-10,200 mg,Once a day
+562,Levothyroxine,2024-07-19,2024-08-01,75 mcg,Once a day
+563,Lisinopril,2024-07-19,2024-08-01,10 mg,Take after meals
+563,Amoxicillin,2024-07-19,2024-08-18,500 mg,Take after meals
+566,Gabapentin,2024-07-19,2024-08-12,300 mg,Take before bed
+566,Metformin,2024-07-19,2024-07-31,850 mg,Take after meals
+566,Atorvastatin,2024-07-19,2024-08-01,20 mg,Take on an empty stomach
+568,Atorvastatin,2024-07-19,2024-08-11,20 mg,Three times daily
+569,Ibuprofen,2024-07-22,2024-07-30,200 mg,Three times daily
+570,Metoprolol,2024-07-22,2024-08-11,50 mg,Three times daily
+570,Omeprazole,2024-07-22,2024-08-11,40 mg,Once a day
+570,Doxycycline,2024-07-22,2024-08-14,100 mg,Once a day
+573,Lisinopril,2024-07-22,2024-07-31,10 mg,Once a day
+576,Atorvastatin,2024-07-23,2024-07-30,20 mg,Take before bed
+578,Simvastatin,2024-07-23,2024-07-28,20 mg,Three times daily
+578,Omeprazole,2024-07-23,2024-08-22,40 mg,Take after meals
+581,Metformin,2024-07-23,2024-07-30,850 mg,Take on an empty stomach
+581,Gabapentin,2024-07-23,2024-07-29,300 mg,Take before bed
+583,Omeprazole,2024-07-23,2024-08-12,40 mg,Take before bed
+584,Amlodipine,2024-07-23,2024-07-31,5 mg,Take with food
+584,Prednisone,2024-07-23,2024-07-29,10 mg,Take before bed
+585,Lisinopril,2024-07-23,2024-08-03,10 mg,Three times daily
+585,Metformin,2024-07-23,2024-07-30,850 mg,Take on an empty stomach
+585,Gabapentin,2024-07-23,2024-07-28,300 mg,Take with food
+587,Metoprolol,2024-07-24,2024-08-18,50 mg,Take on an empty stomach
+588,Prednisone,2024-07-24,2024-08-22,10 mg,Take after meals
+588,Prednisone,2024-07-24,2024-08-22,10 mg,Twice daily
+588,Lisinopril,2024-07-24,2024-08-20,10 mg,Take after meals
+590,Lisinopril,2024-07-25,2024-08-15,10 mg,Take on an empty stomach
+590,Doxycycline,2024-07-25,2024-08-17,100 mg,Take before bed
+591,Metoprolol,2024-07-25,2024-08-18,50 mg,Take before bed
+591,Omeprazole,2024-07-25,2024-08-15,40 mg,Take after meals
+591,Lisinopril,2024-07-25,2024-08-23,10 mg,Take before bed
+594,Ibuprofen,2024-07-26,2024-08-20,200 mg,Take before bed
+596,Metformin,2024-07-26,2024-07-31,850 mg,Take before bed
+597,Atorvastatin,2024-07-26,2024-08-25,20 mg,Three times daily
+598,Atorvastatin,2024-07-26,2024-08-14,20 mg,Take with food
+598,Atorvastatin,2024-07-26,2024-08-05,20 mg,Take with food
+600,Prednisone,2024-07-29,2024-08-24,10 mg,Twice daily
+600,Amoxicillin,2024-07-29,2024-08-13,500 mg,Take before bed
+604,Levothyroxine,2024-07-29,2024-08-03,75 mcg,Once a day
+604,Prednisone,2024-07-29,2024-08-17,10 mg,Take on an empty stomach
+604,Azithromycin,2024-07-29,2024-08-15,250 mg,Take before bed
+605,Metformin,2024-07-29,2024-08-10,850 mg,Take after meals
+606,Levothyroxine,2024-07-29,2024-08-06,75 mcg,Take with food
+608,Metformin,2024-07-29,2024-08-13,850 mg,Take before bed
+609,Prednisone,2024-07-30,2024-08-29,10 mg,Take with food
+609,Azithromycin,2024-07-30,2024-08-15,250 mg,Take after meals
+609,Azithromycin,2024-07-30,2024-08-29,250 mg,Take on an empty stomach
+611,Atorvastatin,2024-07-30,2024-08-12,20 mg,Take before bed
+616,Atorvastatin,2024-07-31,2024-08-25,20 mg,Take after meals
+616,Simvastatin,2024-07-31,2024-08-14,20 mg,Three times daily
+616,Atorvastatin,2024-07-31,2024-08-17,20 mg,Take after meals
+619,Pantoprazole,2024-07-31,2024-08-28,40 mg,Take on an empty stomach
+619,Amlodipine,2024-07-31,2024-08-09,5 mg,Take before bed
+620,Levothyroxine,2024-08-01,2024-08-15,75 mcg,Take after meals
+621,Omeprazole,2024-08-01,2024-08-24,40 mg,Take before bed
+621,Lisinopril,2024-08-01,2024-08-21,10 mg,Take with food
+621,Omeprazole,2024-08-01,2024-08-08,40 mg,Once a day
+622,Metoprolol,2024-08-01,2024-08-18,50 mg,Take after meals
+624,Gabapentin,2024-08-01,2024-08-11,300 mg,Take with food
+624,Ibuprofen,2024-08-01,2024-08-27,200 mg,Once a day
+624,Levothyroxine,2024-08-01,2024-08-27,75 mcg,Twice daily
+626,Simvastatin,2024-08-02,2024-08-26,20 mg,Take with food
+626,Amoxicillin,2024-08-02,2024-08-19,500 mg,Take after meals
+627,Doxycycline,2024-08-02,2024-08-07,100 mg,Take after meals
+627,Azithromycin,2024-08-02,2024-08-09,250 mg,Take after meals
+628,Levothyroxine,2024-08-02,2024-08-25,75 mcg,Once a day
+630,Azithromycin,2024-08-05,2024-08-24,250 mg,Once a day
+630,Omeprazole,2024-08-05,2024-08-14,40 mg,Take on an empty stomach
+631,Pantoprazole,2024-08-05,2024-08-16,40 mg,Take before bed
+631,Metoprolol,2024-08-05,2024-08-18,50 mg,Take before bed
+631,Gabapentin,2024-08-05,2024-08-20,300 mg,Once a day
+633,Azithromycin,2024-08-06,2024-08-15,250 mg,Three times daily
+633,Amoxicillin,2024-08-06,2024-08-12,500 mg,Twice daily
+636,Amoxicillin,2024-08-06,2024-08-25,500 mg,Once a day
+638,Atorvastatin,2024-08-06,2024-09-05,20 mg,Take on an empty stomach
+638,Simvastatin,2024-08-06,2024-08-19,20 mg,Take with food
+639,Simvastatin,2024-08-06,2024-08-21,20 mg,Take on an empty stomach
+639,Prednisone,2024-08-06,2024-08-26,10 mg,Twice daily
+639,Prednisone,2024-08-06,2024-08-21,10 mg,Take before bed
+646,Amlodipine,2024-08-07,2024-08-19,5 mg,Twice daily
+646,Levothyroxine,2024-08-07,2024-08-14,75 mcg,Take on an empty stomach
+646,Ibuprofen,2024-08-07,2024-09-03,200 mg,Take after meals
+647,Doxycycline,2024-08-07,2024-08-25,100 mg,Take with food
+651,Amoxicillin,2024-08-08,2024-09-03,500 mg,Take after meals
+653,Prednisone,2024-08-08,2024-08-29,10 mg,Twice daily
+655,Gabapentin,2024-08-09,2024-09-02,300 mg,Once a day
+657,Amoxicillin,2024-08-09,2024-08-31,500 mg,Take before bed
+657,Pantoprazole,2024-08-09,2024-08-25,40 mg,Take before bed
+658,Azithromycin,2024-08-09,2024-08-27,250 mg,Once a day
+658,Doxycycline,2024-08-09,2024-09-05,100 mg,Three times daily
+661,Ibuprofen,2024-08-12,2024-08-30,200 mg,Take on an empty stomach
+661,Simvastatin,2024-08-12,2024-09-08,20 mg,Twice daily
+666,Amlodipine,2024-08-12,2024-08-31,5 mg,Once a day
+666,Prednisone,2024-08-12,2024-09-06,10 mg,Take after meals
+666,Doxycycline,2024-08-12,2024-09-01,100 mg,Take on an empty stomach
+669,Metformin,2024-08-13,2024-09-09,850 mg,Once a day
+669,Doxycycline,2024-08-13,2024-09-02,100 mg,Take after meals
+669,Amlodipine,2024-08-13,2024-09-07,5 mg,Take after meals
+670,Ibuprofen,2024-08-13,2024-08-26,200 mg,Take after meals
+670,Metformin,2024-08-13,2024-09-08,850 mg,Take after meals
+671,Amoxicillin,2024-08-13,2024-08-30,500 mg,Take with food
+671,Amoxicillin,2024-08-13,2024-09-11,500 mg,Twice daily
+672,Gabapentin,2024-08-13,2024-08-23,300 mg,Take with food
+673,Simvastatin,2024-08-13,2024-09-11,20 mg,Three times daily
+674,Omeprazole,2024-08-13,2024-08-31,40 mg,Take after meals
+674,Amoxicillin,2024-08-13,2024-08-24,500 mg,Take on an empty stomach
+674,Metoprolol,2024-08-13,2024-08-19,50 mg,Take with food
+677,Omeprazole,2024-08-14,2024-09-09,40 mg,Twice daily
+677,Azithromycin,2024-08-14,2024-08-27,250 mg,Take after meals
+679,Ibuprofen,2024-08-14,2024-08-29,200 mg,Take with food
+679,Amoxicillin,2024-08-14,2024-09-04,500 mg,Once a day
+682,Lisinopril,2024-08-14,2024-09-11,10 mg,Once a day
+682,Ibuprofen,2024-08-14,2024-09-06,200 mg,Take before bed
+682,Doxycycline,2024-08-14,2024-08-31,100 mg,Take with food
+683,Doxycycline,2024-08-14,2024-08-21,100 mg,Take on an empty stomach
+683,Atorvastatin,2024-08-14,2024-08-22,20 mg,Take after meals
+685,Simvastatin,2024-08-14,2024-09-01,20 mg,Twice daily
+686,Simvastatin,2024-08-14,2024-08-24,20 mg,Three times daily
+686,Atorvastatin,2024-08-14,2024-08-25,20 mg,Take before bed
+686,Simvastatin,2024-08-14,2024-08-27,20 mg,Once a day
+687,Omeprazole,2024-08-15,2024-08-31,40 mg,Once a day
+691,Gabapentin,2024-08-16,2024-08-29,300 mg,Take on an empty stomach
+691,Ibuprofen,2024-08-16,2024-08-23,200 mg,Twice daily
+691,Prednisone,2024-08-16,2024-09-12,10 mg,Take with food
+692,Metformin,2024-08-16,2024-08-21,850 mg,Three times daily
+692,Omeprazole,2024-08-16,2024-09-08,40 mg,Take with food
+692,Ibuprofen,2024-08-16,2024-09-13,200 mg,Twice daily
+695,Gabapentin,2024-08-16,2024-09-02,300 mg,Twice daily
+695,Pantoprazole,2024-08-16,2024-08-23,40 mg,Three times daily
+695,Simvastatin,2024-08-16,2024-09-02,20 mg,Take after meals
+697,Pantoprazole,2024-08-16,2024-09-10,40 mg,Take before bed
+697,Gabapentin,2024-08-16,2024-08-25,300 mg,Twice daily
+698,Azithromycin,2024-08-19,2024-09-01,250 mg,Take with food
+704,Levothyroxine,2024-08-20,2024-09-15,75 mcg,Take after meals
+705,Levothyroxine,2024-08-20,2024-09-02,75 mcg,Three times daily
+705,Metformin,2024-08-20,2024-09-13,850 mg,Take with food
+708,Lisinopril,2024-08-21,2024-09-03,10 mg,Take on an empty stomach
+708,Amlodipine,2024-08-21,2024-08-30,5 mg,Three times daily
+708,Levothyroxine,2024-08-21,2024-09-13,75 mcg,Take on an empty stomach
+709,Atorvastatin,2024-08-21,2024-09-01,20 mg,Three times daily
+709,Atorvastatin,2024-08-21,2024-09-12,20 mg,Twice daily
+710,Pantoprazole,2024-08-22,2024-08-27,40 mg,Twice daily
+711,Metoprolol,2024-08-22,2024-09-06,50 mg,Once a day
+714,Simvastatin,2024-08-22,2024-09-15,20 mg,Once a day
+714,Lisinopril,2024-08-22,2024-09-16,10 mg,Take with food
+717,Atorvastatin,2024-08-22,2024-09-14,20 mg,Take before bed
+717,Simvastatin,2024-08-22,2024-08-28,20 mg,Take on an empty stomach
+717,Prednisone,2024-08-22,2024-09-17,10 mg,Take after meals
+721,Doxycycline,2024-08-23,2024-09-14,100 mg,Take with food
+721,Gabapentin,2024-08-23,2024-09-10,300 mg,Take after meals
+721,Amoxicillin,2024-08-23,2024-09-02,500 mg,Three times daily
+722,Metformin,2024-08-23,2024-08-31,850 mg,Take after meals
+722,Metformin,2024-08-23,2024-09-15,850 mg,Twice daily
+722,Levothyroxine,2024-08-23,2024-09-19,75 mcg,Three times daily
+724,Azithromycin,2024-08-23,2024-09-09,250 mg,Take on an empty stomach
+725,Amlodipine,2024-08-23,2024-09-20,5 mg,Take on an empty stomach
+726,Amlodipine,2024-08-23,2024-09-22,5 mg,Take after meals
+727,Omeprazole,2024-08-23,2024-09-11,40 mg,Take before bed
+727,Omeprazole,2024-08-23,2024-09-17,40 mg,Take on an empty stomach
+728,Levothyroxine,2024-08-26,2024-09-22,75 mcg,Three times daily
+728,Gabapentin,2024-08-26,2024-09-14,300 mg,Three times daily
+729,Pantoprazole,2024-08-26,2024-09-21,40 mg,Once a day
+729,Metoprolol,2024-08-26,2024-09-01,50 mg,Take with food
+729,Atorvastatin,2024-08-26,2024-09-25,20 mg,Take after meals
+730,Doxycycline,2024-08-26,2024-09-25,100 mg,Take with food
+730,Prednisone,2024-08-26,2024-09-10,10 mg,Take with food
+730,Pantoprazole,2024-08-26,2024-09-17,40 mg,Take with food
+734,Lisinopril,2024-08-27,2024-09-23,10 mg,Three times daily
+734,Pantoprazole,2024-08-27,2024-09-17,40 mg,Take after meals
+734,Levothyroxine,2024-08-27,2024-09-23,75 mcg,Take after meals
+735,Prednisone,2024-08-27,2024-09-17,10 mg,Twice daily
+735,Levothyroxine,2024-08-27,2024-09-22,75 mcg,Take after meals
+735,Levothyroxine,2024-08-27,2024-09-16,75 mcg,Take with food
+736,Atorvastatin,2024-08-27,2024-09-05,20 mg,Take on an empty stomach
+736,Azithromycin,2024-08-27,2024-09-16,250 mg,Take on an empty stomach
+738,Amlodipine,2024-08-27,2024-09-17,5 mg,Once a day
+738,Amoxicillin,2024-08-27,2024-09-09,500 mg,Take before bed
+739,Pantoprazole,2024-08-27,2024-09-04,40 mg,Take with food
+739,Lisinopril,2024-08-27,2024-09-01,10 mg,Three times daily
+739,Amlodipine,2024-08-27,2024-09-24,5 mg,Take after meals
+741,Pantoprazole,2024-08-28,2024-09-23,40 mg,Three times daily
+742,Omeprazole,2024-08-28,2024-09-14,40 mg,Three times daily
+742,Amoxicillin,2024-08-28,2024-09-20,500 mg,Take before bed
+742,Amoxicillin,2024-08-28,2024-09-22,500 mg,Take on an empty stomach
+743,Azithromycin,2024-08-28,2024-09-21,250 mg,Twice daily
+743,Metoprolol,2024-08-28,2024-09-12,50 mg,Take on an empty stomach
+743,Lisinopril,2024-08-28,2024-09-06,10 mg,Once a day
+744,Metoprolol,2024-08-28,2024-09-04,50 mg,Take before bed
+744,Pantoprazole,2024-08-28,2024-09-25,40 mg,Twice daily
+744,Ibuprofen,2024-08-28,2024-09-14,200 mg,Once a day
+746,Omeprazole,2024-08-28,2024-09-20,40 mg,Three times daily
+746,Doxycycline,2024-08-28,2024-09-14,100 mg,Take after meals
+746,Pantoprazole,2024-08-28,2024-09-03,40 mg,Take with food
+747,Simvastatin,2024-08-28,2024-09-13,20 mg,Take after meals
+747,Amoxicillin,2024-08-28,2024-09-27,500 mg,Take after meals
+747,Azithromycin,2024-08-28,2024-09-06,250 mg,Twice daily
+751,Omeprazole,2024-08-29,2024-09-09,40 mg,Take with food
+751,Omeprazole,2024-08-29,2024-09-22,40 mg,Take before bed
+755,Amoxicillin,2024-08-30,2024-09-08,500 mg,Take after meals
+755,Lisinopril,2024-08-30,2024-09-09,10 mg,Take with food
+756,Amoxicillin,2024-08-30,2024-09-20,500 mg,Take on an empty stomach
+756,Amlodipine,2024-08-30,2024-09-09,5 mg,Twice daily
+756,Doxycycline,2024-08-30,2024-09-29,100 mg,Three times daily
+760,Azithromycin,2024-08-30,2024-09-05,250 mg,Take with food
+763,Lisinopril,2024-09-02,2024-09-28,10 mg,Take on an empty stomach
+765,Gabapentin,2024-09-02,2024-09-18,300 mg,Take on an empty stomach
+767,Levothyroxine,2024-09-02,2024-09-30,75 mcg,Three times daily
+768,Prednisone,2024-09-02,2024-09-20,10 mg,Once a day
+768,Gabapentin,2024-09-02,2024-09-27,300 mg,Take with food
+769,Ibuprofen,2024-09-03,2024-09-22,200 mg,Take before bed
+769,Prednisone,2024-09-03,2024-09-10,10 mg,Take on an empty stomach
+770,Pantoprazole,2024-09-03,2024-09-27,40 mg,Take after meals
+770,Simvastatin,2024-09-03,2024-09-19,20 mg,Three times daily
+770,Gabapentin,2024-09-03,2024-10-01,300 mg,Take after meals
+772,Metoprolol,2024-09-03,2024-09-26,50 mg,Take before bed
+773,Metoprolol,2024-09-03,2024-09-15,50 mg,Take before bed
+773,Prednisone,2024-09-03,2024-09-25,10 mg,Take with food
+773,Ibuprofen,2024-09-03,2024-09-19,200 mg,Take after meals
+774,Ibuprofen,2024-09-03,2024-10-01,200 mg,Take before bed
+774,Levothyroxine,2024-09-03,2024-09-23,75 mcg,Take before bed
+776,Lisinopril,2024-09-03,2024-09-21,10 mg,Take with food
+776,Atorvastatin,2024-09-03,2024-09-25,20 mg,Once a day
+778,Azithromycin,2024-09-04,2024-09-21,250 mg,Take with food
+778,Ibuprofen,2024-09-04,2024-09-20,200 mg,Take on an empty stomach
+782,Pantoprazole,2024-09-04,2024-09-19,40 mg,Take on an empty stomach
+782,Metformin,2024-09-04,2024-09-16,850 mg,Take before bed
+782,Atorvastatin,2024-09-04,2024-09-16,20 mg,Twice daily
+783,Omeprazole,2024-09-04,2024-10-03,40 mg,Once a day
+789,Lisinopril,2024-09-05,2024-09-19,10 mg,Take before bed
+789,Lisinopril,2024-09-05,2024-10-05,10 mg,Take before bed
+791,Omeprazole,2024-09-05,2024-10-03,40 mg,Take on an empty stomach
+791,Metformin,2024-09-05,2024-09-23,850 mg,Once a day
+795,Levothyroxine,2024-09-06,2024-09-16,75 mcg,Take after meals
+797,Pantoprazole,2024-09-06,2024-09-19,40 mg,Take with food
+797,Simvastatin,2024-09-06,2024-09-20,20 mg,Once a day
+797,Omeprazole,2024-09-06,2024-09-22,40 mg,Take before bed
+802,Azithromycin,2024-09-09,2024-09-16,250 mg,Take on an empty stomach
+803,Atorvastatin,2024-09-09,2024-10-03,20 mg,Twice daily
+803,Simvastatin,2024-09-09,2024-10-01,20 mg,Take on an empty stomach
+806,Doxycycline,2024-09-09,2024-10-08,100 mg,Take with food
+806,Azithromycin,2024-09-09,2024-10-07,250 mg,Take on an empty stomach
+807,Amoxicillin,2024-09-09,2024-09-14,500 mg,Take on an empty stomach
+807,Metformin,2024-09-09,2024-09-26,850 mg,Take on an empty stomach
+807,Gabapentin,2024-09-09,2024-10-06,300 mg,Take before bed
+809,Pantoprazole,2024-09-10,2024-10-03,40 mg,Take on an empty stomach
+809,Doxycycline,2024-09-10,2024-09-16,100 mg,Three times daily
+809,Omeprazole,2024-09-10,2024-10-09,40 mg,Take with food
+814,Levothyroxine,2024-09-10,2024-09-19,75 mcg,Take on an empty stomach
+814,Simvastatin,2024-09-10,2024-09-17,20 mg,Three times daily
+818,Lisinopril,2024-09-11,2024-09-16,10 mg,Take after meals
+818,Atorvastatin,2024-09-11,2024-09-18,20 mg,Take before bed
+818,Metformin,2024-09-11,2024-10-02,850 mg,Once a day
+819,Prednisone,2024-09-11,2024-10-07,10 mg,Take after meals
+819,Pantoprazole,2024-09-11,2024-10-04,40 mg,Take with food
+822,Prednisone,2024-09-12,2024-09-24,10 mg,Take with food
+822,Simvastatin,2024-09-12,2024-10-06,20 mg,Once a day
+823,Atorvastatin,2024-09-12,2024-09-28,20 mg,Take before bed
+823,Levothyroxine,2024-09-12,2024-09-24,75 mcg,Take with food
+823,Amoxicillin,2024-09-12,2024-10-10,500 mg,Take after meals
+826,Amlodipine,2024-09-12,2024-10-08,5 mg,Take with food
+826,Lisinopril,2024-09-12,2024-09-21,10 mg,Once a day
+828,Ibuprofen,2024-09-12,2024-10-12,200 mg,Three times daily
+828,Metformin,2024-09-12,2024-09-21,850 mg,Take after meals
+830,Levothyroxine,2024-09-12,2024-09-28,75 mcg,Take on an empty stomach
+830,Simvastatin,2024-09-12,2024-09-18,20 mg,Three times daily
+830,Gabapentin,2024-09-12,2024-09-26,300 mg,Three times daily
+831,Doxycycline,2024-09-13,2024-10-10,100 mg,Take after meals
+831,Simvastatin,2024-09-13,2024-09-22,20 mg,Take on an empty stomach
+831,Lisinopril,2024-09-13,2024-09-20,10 mg,Take before bed
+832,Metoprolol,2024-09-13,2024-10-07,50 mg,Twice daily
+834,Atorvastatin,2024-09-13,2024-09-22,20 mg,Twice daily
+834,Prednisone,2024-09-13,2024-10-12,10 mg,Take with food
+834,Atorvastatin,2024-09-13,2024-09-22,20 mg,Twice daily
+836,Ibuprofen,2024-09-16,2024-09-24,200 mg,Twice daily
+836,Atorvastatin,2024-09-16,2024-10-10,20 mg,Take with food
+836,Doxycycline,2024-09-16,2024-10-15,100 mg,Three times daily
+837,Levothyroxine,2024-09-16,2024-10-05,75 mcg,Once a day
+838,Levothyroxine,2024-09-16,2024-10-09,75 mcg,Take after meals
+839,Metoprolol,2024-09-16,2024-10-05,50 mg,Take with food
+840,Amoxicillin,2024-09-16,2024-10-15,500 mg,Three times daily
+840,Metoprolol,2024-09-16,2024-10-15,50 mg,Take after meals
+842,Metformin,2024-09-17,2024-09-30,850 mg,Three times daily
+843,Pantoprazole,2024-09-17,2024-10-10,40 mg,Take before bed
+845,Metoprolol,2024-09-17,2024-09-24,50 mg,Take on an empty stomach
+845,Doxycycline,2024-09-17,2024-09-26,100 mg,Three times daily
+847,Pantoprazole,2024-09-17,2024-10-09,40 mg,Once a day
+847,Prednisone,2024-09-17,2024-09-25,10 mg,Take on an empty stomach
+847,Simvastatin,2024-09-17,2024-09-26,20 mg,Once a day
+851,Atorvastatin,2024-09-17,2024-10-01,20 mg,Three times daily
+851,Amlodipine,2024-09-17,2024-10-08,5 mg,Take before bed
+853,Atorvastatin,2024-09-18,2024-10-14,20 mg,Take on an empty stomach
+853,Doxycycline,2024-09-18,2024-09-28,100 mg,Once a day
+853,Atorvastatin,2024-09-18,2024-10-18,20 mg,Take after meals
+854,Metoprolol,2024-09-18,2024-10-02,50 mg,Three times daily
+854,Ibuprofen,2024-09-18,2024-10-15,200 mg,Take on an empty stomach
+854,Metformin,2024-09-18,2024-10-18,850 mg,Once a day
+857,Atorvastatin,2024-09-18,2024-10-05,20 mg,Three times daily
+857,Omeprazole,2024-09-18,2024-10-05,40 mg,Take on an empty stomach
+857,Amoxicillin,2024-09-18,2024-09-24,500 mg,Take before bed
+858,Pantoprazole,2024-09-18,2024-10-11,40 mg,Take after meals
+859,Metoprolol,2024-09-18,2024-09-23,50 mg,Take after meals
+859,Atorvastatin,2024-09-18,2024-10-11,20 mg,Twice daily
+859,Amoxicillin,2024-09-18,2024-10-15,500 mg,Take on an empty stomach
+860,Levothyroxine,2024-09-19,2024-10-06,75 mcg,Three times daily
+860,Azithromycin,2024-09-19,2024-09-24,250 mg,Take on an empty stomach
+864,Simvastatin,2024-09-19,2024-10-13,20 mg,Take before bed
+864,Amlodipine,2024-09-19,2024-10-16,5 mg,Take on an empty stomach
+864,Gabapentin,2024-09-19,2024-10-19,300 mg,Take before bed
+865,Ibuprofen,2024-09-19,2024-10-13,200 mg,Take after meals
+865,Simvastatin,2024-09-19,2024-10-19,20 mg,Three times daily
+866,Ibuprofen,2024-09-19,2024-10-06,200 mg,Three times daily
+867,Lisinopril,2024-09-19,2024-10-12,10 mg,Take on an empty stomach
+867,Amoxicillin,2024-09-19,2024-10-06,500 mg,Three times daily
+869,Amoxicillin,2024-09-20,2024-09-29,500 mg,Once a day
+869,Pantoprazole,2024-09-20,2024-09-28,40 mg,Twice daily
+869,Metoprolol,2024-09-20,2024-10-03,50 mg,Take after meals
+870,Metoprolol,2024-09-20,2024-10-12,50 mg,Three times daily
+881,Gabapentin,2024-09-23,2024-10-10,300 mg,Twice daily
+884,Azithromycin,2024-09-24,2024-10-19,250 mg,Take with food
+885,Atorvastatin,2024-09-24,2024-10-13,20 mg,Once a day
+885,Lisinopril,2024-09-24,2024-09-30,10 mg,Take after meals
+886,Omeprazole,2024-09-24,2024-10-02,40 mg,Three times daily
+886,Levothyroxine,2024-09-24,2024-10-02,75 mcg,Take before bed
+886,Metformin,2024-09-24,2024-10-02,850 mg,Take with food
+888,Prednisone,2024-09-24,2024-10-19,10 mg,Twice daily
+888,Amlodipine,2024-09-24,2024-10-23,5 mg,Take with food
+888,Metoprolol,2024-09-24,2024-10-02,50 mg,Take with food
+894,Metformin,2024-09-25,2024-10-04,850 mg,Take on an empty stomach
+894,Levothyroxine,2024-09-25,2024-10-11,75 mcg,Twice daily
+894,Doxycycline,2024-09-25,2024-10-21,100 mg,Three times daily
+895,Amlodipine,2024-09-26,2024-10-11,5 mg,Twice daily
+896,Atorvastatin,2024-09-26,2024-10-16,20 mg,Once a day
+896,Simvastatin,2024-09-26,2024-10-16,20 mg,Twice daily
+897,Atorvastatin,2024-09-26,2024-10-15,20 mg,Take after meals
+897,Levothyroxine,2024-09-26,2024-10-06,75 mcg,Take before bed
+898,Atorvastatin,2024-09-26,2024-10-01,20 mg,Take on an empty stomach
+898,Pantoprazole,2024-09-26,2024-10-15,40 mg,Twice daily
+899,Azithromycin,2024-09-26,2024-10-17,250 mg,Take after meals
+900,Ibuprofen,2024-09-26,2024-10-08,200 mg,Twice daily
+901,Prednisone,2024-09-26,2024-10-04,10 mg,Three times daily
+901,Amlodipine,2024-09-26,2024-10-23,5 mg,Three times daily
+901,Amoxicillin,2024-09-26,2024-10-12,500 mg,Take with food
+902,Azithromycin,2024-09-26,2024-10-12,250 mg,Take on an empty stomach
+904,Simvastatin,2024-09-26,2024-10-06,20 mg,Take before bed
+904,Simvastatin,2024-09-26,2024-10-11,20 mg,Once a day
+904,Doxycycline,2024-09-26,2024-10-23,100 mg,Take after meals
+906,Levothyroxine,2024-09-27,2024-10-04,75 mcg,Take before bed
+907,Amlodipine,2024-09-27,2024-10-13,5 mg,Once a day
+907,Metoprolol,2024-09-27,2024-10-11,50 mg,Take with food
+907,Simvastatin,2024-09-27,2024-10-22,20 mg,Once a day
+909,Omeprazole,2024-09-30,2024-10-17,40 mg,Take with food
+909,Ibuprofen,2024-09-30,2024-10-10,200 mg,Once a day
+911,Omeprazole,2024-09-30,2024-10-09,40 mg,Take after meals
+911,Pantoprazole,2024-09-30,2024-10-16,40 mg,Take after meals
+920,Omeprazole,2024-10-01,2024-10-12,40 mg,Take after meals
+927,Lisinopril,2024-10-02,2024-10-19,10 mg,Take with food
+930,Doxycycline,2024-10-02,2024-10-24,100 mg,Three times daily
+930,Prednisone,2024-10-02,2024-10-27,10 mg,Take before bed
+930,Metformin,2024-10-02,2024-10-20,850 mg,Take after meals
+931,Prednisone,2024-10-02,2024-10-18,10 mg,Once a day
+931,Amoxicillin,2024-10-02,2024-10-14,500 mg,Three times daily
+931,Levothyroxine,2024-10-02,2024-10-17,75 mcg,Take with food
+932,Gabapentin,2024-10-02,2024-10-07,300 mg,Take after meals
+932,Ibuprofen,2024-10-02,2024-10-11,200 mg,Three times daily
+932,Gabapentin,2024-10-02,2024-10-10,300 mg,Take with food
+934,Azithromycin,2024-10-02,2024-10-29,250 mg,Take after meals
+934,Azithromycin,2024-10-02,2024-11-01,250 mg,Once a day
+934,Metformin,2024-10-02,2024-11-01,850 mg,Once a day
+935,Atorvastatin,2024-10-03,2024-10-17,20 mg,Three times daily
+936,Atorvastatin,2024-10-03,2024-11-02,20 mg,Take after meals
+936,Levothyroxine,2024-10-03,2024-10-10,75 mcg,Take with food
+936,Lisinopril,2024-10-03,2024-11-01,10 mg,Three times daily
+939,Pantoprazole,2024-10-03,2024-10-24,40 mg,Twice daily
+939,Gabapentin,2024-10-03,2024-10-27,300 mg,Take after meals
+946,Pantoprazole,2024-10-04,2024-10-27,40 mg,Take with food
+948,Pantoprazole,2024-10-07,2024-10-13,40 mg,Twice daily
+948,Amlodipine,2024-10-07,2024-10-17,5 mg,Twice daily
+949,Doxycycline,2024-10-07,2024-10-30,100 mg,Once a day
+950,Ibuprofen,2024-10-07,2024-10-17,200 mg,Take after meals
+950,Pantoprazole,2024-10-07,2024-11-02,40 mg,Take after meals
+950,Amoxicillin,2024-10-07,2024-10-30,500 mg,Three times daily
+955,Omeprazole,2024-10-07,2024-10-23,40 mg,Three times daily
+956,Amlodipine,2024-10-08,2024-10-26,5 mg,Twice daily
+956,Gabapentin,2024-10-08,2024-11-01,300 mg,Twice daily
+956,Lisinopril,2024-10-08,2024-11-07,10 mg,Take after meals
+959,Azithromycin,2024-10-08,2024-10-28,250 mg,Take after meals
+962,Lisinopril,2024-10-09,2024-10-21,10 mg,Once a day
+968,Lisinopril,2024-10-09,2024-11-01,10 mg,Take before bed
+968,Metoprolol,2024-10-09,2024-10-17,50 mg,Take before bed
+969,Pantoprazole,2024-10-10,2024-10-20,40 mg,Three times daily
+969,Prednisone,2024-10-10,2024-11-02,10 mg,Take before bed
+969,Pantoprazole,2024-10-10,2024-10-19,40 mg,Take after meals
+972,Gabapentin,2024-10-10,2024-11-09,300 mg,Take with food
+975,Ibuprofen,2024-10-10,2024-10-21,200 mg,Once a day
+975,Atorvastatin,2024-10-10,2024-11-09,20 mg,Take on an empty stomach
+976,Atorvastatin,2024-10-10,2024-11-01,20 mg,Twice daily
+977,Simvastatin,2024-10-10,2024-10-15,20 mg,Take before bed
+977,Ibuprofen,2024-10-10,2024-10-25,200 mg,Once a day
+982,Amoxicillin,2024-10-11,2024-10-21,500 mg,Three times daily
+982,Pantoprazole,2024-10-11,2024-10-26,40 mg,Take on an empty stomach
+982,Amoxicillin,2024-10-11,2024-10-28,500 mg,Take on an empty stomach
+985,Atorvastatin,2024-10-11,2024-10-25,20 mg,Twice daily
+987,Metformin,2024-10-11,2024-10-28,850 mg,Take after meals
+989,Atorvastatin,2024-10-14,2024-10-25,20 mg,Take on an empty stomach
+989,Metoprolol,2024-10-14,2024-11-09,50 mg,Take after meals
+989,Levothyroxine,2024-10-14,2024-10-26,75 mcg,Twice daily
+992,Metoprolol,2024-10-14,2024-11-06,50 mg,Take before bed
+992,Simvastatin,2024-10-14,2024-10-31,20 mg,Once a day
+993,Azithromycin,2024-10-14,2024-10-25,250 mg,Take with food
+993,Amoxicillin,2024-10-14,2024-11-05,500 mg,Take on an empty stomach
+993,Doxycycline,2024-10-14,2024-10-26,100 mg,Take before bed
+994,Atorvastatin,2024-10-14,2024-11-09,20 mg,Three times daily
+994,Metformin,2024-10-14,2024-11-04,850 mg,Take on an empty stomach
+997,Atorvastatin,2024-10-15,2024-11-10,20 mg,Take before bed
+997,Pantoprazole,2024-10-15,2024-11-09,40 mg,Take after meals
+997,Gabapentin,2024-10-15,2024-10-20,300 mg,Once a day
+998,Ibuprofen,2024-10-15,2024-11-02,200 mg,Twice daily
+999,Azithromycin,2024-10-15,2024-11-03,250 mg,Three times daily
+999,Azithromycin,2024-10-15,2024-11-10,250 mg,Twice daily
+1001,Metoprolol,2024-10-15,2024-11-09,50 mg,Take before bed
+1001,Metformin,2024-10-15,2024-10-26,850 mg,Take with food
+1002,Levothyroxine,2024-10-15,2024-10-23,75 mcg,Take on an empty stomach
+1002,Atorvastatin,2024-10-15,2024-10-30,20 mg,Take on an empty stomach
+1003,Pantoprazole,2024-10-15,2024-11-11,40 mg,Once a day
+1004,Atorvastatin,2024-10-15,2024-11-11,20 mg,Take on an empty stomach
+1004,Ibuprofen,2024-10-15,2024-11-02,200 mg,Twice daily
+1005,Prednisone,2024-10-15,2024-11-10,10 mg,Take on an empty stomach
+1005,Amlodipine,2024-10-15,2024-10-31,5 mg,Take after meals
+1005,Prednisone,2024-10-15,2024-10-30,10 mg,Take before bed
+1009,Doxycycline,2024-10-16,2024-11-08,100 mg,Once a day
+1009,Prednisone,2024-10-16,2024-11-14,10 mg,Three times daily
+1013,Metoprolol,2024-10-16,2024-10-24,50 mg,Once a day
+1013,Pantoprazole,2024-10-16,2024-10-27,40 mg,Once a day
+1013,Atorvastatin,2024-10-16,2024-10-30,20 mg,Once a day
+1014,Ibuprofen,2024-10-17,2024-11-15,200 mg,Take on an empty stomach
+1014,Doxycycline,2024-10-17,2024-10-28,100 mg,Take before bed
+1014,Omeprazole,2024-10-17,2024-11-03,40 mg,Take on an empty stomach
+1017,Azithromycin,2024-10-17,2024-11-08,250 mg,Take on an empty stomach
+1017,Doxycycline,2024-10-17,2024-11-05,100 mg,Twice daily
+1017,Azithromycin,2024-10-17,2024-11-15,250 mg,Twice daily
+1021,Gabapentin,2024-10-18,2024-11-13,300 mg,Twice daily
+1024,Levothyroxine,2024-10-18,2024-10-29,75 mcg,Take with food
+1024,Atorvastatin,2024-10-18,2024-10-25,20 mg,Take before bed
+1026,Ibuprofen,2024-10-18,2024-10-29,200 mg,Take before bed
+1029,Metoprolol,2024-10-21,2024-10-30,50 mg,Take on an empty stomach
+1030,Azithromycin,2024-10-21,2024-11-08,250 mg,Take on an empty stomach
+1030,Atorvastatin,2024-10-21,2024-11-17,20 mg,Take after meals
+1034,Omeprazole,2024-10-22,2024-11-14,40 mg,Take with food
+1037,Lisinopril,2024-10-22,2024-11-20,10 mg,Take after meals
+1037,Gabapentin,2024-10-22,2024-11-13,300 mg,Once a day
+1037,Atorvastatin,2024-10-22,2024-11-21,20 mg,Twice daily
+1039,Ibuprofen,2024-10-23,2024-10-30,200 mg,Twice daily
+1039,Pantoprazole,2024-10-23,2024-11-15,40 mg,Take on an empty stomach
+1039,Lisinopril,2024-10-23,2024-11-18,10 mg,Three times daily
+1040,Simvastatin,2024-10-23,2024-11-05,20 mg,Once a day
+1044,Levothyroxine,2024-10-24,2024-11-06,75 mcg,Once a day
+1044,Metoprolol,2024-10-24,2024-10-30,50 mg,Three times daily
+1044,Doxycycline,2024-10-24,2024-11-01,100 mg,Take on an empty stomach
+1047,Doxycycline,2024-10-24,2024-11-11,100 mg,Take with food
+1047,Gabapentin,2024-10-24,2024-11-14,300 mg,Three times daily
+1048,Amlodipine,2024-10-24,2024-11-05,5 mg,Take on an empty stomach
+1048,Simvastatin,2024-10-24,2024-11-18,20 mg,Twice daily
+1049,Azithromycin,2024-10-24,2024-11-16,250 mg,Twice daily
+1049,Azithromycin,2024-10-24,2024-11-11,250 mg,Once a day
+1050,Omeprazole,2024-10-25,2024-11-23,40 mg,Once a day
+1050,Lisinopril,2024-10-25,2024-11-11,10 mg,Take on an empty stomach
+1050,Doxycycline,2024-10-25,2024-11-03,100 mg,Take on an empty stomach
+1051,Azithromycin,2024-10-25,2024-11-20,250 mg,Three times daily
+1051,Amlodipine,2024-10-25,2024-11-24,5 mg,Take after meals
+1051,Metoprolol,2024-10-25,2024-11-04,50 mg,Take before bed
+1052,Doxycycline,2024-10-25,2024-11-11,100 mg,Take after meals
+1052,Simvastatin,2024-10-25,2024-11-11,20 mg,Take after meals
+1052,Pantoprazole,2024-10-25,2024-11-22,40 mg,Once a day
+1053,Simvastatin,2024-10-25,2024-11-04,20 mg,Once a day
+1053,Doxycycline,2024-10-25,2024-11-10,100 mg,Take with food
+1053,Amoxicillin,2024-10-25,2024-11-01,500 mg,Take before bed
+1055,Ibuprofen,2024-10-25,2024-10-31,200 mg,Once a day
+1055,Metoprolol,2024-10-25,2024-11-07,50 mg,Twice daily
+1055,Atorvastatin,2024-10-25,2024-11-10,20 mg,Take with food
+1056,Prednisone,2024-10-25,2024-11-04,10 mg,Twice daily
+1056,Amlodipine,2024-10-25,2024-11-20,5 mg,Take on an empty stomach
+1058,Ibuprofen,2024-10-28,2024-11-08,200 mg,Take on an empty stomach
+1058,Metformin,2024-10-28,2024-11-27,850 mg,Three times daily
+1060,Doxycycline,2024-10-28,2024-11-13,100 mg,Twice daily
+1060,Atorvastatin,2024-10-28,2024-11-15,20 mg,Once a day
+1062,Gabapentin,2024-10-28,2024-11-20,300 mg,Once a day
+1065,Gabapentin,2024-10-28,2024-11-08,300 mg,Take on an empty stomach
+1065,Doxycycline,2024-10-28,2024-11-09,100 mg,Three times daily
+1070,Gabapentin,2024-10-29,2024-11-08,300 mg,Take after meals
+1070,Ibuprofen,2024-10-29,2024-11-22,200 mg,Once a day
+1073,Simvastatin,2024-10-30,2024-11-16,20 mg,Once a day
+1076,Amlodipine,2024-10-31,2024-11-28,5 mg,Take after meals
+1076,Atorvastatin,2024-10-31,2024-11-15,20 mg,Take with food
+1076,Levothyroxine,2024-10-31,2024-11-09,75 mcg,Twice daily
+1078,Ibuprofen,2024-10-31,2024-11-29,200 mg,Three times daily
+1078,Azithromycin,2024-10-31,2024-11-06,250 mg,Take with food
+1079,Amlodipine,2024-10-31,2024-11-18,5 mg,Take after meals
+1081,Ibuprofen,2024-10-31,2024-11-20,200 mg,Twice daily
+1086,Atorvastatin,2024-11-04,2024-11-20,20 mg,Once a day
+1086,Amoxicillin,2024-11-04,2024-11-11,500 mg,Take on an empty stomach
+1087,Lisinopril,2024-11-04,2024-11-26,10 mg,Once a day
+1088,Azithromycin,2024-11-04,2024-11-22,250 mg,Take after meals
+1088,Ibuprofen,2024-11-04,2024-11-14,200 mg,Twice daily
+1089,Amoxicillin,2024-11-04,2024-11-15,500 mg,Take before bed
+1090,Lisinopril,2024-11-04,2024-11-18,10 mg,Take on an empty stomach
+1090,Lisinopril,2024-11-04,2024-11-27,10 mg,Take before bed
+1090,Metformin,2024-11-04,2024-11-15,850 mg,Three times daily
+1091,Simvastatin,2024-11-04,2024-11-15,20 mg,Take with food
+1092,Pantoprazole,2024-11-04,2024-11-23,40 mg,Once a day
+1092,Azithromycin,2024-11-04,2024-11-21,250 mg,Take after meals
+1092,Azithromycin,2024-11-04,2024-12-02,250 mg,Once a day
+1095,Simvastatin,2024-11-04,2024-11-26,20 mg,Take on an empty stomach
+1096,Gabapentin,2024-11-05,2024-11-21,300 mg,Twice daily
+1096,Atorvastatin,2024-11-05,2024-11-26,20 mg,Three times daily
+1098,Pantoprazole,2024-11-05,2024-11-14,40 mg,Take before bed
+1098,Amlodipine,2024-11-05,2024-11-27,5 mg,Take after meals
+1099,Levothyroxine,2024-11-05,2024-11-21,75 mcg,Three times daily
+1099,Pantoprazole,2024-11-05,2024-11-10,40 mg,Once a day
+1099,Amoxicillin,2024-11-05,2024-11-16,500 mg,Take with food
+1101,Amlodipine,2024-11-05,2024-11-21,5 mg,Take before bed
+1101,Amoxicillin,2024-11-05,2024-12-03,500 mg,Twice daily
+1101,Amlodipine,2024-11-05,2024-11-12,5 mg,Twice daily
+1102,Lisinopril,2024-11-06,2024-12-01,10 mg,Take after meals
+1105,Omeprazole,2024-11-06,2024-11-17,40 mg,Take on an empty stomach
+1105,Ibuprofen,2024-11-06,2024-11-28,200 mg,Take on an empty stomach
+1111,Pantoprazole,2024-11-07,2024-11-13,40 mg,Twice daily
+1111,Atorvastatin,2024-11-07,2024-11-17,20 mg,Take with food
+1111,Levothyroxine,2024-11-07,2024-11-18,75 mcg,Take with food
+1114,Amlodipine,2024-11-07,2024-11-30,5 mg,Take on an empty stomach
+1114,Omeprazole,2024-11-07,2024-11-25,40 mg,Twice daily
+1116,Azithromycin,2024-11-08,2024-12-02,250 mg,Take on an empty stomach
+1116,Amoxicillin,2024-11-08,2024-11-24,500 mg,Take on an empty stomach
+1118,Ibuprofen,2024-11-08,2024-12-08,200 mg,Take with food
+1118,Ibuprofen,2024-11-08,2024-11-20,200 mg,Take on an empty stomach
+1123,Atorvastatin,2024-11-11,2024-11-26,20 mg,Once a day
+1123,Omeprazole,2024-11-11,2024-11-18,40 mg,Take on an empty stomach
+1125,Gabapentin,2024-11-12,2024-11-18,300 mg,Take on an empty stomach
+1125,Levothyroxine,2024-11-12,2024-12-01,75 mcg,Three times daily
+1125,Amlodipine,2024-11-12,2024-11-24,5 mg,Take before bed
+1127,Levothyroxine,2024-11-12,2024-12-01,75 mcg,Twice daily
+1127,Amlodipine,2024-11-12,2024-11-27,5 mg,Take on an empty stomach
+1129,Simvastatin,2024-11-12,2024-11-18,20 mg,Twice daily
+1129,Prednisone,2024-11-12,2024-11-22,10 mg,Twice daily
+1129,Gabapentin,2024-11-12,2024-11-24,300 mg,Twice daily
+1130,Levothyroxine,2024-11-12,2024-12-05,75 mcg,Take with food
+1130,Azithromycin,2024-11-12,2024-11-18,250 mg,Take before bed
+1130,Azithromycin,2024-11-12,2024-12-05,250 mg,Take with food
+1131,Omeprazole,2024-11-12,2024-11-19,40 mg,Take before bed
+1132,Amoxicillin,2024-11-12,2024-12-04,500 mg,Twice daily
+1132,Ibuprofen,2024-11-12,2024-11-25,200 mg,Once a day
+1132,Gabapentin,2024-11-12,2024-12-09,300 mg,Take after meals
+1133,Ibuprofen,2024-11-13,2024-12-13,200 mg,Take after meals
+1133,Prednisone,2024-11-13,2024-11-18,10 mg,Twice daily
+1133,Prednisone,2024-11-13,2024-11-27,10 mg,Twice daily
+1135,Simvastatin,2024-11-13,2024-11-26,20 mg,Take after meals
+1135,Amoxicillin,2024-11-13,2024-11-28,500 mg,Take after meals
+1138,Lisinopril,2024-11-13,2024-11-23,10 mg,Take on an empty stomach
+1138,Levothyroxine,2024-11-13,2024-12-06,75 mcg,Once a day
+1141,Amlodipine,2024-11-14,2024-11-26,5 mg,Take on an empty stomach
+1141,Doxycycline,2024-11-14,2024-11-25,100 mg,Take on an empty stomach
+1142,Azithromycin,2024-11-14,2024-11-26,250 mg,Take after meals
+1142,Gabapentin,2024-11-14,2024-11-28,300 mg,Three times daily
+1143,Simvastatin,2024-11-14,2024-11-23,20 mg,Take on an empty stomach
+1143,Simvastatin,2024-11-14,2024-12-07,20 mg,Take after meals
+1145,Atorvastatin,2024-11-14,2024-11-26,20 mg,Once a day
+1145,Pantoprazole,2024-11-14,2024-11-19,40 mg,Take before bed
+1148,Metoprolol,2024-11-15,2024-11-26,50 mg,Twice daily
+1148,Amlodipine,2024-11-15,2024-12-06,5 mg,Take with food
+1150,Atorvastatin,2024-11-15,2024-12-11,20 mg,Twice daily
+1152,Metoprolol,2024-11-15,2024-12-03,50 mg,Take after meals
+1152,Atorvastatin,2024-11-15,2024-12-10,20 mg,Take before bed
+1152,Atorvastatin,2024-11-15,2024-11-24,20 mg,Take on an empty stomach
+1154,Levothyroxine,2024-11-15,2024-12-10,75 mcg,Three times daily
+1154,Amlodipine,2024-11-15,2024-12-05,5 mg,Take with food
+1157,Doxycycline,2024-11-18,2024-12-02,100 mg,Take on an empty stomach
+1157,Gabapentin,2024-11-18,2024-12-04,300 mg,Take before bed
+1159,Omeprazole,2024-11-18,2024-12-17,40 mg,Take before bed
+1159,Ibuprofen,2024-11-18,2024-11-24,200 mg,Twice daily
+1159,Azithromycin,2024-11-18,2024-12-01,250 mg,Twice daily
+1160,Amlodipine,2024-11-18,2024-11-30,5 mg,Twice daily
+1162,Metoprolol,2024-11-18,2024-12-14,50 mg,Take before bed
+1163,Metformin,2024-11-19,2024-12-10,850 mg,Take with food
+1163,Ibuprofen,2024-11-19,2024-11-30,200 mg,Twice daily
+1163,Ibuprofen,2024-11-19,2024-11-28,200 mg,Take after meals
+1164,Simvastatin,2024-11-19,2024-12-12,20 mg,Take after meals
+1164,Ibuprofen,2024-11-19,2024-12-11,200 mg,Take with food
+1164,Metformin,2024-11-19,2024-12-04,850 mg,Take after meals
+1167,Gabapentin,2024-11-20,2024-12-07,300 mg,Three times daily
+1170,Doxycycline,2024-11-20,2024-12-17,100 mg,Three times daily
+1170,Levothyroxine,2024-11-20,2024-12-16,75 mcg,Take on an empty stomach
+1170,Levothyroxine,2024-11-20,2024-12-15,75 mcg,Twice daily
+1171,Atorvastatin,2024-11-20,2024-11-25,20 mg,Take with food
+1172,Simvastatin,2024-11-20,2024-11-26,20 mg,Take before bed
+1172,Simvastatin,2024-11-20,2024-11-28,20 mg,Once a day
+1172,Pantoprazole,2024-11-20,2024-11-30,40 mg,Once a day
+1173,Metoprolol,2024-11-20,2024-12-16,50 mg,Three times daily
+1174,Ibuprofen,2024-11-20,2024-12-13,200 mg,Take before bed
+1174,Levothyroxine,2024-11-20,2024-12-09,75 mcg,Three times daily
+1174,Atorvastatin,2024-11-20,2024-12-17,20 mg,Take with food
+1177,Atorvastatin,2024-11-21,2024-11-27,20 mg,Twice daily
+1178,Prednisone,2024-11-21,2024-11-27,10 mg,Once a day
+1180,Gabapentin,2024-11-21,2024-12-10,300 mg,Three times daily
+1180,Lisinopril,2024-11-21,2024-12-19,10 mg,Take on an empty stomach
+1181,Amoxicillin,2024-11-21,2024-12-03,500 mg,Twice daily
+1181,Azithromycin,2024-11-21,2024-12-05,250 mg,Twice daily
+1182,Azithromycin,2024-11-21,2024-12-05,250 mg,Three times daily
+1184,Amlodipine,2024-11-21,2024-12-06,5 mg,Once a day
+1184,Amlodipine,2024-11-21,2024-12-17,5 mg,Take with food
+1184,Ibuprofen,2024-11-21,2024-12-16,200 mg,Three times daily
+1185,Atorvastatin,2024-11-22,2024-12-20,20 mg,Take with food
+1187,Omeprazole,2024-11-22,2024-12-21,40 mg,Take after meals
+1187,Ibuprofen,2024-11-22,2024-12-19,200 mg,Once a day
+1187,Metoprolol,2024-11-22,2024-12-04,50 mg,Take after meals
+1190,Azithromycin,2024-11-22,2024-12-13,250 mg,Take before bed
+1190,Simvastatin,2024-11-22,2024-12-14,20 mg,Take before bed
+1191,Prednisone,2024-11-22,2024-11-27,10 mg,Three times daily
+1192,Simvastatin,2024-11-22,2024-12-08,20 mg,Once a day
+1193,Azithromycin,2024-11-22,2024-11-29,250 mg,Take before bed
+1195,Atorvastatin,2024-11-25,2024-12-07,20 mg,Take before bed
+1196,Gabapentin,2024-11-25,2024-12-02,300 mg,Once a day
+1197,Prednisone,2024-11-25,2024-12-24,10 mg,Once a day
+1197,Metoprolol,2024-11-25,2024-12-16,50 mg,Take before bed
+1197,Simvastatin,2024-11-25,2024-12-02,20 mg,Take on an empty stomach
+1199,Pantoprazole,2024-11-25,2024-12-13,40 mg,Twice daily
+1199,Amoxicillin,2024-11-25,2024-12-14,500 mg,Once a day
+1200,Gabapentin,2024-11-25,2024-12-04,300 mg,Take after meals
+1201,Atorvastatin,2024-11-26,2024-12-05,20 mg,Twice daily
+1203,Metoprolol,2024-11-26,2024-12-25,50 mg,Take after meals
+1205,Doxycycline,2024-11-26,2024-12-06,100 mg,Once a day
+1205,Lisinopril,2024-11-26,2024-12-18,10 mg,Take with food
+1205,Prednisone,2024-11-26,2024-12-09,10 mg,Take on an empty stomach
+1206,Levothyroxine,2024-11-26,2024-12-16,75 mcg,Take with food
+1210,Metoprolol,2024-11-27,2024-12-24,50 mg,Take after meals
+1212,Ibuprofen,2024-11-27,2024-12-17,200 mg,Take before bed
+1212,Prednisone,2024-11-27,2024-12-15,10 mg,Take with food
+1212,Lisinopril,2024-11-27,2024-12-06,10 mg,Take on an empty stomach
+1214,Metformin,2024-11-28,2024-12-26,850 mg,Once a day
+1214,Levothyroxine,2024-11-28,2024-12-25,75 mcg,Take after meals
+1216,Prednisone,2024-11-28,2024-12-05,10 mg,Twice daily
+1223,Simvastatin,2024-11-29,2024-12-21,20 mg,Take with food
+1223,Atorvastatin,2024-11-29,2024-12-24,20 mg,Take with food
+1223,Simvastatin,2024-11-29,2024-12-21,20 mg,Take after meals
+1225,Amlodipine,2024-11-29,2024-12-18,5 mg,Take before bed
+1226,Prednisone,2024-12-02,2024-12-22,10 mg,Take before bed
+1228,Metformin,2024-12-02,2024-12-19,850 mg,Take with food
+1228,Gabapentin,2024-12-02,2024-12-20,300 mg,Three times daily
+1229,Ibuprofen,2024-12-02,2024-12-20,200 mg,Twice daily
+1229,Ibuprofen,2024-12-02,2024-12-13,200 mg,Take after meals
+1229,Pantoprazole,2024-12-02,2024-12-23,40 mg,Twice daily
+1231,Amoxicillin,2024-12-02,2024-12-11,500 mg,Take before bed
+1231,Azithromycin,2024-12-02,2024-12-27,250 mg,Take with food
+1231,Gabapentin,2024-12-02,2024-12-18,300 mg,Twice daily
+1232,Metoprolol,2024-12-02,2024-12-09,50 mg,Three times daily
+1232,Ibuprofen,2024-12-02,2024-12-24,200 mg,Take on an empty stomach
+1232,Amoxicillin,2024-12-02,2024-12-11,500 mg,Twice daily
+1233,Pantoprazole,2024-12-02,2024-12-26,40 mg,Three times daily
+1233,Amoxicillin,2024-12-02,2024-12-11,500 mg,Take with food
+1235,Atorvastatin,2024-12-03,2024-12-18,20 mg,Take with food
+1235,Amlodipine,2024-12-03,2024-12-21,5 mg,Take on an empty stomach
+1241,Omeprazole,2024-12-04,2024-12-29,40 mg,Take with food
+1245,Prednisone,2024-12-05,2024-12-24,10 mg,Three times daily
+1246,Azithromycin,2024-12-05,2025-01-04,250 mg,Take with food
+1247,Omeprazole,2024-12-05,2024-12-24,40 mg,Once a day
+1249,Prednisone,2024-12-05,2024-12-22,10 mg,Three times daily
+1249,Amoxicillin,2024-12-05,2024-12-27,500 mg,Three times daily
+1250,Amlodipine,2024-12-05,2024-12-31,5 mg,Twice daily
+1250,Metformin,2024-12-05,2024-12-25,850 mg,Twice daily
+1251,Ibuprofen,2024-12-05,2024-12-20,200 mg,Take before bed
+1251,Metoprolol,2024-12-05,2024-12-15,50 mg,Take with food
+1256,Atorvastatin,2024-12-06,2024-12-28,20 mg,Once a day
+1256,Metoprolol,2024-12-06,2024-12-27,50 mg,Twice daily
+1256,Azithromycin,2024-12-06,2024-12-24,250 mg,Three times daily
+1257,Amlodipine,2024-12-06,2025-01-04,5 mg,Take on an empty stomach
+1257,Metoprolol,2024-12-06,2024-12-21,50 mg,Take with food
+1257,Levothyroxine,2024-12-06,2024-12-28,75 mcg,Three times daily
+1258,Prednisone,2024-12-06,2024-12-27,10 mg,Take after meals
+1258,Metoprolol,2024-12-06,2024-12-31,50 mg,Take on an empty stomach
+1259,Metoprolol,2024-12-06,2024-12-23,50 mg,Take after meals
+1259,Metoprolol,2024-12-06,2024-12-17,50 mg,Take after meals
+1261,Simvastatin,2024-12-06,2024-12-18,20 mg,Take after meals
+1261,Metformin,2024-12-06,2025-01-05,850 mg,Take before bed
+1261,Prednisone,2024-12-06,2024-12-18,10 mg,Twice daily
+1263,Lisinopril,2024-12-09,2024-12-22,10 mg,Take after meals
+1263,Metoprolol,2024-12-09,2025-01-03,50 mg,Twice daily
+1264,Ibuprofen,2024-12-09,2025-01-02,200 mg,Three times daily
+1264,Amlodipine,2024-12-09,2024-12-21,5 mg,Take after meals
+1264,Azithromycin,2024-12-09,2024-12-28,250 mg,Take on an empty stomach
+1265,Gabapentin,2024-12-09,2024-12-30,300 mg,Twice daily
+1265,Atorvastatin,2024-12-09,2024-12-15,20 mg,Take on an empty stomach
+1265,Ibuprofen,2024-12-09,2025-01-03,200 mg,Take after meals
+1266,Omeprazole,2024-12-09,2024-12-23,40 mg,Three times daily
+1269,Lisinopril,2024-12-10,2024-12-25,10 mg,Three times daily
+1269,Levothyroxine,2024-12-10,2024-12-17,75 mcg,Once a day
+1269,Simvastatin,2024-12-10,2025-01-09,20 mg,Take on an empty stomach
+1271,Metoprolol,2024-12-10,2025-01-09,50 mg,Take after meals
+1273,Amlodipine,2024-12-11,2024-12-21,5 mg,Take before bed
+1273,Atorvastatin,2024-12-11,2024-12-18,20 mg,Take before bed
+1276,Omeprazole,2024-12-11,2025-01-03,40 mg,Take with food
+1276,Metformin,2024-12-11,2025-01-03,850 mg,Take before bed
+1276,Metformin,2024-12-11,2024-12-26,850 mg,Twice daily
+1279,Atorvastatin,2024-12-11,2024-12-23,20 mg,Take with food
+1283,Prednisone,2024-12-12,2025-01-04,10 mg,Take on an empty stomach
+1283,Levothyroxine,2024-12-12,2024-12-21,75 mcg,Three times daily
+1283,Azithromycin,2024-12-12,2025-01-01,250 mg,Twice daily
+1284,Prednisone,2024-12-12,2024-12-31,10 mg,Three times daily
+1284,Ibuprofen,2024-12-12,2025-01-06,200 mg,Take before bed
+1284,Gabapentin,2024-12-12,2024-12-20,300 mg,Once a day
+1285,Gabapentin,2024-12-12,2024-12-25,300 mg,Three times daily
+1285,Pantoprazole,2024-12-12,2025-01-08,40 mg,Take before bed
+1285,Amlodipine,2024-12-12,2025-01-10,5 mg,Three times daily
+1288,Metoprolol,2024-12-12,2025-01-06,50 mg,Take with food
+1288,Levothyroxine,2024-12-12,2025-01-03,75 mcg,Twice daily
+1288,Atorvastatin,2024-12-12,2024-12-28,20 mg,Take before bed
+1291,Gabapentin,2024-12-12,2024-12-23,300 mg,Twice daily
+1291,Pantoprazole,2024-12-12,2024-12-27,40 mg,Once a day
+1291,Amlodipine,2024-12-12,2025-01-07,5 mg,Take after meals
+1293,Lisinopril,2024-12-13,2024-12-22,10 mg,Once a day
+1294,Omeprazole,2024-12-13,2024-12-29,40 mg,Take on an empty stomach
+1294,Atorvastatin,2024-12-13,2024-12-18,20 mg,Three times daily
+1294,Metoprolol,2024-12-13,2024-12-23,50 mg,Take after meals
+1295,Gabapentin,2024-12-13,2025-01-05,300 mg,Take after meals
+1296,Amlodipine,2024-12-13,2024-12-26,5 mg,Once a day
+1296,Lisinopril,2024-12-13,2025-01-06,10 mg,Take on an empty stomach
+1296,Azithromycin,2024-12-13,2024-12-31,250 mg,Take before bed
+1297,Omeprazole,2024-12-13,2024-12-23,40 mg,Take with food
+1297,Pantoprazole,2024-12-13,2024-12-26,40 mg,Three times daily
+1300,Metformin,2024-12-16,2025-01-04,850 mg,Take on an empty stomach
+1303,Levothyroxine,2024-12-16,2025-01-02,75 mcg,Take with food
+1303,Metoprolol,2024-12-16,2025-01-12,50 mg,Twice daily
+1304,Amlodipine,2024-12-17,2025-01-10,5 mg,Twice daily
+1304,Gabapentin,2024-12-17,2025-01-09,300 mg,Twice daily
+1304,Doxycycline,2024-12-17,2025-01-04,100 mg,Take after meals
+1307,Pantoprazole,2024-12-17,2025-01-15,40 mg,Take after meals
+1307,Doxycycline,2024-12-17,2025-01-15,100 mg,Take after meals
+1310,Metoprolol,2024-12-18,2025-01-09,50 mg,Take with food
+1310,Metoprolol,2024-12-18,2025-01-04,50 mg,Take after meals
+1310,Lisinopril,2024-12-18,2025-01-10,10 mg,Take before bed
+1313,Atorvastatin,2024-12-18,2024-12-26,20 mg,Twice daily
+1315,Lisinopril,2024-12-19,2025-01-14,10 mg,Take on an empty stomach
+1315,Metformin,2024-12-19,2025-01-18,850 mg,Take on an empty stomach
+1315,Omeprazole,2024-12-19,2024-12-29,40 mg,Take after meals
+1316,Amoxicillin,2024-12-19,2025-01-15,500 mg,Three times daily
+1317,Simvastatin,2024-12-19,2025-01-05,20 mg,Once a day
+1317,Omeprazole,2024-12-19,2025-01-07,40 mg,Take with food
+1319,Simvastatin,2024-12-19,2025-01-16,20 mg,Take before bed
+1319,Prednisone,2024-12-19,2024-12-30,10 mg,Three times daily
+1319,Metoprolol,2024-12-19,2024-12-28,50 mg,Three times daily
+1320,Levothyroxine,2024-12-19,2025-01-01,75 mcg,Three times daily
+1320,Amoxicillin,2024-12-19,2025-01-12,500 mg,Take with food
+1321,Levothyroxine,2024-12-20,2024-12-31,75 mcg,Twice daily
+1321,Amoxicillin,2024-12-20,2025-01-16,500 mg,Take with food
+1321,Gabapentin,2024-12-20,2025-01-10,300 mg,Take on an empty stomach
+1322,Metoprolol,2024-12-20,2024-12-30,50 mg,Twice daily
+1324,Metformin,2024-12-20,2025-01-02,850 mg,Twice daily
+1326,Amoxicillin,2024-12-20,2025-01-14,500 mg,Three times daily
+1335,Lisinopril,2024-12-23,2025-01-16,10 mg,Take on an empty stomach
+1335,Simvastatin,2024-12-23,2025-01-15,20 mg,Once a day
+1335,Pantoprazole,2024-12-23,2025-01-07,40 mg,Twice daily
+1336,Pantoprazole,2024-12-23,2025-01-01,40 mg,Take after meals
+1336,Amoxicillin,2024-12-23,2025-01-21,500 mg,Take with food
+1339,Doxycycline,2024-12-24,2025-01-10,100 mg,Twice daily
+1340,Gabapentin,2024-12-24,2025-01-08,300 mg,Take on an empty stomach
+1340,Doxycycline,2024-12-24,2025-01-09,100 mg,Take before bed
+1340,Amlodipine,2024-12-24,2025-01-16,5 mg,Take after meals
+1341,Simvastatin,2024-12-25,2025-01-10,20 mg,Take with food
+1341,Amlodipine,2024-12-25,2025-01-22,5 mg,Take on an empty stomach
+1341,Omeprazole,2024-12-25,2025-01-01,40 mg,Take on an empty stomach
+1343,Pantoprazole,2024-12-25,2025-01-10,40 mg,Twice daily
+1343,Amlodipine,2024-12-25,2025-01-14,5 mg,Twice daily
+1343,Azithromycin,2024-12-25,2025-01-19,250 mg,Once a day
+1346,Azithromycin,2024-12-25,2025-01-02,250 mg,Take with food
+1346,Omeprazole,2024-12-25,2025-01-05,40 mg,Take after meals
+1347,Amlodipine,2024-12-25,2025-01-01,5 mg,Take on an empty stomach
+1348,Levothyroxine,2024-12-25,2025-01-14,75 mcg,Take on an empty stomach
+1348,Prednisone,2024-12-25,2025-01-06,10 mg,Twice daily
+1348,Amlodipine,2024-12-25,2025-01-23,5 mg,Once a day
+1351,Levothyroxine,2024-12-26,2025-01-11,75 mcg,Take with food
+1354,Amlodipine,2024-12-26,2025-01-13,5 mg,Once a day
+1357,Metformin,2024-12-26,2025-01-16,850 mg,Once a day
+1358,Ibuprofen,2024-12-26,2025-01-09,200 mg,Twice daily
+1358,Pantoprazole,2024-12-26,2025-01-10,40 mg,Take with food
+1359,Ibuprofen,2024-12-26,2025-01-13,200 mg,Once a day
+1359,Prednisone,2024-12-26,2025-01-25,10 mg,Take on an empty stomach
+1359,Doxycycline,2024-12-26,2025-01-15,100 mg,Take with food
+1363,Amoxicillin,2024-12-27,2025-01-09,500 mg,Take on an empty stomach
+1363,Levothyroxine,2024-12-27,2025-01-12,75 mcg,Take with food
+1363,Metoprolol,2024-12-27,2025-01-11,50 mg,Take before bed
+1365,Amoxicillin,2024-12-27,2025-01-03,500 mg,Take after meals
+1367,Atorvastatin,2024-12-30,2025-01-05,20 mg,Take after meals
+1367,Metoprolol,2024-12-30,2025-01-09,50 mg,Take on an empty stomach
+1367,Amoxicillin,2024-12-30,2025-01-14,500 mg,Three times daily
+1368,Amlodipine,2024-12-30,2025-01-15,5 mg,Three times daily
+1369,Pantoprazole,2024-12-30,2025-01-10,40 mg,Twice daily
+1369,Atorvastatin,2024-12-30,2025-01-14,20 mg,Three times daily
+1376,Metformin,2024-12-31,2025-01-24,850 mg,Take before bed
+1377,Levothyroxine,2024-12-31,2025-01-07,75 mcg,Take before bed
+1377,Simvastatin,2024-12-31,2025-01-10,20 mg,Three times daily
+1377,Pantoprazole,2024-12-31,2025-01-16,40 mg,Take before bed
+1378,Gabapentin,2024-12-31,2025-01-30,300 mg,Take on an empty stomach
+1382,Metformin,2025-01-01,2025-01-10,850 mg,Take with food
+1383,Simvastatin,2025-01-01,2025-01-07,20 mg,Once a day
+1383,Metoprolol,2025-01-01,2025-01-14,50 mg,Take on an empty stomach
+1383,Simvastatin,2025-01-01,2025-01-29,20 mg,Once a day
+1385,Omeprazole,2025-01-01,2025-01-30,40 mg,Three times daily
+1385,Prednisone,2025-01-01,2025-01-11,10 mg,Twice daily
+1385,Omeprazole,2025-01-01,2025-01-14,40 mg,Once a day
+1390,Amoxicillin,2025-01-02,2025-01-12,500 mg,Take before bed
+1390,Amoxicillin,2025-01-02,2025-01-14,500 mg,Twice daily
+1394,Omeprazole,2025-01-02,2025-01-17,40 mg,Take after meals
+1394,Amoxicillin,2025-01-02,2025-01-16,500 mg,Twice daily
+1395,Prednisone,2025-01-02,2025-01-07,10 mg,Take on an empty stomach
+1395,Doxycycline,2025-01-02,2025-01-29,100 mg,Three times daily
+1395,Metoprolol,2025-01-02,2025-01-08,50 mg,Take before bed
+1396,Prednisone,2025-01-02,2025-01-15,10 mg,Take after meals
+1396,Lisinopril,2025-01-02,2025-01-29,10 mg,Take before bed
+1396,Metoprolol,2025-01-02,2025-01-25,50 mg,Take with food
+1398,Prednisone,2025-01-03,2025-01-29,10 mg,Take after meals
+1398,Prednisone,2025-01-03,2025-01-11,10 mg,Take on an empty stomach
+1398,Metformin,2025-01-03,2025-01-10,850 mg,Three times daily
+1400,Amoxicillin,2025-01-03,2025-01-29,500 mg,Take before bed
+1400,Atorvastatin,2025-01-03,2025-01-09,20 mg,Take after meals
+1400,Omeprazole,2025-01-03,2025-01-13,40 mg,Take after meals
+1401,Metformin,2025-01-03,2025-01-31,850 mg,Take with food
+1401,Gabapentin,2025-01-03,2025-01-08,300 mg,Three times daily
+1401,Prednisone,2025-01-03,2025-01-17,10 mg,Three times daily
+1406,Levothyroxine,2025-01-07,2025-02-03,75 mcg,Three times daily
+1406,Metformin,2025-01-07,2025-01-25,850 mg,Take before bed
+1409,Pantoprazole,2025-01-07,2025-01-24,40 mg,Take before bed
+1409,Amlodipine,2025-01-07,2025-01-28,5 mg,Take on an empty stomach
+1410,Prednisone,2025-01-07,2025-01-24,10 mg,Once a day
+1410,Azithromycin,2025-01-07,2025-01-29,250 mg,Take with food
+1410,Levothyroxine,2025-01-07,2025-01-27,75 mcg,Twice daily
+1412,Doxycycline,2025-01-07,2025-01-21,100 mg,Take after meals
+1412,Omeprazole,2025-01-07,2025-01-22,40 mg,Once a day
+1414,Pantoprazole,2025-01-07,2025-01-30,40 mg,Three times daily
+1414,Azithromycin,2025-01-07,2025-02-02,250 mg,Twice daily
+1419,Amoxicillin,2025-01-08,2025-01-17,500 mg,Take after meals
+1419,Atorvastatin,2025-01-08,2025-01-14,20 mg,Twice daily
+1423,Gabapentin,2025-01-09,2025-01-22,300 mg,Once a day
+1423,Simvastatin,2025-01-09,2025-02-03,20 mg,Take after meals
+1423,Doxycycline,2025-01-09,2025-02-08,100 mg,Take with food
+1424,Prednisone,2025-01-09,2025-01-29,10 mg,Three times daily
+1424,Simvastatin,2025-01-09,2025-01-27,20 mg,Once a day
+1426,Atorvastatin,2025-01-09,2025-02-04,20 mg,Twice daily
+1426,Simvastatin,2025-01-09,2025-01-23,20 mg,Take with food
+1427,Simvastatin,2025-01-09,2025-01-25,20 mg,Take on an empty stomach
+1427,Metformin,2025-01-09,2025-01-21,850 mg,Once a day
+1427,Levothyroxine,2025-01-09,2025-01-24,75 mcg,Twice daily
+1428,Azithromycin,2025-01-09,2025-02-08,250 mg,Twice daily
+1428,Ibuprofen,2025-01-09,2025-02-02,200 mg,Take on an empty stomach
+1428,Levothyroxine,2025-01-09,2025-01-23,75 mcg,Take before bed
+1430,Simvastatin,2025-01-10,2025-01-23,20 mg,Once a day
+1430,Omeprazole,2025-01-10,2025-02-05,40 mg,Take after meals
+1431,Prednisone,2025-01-10,2025-02-07,10 mg,Twice daily
+1431,Doxycycline,2025-01-10,2025-01-17,100 mg,Take before bed
+1432,Amlodipine,2025-01-10,2025-01-27,5 mg,Take after meals
+1434,Atorvastatin,2025-01-10,2025-02-06,20 mg,Once a day
+1438,Gabapentin,2025-01-13,2025-01-23,300 mg,Take after meals
+1440,Simvastatin,2025-01-14,2025-02-05,20 mg,Three times daily
+1440,Atorvastatin,2025-01-14,2025-02-03,20 mg,Take with food
+1446,Amlodipine,2025-01-15,2025-02-14,5 mg,Three times daily
+1446,Simvastatin,2025-01-15,2025-02-04,20 mg,Take before bed
+1446,Simvastatin,2025-01-15,2025-02-01,20 mg,Take before bed
+1447,Ibuprofen,2025-01-15,2025-02-13,200 mg,Twice daily
+1449,Simvastatin,2025-01-16,2025-01-30,20 mg,Once a day
+1449,Amlodipine,2025-01-16,2025-02-08,5 mg,Take on an empty stomach
+1449,Metformin,2025-01-16,2025-01-30,850 mg,Once a day
+1451,Pantoprazole,2025-01-16,2025-01-28,40 mg,Twice daily
+1451,Prednisone,2025-01-16,2025-01-22,10 mg,Take on an empty stomach
+1455,Lisinopril,2025-01-16,2025-02-14,10 mg,Take before bed
+1458,Gabapentin,2025-01-17,2025-02-15,300 mg,Twice daily
+1459,Atorvastatin,2025-01-17,2025-01-26,20 mg,Take on an empty stomach
+1459,Amoxicillin,2025-01-17,2025-02-16,500 mg,Once a day
+1459,Amlodipine,2025-01-17,2025-01-28,5 mg,Take on an empty stomach
+1460,Simvastatin,2025-01-17,2025-02-05,20 mg,Take on an empty stomach
+1460,Gabapentin,2025-01-17,2025-01-25,300 mg,Take before bed
+1460,Metformin,2025-01-17,2025-02-14,850 mg,Take after meals
+1461,Azithromycin,2025-01-17,2025-01-28,250 mg,Take with food
+1462,Prednisone,2025-01-17,2025-02-07,10 mg,Take on an empty stomach
+1463,Ibuprofen,2025-01-17,2025-01-29,200 mg,Twice daily
+1463,Ibuprofen,2025-01-17,2025-02-02,200 mg,Once a day
+1463,Atorvastatin,2025-01-17,2025-02-13,20 mg,Once a day
+1464,Prednisone,2025-01-20,2025-02-04,10 mg,Take with food
+1465,Metformin,2025-01-20,2025-02-13,850 mg,Three times daily
+1465,Simvastatin,2025-01-20,2025-02-09,20 mg,Take before bed
+1468,Pantoprazole,2025-01-20,2025-02-05,40 mg,Take after meals
+1468,Simvastatin,2025-01-20,2025-02-13,20 mg,Take before bed
+1470,Metformin,2025-01-20,2025-02-12,850 mg,Take after meals
+1470,Metformin,2025-01-20,2025-02-04,850 mg,Take with food
+1476,Gabapentin,2025-01-21,2025-01-30,300 mg,Take on an empty stomach
+1479,Atorvastatin,2025-01-21,2025-02-20,20 mg,Three times daily
+1479,Lisinopril,2025-01-21,2025-02-06,10 mg,Three times daily
+1479,Amlodipine,2025-01-21,2025-01-30,5 mg,Take before bed
+1481,Ibuprofen,2025-01-21,2025-01-27,200 mg,Twice daily
+1481,Pantoprazole,2025-01-21,2025-02-11,40 mg,Take on an empty stomach
+1481,Pantoprazole,2025-01-21,2025-02-06,40 mg,Three times daily
+1483,Metoprolol,2025-01-22,2025-02-04,50 mg,Take with food
+1483,Levothyroxine,2025-01-22,2025-01-31,75 mcg,Take before bed
+1483,Amlodipine,2025-01-22,2025-02-17,5 mg,Once a day
+1488,Amoxicillin,2025-01-22,2025-02-17,500 mg,Take before bed
+1488,Simvastatin,2025-01-22,2025-02-07,20 mg,Take with food
+1488,Atorvastatin,2025-01-22,2025-02-19,20 mg,Twice daily
+1490,Metformin,2025-01-23,2025-02-10,850 mg,Twice daily
+1490,Ibuprofen,2025-01-23,2025-02-14,200 mg,Twice daily
+1492,Simvastatin,2025-01-23,2025-01-29,20 mg,Three times daily
+1492,Metoprolol,2025-01-23,2025-01-30,50 mg,Three times daily
+1492,Metoprolol,2025-01-23,2025-02-08,50 mg,Twice daily
+1493,Levothyroxine,2025-01-23,2025-02-11,75 mcg,Three times daily
+1493,Amlodipine,2025-01-23,2025-02-16,5 mg,Once a day
+1494,Amoxicillin,2025-01-23,2025-01-28,500 mg,Take on an empty stomach
+1494,Pantoprazole,2025-01-23,2025-01-29,40 mg,Take after meals
+1496,Ibuprofen,2025-01-23,2025-02-12,200 mg,Once a day
+1498,Prednisone,2025-01-23,2025-02-01,10 mg,Take with food
+1498,Metoprolol,2025-01-23,2025-02-20,50 mg,Once a day
+1498,Metformin,2025-01-23,2025-02-02,850 mg,Twice daily
+1500,Gabapentin,2025-01-24,2025-02-08,300 mg,Take after meals
+1500,Simvastatin,2025-01-24,2025-02-21,20 mg,Twice daily
+1500,Omeprazole,2025-01-24,2025-02-09,40 mg,Take after meals
+1501,Amoxicillin,2025-01-24,2025-02-13,500 mg,Take before bed
+1501,Amlodipine,2025-01-24,2025-02-08,5 mg,Three times daily
+1501,Azithromycin,2025-01-24,2025-02-21,250 mg,Take after meals
+1503,Ibuprofen,2025-01-24,2025-02-16,200 mg,Take on an empty stomach
+1506,Metformin,2025-01-24,2025-02-22,850 mg,Take before bed
+1507,Prednisone,2025-01-27,2025-02-20,10 mg,Take on an empty stomach
+1507,Amoxicillin,2025-01-27,2025-02-05,500 mg,Take on an empty stomach
+1507,Amoxicillin,2025-01-27,2025-02-14,500 mg,Take before bed
+1508,Pantoprazole,2025-01-27,2025-02-15,40 mg,Take with food
+1510,Omeprazole,2025-01-27,2025-02-14,40 mg,Take on an empty stomach
+1510,Levothyroxine,2025-01-27,2025-02-14,75 mcg,Twice daily
+1510,Pantoprazole,2025-01-27,2025-02-18,40 mg,Once a day
+1511,Doxycycline,2025-01-27,2025-02-15,100 mg,Twice daily
+1512,Lisinopril,2025-01-27,2025-02-10,10 mg,Take on an empty stomach
+1512,Azithromycin,2025-01-27,2025-02-24,250 mg,Take after meals
+1512,Metoprolol,2025-01-27,2025-02-20,50 mg,Take after meals
+1513,Ibuprofen,2025-01-27,2025-02-05,200 mg,Twice daily
+1513,Simvastatin,2025-01-27,2025-02-05,20 mg,Once a day
+1517,Gabapentin,2025-01-28,2025-02-22,300 mg,Take on an empty stomach
+1517,Simvastatin,2025-01-28,2025-02-27,20 mg,Twice daily
+1517,Simvastatin,2025-01-28,2025-02-13,20 mg,Take before bed
+1519,Omeprazole,2025-01-28,2025-02-20,40 mg,Three times daily
+1519,Amlodipine,2025-01-28,2025-02-22,5 mg,Take before bed
+1522,Prednisone,2025-01-29,2025-02-18,10 mg,Twice daily
+1522,Lisinopril,2025-01-29,2025-02-28,10 mg,Take on an empty stomach
+1522,Atorvastatin,2025-01-29,2025-02-07,20 mg,Three times daily
+1525,Prednisone,2025-01-30,2025-02-26,10 mg,Take after meals
+1525,Levothyroxine,2025-01-30,2025-02-09,75 mcg,Take with food
+1525,Levothyroxine,2025-01-30,2025-02-10,75 mcg,Take after meals
+1526,Amoxicillin,2025-01-30,2025-02-22,500 mg,Take with food
+1526,Levothyroxine,2025-01-30,2025-02-14,75 mcg,Take with food
+1526,Metformin,2025-01-30,2025-02-09,850 mg,Twice daily
+1527,Metoprolol,2025-01-30,2025-02-04,50 mg,Once a day
+1528,Amlodipine,2025-01-30,2025-02-07,5 mg,Three times daily
+1531,Prednisone,2025-01-31,2025-02-06,10 mg,Take with food
+1534,Omeprazole,2025-02-03,2025-02-13,40 mg,Take before bed
+1534,Omeprazole,2025-02-03,2025-02-14,40 mg,Twice daily
+1535,Simvastatin,2025-02-03,2025-02-24,20 mg,Twice daily
+1535,Gabapentin,2025-02-03,2025-03-04,300 mg,Twice daily
+1535,Ibuprofen,2025-02-03,2025-02-21,200 mg,Take after meals
+1536,Metoprolol,2025-02-03,2025-02-12,50 mg,Take with food
+1536,Prednisone,2025-02-03,2025-02-25,10 mg,Take after meals
+1536,Azithromycin,2025-02-03,2025-03-04,250 mg,Twice daily
+1538,Gabapentin,2025-02-03,2025-02-16,300 mg,Three times daily
+1544,Azithromycin,2025-02-04,2025-02-28,250 mg,Take on an empty stomach
+1544,Azithromycin,2025-02-04,2025-03-02,250 mg,Take before bed
+1546,Omeprazole,2025-02-04,2025-02-19,40 mg,Take before bed
+1554,Simvastatin,2025-02-05,2025-02-17,20 mg,Three times daily
+1554,Metformin,2025-02-05,2025-02-20,850 mg,Once a day
+1555,Simvastatin,2025-02-05,2025-02-28,20 mg,Twice daily
+1555,Amoxicillin,2025-02-05,2025-03-02,500 mg,Take after meals
+1556,Amlodipine,2025-02-06,2025-02-25,5 mg,Take with food
+1556,Gabapentin,2025-02-06,2025-03-01,300 mg,Take on an empty stomach
+1557,Gabapentin,2025-02-06,2025-02-15,300 mg,Once a day
+1560,Amlodipine,2025-02-06,2025-03-07,5 mg,Twice daily
+1560,Doxycycline,2025-02-06,2025-02-20,100 mg,Take with food
+1561,Doxycycline,2025-02-06,2025-02-13,100 mg,Three times daily
+1561,Doxycycline,2025-02-06,2025-02-12,100 mg,Take before bed
+1562,Lisinopril,2025-02-06,2025-03-01,10 mg,Twice daily
+1562,Metformin,2025-02-06,2025-02-12,850 mg,Once a day
+1568,Gabapentin,2025-02-10,2025-03-06,300 mg,Take on an empty stomach
+1568,Doxycycline,2025-02-10,2025-02-15,100 mg,Take on an empty stomach
+1568,Amlodipine,2025-02-10,2025-02-23,5 mg,Take before bed
+1569,Pantoprazole,2025-02-10,2025-03-03,40 mg,Three times daily
+1569,Gabapentin,2025-02-10,2025-02-20,300 mg,Three times daily
+1571,Omeprazole,2025-02-10,2025-02-22,40 mg,Take after meals
+1573,Doxycycline,2025-02-10,2025-02-22,100 mg,Take before bed
+1573,Omeprazole,2025-02-10,2025-02-18,40 mg,Take with food
+1573,Simvastatin,2025-02-10,2025-02-22,20 mg,Take before bed
+1574,Levothyroxine,2025-02-10,2025-03-02,75 mcg,Take on an empty stomach
+1574,Lisinopril,2025-02-10,2025-03-07,10 mg,Twice daily
+1577,Metoprolol,2025-02-10,2025-02-18,50 mg,Twice daily
+1577,Azithromycin,2025-02-10,2025-03-03,250 mg,Take with food
+1579,Ibuprofen,2025-02-11,2025-03-07,200 mg,Take on an empty stomach
+1580,Simvastatin,2025-02-11,2025-03-06,20 mg,Take after meals
+1581,Metoprolol,2025-02-11,2025-03-05,50 mg,Take on an empty stomach
+1581,Ibuprofen,2025-02-11,2025-03-09,200 mg,Three times daily
+1581,Omeprazole,2025-02-11,2025-03-05,40 mg,Take before bed
+1583,Omeprazole,2025-02-11,2025-02-17,40 mg,Take after meals
+1583,Prednisone,2025-02-11,2025-02-16,10 mg,Three times daily
+1584,Ibuprofen,2025-02-11,2025-03-03,200 mg,Take on an empty stomach
+1588,Atorvastatin,2025-02-12,2025-03-01,20 mg,Take before bed
+1588,Doxycycline,2025-02-12,2025-03-09,100 mg,Three times daily
+1588,Omeprazole,2025-02-12,2025-03-04,40 mg,Take after meals
+1589,Simvastatin,2025-02-12,2025-02-19,20 mg,Once a day
+1589,Ibuprofen,2025-02-12,2025-02-21,200 mg,Take after meals
+1592,Amlodipine,2025-02-12,2025-02-21,5 mg,Twice daily
+1592,Lisinopril,2025-02-12,2025-03-07,10 mg,Take with food
+1592,Gabapentin,2025-02-12,2025-02-23,300 mg,Take with food
+1594,Metformin,2025-02-12,2025-03-02,850 mg,Three times daily
+1595,Metoprolol,2025-02-13,2025-03-05,50 mg,Take before bed
+1595,Omeprazole,2025-02-13,2025-02-28,40 mg,Take before bed
+1599,Omeprazole,2025-02-13,2025-02-28,40 mg,Twice daily
+1599,Doxycycline,2025-02-13,2025-02-26,100 mg,Three times daily
+1599,Amlodipine,2025-02-13,2025-03-15,5 mg,Take on an empty stomach
+1601,Metformin,2025-02-13,2025-03-15,850 mg,Take after meals
+1601,Omeprazole,2025-02-13,2025-02-20,40 mg,Twice daily
+1601,Metoprolol,2025-02-13,2025-02-18,50 mg,Take before bed
+1602,Metoprolol,2025-02-13,2025-03-02,50 mg,Once a day
+1604,Prednisone,2025-02-14,2025-02-22,10 mg,Twice daily
+1604,Atorvastatin,2025-02-14,2025-02-27,20 mg,Three times daily
+1604,Lisinopril,2025-02-14,2025-02-26,10 mg,Take after meals
+1606,Lisinopril,2025-02-14,2025-03-13,10 mg,Take with food
+1606,Omeprazole,2025-02-14,2025-03-10,40 mg,Take before bed
+1608,Doxycycline,2025-02-14,2025-02-19,100 mg,Take with food
+1608,Amlodipine,2025-02-14,2025-03-14,5 mg,Take with food
+1609,Pantoprazole,2025-02-17,2025-02-27,40 mg,Take with food
+1609,Levothyroxine,2025-02-17,2025-02-27,75 mcg,Twice daily
+1609,Metoprolol,2025-02-17,2025-03-13,50 mg,Take on an empty stomach
+1612,Atorvastatin,2025-02-17,2025-02-26,20 mg,Take with food
+1612,Amoxicillin,2025-02-17,2025-03-19,500 mg,Three times daily
+1612,Doxycycline,2025-02-17,2025-02-28,100 mg,Take after meals
+1613,Amlodipine,2025-02-17,2025-02-28,5 mg,Take after meals
+1618,Amlodipine,2025-02-18,2025-03-13,5 mg,Three times daily
+1618,Metoprolol,2025-02-18,2025-03-11,50 mg,Once a day
+1619,Pantoprazole,2025-02-18,2025-03-20,40 mg,Take with food
+1619,Doxycycline,2025-02-18,2025-03-18,100 mg,Take on an empty stomach
+1619,Lisinopril,2025-02-18,2025-03-12,10 mg,Take before bed
+1621,Doxycycline,2025-02-18,2025-03-10,100 mg,Twice daily
+1622,Gabapentin,2025-02-18,2025-02-24,300 mg,Take before bed
+1623,Pantoprazole,2025-02-18,2025-03-20,40 mg,Take before bed
+1623,Gabapentin,2025-02-18,2025-03-08,300 mg,Take with food
+1623,Metoprolol,2025-02-18,2025-03-09,50 mg,Three times daily
+1624,Azithromycin,2025-02-18,2025-03-06,250 mg,Take before bed
+1624,Metoprolol,2025-02-18,2025-03-09,50 mg,Once a day
+1625,Pantoprazole,2025-02-19,2025-03-12,40 mg,Once a day
+1625,Simvastatin,2025-02-19,2025-03-03,20 mg,Once a day
+1625,Pantoprazole,2025-02-19,2025-03-14,40 mg,Take on an empty stomach
+1628,Pantoprazole,2025-02-19,2025-03-11,40 mg,Take after meals
+1628,Gabapentin,2025-02-19,2025-03-07,300 mg,Twice daily
+1629,Metformin,2025-02-19,2025-03-20,850 mg,Take with food
+1629,Amlodipine,2025-02-19,2025-03-17,5 mg,Take before bed
+1629,Azithromycin,2025-02-19,2025-03-15,250 mg,Once a day
+1630,Atorvastatin,2025-02-19,2025-03-19,20 mg,Twice daily
+1630,Prednisone,2025-02-19,2025-03-19,10 mg,Take after meals
+1630,Azithromycin,2025-02-19,2025-03-19,250 mg,Take with food
+1631,Pantoprazole,2025-02-19,2025-03-09,40 mg,Take before bed
+1632,Levothyroxine,2025-02-20,2025-03-08,75 mcg,Take on an empty stomach
+1632,Metoprolol,2025-02-20,2025-03-06,50 mg,Take on an empty stomach
+1633,Omeprazole,2025-02-20,2025-03-21,40 mg,Three times daily
+1633,Atorvastatin,2025-02-20,2025-03-09,20 mg,Take before bed
+1634,Omeprazole,2025-02-20,2025-02-27,40 mg,Take with food
+1634,Metformin,2025-02-20,2025-03-03,850 mg,Take before bed
+1635,Levothyroxine,2025-02-20,2025-03-13,75 mcg,Take on an empty stomach
+1636,Prednisone,2025-02-20,2025-03-05,10 mg,Three times daily
+1637,Omeprazole,2025-02-20,2025-03-19,40 mg,Take on an empty stomach
+1637,Azithromycin,2025-02-20,2025-03-09,250 mg,Take with food
+1637,Omeprazole,2025-02-20,2025-03-15,40 mg,Take before bed
+1640,Atorvastatin,2025-02-21,2025-03-11,20 mg,Take after meals
+1640,Levothyroxine,2025-02-21,2025-03-23,75 mcg,Three times daily
+1640,Amlodipine,2025-02-21,2025-03-07,5 mg,Take after meals
+1642,Omeprazole,2025-02-21,2025-03-23,40 mg,Take on an empty stomach
+1642,Amlodipine,2025-02-21,2025-03-16,5 mg,Take before bed
+1647,Lisinopril,2025-02-24,2025-03-04,10 mg,Twice daily
+1647,Amlodipine,2025-02-24,2025-03-21,5 mg,Three times daily
+1647,Doxycycline,2025-02-24,2025-03-21,100 mg,Take on an empty stomach
+1649,Ibuprofen,2025-02-24,2025-03-06,200 mg,Take after meals
+1649,Levothyroxine,2025-02-24,2025-03-21,75 mcg,Twice daily
+1649,Pantoprazole,2025-02-24,2025-03-19,40 mg,Twice daily
+1650,Metoprolol,2025-02-24,2025-03-24,50 mg,Take before bed
+1650,Doxycycline,2025-02-24,2025-03-12,100 mg,Take on an empty stomach
+1650,Doxycycline,2025-02-24,2025-03-19,100 mg,Take after meals
+1660,Prednisone,2025-02-25,2025-03-10,10 mg,Twice daily
+1663,Simvastatin,2025-02-26,2025-03-27,20 mg,Take on an empty stomach
+1665,Prednisone,2025-02-26,2025-03-16,10 mg,Take before bed
+1668,Levothyroxine,2025-02-27,2025-03-08,75 mcg,Take with food
+1668,Amlodipine,2025-02-27,2025-03-12,5 mg,Take on an empty stomach
+1668,Pantoprazole,2025-02-27,2025-03-28,40 mg,Take on an empty stomach
+1670,Metformin,2025-02-27,2025-03-28,850 mg,Once a day
+1670,Simvastatin,2025-02-27,2025-03-19,20 mg,Take before bed
+1670,Doxycycline,2025-02-27,2025-03-24,100 mg,Three times daily
+1672,Pantoprazole,2025-02-27,2025-03-24,40 mg,Take with food
+1674,Amlodipine,2025-02-27,2025-03-18,5 mg,Take before bed
+1674,Atorvastatin,2025-02-27,2025-03-06,20 mg,Twice daily
+1675,Amoxicillin,2025-02-27,2025-03-10,500 mg,Twice daily
+1675,Atorvastatin,2025-02-27,2025-03-13,20 mg,Three times daily
+1676,Ibuprofen,2025-02-27,2025-03-16,200 mg,Take before bed
+1678,Levothyroxine,2025-02-28,2025-03-21,75 mcg,Take after meals
+1678,Lisinopril,2025-02-28,2025-03-07,10 mg,Once a day
+1681,Amoxicillin,2025-02-28,2025-03-11,500 mg,Twice daily
+1684,Azithromycin,2025-03-03,2025-03-21,250 mg,Twice daily
+1687,Prednisone,2025-03-03,2025-03-29,10 mg,Take after meals
+1687,Levothyroxine,2025-03-03,2025-03-14,75 mcg,Take before bed
+1688,Gabapentin,2025-03-03,2025-03-31,300 mg,Take after meals
+1688,Amoxicillin,2025-03-03,2025-03-29,500 mg,Twice daily
+1689,Prednisone,2025-03-03,2025-03-22,10 mg,Take before bed
+1690,Lisinopril,2025-03-03,2025-03-23,10 mg,Take on an empty stomach
+1690,Omeprazole,2025-03-03,2025-03-30,40 mg,Twice daily
+1691,Prednisone,2025-03-03,2025-03-20,10 mg,Take with food
+1693,Ibuprofen,2025-03-03,2025-03-19,200 mg,Three times daily
+1699,Doxycycline,2025-03-04,2025-03-28,100 mg,Three times daily
+1699,Gabapentin,2025-03-04,2025-04-01,300 mg,Once a day
+1699,Azithromycin,2025-03-04,2025-03-22,250 mg,Take on an empty stomach
+1700,Prednisone,2025-03-04,2025-03-25,10 mg,Take with food
+1700,Azithromycin,2025-03-04,2025-03-23,250 mg,Once a day
+1700,Levothyroxine,2025-03-04,2025-03-11,75 mcg,Three times daily
+1701,Lisinopril,2025-03-05,2025-03-21,10 mg,Take after meals
+1701,Amlodipine,2025-03-05,2025-03-19,5 mg,Take after meals
+1701,Amlodipine,2025-03-05,2025-03-21,5 mg,Take before bed
+1704,Levothyroxine,2025-03-05,2025-03-27,75 mcg,Twice daily
+1704,Atorvastatin,2025-03-05,2025-03-26,20 mg,Take after meals
+1704,Prednisone,2025-03-05,2025-03-14,10 mg,Take after meals
+1706,Gabapentin,2025-03-05,2025-03-31,300 mg,Once a day
+1706,Levothyroxine,2025-03-05,2025-03-18,75 mcg,Take after meals
+1706,Gabapentin,2025-03-05,2025-03-24,300 mg,Take on an empty stomach
+1707,Atorvastatin,2025-03-06,2025-04-02,20 mg,Three times daily
+1710,Prednisone,2025-03-06,2025-03-31,10 mg,Take with food
+1710,Amoxicillin,2025-03-06,2025-03-25,500 mg,Take before bed
+1712,Omeprazole,2025-03-07,2025-04-05,40 mg,Three times daily
+1713,Prednisone,2025-03-07,2025-04-03,10 mg,Take on an empty stomach
+1713,Doxycycline,2025-03-07,2025-03-15,100 mg,Once a day
+1714,Lisinopril,2025-03-07,2025-03-31,10 mg,Take with food
+1714,Atorvastatin,2025-03-07,2025-03-27,20 mg,Take on an empty stomach
+1714,Metformin,2025-03-07,2025-03-21,850 mg,Once a day
+1717,Omeprazole,2025-03-07,2025-03-13,40 mg,Once a day
+1720,Ibuprofen,2025-03-10,2025-03-28,200 mg,Take on an empty stomach
+1721,Pantoprazole,2025-03-10,2025-04-01,40 mg,Take on an empty stomach
+1721,Amlodipine,2025-03-10,2025-03-30,5 mg,Take on an empty stomach
+1723,Azithromycin,2025-03-10,2025-03-27,250 mg,Twice daily
+1724,Pantoprazole,2025-03-10,2025-03-23,40 mg,Take on an empty stomach
+1724,Amlodipine,2025-03-10,2025-03-30,5 mg,Take on an empty stomach
+1724,Lisinopril,2025-03-10,2025-03-15,10 mg,Twice daily
+1725,Azithromycin,2025-03-10,2025-03-24,250 mg,Once a day
+1725,Prednisone,2025-03-10,2025-03-30,10 mg,Three times daily
+1728,Prednisone,2025-03-11,2025-03-24,10 mg,Three times daily
+1728,Pantoprazole,2025-03-11,2025-04-09,40 mg,Take with food
+1733,Gabapentin,2025-03-11,2025-04-06,300 mg,Take after meals
+1733,Amlodipine,2025-03-11,2025-04-05,5 mg,Take with food
+1733,Prednisone,2025-03-11,2025-03-26,10 mg,Three times daily
+1735,Lisinopril,2025-03-11,2025-04-08,10 mg,Twice daily
+1735,Levothyroxine,2025-03-11,2025-03-27,75 mcg,Three times daily
+1735,Omeprazole,2025-03-11,2025-03-18,40 mg,Take before bed
+1737,Azithromycin,2025-03-12,2025-03-24,250 mg,Take before bed
+1737,Omeprazole,2025-03-12,2025-04-05,40 mg,Take before bed
+1737,Amlodipine,2025-03-12,2025-03-22,5 mg,Take on an empty stomach
+1741,Azithromycin,2025-03-12,2025-03-21,250 mg,Take on an empty stomach
+1741,Amoxicillin,2025-03-12,2025-03-29,500 mg,Twice daily
+1742,Lisinopril,2025-03-12,2025-03-24,10 mg,Take on an empty stomach
+1742,Simvastatin,2025-03-12,2025-04-04,20 mg,Three times daily
+1744,Metoprolol,2025-03-12,2025-03-19,50 mg,Three times daily
+1744,Lisinopril,2025-03-12,2025-04-08,10 mg,Take before bed
+1750,Gabapentin,2025-03-14,2025-03-26,300 mg,Take before bed
+1750,Amoxicillin,2025-03-14,2025-04-08,500 mg,Take with food
+1751,Metoprolol,2025-03-14,2025-03-22,50 mg,Twice daily
+1752,Amoxicillin,2025-03-14,2025-03-29,500 mg,Three times daily
+1762,Gabapentin,2025-03-17,2025-04-01,300 mg,Three times daily
+1762,Atorvastatin,2025-03-17,2025-04-02,20 mg,Twice daily
+1763,Prednisone,2025-03-18,2025-04-07,10 mg,Once a day
+1763,Azithromycin,2025-03-18,2025-03-26,250 mg,Take after meals
+1766,Lisinopril,2025-03-18,2025-03-24,10 mg,Once a day
+1766,Levothyroxine,2025-03-18,2025-04-12,75 mcg,Take after meals
+1769,Amlodipine,2025-03-18,2025-04-03,5 mg,Three times daily
+1769,Gabapentin,2025-03-18,2025-04-04,300 mg,Take before bed
+1770,Metoprolol,2025-03-18,2025-04-11,50 mg,Take before bed
+1778,Metformin,2025-03-20,2025-04-08,850 mg,Take before bed
+1778,Metoprolol,2025-03-20,2025-03-25,50 mg,Take before bed
+1778,Metoprolol,2025-03-20,2025-04-09,50 mg,Take with food
+1779,Metformin,2025-03-20,2025-04-09,850 mg,Take on an empty stomach
+1779,Azithromycin,2025-03-20,2025-04-19,250 mg,Take before bed
+1780,Metformin,2025-03-20,2025-04-19,850 mg,Three times daily
+1780,Pantoprazole,2025-03-20,2025-04-18,40 mg,Take with food
+1780,Atorvastatin,2025-03-20,2025-04-14,20 mg,Twice daily
+1782,Azithromycin,2025-03-20,2025-03-29,250 mg,Three times daily
+1783,Azithromycin,2025-03-20,2025-04-13,250 mg,Once a day
+1783,Amlodipine,2025-03-20,2025-04-13,5 mg,Three times daily
+1783,Metformin,2025-03-20,2025-03-29,850 mg,Take before bed
+1785,Doxycycline,2025-03-20,2025-03-30,100 mg,Three times daily
+1785,Amoxicillin,2025-03-20,2025-04-01,500 mg,Take after meals
+1788,Levothyroxine,2025-03-21,2025-04-16,75 mcg,Take on an empty stomach
+1788,Amoxicillin,2025-03-21,2025-04-01,500 mg,Take with food
+1788,Metformin,2025-03-21,2025-03-28,850 mg,Twice daily
+1790,Gabapentin,2025-03-21,2025-04-08,300 mg,Take on an empty stomach
+1790,Metformin,2025-03-21,2025-04-16,850 mg,Once a day
+1790,Ibuprofen,2025-03-21,2025-04-15,200 mg,Three times daily
+1793,Azithromycin,2025-03-21,2025-04-03,250 mg,Take with food
+1794,Ibuprofen,2025-03-21,2025-04-16,200 mg,Take with food
+1794,Amoxicillin,2025-03-21,2025-04-09,500 mg,Twice daily

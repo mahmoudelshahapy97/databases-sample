@@ -1,0 +1,980 @@
+LabReferralID,AppointmentID,TestType,TestDate,Result,Status
+1,3,CT Scan,2024-03-26,No evidence of internal bleeding,Completed
+2,3,MRI,2024-03-25,,Ordered
+3,4,X-Ray,2024-03-29,,Ordered
+4,5,Ultrasound,2024-03-30,Kidneys appear normal,Completed
+5,5,EKG,2024-03-26,No signs of cardiac ischemia,Completed
+6,10,Ultrasound,2024-03-29,Normal gallbladder and liver,Completed
+7,14,MRI,2024-03-28,No signs of tumor or bleeding,Completed
+8,15,Urine Test,2024-03-30,Presence of protein and ketones,Completed
+9,15,Ultrasound,2024-03-27,,Ordered
+10,34,Urine Test,2024-04-05,Signs of urinary tract infection,Completed
+11,34,Biopsy,2024-04-05,"Benign tissue, no malignancy",Completed
+12,37,CT Scan,2024-04-01,,Ordered
+13,38,CT Scan,2024-04-05,No evidence of internal bleeding,Completed
+14,38,Ultrasound,2024-04-04,Kidneys appear normal,Completed
+15,41,EKG,2024-04-06,,Ordered
+16,48,MRI,2024-04-04,Small disc herniation at L4-L5,Completed
+17,48,Allergy Panel,2024-04-04,,Ordered
+18,50,Urine Test,2024-04-04,Normal urine analysis,Completed
+19,50,X-Ray,2024-04-06,No fracture or abnormality detected,Completed
+20,51,EKG,2024-04-04,,Ordered
+21,51,Blood Test,2024-04-08,,Ordered
+22,53,MRI,2024-04-04,No signs of tumor or bleeding,Completed
+23,54,X-Ray,2024-04-08,Mild osteoarthritis in left knee,Completed
+24,54,Allergy Panel,2024-04-06,Mild allergy to peanuts,Completed
+25,56,Blood Test,2024-04-05,Elevated white cell count indicating infection,Completed
+26,61,MRI,2024-04-10,No signs of tumor or bleeding,Completed
+27,62,CT Scan,2024-04-13,Mild sinus inflammation,Completed
+28,63,X-Ray,2024-04-11,,Ordered
+29,66,X-Ray,2024-04-10,,Ordered
+30,66,Blood Test,2024-04-10,Elevated white cell count indicating infection,Completed
+31,67,MRI,2024-04-09,Mild brain atrophy consistent with age,Completed
+32,67,Blood Test,2024-04-12,Low hemoglobin suggesting anemia,Completed
+33,69,Urine Test,2024-04-12,,Ordered
+34,71,Biopsy,2024-04-13,"Benign tissue, no malignancy",Completed
+35,71,Allergy Panel,2024-04-12,Positive reaction to pollen and dust mites,Completed
+36,72,Biopsy,2024-04-10,Chronic inflammation noted,Completed
+37,73,Stool Test,2024-04-09,,Ordered
+38,73,X-Ray,2024-04-13,,Ordered
+39,75,EKG,2024-04-12,,Ordered
+40,76,X-Ray,2024-04-15,"Lung fields clear, no signs of pneumonia",Completed
+41,79,Ultrasound,2024-04-14,Normal gallbladder and liver,Completed
+42,79,X-Ray,2024-04-13,No fracture or abnormality detected,Completed
+43,81,MRI,2024-04-12,,Ordered
+44,82,MRI,2024-04-14,,Ordered
+45,82,EKG,2024-04-12,Mild arrhythmia detected,Completed
+46,83,EKG,2024-04-13,Normal sinus rhythm,Completed
+47,86,Ultrasound,2024-04-12,Normal gallbladder and liver,Completed
+48,88,Ultrasound,2024-04-13,,Ordered
+49,88,Allergy Panel,2024-04-16,No significant allergens detected,Completed
+50,89,EKG,2024-04-14,Mild arrhythmia detected,Completed
+51,91,Blood Test,2024-04-11,Normal CBC and metabolic panel,Completed
+52,96,X-Ray,2024-04-13,,Ordered
+53,102,Urine Test,2024-04-20,Signs of urinary tract infection,Completed
+54,102,EKG,2024-04-16,Normal sinus rhythm,Completed
+55,104,X-Ray,2024-04-15,,Ordered
+56,105,Urine Test,2024-04-17,Presence of protein and ketones,Completed
+57,108,Biopsy,2024-04-20,,Ordered
+58,108,EKG,2024-04-19,Normal sinus rhythm,Completed
+59,111,EKG,2024-04-21,No signs of cardiac ischemia,Completed
+60,111,Biopsy,2024-04-17,Malignant cells detected in sample,Completed
+61,116,Stool Test,2024-04-18,Normal digestive enzyme levels,Completed
+62,116,Allergy Panel,2024-04-22,,Ordered
+63,117,Urine Test,2024-04-21,Normal urine analysis,Completed
+64,119,Allergy Panel,2024-04-22,,Ordered
+65,121,MRI,2024-04-18,Small disc herniation at L4-L5,Completed
+66,121,X-Ray,2024-04-18,,Ordered
+67,126,Ultrasound,2024-04-21,,Ordered
+68,128,Biopsy,2024-04-24,,Ordered
+69,128,Blood Test,2024-04-21,,Ordered
+70,133,EKG,2024-04-24,Normal sinus rhythm,Completed
+71,134,Allergy Panel,2024-04-25,,Ordered
+72,135,CT Scan,2024-04-26,Mild sinus inflammation,Completed
+73,136,Urine Test,2024-04-24,Presence of protein and ketones,Completed
+74,136,Blood Test,2024-04-22,,Ordered
+75,138,Stool Test,2024-04-23,Normal digestive enzyme levels,Completed
+76,138,Biopsy,2024-04-22,,Ordered
+77,140,MRI,2024-04-24,Mild brain atrophy consistent with age,Completed
+78,140,Ultrasound,2024-04-24,Normal gallbladder and liver,Completed
+79,141,Urine Test,2024-04-23,,Ordered
+80,141,CT Scan,2024-04-26,Normal abdominal and pelvic structures,Completed
+81,142,Ultrasound,2024-04-25,Ovarian cyst identified on left side,Completed
+82,142,Urine Test,2024-04-24,,Ordered
+83,143,MRI,2024-04-28,,Ordered
+84,143,EKG,2024-04-23,No signs of cardiac ischemia,Completed
+85,144,MRI,2024-04-26,Small disc herniation at L4-L5,Completed
+86,151,Ultrasound,2024-04-27,Ovarian cyst identified on left side,Completed
+87,153,Biopsy,2024-04-29,Malignant cells detected in sample,Completed
+88,154,Biopsy,2024-04-24,Chronic inflammation noted,Completed
+89,154,MRI,2024-04-29,Mild brain atrophy consistent with age,Completed
+90,155,Stool Test,2024-04-26,Normal digestive enzyme levels,Completed
+91,155,CT Scan,2024-04-27,Mild sinus inflammation,Completed
+92,157,MRI,2024-04-29,No signs of tumor or bleeding,Completed
+93,158,Stool Test,2024-04-28,Positive for bacterial infection,Completed
+94,159,CT Scan,2024-04-28,No evidence of internal bleeding,Completed
+95,164,EKG,2024-04-27,Normal sinus rhythm,Completed
+96,166,CT Scan,2024-04-29,No evidence of internal bleeding,Completed
+97,166,Urine Test,2024-04-30,,Ordered
+98,167,Urine Test,2024-04-26,Signs of urinary tract infection,Completed
+99,167,Allergy Panel,2024-04-26,Mild allergy to peanuts,Completed
+100,169,Urine Test,2024-04-28,Presence of protein and ketones,Completed
+101,172,Blood Test,2024-04-26,Elevated white cell count indicating infection,Completed
+102,172,Biopsy,2024-04-30,Chronic inflammation noted,Completed
+103,173,Ultrasound,2024-04-26,Kidneys appear normal,Completed
+104,176,Ultrasound,2024-04-29,,Ordered
+105,176,Biopsy,2024-04-30,Malignant cells detected in sample,Completed
+106,179,Allergy Panel,2024-05-03,Positive reaction to pollen and dust mites,Completed
+107,182,Blood Test,2024-05-04,,Ordered
+108,184,X-Ray,2024-04-30,Mild osteoarthritis in left knee,Completed
+109,187,Urine Test,2024-05-02,,Ordered
+110,188,MRI,2024-05-03,,Ordered
+111,188,EKG,2024-05-05,Mild arrhythmia detected,Completed
+112,190,Stool Test,2024-05-04,,Ordered
+113,190,CT Scan,2024-05-01,,Ordered
+114,193,Blood Test,2024-05-06,Low hemoglobin suggesting anemia,Completed
+115,193,CT Scan,2024-05-06,Mild sinus inflammation,Completed
+116,200,CT Scan,2024-05-04,Normal abdominal and pelvic structures,Completed
+117,202,Ultrasound,2024-05-05,Normal gallbladder and liver,Completed
+118,202,Blood Test,2024-05-07,Elevated white cell count indicating infection,Completed
+119,204,EKG,2024-05-04,No signs of cardiac ischemia,Completed
+120,204,Blood Test,2024-05-03,Low hemoglobin suggesting anemia,Completed
+121,207,Urine Test,2024-05-08,Presence of protein and ketones,Completed
+122,207,X-Ray,2024-05-08,,Ordered
+123,209,EKG,2024-05-08,No signs of cardiac ischemia,Completed
+124,214,Allergy Panel,2024-05-08,Mild allergy to peanuts,Completed
+125,218,CT Scan,2024-05-06,Normal abdominal and pelvic structures,Completed
+126,221,Urine Test,2024-05-11,,Ordered
+127,223,X-Ray,2024-05-10,No fracture or abnormality detected,Completed
+128,224,EKG,2024-05-12,Normal sinus rhythm,Completed
+129,225,Biopsy,2024-05-09,Malignant cells detected in sample,Completed
+130,225,X-Ray,2024-05-12,,Ordered
+131,228,EKG,2024-05-09,No signs of cardiac ischemia,Completed
+132,229,Blood Test,2024-05-10,,Ordered
+133,229,EKG,2024-05-09,Mild arrhythmia detected,Completed
+134,233,Blood Test,2024-05-12,,Ordered
+135,237,Biopsy,2024-05-15,Chronic inflammation noted,Completed
+136,237,Allergy Panel,2024-05-17,,Ordered
+137,245,Blood Test,2024-05-13,Elevated white cell count indicating infection,Completed
+138,245,Stool Test,2024-05-13,Normal digestive enzyme levels,Completed
+139,246,Ultrasound,2024-05-15,Normal gallbladder and liver,Completed
+140,246,Blood Test,2024-05-19,,Ordered
+141,248,EKG,2024-05-14,Normal sinus rhythm,Completed
+142,248,CT Scan,2024-05-19,,Ordered
+143,252,MRI,2024-05-18,No signs of tumor or bleeding,Completed
+144,252,Urine Test,2024-05-15,Normal urine analysis,Completed
+145,253,Biopsy,2024-05-15,Malignant cells detected in sample,Completed
+146,254,X-Ray,2024-05-19,,Ordered
+147,254,Allergy Panel,2024-05-19,No significant allergens detected,Completed
+148,256,Stool Test,2024-05-16,,Ordered
+149,256,Ultrasound,2024-05-20,Ovarian cyst identified on left side,Completed
+150,257,MRI,2024-05-16,,Ordered
+151,259,Urine Test,2024-05-18,,Ordered
+152,261,EKG,2024-05-18,Normal sinus rhythm,Completed
+153,263,Biopsy,2024-05-17,Malignant cells detected in sample,Completed
+154,264,Urine Test,2024-05-18,,Ordered
+155,267,X-Ray,2024-05-19,"Lung fields clear, no signs of pneumonia",Completed
+156,267,Blood Test,2024-05-17,Normal CBC and metabolic panel,Completed
+157,270,Allergy Panel,2024-05-19,Positive reaction to pollen and dust mites,Completed
+158,273,Ultrasound,2024-05-18,Ovarian cyst identified on left side,Completed
+159,279,Blood Test,2024-05-22,Normal CBC and metabolic panel,Completed
+160,279,MRI,2024-05-20,Mild brain atrophy consistent with age,Completed
+161,282,Ultrasound,2024-05-21,Kidneys appear normal,Completed
+162,282,EKG,2024-05-25,Normal sinus rhythm,Completed
+163,283,Stool Test,2024-05-25,Normal digestive enzyme levels,Completed
+164,283,EKG,2024-05-21,,Ordered
+165,294,EKG,2024-05-26,,Ordered
+166,299,CT Scan,2024-05-27,Normal abdominal and pelvic structures,Completed
+167,303,X-Ray,2024-05-27,Mild osteoarthritis in left knee,Completed
+168,303,Stool Test,2024-05-27,Negative for occult blood,Completed
+169,304,Urine Test,2024-05-25,,Ordered
+170,309,CT Scan,2024-05-25,Mild sinus inflammation,Completed
+171,310,Urine Test,2024-05-24,Normal urine analysis,Completed
+172,311,CT Scan,2024-05-28,,Ordered
+173,311,Ultrasound,2024-05-27,Normal gallbladder and liver,Completed
+174,312,Blood Test,2024-05-25,Elevated white cell count indicating infection,Completed
+175,312,X-Ray,2024-05-24,No fracture or abnormality detected,Completed
+176,313,Stool Test,2024-05-28,Negative for occult blood,Completed
+177,313,X-Ray,2024-05-30,"Lung fields clear, no signs of pneumonia",Completed
+178,320,CT Scan,2024-06-01,Normal abdominal and pelvic structures,Completed
+179,320,Allergy Panel,2024-06-01,Mild allergy to peanuts,Completed
+180,322,EKG,2024-06-02,Normal sinus rhythm,Completed
+181,322,Blood Test,2024-05-31,Low hemoglobin suggesting anemia,Completed
+182,323,X-Ray,2024-05-31,Mild osteoarthritis in left knee,Completed
+183,325,Urine Test,2024-05-29,Signs of urinary tract infection,Completed
+184,325,Blood Test,2024-05-31,Low hemoglobin suggesting anemia,Completed
+185,327,MRI,2024-05-31,No signs of tumor or bleeding,Completed
+186,339,Urine Test,2024-05-31,Presence of protein and ketones,Completed
+187,339,CT Scan,2024-05-31,,Ordered
+188,340,Blood Test,2024-06-04,Elevated white cell count indicating infection,Completed
+189,341,Allergy Panel,2024-06-03,Mild allergy to peanuts,Completed
+190,343,MRI,2024-05-31,No signs of tumor or bleeding,Completed
+191,343,Urine Test,2024-06-01,Normal urine analysis,Completed
+192,346,Allergy Panel,2024-06-08,Mild allergy to peanuts,Completed
+193,347,Allergy Panel,2024-06-07,No significant allergens detected,Completed
+194,347,MRI,2024-06-08,,Ordered
+195,351,Allergy Panel,2024-06-05,Positive reaction to pollen and dust mites,Completed
+196,351,Biopsy,2024-06-06,,Ordered
+197,354,Biopsy,2024-06-04,Malignant cells detected in sample,Completed
+198,354,Stool Test,2024-06-06,Positive for bacterial infection,Completed
+199,356,Biopsy,2024-06-06,"Benign tissue, no malignancy",Completed
+200,357,Ultrasound,2024-06-08,Ovarian cyst identified on left side,Completed
+201,357,EKG,2024-06-07,No signs of cardiac ischemia,Completed
+202,358,MRI,2024-06-05,Mild brain atrophy consistent with age,Completed
+203,358,CT Scan,2024-06-08,,Ordered
+204,359,Blood Test,2024-06-05,Elevated white cell count indicating infection,Completed
+205,359,Biopsy,2024-06-10,,Ordered
+206,362,Allergy Panel,2024-06-06,No significant allergens detected,Completed
+207,366,CT Scan,2024-06-12,No evidence of internal bleeding,Completed
+208,367,MRI,2024-06-12,No signs of tumor or bleeding,Completed
+209,367,EKG,2024-06-12,,Ordered
+210,368,Allergy Panel,2024-06-07,,Ordered
+211,368,CT Scan,2024-06-08,No evidence of internal bleeding,Completed
+212,369,CT Scan,2024-06-11,Normal abdominal and pelvic structures,Completed
+213,369,Stool Test,2024-06-11,Negative for occult blood,Completed
+214,370,CT Scan,2024-06-10,No evidence of internal bleeding,Completed
+215,372,Stool Test,2024-06-12,,Ordered
+216,372,Urine Test,2024-06-12,Signs of urinary tract infection,Completed
+217,374,Urine Test,2024-06-14,Signs of urinary tract infection,Completed
+218,374,X-Ray,2024-06-14,No fracture or abnormality detected,Completed
+219,376,EKG,2024-06-12,,Ordered
+220,377,X-Ray,2024-06-11,"Lung fields clear, no signs of pneumonia",Completed
+221,377,CT Scan,2024-06-12,Normal abdominal and pelvic structures,Completed
+222,378,Stool Test,2024-06-12,Normal digestive enzyme levels,Completed
+223,378,EKG,2024-06-15,,Ordered
+224,381,Ultrasound,2024-06-11,Normal gallbladder and liver,Completed
+225,383,Blood Test,2024-06-14,Low hemoglobin suggesting anemia,Completed
+226,385,Blood Test,2024-06-12,Low hemoglobin suggesting anemia,Completed
+227,385,Stool Test,2024-06-13,Negative for occult blood,Completed
+228,386,Stool Test,2024-06-17,Negative for occult blood,Completed
+229,389,Urine Test,2024-06-16,Normal urine analysis,Completed
+230,389,Blood Test,2024-06-15,,Ordered
+231,393,Biopsy,2024-06-13,,Ordered
+232,394,X-Ray,2024-06-13,"Lung fields clear, no signs of pneumonia",Completed
+233,394,Urine Test,2024-06-14,Normal urine analysis,Completed
+234,398,CT Scan,2024-06-19,No evidence of internal bleeding,Completed
+235,408,EKG,2024-06-21,Mild arrhythmia detected,Completed
+236,414,Urine Test,2024-06-21,Normal urine analysis,Completed
+237,414,Blood Test,2024-06-22,Normal CBC and metabolic panel,Completed
+238,415,CT Scan,2024-06-19,Mild sinus inflammation,Completed
+239,418,Biopsy,2024-06-19,,Ordered
+240,418,Ultrasound,2024-06-21,,Ordered
+241,419,Biopsy,2024-06-19,,Ordered
+242,419,CT Scan,2024-06-22,,Ordered
+243,420,Stool Test,2024-06-24,Negative for occult blood,Completed
+244,426,CT Scan,2024-06-25,No evidence of internal bleeding,Completed
+245,427,Blood Test,2024-06-24,,Ordered
+246,428,MRI,2024-06-25,Small disc herniation at L4-L5,Completed
+247,429,Allergy Panel,2024-06-21,Positive reaction to pollen and dust mites,Completed
+248,429,Biopsy,2024-06-24,Malignant cells detected in sample,Completed
+249,431,MRI,2024-06-25,Small disc herniation at L4-L5,Completed
+250,432,Biopsy,2024-06-26,,Ordered
+251,434,Stool Test,2024-06-21,Normal digestive enzyme levels,Completed
+252,434,Urine Test,2024-06-22,Signs of urinary tract infection,Completed
+253,437,EKG,2024-06-22,No signs of cardiac ischemia,Completed
+254,439,MRI,2024-06-24,Mild brain atrophy consistent with age,Completed
+255,439,Biopsy,2024-06-29,,Ordered
+256,440,X-Ray,2024-06-28,Mild osteoarthritis in left knee,Completed
+257,440,CT Scan,2024-06-26,,Ordered
+258,443,X-Ray,2024-06-26,No fracture or abnormality detected,Completed
+259,443,EKG,2024-06-24,,Ordered
+260,449,EKG,2024-06-26,Mild arrhythmia detected,Completed
+261,452,Stool Test,2024-07-01,Positive for bacterial infection,Completed
+262,452,CT Scan,2024-06-30,Normal abdominal and pelvic structures,Completed
+263,456,Stool Test,2024-06-28,,Ordered
+264,456,EKG,2024-06-26,Mild arrhythmia detected,Completed
+265,457,Stool Test,2024-06-29,,Ordered
+266,457,Biopsy,2024-06-27,"Benign tissue, no malignancy",Completed
+267,459,Allergy Panel,2024-07-02,,Ordered
+268,460,X-Ray,2024-06-28,,Ordered
+269,460,Blood Test,2024-06-30,Normal CBC and metabolic panel,Completed
+270,464,Biopsy,2024-06-29,Chronic inflammation noted,Completed
+271,470,Allergy Panel,2024-07-03,Mild allergy to peanuts,Completed
+272,470,MRI,2024-07-01,Mild brain atrophy consistent with age,Completed
+273,472,MRI,2024-07-03,No signs of tumor or bleeding,Completed
+274,473,Blood Test,2024-07-04,Low hemoglobin suggesting anemia,Completed
+275,473,Ultrasound,2024-07-01,,Ordered
+276,479,Allergy Panel,2024-07-05,No significant allergens detected,Completed
+277,479,CT Scan,2024-07-02,,Ordered
+278,481,Blood Test,2024-07-03,Normal CBC and metabolic panel,Completed
+279,481,MRI,2024-07-05,Mild brain atrophy consistent with age,Completed
+280,482,Allergy Panel,2024-07-06,Positive reaction to pollen and dust mites,Completed
+281,484,Allergy Panel,2024-07-07,Positive reaction to pollen and dust mites,Completed
+282,484,Blood Test,2024-07-06,Normal CBC and metabolic panel,Completed
+283,486,Stool Test,2024-07-05,Normal digestive enzyme levels,Completed
+284,488,EKG,2024-07-08,Mild arrhythmia detected,Completed
+285,490,Stool Test,2024-07-06,Negative for occult blood,Completed
+286,490,Blood Test,2024-07-03,Normal CBC and metabolic panel,Completed
+287,494,MRI,2024-07-08,No signs of tumor or bleeding,Completed
+288,494,Allergy Panel,2024-07-04,No significant allergens detected,Completed
+289,495,Urine Test,2024-07-07,Signs of urinary tract infection,Completed
+290,499,Ultrasound,2024-07-10,Ovarian cyst identified on left side,Completed
+291,499,Urine Test,2024-07-07,,Ordered
+292,500,MRI,2024-07-08,Mild brain atrophy consistent with age,Completed
+293,500,X-Ray,2024-07-08,No fracture or abnormality detected,Completed
+294,501,Allergy Panel,2024-07-10,Positive reaction to pollen and dust mites,Completed
+295,505,CT Scan,2024-07-12,Mild sinus inflammation,Completed
+296,505,Blood Test,2024-07-09,Low hemoglobin suggesting anemia,Completed
+297,506,Urine Test,2024-07-13,,Ordered
+298,506,Blood Test,2024-07-10,,Ordered
+299,508,MRI,2024-07-09,No signs of tumor or bleeding,Completed
+300,508,Stool Test,2024-07-13,Positive for bacterial infection,Completed
+301,514,CT Scan,2024-07-13,No evidence of internal bleeding,Completed
+302,515,Biopsy,2024-07-12,Malignant cells detected in sample,Completed
+303,516,CT Scan,2024-07-14,,Ordered
+304,517,MRI,2024-07-12,,Ordered
+305,519,Stool Test,2024-07-10,Negative for occult blood,Completed
+306,521,X-Ray,2024-07-13,Mild osteoarthritis in left knee,Completed
+307,521,EKG,2024-07-14,,Ordered
+308,528,Ultrasound,2024-07-12,Normal gallbladder and liver,Completed
+309,528,Allergy Panel,2024-07-17,Positive reaction to pollen and dust mites,Completed
+310,529,CT Scan,2024-07-14,No evidence of internal bleeding,Completed
+311,530,Allergy Panel,2024-07-14,Positive reaction to pollen and dust mites,Completed
+312,532,X-Ray,2024-07-15,"Lung fields clear, no signs of pneumonia",Completed
+313,538,CT Scan,2024-07-20,Normal abdominal and pelvic structures,Completed
+314,544,MRI,2024-07-18,No signs of tumor or bleeding,Completed
+315,545,Blood Test,2024-07-19,Elevated white cell count indicating infection,Completed
+316,545,Ultrasound,2024-07-18,Normal gallbladder and liver,Completed
+317,554,Ultrasound,2024-07-22,Normal gallbladder and liver,Completed
+318,559,X-Ray,2024-07-18,,Ordered
+319,559,Biopsy,2024-07-21,,Ordered
+320,560,Stool Test,2024-07-23,Normal digestive enzyme levels,Completed
+321,560,Urine Test,2024-07-19,Normal urine analysis,Completed
+322,563,CT Scan,2024-07-22,,Ordered
+323,576,Blood Test,2024-07-23,Normal CBC and metabolic panel,Completed
+324,588,EKG,2024-07-27,Mild arrhythmia detected,Completed
+325,588,Urine Test,2024-07-24,Presence of protein and ketones,Completed
+326,590,Ultrasound,2024-07-27,Kidneys appear normal,Completed
+327,591,Blood Test,2024-07-29,Normal CBC and metabolic panel,Completed
+328,593,EKG,2024-07-25,Mild arrhythmia detected,Completed
+329,593,CT Scan,2024-07-27,Normal abdominal and pelvic structures,Completed
+330,596,Biopsy,2024-07-29,Malignant cells detected in sample,Completed
+331,596,MRI,2024-07-27,Small disc herniation at L4-L5,Completed
+332,598,X-Ray,2024-07-26,,Ordered
+333,598,Stool Test,2024-07-29,Normal digestive enzyme levels,Completed
+334,599,Ultrasound,2024-07-29,,Ordered
+335,599,Blood Test,2024-07-27,,Ordered
+336,603,Blood Test,2024-07-30,Normal CBC and metabolic panel,Completed
+337,603,X-Ray,2024-07-31,No fracture or abnormality detected,Completed
+338,605,Ultrasound,2024-08-01,Ovarian cyst identified on left side,Completed
+339,607,Allergy Panel,2024-08-02,,Ordered
+340,607,Urine Test,2024-07-29,,Ordered
+341,608,MRI,2024-08-03,Small disc herniation at L4-L5,Completed
+342,611,X-Ray,2024-07-31,"Lung fields clear, no signs of pneumonia",Completed
+343,611,CT Scan,2024-08-04,No evidence of internal bleeding,Completed
+344,612,CT Scan,2024-08-02,,Ordered
+345,613,Blood Test,2024-08-02,,Ordered
+346,615,Stool Test,2024-08-04,Normal digestive enzyme levels,Completed
+347,615,Allergy Panel,2024-08-04,Mild allergy to peanuts,Completed
+348,617,Ultrasound,2024-08-05,,Ordered
+349,618,X-Ray,2024-08-02,,Ordered
+350,620,X-Ray,2024-08-03,No fracture or abnormality detected,Completed
+351,620,EKG,2024-08-03,Normal sinus rhythm,Completed
+352,625,Ultrasound,2024-08-05,,Ordered
+353,629,Blood Test,2024-08-10,,Ordered
+354,635,Allergy Panel,2024-08-08,Mild allergy to peanuts,Completed
+355,645,Biopsy,2024-08-08,Malignant cells detected in sample,Completed
+356,647,Biopsy,2024-08-07,Malignant cells detected in sample,Completed
+357,648,MRI,2024-08-09,,Ordered
+358,654,Allergy Panel,2024-08-08,Positive reaction to pollen and dust mites,Completed
+359,655,X-Ray,2024-08-12,,Ordered
+360,655,Allergy Panel,2024-08-14,No significant allergens detected,Completed
+361,662,Allergy Panel,2024-08-16,Mild allergy to peanuts,Completed
+362,665,Allergy Panel,2024-08-16,Positive reaction to pollen and dust mites,Completed
+363,668,CT Scan,2024-08-14,Normal abdominal and pelvic structures,Completed
+364,670,EKG,2024-08-15,,Ordered
+365,670,Blood Test,2024-08-15,Normal CBC and metabolic panel,Completed
+366,671,MRI,2024-08-14,,Ordered
+367,672,Urine Test,2024-08-14,,Ordered
+368,676,Biopsy,2024-08-18,,Ordered
+369,677,Biopsy,2024-08-15,,Ordered
+370,677,Stool Test,2024-08-18,Positive for bacterial infection,Completed
+371,689,EKG,2024-08-16,Normal sinus rhythm,Completed
+372,689,Biopsy,2024-08-19,Chronic inflammation noted,Completed
+373,692,Ultrasound,2024-08-21,,Ordered
+374,694,Ultrasound,2024-08-21,,Ordered
+375,698,Biopsy,2024-08-19,,Ordered
+376,700,Urine Test,2024-08-20,Signs of urinary tract infection,Completed
+377,700,Stool Test,2024-08-23,Negative for occult blood,Completed
+378,707,X-Ray,2024-08-26,"Lung fields clear, no signs of pneumonia",Completed
+379,707,Ultrasound,2024-08-25,Kidneys appear normal,Completed
+380,709,CT Scan,2024-08-22,,Ordered
+381,712,Allergy Panel,2024-08-23,No significant allergens detected,Completed
+382,713,Stool Test,2024-08-25,Negative for occult blood,Completed
+383,713,CT Scan,2024-08-26,Normal abdominal and pelvic structures,Completed
+384,715,Blood Test,2024-08-26,,Ordered
+385,715,CT Scan,2024-08-22,Normal abdominal and pelvic structures,Completed
+386,719,Ultrasound,2024-08-27,Normal gallbladder and liver,Completed
+387,722,Stool Test,2024-08-28,Positive for bacterial infection,Completed
+388,722,Allergy Panel,2024-08-26,No significant allergens detected,Completed
+389,723,Biopsy,2024-08-28,,Ordered
+390,725,Allergy Panel,2024-08-23,Positive reaction to pollen and dust mites,Completed
+391,730,Ultrasound,2024-08-31,Kidneys appear normal,Completed
+392,730,Allergy Panel,2024-08-30,Positive reaction to pollen and dust mites,Completed
+393,736,Stool Test,2024-08-28,Positive for bacterial infection,Completed
+394,738,Allergy Panel,2024-08-29,,Ordered
+395,739,MRI,2024-08-31,,Ordered
+396,739,Ultrasound,2024-08-30,Ovarian cyst identified on left side,Completed
+397,740,Urine Test,2024-08-31,Signs of urinary tract infection,Completed
+398,740,MRI,2024-08-31,Mild brain atrophy consistent with age,Completed
+399,741,Allergy Panel,2024-08-29,,Ordered
+400,741,MRI,2024-08-29,,Ordered
+401,742,X-Ray,2024-09-01,,Ordered
+402,742,MRI,2024-08-28,No signs of tumor or bleeding,Completed
+403,747,Blood Test,2024-08-31,,Ordered
+404,752,Urine Test,2024-09-03,Presence of protein and ketones,Completed
+405,752,Stool Test,2024-09-02,Positive for bacterial infection,Completed
+406,754,Stool Test,2024-09-01,Positive for bacterial infection,Completed
+407,756,Stool Test,2024-09-04,Normal digestive enzyme levels,Completed
+408,756,Urine Test,2024-08-31,,Ordered
+409,763,Urine Test,2024-09-03,,Ordered
+410,763,Biopsy,2024-09-02,,Ordered
+411,766,Blood Test,2024-09-02,Normal CBC and metabolic panel,Completed
+412,768,Stool Test,2024-09-05,Positive for bacterial infection,Completed
+413,768,CT Scan,2024-09-06,No evidence of internal bleeding,Completed
+414,771,Biopsy,2024-09-08,Malignant cells detected in sample,Completed
+415,773,Urine Test,2024-09-06,Signs of urinary tract infection,Completed
+416,773,Blood Test,2024-09-07,Elevated white cell count indicating infection,Completed
+417,774,EKG,2024-09-07,Normal sinus rhythm,Completed
+418,779,Blood Test,2024-09-06,,Ordered
+419,780,Ultrasound,2024-09-06,,Ordered
+420,780,CT Scan,2024-09-09,Normal abdominal and pelvic structures,Completed
+421,782,MRI,2024-09-04,Small disc herniation at L4-L5,Completed
+422,782,Blood Test,2024-09-04,Low hemoglobin suggesting anemia,Completed
+423,786,Blood Test,2024-09-08,Low hemoglobin suggesting anemia,Completed
+424,786,MRI,2024-09-05,Mild brain atrophy consistent with age,Completed
+425,789,Urine Test,2024-09-08,Presence of protein and ketones,Completed
+426,790,EKG,2024-09-09,,Ordered
+427,791,Allergy Panel,2024-09-06,Positive reaction to pollen and dust mites,Completed
+428,791,Blood Test,2024-09-06,Elevated white cell count indicating infection,Completed
+429,793,Blood Test,2024-09-10,Low hemoglobin suggesting anemia,Completed
+430,793,Ultrasound,2024-09-09,Ovarian cyst identified on left side,Completed
+431,794,MRI,2024-09-11,Mild brain atrophy consistent with age,Completed
+432,798,Urine Test,2024-09-09,Normal urine analysis,Completed
+433,798,Stool Test,2024-09-08,Positive for bacterial infection,Completed
+434,799,EKG,2024-09-13,Normal sinus rhythm,Completed
+435,799,Ultrasound,2024-09-13,Ovarian cyst identified on left side,Completed
+436,800,Biopsy,2024-09-12,,Ordered
+437,800,Blood Test,2024-09-13,Low hemoglobin suggesting anemia,Completed
+438,802,Stool Test,2024-09-14,Normal digestive enzyme levels,Completed
+439,803,Urine Test,2024-09-09,Presence of protein and ketones,Completed
+440,804,Allergy Panel,2024-09-10,Mild allergy to peanuts,Completed
+441,804,Blood Test,2024-09-12,,Ordered
+442,805,CT Scan,2024-09-11,No evidence of internal bleeding,Completed
+443,809,Stool Test,2024-09-12,Negative for occult blood,Completed
+444,809,MRI,2024-09-11,,Ordered
+445,811,X-Ray,2024-09-10,,Ordered
+446,817,EKG,2024-09-15,Mild arrhythmia detected,Completed
+447,817,Ultrasound,2024-09-13,Normal gallbladder and liver,Completed
+448,818,Stool Test,2024-09-15,Negative for occult blood,Completed
+449,819,EKG,2024-09-13,Mild arrhythmia detected,Completed
+450,821,Biopsy,2024-09-13,Malignant cells detected in sample,Completed
+451,822,MRI,2024-09-16,No signs of tumor or bleeding,Completed
+452,822,Blood Test,2024-09-13,Normal CBC and metabolic panel,Completed
+453,825,MRI,2024-09-17,Mild brain atrophy consistent with age,Completed
+454,825,Allergy Panel,2024-09-14,Positive reaction to pollen and dust mites,Completed
+455,829,Ultrasound,2024-09-14,,Ordered
+456,830,MRI,2024-09-14,Mild brain atrophy consistent with age,Completed
+457,830,Biopsy,2024-09-13,"Benign tissue, no malignancy",Completed
+458,832,Allergy Panel,2024-09-14,,Ordered
+459,835,X-Ray,2024-09-13,No fracture or abnormality detected,Completed
+460,835,Blood Test,2024-09-15,Elevated white cell count indicating infection,Completed
+461,836,Blood Test,2024-09-17,,Ordered
+462,837,MRI,2024-09-18,Mild brain atrophy consistent with age,Completed
+463,837,CT Scan,2024-09-21,Normal abdominal and pelvic structures,Completed
+464,838,Urine Test,2024-09-16,,Ordered
+465,838,EKG,2024-09-17,No signs of cardiac ischemia,Completed
+466,839,Urine Test,2024-09-19,Signs of urinary tract infection,Completed
+467,839,Ultrasound,2024-09-17,,Ordered
+468,842,MRI,2024-09-20,Mild brain atrophy consistent with age,Completed
+469,848,Stool Test,2024-09-19,,Ordered
+470,850,Biopsy,2024-09-21,Malignant cells detected in sample,Completed
+471,851,Urine Test,2024-09-21,,Ordered
+472,851,EKG,2024-09-22,,Ordered
+473,855,Blood Test,2024-09-19,,Ordered
+474,855,Urine Test,2024-09-19,,Ordered
+475,859,Biopsy,2024-09-22,"Benign tissue, no malignancy",Completed
+476,859,X-Ray,2024-09-21,,Ordered
+477,863,EKG,2024-09-24,Mild arrhythmia detected,Completed
+478,868,Blood Test,2024-09-22,Elevated white cell count indicating infection,Completed
+479,868,Urine Test,2024-09-20,Signs of urinary tract infection,Completed
+480,870,Ultrasound,2024-09-20,,Ordered
+481,870,MRI,2024-09-23,No signs of tumor or bleeding,Completed
+482,873,CT Scan,2024-09-25,Normal abdominal and pelvic structures,Completed
+483,880,MRI,2024-09-27,No signs of tumor or bleeding,Completed
+484,882,EKG,2024-09-23,Mild arrhythmia detected,Completed
+485,882,Ultrasound,2024-09-27,Normal gallbladder and liver,Completed
+486,883,Biopsy,2024-09-23,Chronic inflammation noted,Completed
+487,885,Ultrasound,2024-09-27,Ovarian cyst identified on left side,Completed
+488,886,Biopsy,2024-09-25,,Ordered
+489,888,Ultrasound,2024-09-25,,Ordered
+490,889,CT Scan,2024-09-27,,Ordered
+491,890,Stool Test,2024-09-25,Normal digestive enzyme levels,Completed
+492,890,Urine Test,2024-09-28,,Ordered
+493,891,Blood Test,2024-09-30,Elevated white cell count indicating infection,Completed
+494,893,MRI,2024-09-29,Mild brain atrophy consistent with age,Completed
+495,894,Blood Test,2024-09-26,Normal CBC and metabolic panel,Completed
+496,894,Ultrasound,2024-09-27,Normal gallbladder and liver,Completed
+497,897,MRI,2024-09-26,,Ordered
+498,898,CT Scan,2024-09-29,Mild sinus inflammation,Completed
+499,900,MRI,2024-09-26,,Ordered
+500,900,Allergy Panel,2024-09-26,Mild allergy to peanuts,Completed
+501,903,MRI,2024-09-30,,Ordered
+502,904,Stool Test,2024-09-27,Positive for bacterial infection,Completed
+503,904,MRI,2024-09-26,Mild brain atrophy consistent with age,Completed
+504,911,Stool Test,2024-10-02,Positive for bacterial infection,Completed
+505,913,Biopsy,2024-10-04,"Benign tissue, no malignancy",Completed
+506,915,Allergy Panel,2024-10-02,No significant allergens detected,Completed
+507,915,Stool Test,2024-10-02,Positive for bacterial infection,Completed
+508,916,Ultrasound,2024-10-03,Normal gallbladder and liver,Completed
+509,918,Stool Test,2024-10-03,Normal digestive enzyme levels,Completed
+510,918,Blood Test,2024-10-02,,Ordered
+511,919,CT Scan,2024-10-01,No evidence of internal bleeding,Completed
+512,924,MRI,2024-10-01,Small disc herniation at L4-L5,Completed
+513,927,CT Scan,2024-10-07,No evidence of internal bleeding,Completed
+514,929,X-Ray,2024-10-04,,Ordered
+515,929,Urine Test,2024-10-02,Signs of urinary tract infection,Completed
+516,941,Urine Test,2024-10-06,Signs of urinary tract infection,Completed
+517,941,EKG,2024-10-07,Normal sinus rhythm,Completed
+518,946,Blood Test,2024-10-06,Low hemoglobin suggesting anemia,Completed
+519,946,Allergy Panel,2024-10-07,,Ordered
+520,947,MRI,2024-10-09,Small disc herniation at L4-L5,Completed
+521,947,Ultrasound,2024-10-11,Normal gallbladder and liver,Completed
+522,948,MRI,2024-10-11,Mild brain atrophy consistent with age,Completed
+523,948,Blood Test,2024-10-11,Elevated white cell count indicating infection,Completed
+524,950,Urine Test,2024-10-12,Normal urine analysis,Completed
+525,952,Urine Test,2024-10-11,Normal urine analysis,Completed
+526,952,MRI,2024-10-08,,Ordered
+527,956,Biopsy,2024-10-11,"Benign tissue, no malignancy",Completed
+528,956,EKG,2024-10-10,No signs of cardiac ischemia,Completed
+529,964,X-Ray,2024-10-13,No fracture or abnormality detected,Completed
+530,964,CT Scan,2024-10-12,No evidence of internal bleeding,Completed
+531,967,Allergy Panel,2024-10-14,Mild allergy to peanuts,Completed
+532,967,CT Scan,2024-10-11,Mild sinus inflammation,Completed
+533,969,MRI,2024-10-12,,Ordered
+534,969,Stool Test,2024-10-12,,Ordered
+535,982,Urine Test,2024-10-16,Normal urine analysis,Completed
+536,984,Blood Test,2024-10-11,,Ordered
+537,984,Biopsy,2024-10-14,,Ordered
+538,997,Stool Test,2024-10-20,Negative for occult blood,Completed
+539,997,Urine Test,2024-10-18,Presence of protein and ketones,Completed
+540,1002,MRI,2024-10-18,Small disc herniation at L4-L5,Completed
+541,1002,CT Scan,2024-10-18,Mild sinus inflammation,Completed
+542,1007,MRI,2024-10-20,,Ordered
+543,1007,CT Scan,2024-10-19,Normal abdominal and pelvic structures,Completed
+544,1009,Stool Test,2024-10-19,Normal digestive enzyme levels,Completed
+545,1009,Blood Test,2024-10-19,,Ordered
+546,1010,MRI,2024-10-20,Small disc herniation at L4-L5,Completed
+547,1012,Biopsy,2024-10-20,,Ordered
+548,1012,CT Scan,2024-10-20,Normal abdominal and pelvic structures,Completed
+549,1013,X-Ray,2024-10-17,Mild osteoarthritis in left knee,Completed
+550,1013,Blood Test,2024-10-21,Low hemoglobin suggesting anemia,Completed
+551,1016,X-Ray,2024-10-19,"Lung fields clear, no signs of pneumonia",Completed
+552,1016,Blood Test,2024-10-19,,Ordered
+553,1021,Ultrasound,2024-10-22,Normal gallbladder and liver,Completed
+554,1023,X-Ray,2024-10-20,,Ordered
+555,1023,CT Scan,2024-10-18,,Ordered
+556,1025,X-Ray,2024-10-19,"Lung fields clear, no signs of pneumonia",Completed
+557,1028,X-Ray,2024-10-21,No fracture or abnormality detected,Completed
+558,1028,EKG,2024-10-23,Mild arrhythmia detected,Completed
+559,1034,Urine Test,2024-10-26,,Ordered
+560,1034,CT Scan,2024-10-26,,Ordered
+561,1039,Stool Test,2024-10-26,Normal digestive enzyme levels,Completed
+562,1041,EKG,2024-10-25,Mild arrhythmia detected,Completed
+563,1041,Blood Test,2024-10-28,Normal CBC and metabolic panel,Completed
+564,1043,CT Scan,2024-10-26,No evidence of internal bleeding,Completed
+565,1044,MRI,2024-10-28,No signs of tumor or bleeding,Completed
+566,1044,Allergy Panel,2024-10-28,,Ordered
+567,1045,Allergy Panel,2024-10-29,Positive reaction to pollen and dust mites,Completed
+568,1047,CT Scan,2024-10-27,Mild sinus inflammation,Completed
+569,1051,Allergy Panel,2024-10-27,Positive reaction to pollen and dust mites,Completed
+570,1051,CT Scan,2024-10-25,Mild sinus inflammation,Completed
+571,1053,Stool Test,2024-10-26,Positive for bacterial infection,Completed
+572,1053,Ultrasound,2024-10-27,Normal gallbladder and liver,Completed
+573,1054,Blood Test,2024-10-28,Low hemoglobin suggesting anemia,Completed
+574,1054,Ultrasound,2024-10-26,Ovarian cyst identified on left side,Completed
+575,1056,Ultrasound,2024-10-27,Kidneys appear normal,Completed
+576,1056,Biopsy,2024-10-28,"Benign tissue, no malignancy",Completed
+577,1059,CT Scan,2024-10-28,,Ordered
+578,1059,MRI,2024-11-01,Mild brain atrophy consistent with age,Completed
+579,1067,CT Scan,2024-10-29,,Ordered
+580,1067,EKG,2024-11-01,Normal sinus rhythm,Completed
+581,1068,Urine Test,2024-11-03,,Ordered
+582,1071,Stool Test,2024-10-31,Positive for bacterial infection,Completed
+583,1072,Ultrasound,2024-11-01,,Ordered
+584,1072,MRI,2024-11-01,Mild brain atrophy consistent with age,Completed
+585,1073,Urine Test,2024-10-31,Presence of protein and ketones,Completed
+586,1073,Stool Test,2024-11-04,Normal digestive enzyme levels,Completed
+587,1074,MRI,2024-11-04,Mild brain atrophy consistent with age,Completed
+588,1074,Allergy Panel,2024-11-04,,Ordered
+589,1077,Ultrasound,2024-11-03,Kidneys appear normal,Completed
+590,1078,Ultrasound,2024-11-03,Normal gallbladder and liver,Completed
+591,1082,CT Scan,2024-11-01,Normal abdominal and pelvic structures,Completed
+592,1083,Ultrasound,2024-11-05,Ovarian cyst identified on left side,Completed
+593,1083,EKG,2024-11-02,No signs of cardiac ischemia,Completed
+594,1088,Biopsy,2024-11-04,"Benign tissue, no malignancy",Completed
+595,1088,Blood Test,2024-11-04,Elevated white cell count indicating infection,Completed
+596,1091,Allergy Panel,2024-11-09,,Ordered
+597,1092,Ultrasound,2024-11-07,Kidneys appear normal,Completed
+598,1098,X-Ray,2024-11-09,No fracture or abnormality detected,Completed
+599,1100,Ultrasound,2024-11-05,Normal gallbladder and liver,Completed
+600,1100,Blood Test,2024-11-08,Normal CBC and metabolic panel,Completed
+601,1101,EKG,2024-11-08,Mild arrhythmia detected,Completed
+602,1101,MRI,2024-11-06,,Ordered
+603,1102,X-Ray,2024-11-07,"Lung fields clear, no signs of pneumonia",Completed
+604,1106,CT Scan,2024-11-09,Mild sinus inflammation,Completed
+605,1106,Biopsy,2024-11-10,"Benign tissue, no malignancy",Completed
+606,1108,MRI,2024-11-11,Mild brain atrophy consistent with age,Completed
+607,1108,Blood Test,2024-11-12,,Ordered
+608,1109,Allergy Panel,2024-11-07,,Ordered
+609,1109,EKG,2024-11-11,Mild arrhythmia detected,Completed
+610,1110,EKG,2024-11-07,Normal sinus rhythm,Completed
+611,1113,X-Ray,2024-11-12,"Lung fields clear, no signs of pneumonia",Completed
+612,1113,EKG,2024-11-07,Mild arrhythmia detected,Completed
+613,1115,X-Ray,2024-11-07,,Ordered
+614,1115,Urine Test,2024-11-09,,Ordered
+615,1118,CT Scan,2024-11-08,,Ordered
+616,1118,EKG,2024-11-08,Normal sinus rhythm,Completed
+617,1125,CT Scan,2024-11-14,Mild sinus inflammation,Completed
+618,1129,Allergy Panel,2024-11-14,,Ordered
+619,1129,Urine Test,2024-11-17,Signs of urinary tract infection,Completed
+620,1132,Urine Test,2024-11-13,Signs of urinary tract infection,Completed
+621,1132,MRI,2024-11-12,Small disc herniation at L4-L5,Completed
+622,1136,Urine Test,2024-11-14,Presence of protein and ketones,Completed
+623,1138,Ultrasound,2024-11-13,Kidneys appear normal,Completed
+624,1139,Ultrasound,2024-11-14,,Ordered
+625,1141,Urine Test,2024-11-18,,Ordered
+626,1141,Biopsy,2024-11-14,,Ordered
+627,1143,Ultrasound,2024-11-17,Ovarian cyst identified on left side,Completed
+628,1145,Biopsy,2024-11-16,Chronic inflammation noted,Completed
+629,1145,EKG,2024-11-16,No signs of cardiac ischemia,Completed
+630,1146,EKG,2024-11-19,Mild arrhythmia detected,Completed
+631,1146,Ultrasound,2024-11-16,Kidneys appear normal,Completed
+632,1149,MRI,2024-11-19,Mild brain atrophy consistent with age,Completed
+633,1151,Blood Test,2024-11-18,,Ordered
+634,1153,Allergy Panel,2024-11-19,No significant allergens detected,Completed
+635,1153,Blood Test,2024-11-18,Low hemoglobin suggesting anemia,Completed
+636,1156,Biopsy,2024-11-19,,Ordered
+637,1160,X-Ray,2024-11-20,Mild osteoarthritis in left knee,Completed
+638,1165,EKG,2024-11-23,,Ordered
+639,1165,Allergy Panel,2024-11-20,Mild allergy to peanuts,Completed
+640,1166,Stool Test,2024-11-19,Positive for bacterial infection,Completed
+641,1168,Biopsy,2024-11-24,,Ordered
+642,1169,MRI,2024-11-23,,Ordered
+643,1171,X-Ray,2024-11-23,,Ordered
+644,1171,CT Scan,2024-11-24,,Ordered
+645,1172,Stool Test,2024-11-22,Negative for occult blood,Completed
+646,1172,Ultrasound,2024-11-25,,Ordered
+647,1173,Biopsy,2024-11-25,Chronic inflammation noted,Completed
+648,1173,Blood Test,2024-11-20,Normal CBC and metabolic panel,Completed
+649,1175,Urine Test,2024-11-23,Normal urine analysis,Completed
+650,1176,MRI,2024-11-25,Small disc herniation at L4-L5,Completed
+651,1177,Allergy Panel,2024-11-23,,Ordered
+652,1179,Ultrasound,2024-11-23,,Ordered
+653,1180,MRI,2024-11-23,Mild brain atrophy consistent with age,Completed
+654,1182,MRI,2024-11-23,,Ordered
+655,1182,Blood Test,2024-11-26,,Ordered
+656,1184,MRI,2024-11-25,,Ordered
+657,1184,Urine Test,2024-11-24,Signs of urinary tract infection,Completed
+658,1185,EKG,2024-11-24,No signs of cardiac ischemia,Completed
+659,1186,Ultrasound,2024-11-22,Kidneys appear normal,Completed
+660,1186,MRI,2024-11-25,Small disc herniation at L4-L5,Completed
+661,1188,Urine Test,2024-11-27,Normal urine analysis,Completed
+662,1188,Stool Test,2024-11-22,Normal digestive enzyme levels,Completed
+663,1190,Stool Test,2024-11-26,Normal digestive enzyme levels,Completed
+664,1191,Biopsy,2024-11-26,Malignant cells detected in sample,Completed
+665,1195,Ultrasound,2024-11-29,,Ordered
+666,1197,Biopsy,2024-11-26,Chronic inflammation noted,Completed
+667,1198,EKG,2024-11-25,,Ordered
+668,1206,MRI,2024-11-30,Small disc herniation at L4-L5,Completed
+669,1206,Blood Test,2024-11-28,Normal CBC and metabolic panel,Completed
+670,1209,Allergy Panel,2024-11-29,Mild allergy to peanuts,Completed
+671,1209,X-Ray,2024-11-27,"Lung fields clear, no signs of pneumonia",Completed
+672,1212,CT Scan,2024-11-30,,Ordered
+673,1212,Ultrasound,2024-11-28,Normal gallbladder and liver,Completed
+674,1214,Blood Test,2024-12-03,,Ordered
+675,1214,EKG,2024-11-28,Mild arrhythmia detected,Completed
+676,1215,Ultrasound,2024-11-29,,Ordered
+677,1215,X-Ray,2024-12-03,"Lung fields clear, no signs of pneumonia",Completed
+678,1219,Allergy Panel,2024-11-30,,Ordered
+679,1220,Allergy Panel,2024-12-01,,Ordered
+680,1224,Biopsy,2024-11-29,,Ordered
+681,1224,MRI,2024-12-01,,Ordered
+682,1225,MRI,2024-12-04,Mild brain atrophy consistent with age,Completed
+683,1225,EKG,2024-12-03,Mild arrhythmia detected,Completed
+684,1226,EKG,2024-12-06,Normal sinus rhythm,Completed
+685,1226,Urine Test,2024-12-02,Signs of urinary tract infection,Completed
+686,1228,Biopsy,2024-12-06,Malignant cells detected in sample,Completed
+687,1234,MRI,2024-12-04,No signs of tumor or bleeding,Completed
+688,1236,Stool Test,2024-12-05,Positive for bacterial infection,Completed
+689,1236,MRI,2024-12-08,Mild brain atrophy consistent with age,Completed
+690,1237,EKG,2024-12-08,,Ordered
+691,1237,MRI,2024-12-07,No signs of tumor or bleeding,Completed
+692,1240,Biopsy,2024-12-06,Chronic inflammation noted,Completed
+693,1243,Ultrasound,2024-12-05,Kidneys appear normal,Completed
+694,1243,Biopsy,2024-12-08,,Ordered
+695,1244,Stool Test,2024-12-08,,Ordered
+696,1244,Ultrasound,2024-12-08,,Ordered
+697,1246,Urine Test,2024-12-09,Normal urine analysis,Completed
+698,1247,Blood Test,2024-12-07,Elevated white cell count indicating infection,Completed
+699,1248,Allergy Panel,2024-12-07,Mild allergy to peanuts,Completed
+700,1248,Biopsy,2024-12-05,"Benign tissue, no malignancy",Completed
+701,1251,EKG,2024-12-07,,Ordered
+702,1253,Ultrasound,2024-12-06,Kidneys appear normal,Completed
+703,1255,X-Ray,2024-12-07,No fracture or abnormality detected,Completed
+704,1257,Biopsy,2024-12-07,"Benign tissue, no malignancy",Completed
+705,1257,Urine Test,2024-12-06,Normal urine analysis,Completed
+706,1263,EKG,2024-12-13,,Ordered
+707,1263,CT Scan,2024-12-10,,Ordered
+708,1264,Blood Test,2024-12-10,Normal CBC and metabolic panel,Completed
+709,1265,EKG,2024-12-12,,Ordered
+710,1265,Blood Test,2024-12-09,,Ordered
+711,1266,Ultrasound,2024-12-12,,Ordered
+712,1268,Urine Test,2024-12-13,Normal urine analysis,Completed
+713,1268,Stool Test,2024-12-14,Negative for occult blood,Completed
+714,1269,Stool Test,2024-12-10,,Ordered
+715,1273,Stool Test,2024-12-13,Normal digestive enzyme levels,Completed
+716,1273,Urine Test,2024-12-13,Signs of urinary tract infection,Completed
+717,1277,Blood Test,2024-12-16,Normal CBC and metabolic panel,Completed
+718,1277,Allergy Panel,2024-12-13,Positive reaction to pollen and dust mites,Completed
+719,1281,Ultrasound,2024-12-11,,Ordered
+720,1281,Stool Test,2024-12-13,,Ordered
+721,1283,MRI,2024-12-15,Mild brain atrophy consistent with age,Completed
+722,1283,Urine Test,2024-12-13,,Ordered
+723,1284,EKG,2024-12-13,Normal sinus rhythm,Completed
+724,1284,Biopsy,2024-12-14,Chronic inflammation noted,Completed
+725,1285,Urine Test,2024-12-14,Presence of protein and ketones,Completed
+726,1285,Allergy Panel,2024-12-12,,Ordered
+727,1288,Allergy Panel,2024-12-14,,Ordered
+728,1289,Blood Test,2024-12-16,Elevated white cell count indicating infection,Completed
+729,1289,CT Scan,2024-12-16,,Ordered
+730,1291,Urine Test,2024-12-14,,Ordered
+731,1291,CT Scan,2024-12-17,Normal abdominal and pelvic structures,Completed
+732,1296,Allergy Panel,2024-12-18,,Ordered
+733,1296,MRI,2024-12-13,Mild brain atrophy consistent with age,Completed
+734,1298,Urine Test,2024-12-16,Normal urine analysis,Completed
+735,1298,CT Scan,2024-12-14,,Ordered
+736,1304,CT Scan,2024-12-21,Normal abdominal and pelvic structures,Completed
+737,1306,MRI,2024-12-18,Mild brain atrophy consistent with age,Completed
+738,1308,EKG,2024-12-21,,Ordered
+739,1309,MRI,2024-12-18,No signs of tumor or bleeding,Completed
+740,1311,CT Scan,2024-12-22,,Ordered
+741,1313,Ultrasound,2024-12-19,Normal gallbladder and liver,Completed
+742,1313,X-Ray,2024-12-21,No fracture or abnormality detected,Completed
+743,1315,X-Ray,2024-12-24,,Ordered
+744,1316,Allergy Panel,2024-12-20,,Ordered
+745,1321,Ultrasound,2024-12-20,Kidneys appear normal,Completed
+746,1321,CT Scan,2024-12-25,Normal abdominal and pelvic structures,Completed
+747,1325,Blood Test,2024-12-22,,Ordered
+748,1325,MRI,2024-12-21,Mild brain atrophy consistent with age,Completed
+749,1331,X-Ray,2024-12-24,,Ordered
+750,1333,Allergy Panel,2024-12-24,,Ordered
+751,1333,Biopsy,2024-12-26,Chronic inflammation noted,Completed
+752,1335,Ultrasound,2024-12-24,Kidneys appear normal,Completed
+753,1336,CT Scan,2024-12-27,No evidence of internal bleeding,Completed
+754,1336,Blood Test,2024-12-27,Low hemoglobin suggesting anemia,Completed
+755,1338,Blood Test,2024-12-29,Low hemoglobin suggesting anemia,Completed
+756,1338,X-Ray,2024-12-27,"Lung fields clear, no signs of pneumonia",Completed
+757,1341,EKG,2024-12-25,Mild arrhythmia detected,Completed
+758,1342,Urine Test,2024-12-28,Normal urine analysis,Completed
+759,1342,MRI,2024-12-30,Small disc herniation at L4-L5,Completed
+760,1346,X-Ray,2024-12-28,No fracture or abnormality detected,Completed
+761,1349,EKG,2024-12-25,Normal sinus rhythm,Completed
+762,1353,Biopsy,2024-12-29,"Benign tissue, no malignancy",Completed
+763,1354,CT Scan,2024-12-29,No evidence of internal bleeding,Completed
+764,1355,MRI,2024-12-27,Small disc herniation at L4-L5,Completed
+765,1355,Urine Test,2024-12-26,Normal urine analysis,Completed
+766,1360,Ultrasound,2024-12-30,,Ordered
+767,1360,Urine Test,2024-12-28,Normal urine analysis,Completed
+768,1361,Biopsy,2024-12-29,Chronic inflammation noted,Completed
+769,1362,MRI,2025-01-01,Mild brain atrophy consistent with age,Completed
+770,1362,Blood Test,2024-12-28,,Ordered
+771,1363,Ultrasound,2024-12-29,Ovarian cyst identified on left side,Completed
+772,1367,Allergy Panel,2024-12-30,No significant allergens detected,Completed
+773,1369,CT Scan,2024-12-31,No evidence of internal bleeding,Completed
+774,1369,Biopsy,2025-01-01,"Benign tissue, no malignancy",Completed
+775,1378,Blood Test,2025-01-05,Low hemoglobin suggesting anemia,Completed
+776,1379,EKG,2025-01-01,No signs of cardiac ischemia,Completed
+777,1379,Blood Test,2025-01-06,Normal CBC and metabolic panel,Completed
+778,1383,Ultrasound,2025-01-02,Kidneys appear normal,Completed
+779,1384,EKG,2025-01-01,Normal sinus rhythm,Completed
+780,1384,Biopsy,2025-01-03,Chronic inflammation noted,Completed
+781,1386,CT Scan,2025-01-05,,Ordered
+782,1386,MRI,2025-01-05,Small disc herniation at L4-L5,Completed
+783,1392,CT Scan,2025-01-04,,Ordered
+784,1392,Allergy Panel,2025-01-05,,Ordered
+785,1398,Stool Test,2025-01-06,,Ordered
+786,1399,Biopsy,2025-01-07,"Benign tissue, no malignancy",Completed
+787,1399,Stool Test,2025-01-03,Negative for occult blood,Completed
+788,1403,CT Scan,2025-01-09,,Ordered
+789,1409,Stool Test,2025-01-10,Normal digestive enzyme levels,Completed
+790,1409,Allergy Panel,2025-01-08,No significant allergens detected,Completed
+791,1411,X-Ray,2025-01-07,,Ordered
+792,1412,Stool Test,2025-01-10,Normal digestive enzyme levels,Completed
+793,1412,EKG,2025-01-12,No signs of cardiac ischemia,Completed
+794,1415,Biopsy,2025-01-11,,Ordered
+795,1415,Blood Test,2025-01-10,Elevated white cell count indicating infection,Completed
+796,1416,CT Scan,2025-01-08,Mild sinus inflammation,Completed
+797,1419,Urine Test,2025-01-12,Normal urine analysis,Completed
+798,1420,Blood Test,2025-01-08,Low hemoglobin suggesting anemia,Completed
+799,1422,EKG,2025-01-10,Normal sinus rhythm,Completed
+800,1423,Ultrasound,2025-01-11,,Ordered
+801,1431,EKG,2025-01-12,Mild arrhythmia detected,Completed
+802,1432,X-Ray,2025-01-14,,Ordered
+803,1433,Biopsy,2025-01-13,Chronic inflammation noted,Completed
+804,1435,Ultrasound,2025-01-14,Kidneys appear normal,Completed
+805,1436,CT Scan,2025-01-15,Mild sinus inflammation,Completed
+806,1436,Biopsy,2025-01-18,"Benign tissue, no malignancy",Completed
+807,1441,Allergy Panel,2025-01-14,No significant allergens detected,Completed
+808,1443,CT Scan,2025-01-15,Mild sinus inflammation,Completed
+809,1446,Ultrasound,2025-01-17,Normal gallbladder and liver,Completed
+810,1446,Allergy Panel,2025-01-16,Positive reaction to pollen and dust mites,Completed
+811,1456,CT Scan,2025-01-17,,Ordered
+812,1456,Blood Test,2025-01-21,Low hemoglobin suggesting anemia,Completed
+813,1457,Allergy Panel,2025-01-17,,Ordered
+814,1457,Urine Test,2025-01-18,Signs of urinary tract infection,Completed
+815,1460,Allergy Panel,2025-01-17,No significant allergens detected,Completed
+816,1460,MRI,2025-01-17,Mild brain atrophy consistent with age,Completed
+817,1461,Biopsy,2025-01-18,Malignant cells detected in sample,Completed
+818,1462,X-Ray,2025-01-20,,Ordered
+819,1462,CT Scan,2025-01-21,Normal abdominal and pelvic structures,Completed
+820,1464,EKG,2025-01-23,Mild arrhythmia detected,Completed
+821,1464,MRI,2025-01-23,No signs of tumor or bleeding,Completed
+822,1465,X-Ray,2025-01-23,Mild osteoarthritis in left knee,Completed
+823,1465,Blood Test,2025-01-20,Low hemoglobin suggesting anemia,Completed
+824,1469,Biopsy,2025-01-22,Malignant cells detected in sample,Completed
+825,1484,EKG,2025-01-24,Normal sinus rhythm,Completed
+826,1484,Urine Test,2025-01-25,Presence of protein and ketones,Completed
+827,1485,Urine Test,2025-01-23,Normal urine analysis,Completed
+828,1485,Blood Test,2025-01-23,Normal CBC and metabolic panel,Completed
+829,1487,Ultrasound,2025-01-24,Kidneys appear normal,Completed
+830,1487,MRI,2025-01-22,,Ordered
+831,1490,Blood Test,2025-01-28,,Ordered
+832,1497,Blood Test,2025-01-24,,Ordered
+833,1499,Ultrasound,2025-01-26,,Ordered
+834,1500,Biopsy,2025-01-24,"Benign tissue, no malignancy",Completed
+835,1500,X-Ray,2025-01-28,No fracture or abnormality detected,Completed
+836,1501,CT Scan,2025-01-29,Normal abdominal and pelvic structures,Completed
+837,1501,MRI,2025-01-27,Small disc herniation at L4-L5,Completed
+838,1502,Urine Test,2025-01-29,Presence of protein and ketones,Completed
+839,1502,X-Ray,2025-01-28,Mild osteoarthritis in left knee,Completed
+840,1503,Allergy Panel,2025-01-29,,Ordered
+841,1504,CT Scan,2025-01-28,Mild sinus inflammation,Completed
+842,1504,Blood Test,2025-01-28,Low hemoglobin suggesting anemia,Completed
+843,1507,X-Ray,2025-01-29,"Lung fields clear, no signs of pneumonia",Completed
+844,1507,EKG,2025-01-29,,Ordered
+845,1509,CT Scan,2025-02-01,No evidence of internal bleeding,Completed
+846,1509,Urine Test,2025-02-01,Normal urine analysis,Completed
+847,1511,Blood Test,2025-01-27,Low hemoglobin suggesting anemia,Completed
+848,1513,CT Scan,2025-01-29,No evidence of internal bleeding,Completed
+849,1514,Biopsy,2025-02-01,Chronic inflammation noted,Completed
+850,1515,EKG,2025-01-30,Normal sinus rhythm,Completed
+851,1515,CT Scan,2025-01-30,Mild sinus inflammation,Completed
+852,1517,Biopsy,2025-01-29,Malignant cells detected in sample,Completed
+853,1521,Allergy Panel,2025-01-30,Mild allergy to peanuts,Completed
+854,1530,EKG,2025-02-03,Normal sinus rhythm,Completed
+855,1530,Urine Test,2025-02-04,Signs of urinary tract infection,Completed
+856,1532,CT Scan,2025-02-02,Mild sinus inflammation,Completed
+857,1532,Ultrasound,2025-02-02,,Ordered
+858,1534,CT Scan,2025-02-06,No evidence of internal bleeding,Completed
+859,1539,Urine Test,2025-02-08,,Ordered
+860,1539,X-Ray,2025-02-08,"Lung fields clear, no signs of pneumonia",Completed
+861,1540,EKG,2025-02-06,,Ordered
+862,1544,X-Ray,2025-02-05,,Ordered
+863,1546,Biopsy,2025-02-06,,Ordered
+864,1546,Stool Test,2025-02-08,Normal digestive enzyme levels,Completed
+865,1550,Blood Test,2025-02-09,,Ordered
+866,1550,X-Ray,2025-02-05,"Lung fields clear, no signs of pneumonia",Completed
+867,1554,Allergy Panel,2025-02-08,,Ordered
+868,1558,CT Scan,2025-02-08,Mild sinus inflammation,Completed
+869,1559,CT Scan,2025-02-06,No evidence of internal bleeding,Completed
+870,1559,Biopsy,2025-02-11,,Ordered
+871,1561,EKG,2025-02-06,,Ordered
+872,1562,Stool Test,2025-02-10,,Ordered
+873,1565,Blood Test,2025-02-08,,Ordered
+874,1568,Ultrasound,2025-02-12,,Ordered
+875,1569,Ultrasound,2025-02-12,Kidneys appear normal,Completed
+876,1575,CT Scan,2025-02-10,,Ordered
+877,1579,Allergy Panel,2025-02-16,,Ordered
+878,1579,Biopsy,2025-02-16,,Ordered
+879,1580,Urine Test,2025-02-14,Normal urine analysis,Completed
+880,1580,EKG,2025-02-13,,Ordered
+881,1591,MRI,2025-02-12,No signs of tumor or bleeding,Completed
+882,1591,Blood Test,2025-02-16,Normal CBC and metabolic panel,Completed
+883,1595,Allergy Panel,2025-02-18,,Ordered
+884,1599,CT Scan,2025-02-13,No evidence of internal bleeding,Completed
+885,1599,MRI,2025-02-13,,Ordered
+886,1600,Allergy Panel,2025-02-16,Mild allergy to peanuts,Completed
+887,1600,Blood Test,2025-02-18,Normal CBC and metabolic panel,Completed
+888,1601,MRI,2025-02-15,Mild brain atrophy consistent with age,Completed
+889,1602,MRI,2025-02-14,Mild brain atrophy consistent with age,Completed
+890,1603,Blood Test,2025-02-19,Elevated white cell count indicating infection,Completed
+891,1604,Stool Test,2025-02-16,Negative for occult blood,Completed
+892,1604,Biopsy,2025-02-18,,Ordered
+893,1605,EKG,2025-02-14,,Ordered
+894,1607,X-Ray,2025-02-16,,Ordered
+895,1607,Biopsy,2025-02-19,Chronic inflammation noted,Completed
+896,1610,CT Scan,2025-02-18,,Ordered
+897,1610,X-Ray,2025-02-18,Mild osteoarthritis in left knee,Completed
+898,1612,Blood Test,2025-02-19,,Ordered
+899,1612,Ultrasound,2025-02-21,Kidneys appear normal,Completed
+900,1614,CT Scan,2025-02-18,,Ordered
+901,1616,Allergy Panel,2025-02-19,Positive reaction to pollen and dust mites,Completed
+902,1620,Blood Test,2025-02-19,Low hemoglobin suggesting anemia,Completed
+903,1620,Ultrasound,2025-02-22,,Ordered
+904,1626,CT Scan,2025-02-19,Mild sinus inflammation,Completed
+905,1626,Biopsy,2025-02-23,Chronic inflammation noted,Completed
+906,1629,Allergy Panel,2025-02-20,No significant allergens detected,Completed
+907,1630,Blood Test,2025-02-19,Low hemoglobin suggesting anemia,Completed
+908,1632,Blood Test,2025-02-20,Elevated white cell count indicating infection,Completed
+909,1639,Ultrasound,2025-02-23,,Ordered
+910,1641,CT Scan,2025-02-22,Normal abdominal and pelvic structures,Completed
+911,1646,CT Scan,2025-02-25,,Ordered
+912,1648,Blood Test,2025-03-01,Low hemoglobin suggesting anemia,Completed
+913,1662,Blood Test,2025-03-02,,Ordered
+914,1664,MRI,2025-03-02,,Ordered
+915,1664,Blood Test,2025-02-26,Elevated white cell count indicating infection,Completed
+916,1667,Allergy Panel,2025-02-27,No significant allergens detected,Completed
+917,1668,MRI,2025-03-01,,Ordered
+918,1669,X-Ray,2025-02-27,No fracture or abnormality detected,Completed
+919,1669,EKG,2025-02-27,,Ordered
+920,1675,Ultrasound,2025-02-27,Kidneys appear normal,Completed
+921,1679,Biopsy,2025-03-03,,Ordered
+922,1680,Biopsy,2025-03-05,Chronic inflammation noted,Completed
+923,1688,X-Ray,2025-03-04,No fracture or abnormality detected,Completed
+924,1688,Blood Test,2025-03-06,Normal CBC and metabolic panel,Completed
+925,1689,Ultrasound,2025-03-05,Normal gallbladder and liver,Completed
+926,1691,EKG,2025-03-04,Mild arrhythmia detected,Completed
+927,1696,Urine Test,2025-03-04,Presence of protein and ketones,Completed
+928,1697,MRI,2025-03-05,No signs of tumor or bleeding,Completed
+929,1697,Urine Test,2025-03-04,Signs of urinary tract infection,Completed
+930,1702,Blood Test,2025-03-06,,Ordered
+931,1703,X-Ray,2025-03-09,"Lung fields clear, no signs of pneumonia",Completed
+932,1703,Biopsy,2025-03-09,"Benign tissue, no malignancy",Completed
+933,1705,MRI,2025-03-07,Small disc herniation at L4-L5,Completed
+934,1707,Urine Test,2025-03-07,Signs of urinary tract infection,Completed
+935,1707,MRI,2025-03-11,,Ordered
+936,1708,EKG,2025-03-10,No signs of cardiac ischemia,Completed
+937,1710,EKG,2025-03-09,,Ordered
+938,1710,MRI,2025-03-10,Small disc herniation at L4-L5,Completed
+939,1713,Stool Test,2025-03-07,Negative for occult blood,Completed
+940,1715,Urine Test,2025-03-09,,Ordered
+941,1718,EKG,2025-03-12,Normal sinus rhythm,Completed
+942,1721,Urine Test,2025-03-12,,Ordered
+943,1721,Blood Test,2025-03-12,Low hemoglobin suggesting anemia,Completed
+944,1724,MRI,2025-03-11,Small disc herniation at L4-L5,Completed
+945,1724,EKG,2025-03-14,No signs of cardiac ischemia,Completed
+946,1731,X-Ray,2025-03-16,,Ordered
+947,1733,Urine Test,2025-03-15,Signs of urinary tract infection,Completed
+948,1735,Blood Test,2025-03-14,Elevated white cell count indicating infection,Completed
+949,1735,Biopsy,2025-03-11,,Ordered
+950,1736,Ultrasound,2025-03-16,Ovarian cyst identified on left side,Completed
+951,1737,Biopsy,2025-03-14,,Ordered
+952,1737,Allergy Panel,2025-03-12,Positive reaction to pollen and dust mites,Completed
+953,1741,Stool Test,2025-03-13,,Ordered
+954,1741,Allergy Panel,2025-03-12,Mild allergy to peanuts,Completed
+955,1748,X-Ray,2025-03-18,Mild osteoarthritis in left knee,Completed
+956,1752,EKG,2025-03-14,Mild arrhythmia detected,Completed
+957,1754,MRI,2025-03-19,,Ordered
+958,1756,MRI,2025-03-16,Small disc herniation at L4-L5,Completed
+959,1756,X-Ray,2025-03-14,,Ordered
+960,1757,Ultrasound,2025-03-19,Kidneys appear normal,Completed
+961,1757,X-Ray,2025-03-18,"Lung fields clear, no signs of pneumonia",Completed
+962,1762,X-Ray,2025-03-19,,Ordered
+963,1763,Stool Test,2025-03-22,,Ordered
+964,1763,Ultrasound,2025-03-21,Normal gallbladder and liver,Completed
+965,1766,MRI,2025-03-20,,Ordered
+966,1766,CT Scan,2025-03-22,Normal abdominal and pelvic structures,Completed
+967,1767,MRI,2025-03-23,,Ordered
+968,1771,X-Ray,2025-03-19,Mild osteoarthritis in left knee,Completed
+969,1779,CT Scan,2025-03-23,,Ordered
+970,1785,Urine Test,2025-03-24,Signs of urinary tract infection,Completed
+971,1786,Biopsy,2025-03-21,,Ordered
+972,1787,Ultrasound,2025-03-26,Kidneys appear normal,Completed
+973,1787,Urine Test,2025-03-22,Presence of protein and ketones,Completed
+974,1791,Biopsy,2025-03-25,Malignant cells detected in sample,Completed
+975,1791,Allergy Panel,2025-03-22,Positive reaction to pollen and dust mites,Completed
+976,1792,Ultrasound,2025-03-22,,Ordered
+977,1793,Biopsy,2025-03-21,,Ordered
+978,1793,Stool Test,2025-03-26,,Ordered
+979,1794,CT Scan,2025-03-22,Mild sinus inflammation,Completed

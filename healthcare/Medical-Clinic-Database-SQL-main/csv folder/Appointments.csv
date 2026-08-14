@@ -1,0 +1,1795 @@
+AppointmentID,PatientID,MedStaffID,AppointmentDate,AppointmentTime,VisitType,Status,Notes
+1,45,36,2024-03-25,9:00,Checkup,Completed,Addressed side effects from current medication.
+2,139,32,2024-03-25,8:30,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+3,32,16,2024-03-25,14:45,Consultation,Cancelled,Addressed side effects from current medication.
+4,150,12,2024-03-25,11:00,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+5,163,13,2024-03-25,9:15,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+6,93,12,2024-03-25,13:45,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+7,182,21,2024-03-25,8:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+8,29,35,2024-03-25,16:45,Checkup,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+9,58,24,2024-03-26,8:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+10,50,12,2024-03-26,11:15,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+11,22,37,2024-03-26,8:00,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+12,140,19,2024-03-26,13:15,Follow-up,Completed,Discussed test results; no abnormalities found.
+13,193,31,2024-03-26,12:45,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+14,21,22,2024-03-27,10:00,Checkup,Completed,Addressed side effects from current medication.
+15,151,8,2024-03-27,8:45,Urgency,Completed,Discussed test results; no abnormalities found.
+16,33,10,2024-03-27,13:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+17,151,23,2024-03-27,12:00,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+18,150,31,2024-03-27,8:30,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+19,183,15,2024-03-27,13:45,Consultation,No-Show,Scheduled imaging for further diagnostic clarity.
+20,190,25,2024-03-27,15:15,Consultation,No-Show,Follow-up on hypertension management; blood pressure stable.
+21,107,19,2024-03-27,13:30,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+22,182,29,2024-03-28,10:30,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+23,25,21,2024-03-28,13:30,Urgency,Completed,Discussed test results; no abnormalities found.
+24,71,36,2024-03-28,12:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+25,121,16,2024-03-28,9:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+26,36,9,2024-03-28,16:15,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+27,107,6,2024-03-28,15:15,Follow-up,Completed,Addressed side effects from current medication.
+28,89,31,2024-03-29,14:45,Consultation,Scheduled,Scheduled imaging for further diagnostic clarity.
+29,156,30,2024-03-29,11:45,Urgency,Completed,Discussed test results; no abnormalities found.
+30,112,34,2024-03-29,10:30,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+31,29,6,2024-03-29,16:30,Checkup,Completed,Routine check-up; vitals within normal limits.
+32,179,36,2024-03-29,10:15,Urgency,Cancelled,Addressed side effects from current medication.
+33,50,36,2024-03-29,9:30,Consultation,No-Show,Reviewed blood test results; slight anemia detected.
+34,104,5,2024-04-01,15:15,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+35,91,25,2024-04-01,14:00,Follow-up,Scheduled,Addressed side effects from current medication.
+36,40,18,2024-04-01,13:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+37,83,23,2024-04-01,9:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+38,40,32,2024-04-01,14:45,Follow-up,Scheduled,Patient complains of recurring migraines; prescribed medication.
+39,146,36,2024-04-02,10:30,Consultation,No-Show,Scheduled imaging for further diagnostic clarity.
+40,93,14,2024-04-02,16:00,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+41,199,7,2024-04-02,15:45,Checkup,Completed,Discussed test results; no abnormalities found.
+42,186,35,2024-04-02,15:30,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+43,59,13,2024-04-02,8:15,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+44,87,36,2024-04-02,16:30,Follow-up,Cancelled,Routine check-up; vitals within normal limits.
+45,123,33,2024-04-02,11:45,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+46,64,27,2024-04-03,8:30,Consultation,Completed,Discussed test results; no abnormalities found.
+47,160,25,2024-04-03,11:15,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+48,62,35,2024-04-03,16:00,Urgency,No-Show,Reviewed blood test results; slight anemia detected.
+49,59,13,2024-04-03,10:45,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+50,65,34,2024-04-03,10:30,Checkup,Completed,Discussed test results; no abnormalities found.
+51,60,7,2024-04-03,8:00,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+52,109,30,2024-04-03,12:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+53,105,6,2024-04-04,14:45,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+54,51,32,2024-04-04,15:15,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+55,173,32,2024-04-04,11:30,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+56,133,31,2024-04-04,8:15,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+57,132,4,2024-04-05,12:30,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+58,141,19,2024-04-05,15:45,Urgency,Scheduled,Discussed test results; no abnormalities found.
+59,78,32,2024-04-05,13:30,Checkup,Cancelled,Follow-up on hypertension management; blood pressure stable.
+60,93,8,2024-04-05,11:45,Consultation,Completed,Addressed side effects from current medication.
+61,148,30,2024-04-08,15:30,Consultation,Completed,Addressed side effects from current medication.
+62,128,30,2024-04-08,13:00,Consultation,Completed,Discussed test results; no abnormalities found.
+63,127,12,2024-04-08,14:45,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+64,56,11,2024-04-08,8:30,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+65,182,12,2024-04-08,8:45,Checkup,Scheduled,Scheduled imaging for further diagnostic clarity.
+66,50,7,2024-04-08,12:15,Follow-up,Completed,Addressed side effects from current medication.
+67,46,36,2024-04-09,14:45,Consultation,Cancelled,Discussed test results; no abnormalities found.
+68,32,6,2024-04-09,8:45,Consultation,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+69,43,6,2024-04-09,9:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+70,88,33,2024-04-09,9:00,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+71,95,32,2024-04-09,15:15,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+72,117,5,2024-04-09,10:45,Consultation,Cancelled,Scheduled imaging for further diagnostic clarity.
+73,54,19,2024-04-09,13:15,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+74,184,33,2024-04-09,14:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+75,115,10,2024-04-10,10:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+76,184,19,2024-04-10,8:45,Follow-up,Completed,Addressed side effects from current medication.
+77,110,24,2024-04-10,9:15,Consultation,Scheduled,Scheduled imaging for further diagnostic clarity.
+78,29,23,2024-04-10,10:15,Urgency,Completed,Addressed side effects from current medication.
+79,171,23,2024-04-10,15:15,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+80,174,26,2024-04-10,15:30,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+81,49,24,2024-04-10,12:15,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+82,79,6,2024-04-10,12:00,Checkup,Completed,Addressed side effects from current medication.
+83,186,20,2024-04-10,15:00,Follow-up,Completed,Routine check-up; vitals within normal limits.
+84,78,26,2024-04-11,8:45,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+85,149,25,2024-04-11,11:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+86,90,16,2024-04-11,14:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+87,172,15,2024-04-11,12:45,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+88,171,16,2024-04-11,9:30,Checkup,Completed,Routine check-up; vitals within normal limits.
+89,152,9,2024-04-11,14:15,Follow-up,Scheduled,Reviewed blood test results; slight anemia detected.
+90,139,20,2024-04-11,12:00,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+91,64,26,2024-04-11,12:15,Urgency,Cancelled,Scheduled imaging for further diagnostic clarity.
+92,50,13,2024-04-12,9:15,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+93,52,32,2024-04-12,14:00,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+94,83,32,2024-04-12,11:00,Follow-up,Scheduled,Patient complains of recurring migraines; prescribed medication.
+95,197,23,2024-04-12,16:45,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+96,98,9,2024-04-12,12:15,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+97,104,10,2024-04-12,9:15,Consultation,Scheduled,Addressed side effects from current medication.
+98,46,18,2024-04-12,10:30,Consultation,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+99,164,23,2024-04-12,12:15,Follow-up,Completed,Routine check-up; vitals within normal limits.
+100,155,12,2024-04-12,11:00,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+101,67,35,2024-04-15,16:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+102,106,7,2024-04-15,14:45,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+103,145,31,2024-04-15,8:00,Checkup,No-Show,Scheduled imaging for further diagnostic clarity.
+104,59,8,2024-04-15,16:30,Checkup,Cancelled,Addressed side effects from current medication.
+105,38,5,2024-04-15,14:45,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+106,95,9,2024-04-16,11:00,Checkup,Scheduled,Routine check-up; vitals within normal limits.
+107,62,37,2024-04-16,10:45,Follow-up,Completed,Routine check-up; vitals within normal limits.
+108,21,21,2024-04-16,11:45,Follow-up,Cancelled,Discussed test results; no abnormalities found.
+109,67,22,2024-04-16,10:30,Follow-up,Scheduled,Patient complains of recurring migraines; prescribed medication.
+110,172,30,2024-04-17,11:00,Follow-up,No-Show,Follow-up on hypertension management; blood pressure stable.
+111,158,12,2024-04-17,13:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+112,85,7,2024-04-17,15:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+113,21,30,2024-04-17,12:15,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+114,59,9,2024-04-17,16:15,Consultation,Cancelled,Reviewed blood test results; slight anemia detected.
+115,36,35,2024-04-17,16:15,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+116,73,28,2024-04-17,8:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+117,118,20,2024-04-18,9:15,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+118,197,8,2024-04-18,9:45,Checkup,No-Show,Routine check-up; vitals within normal limits.
+119,187,28,2024-04-18,14:00,Urgency,Completed,Routine check-up; vitals within normal limits.
+120,55,4,2024-04-18,8:30,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+121,31,30,2024-04-18,12:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+122,88,31,2024-04-18,15:45,Urgency,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+123,49,33,2024-04-18,15:45,Checkup,No-Show,Patient advised to increase physical activity and hydrate.
+124,57,7,2024-04-19,8:30,Follow-up,No-Show,Patient complains of recurring migraines; prescribed medication.
+125,23,18,2024-04-19,15:00,Consultation,Scheduled,Patient advised to increase physical activity and hydrate.
+126,70,31,2024-04-19,15:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+127,69,26,2024-04-19,10:30,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+128,73,11,2024-04-19,14:00,Checkup,Completed,Routine check-up; vitals within normal limits.
+129,33,28,2024-04-19,14:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+130,100,33,2024-04-19,15:30,Follow-up,No-Show,Follow-up on hypertension management; blood pressure stable.
+131,93,16,2024-04-19,14:30,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+132,171,17,2024-04-22,9:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+133,82,28,2024-04-22,14:15,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+134,199,16,2024-04-22,12:45,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+135,85,26,2024-04-22,10:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+136,82,17,2024-04-22,16:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+137,50,11,2024-04-22,12:00,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+138,142,8,2024-04-22,9:45,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+139,157,25,2024-04-23,9:30,Consultation,Scheduled,Patient complains of recurring migraines; prescribed medication.
+140,112,27,2024-04-23,12:45,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+141,104,22,2024-04-23,15:15,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+142,88,16,2024-04-23,13:45,Checkup,No-Show,Routine check-up; vitals within normal limits.
+143,105,20,2024-04-23,14:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+144,153,5,2024-04-23,16:30,Consultation,Cancelled,Routine check-up; vitals within normal limits.
+145,188,14,2024-04-23,12:30,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+146,151,27,2024-04-23,14:30,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+147,93,24,2024-04-24,15:15,Follow-up,Scheduled,Addressed side effects from current medication.
+148,99,10,2024-04-24,10:45,Follow-up,Scheduled,Reviewed blood test results; slight anemia detected.
+149,173,16,2024-04-24,10:45,Consultation,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+150,141,33,2024-04-24,9:15,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+151,84,4,2024-04-24,11:45,Follow-up,Completed,Routine check-up; vitals within normal limits.
+152,75,27,2024-04-24,14:00,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+153,177,6,2024-04-24,15:00,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+154,50,28,2024-04-24,15:45,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+155,128,36,2024-04-24,9:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+156,50,35,2024-04-24,11:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+157,61,26,2024-04-25,14:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+158,118,4,2024-04-25,8:30,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+159,51,36,2024-04-25,8:00,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+160,190,13,2024-04-25,16:00,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+161,162,32,2024-04-25,13:30,Checkup,Completed,Addressed side effects from current medication.
+162,145,20,2024-04-25,9:15,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+163,150,31,2024-04-25,16:30,Consultation,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+164,57,31,2024-04-25,9:45,Consultation,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+165,183,24,2024-04-25,16:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+166,170,30,2024-04-25,13:15,Checkup,Completed,Discussed test results; no abnormalities found.
+167,48,18,2024-04-26,12:00,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+168,194,17,2024-04-26,15:00,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+169,128,26,2024-04-26,14:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+170,141,35,2024-04-26,8:15,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+171,194,9,2024-04-26,16:00,Follow-up,Completed,Routine check-up; vitals within normal limits.
+172,51,35,2024-04-26,15:15,Follow-up,No-Show,Patient complains of recurring migraines; prescribed medication.
+173,147,7,2024-04-26,14:00,Urgency,Scheduled,Discussed test results; no abnormalities found.
+174,64,15,2024-04-26,14:00,Urgency,Completed,Discussed test results; no abnormalities found.
+175,54,7,2024-04-26,16:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+176,192,14,2024-04-29,10:30,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+177,74,12,2024-04-29,11:15,Checkup,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+178,164,25,2024-04-29,15:00,Checkup,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+179,30,16,2024-04-29,10:45,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+180,39,12,2024-04-29,10:00,Urgency,Completed,Discussed test results; no abnormalities found.
+181,100,14,2024-04-29,14:30,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+182,74,36,2024-04-29,16:15,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+183,190,5,2024-04-29,14:00,Checkup,Completed,Discussed test results; no abnormalities found.
+184,144,24,2024-04-30,8:00,Urgency,Completed,Discussed test results; no abnormalities found.
+185,113,23,2024-04-30,12:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+186,188,20,2024-04-30,11:30,Urgency,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+187,60,20,2024-04-30,15:15,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+188,42,9,2024-04-30,11:00,Follow-up,Completed,Routine check-up; vitals within normal limits.
+189,173,16,2024-04-30,8:00,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+190,47,32,2024-04-30,10:30,Follow-up,Completed,Discussed test results; no abnormalities found.
+191,49,5,2024-05-01,15:45,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+192,175,9,2024-05-01,11:30,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+193,187,26,2024-05-01,16:45,Urgency,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+194,159,33,2024-05-01,15:45,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+195,80,26,2024-05-02,11:45,Follow-up,No-Show,Patient complains of recurring migraines; prescribed medication.
+196,48,28,2024-05-02,10:45,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+197,174,14,2024-05-02,8:15,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+198,156,26,2024-05-02,10:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+199,81,35,2024-05-02,9:30,Follow-up,No-Show,Discussed test results; no abnormalities found.
+200,45,13,2024-05-02,8:00,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+201,127,23,2024-05-02,10:00,Checkup,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+202,39,33,2024-05-03,16:30,Follow-up,Completed,Discussed test results; no abnormalities found.
+203,172,30,2024-05-03,15:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+204,61,8,2024-05-03,12:45,Consultation,Completed,Discussed test results; no abnormalities found.
+205,59,25,2024-05-03,9:45,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+206,199,35,2024-05-03,11:45,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+207,31,19,2024-05-03,15:30,Consultation,No-Show,Reviewed blood test results; slight anemia detected.
+208,126,34,2024-05-03,12:15,Follow-up,Cancelled,Patient advised to increase physical activity and hydrate.
+209,55,34,2024-05-03,14:15,Checkup,No-Show,Reviewed blood test results; slight anemia detected.
+210,172,35,2024-05-06,12:30,Checkup,Completed,Discussed test results; no abnormalities found.
+211,181,12,2024-05-06,11:15,Urgency,Completed,Discussed test results; no abnormalities found.
+212,54,11,2024-05-06,8:00,Consultation,Completed,Discussed test results; no abnormalities found.
+213,192,11,2024-05-06,12:15,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+214,179,8,2024-05-06,12:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+215,178,18,2024-05-06,11:15,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+216,90,20,2024-05-06,13:45,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+217,57,33,2024-05-06,11:15,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+218,197,37,2024-05-06,11:30,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+219,63,30,2024-05-07,8:15,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+220,28,11,2024-05-07,16:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+221,164,33,2024-05-07,8:45,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+222,37,33,2024-05-07,11:45,Consultation,Completed,Discussed test results; no abnormalities found.
+223,76,29,2024-05-08,10:15,Urgency,No-Show,Reviewed blood test results; slight anemia detected.
+224,152,27,2024-05-08,14:30,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+225,84,33,2024-05-08,13:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+226,116,24,2024-05-08,11:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+227,165,15,2024-05-09,8:15,Urgency,Completed,Addressed side effects from current medication.
+228,113,15,2024-05-09,16:00,Follow-up,Cancelled,Scheduled imaging for further diagnostic clarity.
+229,32,5,2024-05-09,11:45,Consultation,Scheduled,Addressed side effects from current medication.
+230,37,9,2024-05-09,14:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+231,160,10,2024-05-09,8:15,Urgency,No-Show,Routine check-up; vitals within normal limits.
+232,81,26,2024-05-09,14:00,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+233,54,10,2024-05-10,11:30,Checkup,Scheduled,Scheduled imaging for further diagnostic clarity.
+234,115,22,2024-05-10,8:30,Consultation,Completed,Addressed side effects from current medication.
+235,48,24,2024-05-10,13:15,Consultation,Completed,Addressed side effects from current medication.
+236,127,31,2024-05-10,15:00,Follow-up,Completed,Discussed test results; no abnormalities found.
+237,132,34,2024-05-13,14:00,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+238,83,31,2024-05-13,12:45,Checkup,No-Show,Patient advised to increase physical activity and hydrate.
+239,193,30,2024-05-13,8:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+240,168,11,2024-05-13,12:15,Checkup,Cancelled,Discussed test results; no abnormalities found.
+241,133,6,2024-05-13,16:45,Consultation,Completed,Discussed test results; no abnormalities found.
+242,143,19,2024-05-13,9:00,Follow-up,Cancelled,Routine check-up; vitals within normal limits.
+243,161,34,2024-05-13,14:45,Follow-up,Scheduled,Reviewed blood test results; slight anemia detected.
+244,192,37,2024-05-13,9:15,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+245,114,12,2024-05-13,16:45,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+246,166,20,2024-05-14,9:30,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+247,159,25,2024-05-14,15:45,Urgency,No-Show,Scheduled imaging for further diagnostic clarity.
+248,197,15,2024-05-14,15:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+249,105,11,2024-05-14,9:30,Urgency,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+250,144,33,2024-05-14,12:45,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+251,94,36,2024-05-14,16:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+252,112,13,2024-05-14,8:45,Checkup,No-Show,Discussed test results; no abnormalities found.
+253,121,24,2024-05-14,10:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+254,160,35,2024-05-15,16:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+255,170,19,2024-05-15,9:45,Checkup,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+256,57,12,2024-05-15,10:00,Consultation,Completed,Routine check-up; vitals within normal limits.
+257,142,7,2024-05-15,8:15,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+258,33,24,2024-05-15,13:00,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+259,169,35,2024-05-15,14:15,Consultation,No-Show,Addressed side effects from current medication.
+260,73,10,2024-05-15,15:30,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+261,54,15,2024-05-15,12:15,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+262,38,21,2024-05-15,9:00,Urgency,Completed,Discussed test results; no abnormalities found.
+263,71,36,2024-05-15,8:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+264,173,15,2024-05-16,16:30,Consultation,Cancelled,Follow-up on hypertension management; blood pressure stable.
+265,92,27,2024-05-16,16:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+266,114,4,2024-05-16,14:45,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+267,153,35,2024-05-16,15:00,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+268,33,30,2024-05-17,12:30,Checkup,Completed,Addressed side effects from current medication.
+269,76,33,2024-05-17,15:15,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+270,51,8,2024-05-17,13:45,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+271,195,5,2024-05-17,12:30,Consultation,Cancelled,Reviewed blood test results; slight anemia detected.
+272,145,24,2024-05-17,9:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+273,187,24,2024-05-17,8:30,Follow-up,Scheduled,Discussed test results; no abnormalities found.
+274,132,20,2024-05-17,13:00,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+275,47,26,2024-05-17,14:30,Consultation,No-Show,Reviewed blood test results; slight anemia detected.
+276,110,34,2024-05-20,9:00,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+277,53,16,2024-05-20,16:30,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+278,142,12,2024-05-20,11:30,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+279,89,4,2024-05-20,9:15,Consultation,No-Show,Patient complains of recurring migraines; prescribed medication.
+280,60,11,2024-05-21,16:15,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+281,171,35,2024-05-21,8:45,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+282,105,33,2024-05-21,14:00,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+283,69,18,2024-05-21,12:00,Checkup,No-Show,Reviewed blood test results; slight anemia detected.
+284,157,15,2024-05-21,11:45,Urgency,Cancelled,Discussed test results; no abnormalities found.
+285,34,10,2024-05-21,14:15,Checkup,Scheduled,Routine check-up; vitals within normal limits.
+286,111,5,2024-05-21,8:00,Consultation,No-Show,Patient advised to increase physical activity and hydrate.
+287,177,13,2024-05-21,12:45,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+288,196,22,2024-05-21,9:30,Checkup,No-Show,Addressed side effects from current medication.
+289,175,30,2024-05-21,9:00,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+290,187,27,2024-05-22,12:00,Urgency,Completed,Discussed test results; no abnormalities found.
+291,105,27,2024-05-22,15:30,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+292,59,34,2024-05-22,14:15,Follow-up,No-Show,Addressed side effects from current medication.
+293,84,12,2024-05-22,14:30,Checkup,Scheduled,Addressed side effects from current medication.
+294,146,10,2024-05-22,16:00,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+295,21,27,2024-05-22,9:45,Checkup,Completed,Discussed test results; no abnormalities found.
+296,45,27,2024-05-22,10:00,Urgency,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+297,98,22,2024-05-22,11:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+298,159,7,2024-05-23,13:45,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+299,157,28,2024-05-23,12:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+300,74,23,2024-05-23,15:15,Follow-up,Completed,Discussed test results; no abnormalities found.
+301,123,17,2024-05-23,10:30,Checkup,Completed,Addressed side effects from current medication.
+302,32,29,2024-05-23,9:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+303,78,14,2024-05-23,8:30,Consultation,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+304,133,16,2024-05-23,15:00,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+305,35,35,2024-05-23,15:30,Consultation,No-Show,Reviewed blood test results; slight anemia detected.
+306,183,28,2024-05-24,15:00,Checkup,Completed,Addressed side effects from current medication.
+307,176,16,2024-05-24,13:45,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+308,198,15,2024-05-24,14:30,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+309,39,11,2024-05-24,12:15,Follow-up,Completed,Routine check-up; vitals within normal limits.
+310,129,20,2024-05-24,14:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+311,163,10,2024-05-24,10:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+312,168,29,2024-05-24,11:00,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+313,61,21,2024-05-27,8:30,Urgency,Cancelled,Patient complains of recurring migraines; prescribed medication.
+314,94,23,2024-05-27,11:15,Checkup,Completed,Addressed side effects from current medication.
+315,157,21,2024-05-27,9:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+316,183,6,2024-05-27,15:45,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+317,54,33,2024-05-27,16:30,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+318,46,8,2024-05-27,15:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+319,85,21,2024-05-27,10:15,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+320,127,7,2024-05-27,11:00,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+321,154,24,2024-05-28,13:45,Checkup,Cancelled,Patient advised to increase physical activity and hydrate.
+322,61,4,2024-05-28,10:15,Urgency,Completed,Discussed test results; no abnormalities found.
+323,141,7,2024-05-28,15:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+324,192,28,2024-05-28,11:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+325,78,16,2024-05-29,13:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+326,199,19,2024-05-29,16:45,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+327,39,29,2024-05-29,14:45,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+328,90,13,2024-05-29,16:45,Checkup,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+329,71,4,2024-05-29,13:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+330,63,19,2024-05-29,11:15,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+331,166,23,2024-05-29,10:00,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+332,86,17,2024-05-30,14:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+333,144,29,2024-05-30,8:15,Urgency,Completed,Routine check-up; vitals within normal limits.
+334,53,10,2024-05-30,15:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+335,41,35,2024-05-30,16:00,Follow-up,Completed,Routine check-up; vitals within normal limits.
+336,36,10,2024-05-30,11:45,Urgency,Cancelled,Routine check-up; vitals within normal limits.
+337,143,9,2024-05-30,9:45,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+338,159,16,2024-05-30,13:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+339,193,23,2024-05-30,9:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+340,126,24,2024-05-30,16:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+341,152,17,2024-05-31,12:30,Urgency,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+342,159,7,2024-05-31,15:00,Urgency,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+343,22,18,2024-05-31,8:00,Consultation,No-Show,Reviewed blood test results; slight anemia detected.
+344,95,16,2024-05-31,11:45,Follow-up,Completed,Routine check-up; vitals within normal limits.
+345,200,11,2024-05-31,13:00,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+346,80,36,2024-06-03,15:30,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+347,48,10,2024-06-03,11:00,Follow-up,Scheduled,Addressed side effects from current medication.
+348,146,24,2024-06-03,13:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+349,164,14,2024-06-03,8:15,Consultation,Scheduled,Patient advised to increase physical activity and hydrate.
+350,111,13,2024-06-03,9:45,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+351,130,17,2024-06-03,11:30,Consultation,Completed,Routine check-up; vitals within normal limits.
+352,107,10,2024-06-03,14:45,Checkup,No-Show,Patient complains of recurring migraines; prescribed medication.
+353,164,36,2024-06-04,8:30,Consultation,Completed,Routine check-up; vitals within normal limits.
+354,84,26,2024-06-04,13:30,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+355,45,27,2024-06-04,16:30,Checkup,Completed,Discussed test results; no abnormalities found.
+356,164,9,2024-06-04,8:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+357,69,21,2024-06-04,12:45,Urgency,Completed,Routine check-up; vitals within normal limits.
+358,132,24,2024-06-05,8:15,Consultation,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+359,98,8,2024-06-05,12:45,Consultation,Completed,Addressed side effects from current medication.
+360,82,31,2024-06-05,13:45,Checkup,Scheduled,Scheduled imaging for further diagnostic clarity.
+361,154,23,2024-06-05,16:00,Checkup,No-Show,Scheduled imaging for further diagnostic clarity.
+362,115,26,2024-06-06,9:00,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+363,42,18,2024-06-06,15:00,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+364,102,33,2024-06-06,9:00,Checkup,Completed,Routine check-up; vitals within normal limits.
+365,93,14,2024-06-06,11:30,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+366,74,28,2024-06-07,10:30,Checkup,Scheduled,Scheduled imaging for further diagnostic clarity.
+367,37,21,2024-06-07,9:30,Checkup,Completed,Addressed side effects from current medication.
+368,63,11,2024-06-07,15:45,Consultation,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+369,163,12,2024-06-07,13:45,Checkup,Completed,Discussed test results; no abnormalities found.
+370,136,24,2024-06-07,13:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+371,56,10,2024-06-07,12:00,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+372,57,12,2024-06-10,16:15,Follow-up,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+373,189,11,2024-06-10,16:00,Consultation,Cancelled,Patient advised to increase physical activity and hydrate.
+374,39,21,2024-06-10,16:45,Consultation,Cancelled,Reviewed blood test results; slight anemia detected.
+375,50,22,2024-06-10,13:00,Urgency,Scheduled,Discussed test results; no abnormalities found.
+376,103,4,2024-06-10,14:00,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+377,73,7,2024-06-11,16:15,Urgency,No-Show,Reviewed blood test results; slight anemia detected.
+378,159,14,2024-06-11,15:00,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+379,72,20,2024-06-11,10:15,Consultation,Completed,Addressed side effects from current medication.
+380,59,11,2024-06-11,12:45,Follow-up,Completed,Addressed side effects from current medication.
+381,55,34,2024-06-11,9:15,Checkup,Completed,Discussed test results; no abnormalities found.
+382,35,24,2024-06-11,12:15,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+383,200,33,2024-06-12,11:15,Follow-up,Cancelled,Scheduled imaging for further diagnostic clarity.
+384,200,12,2024-06-12,16:45,Follow-up,Completed,Routine check-up; vitals within normal limits.
+385,58,34,2024-06-12,8:15,Urgency,Completed,Routine check-up; vitals within normal limits.
+386,165,20,2024-06-12,13:45,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+387,184,21,2024-06-12,14:45,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+388,124,14,2024-06-13,9:30,Consultation,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+389,41,8,2024-06-13,16:45,Checkup,Cancelled,Patient complains of recurring migraines; prescribed medication.
+390,133,9,2024-06-13,16:00,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+391,72,27,2024-06-13,12:45,Consultation,No-Show,Patient advised to increase physical activity and hydrate.
+392,81,15,2024-06-13,11:15,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+393,60,23,2024-06-13,11:00,Checkup,Completed,Discussed test results; no abnormalities found.
+394,177,8,2024-06-13,12:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+395,68,5,2024-06-14,8:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+396,112,34,2024-06-14,13:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+397,120,10,2024-06-14,15:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+398,165,28,2024-06-14,8:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+399,127,29,2024-06-14,14:45,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+400,153,12,2024-06-14,12:00,Checkup,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+401,112,36,2024-06-14,15:30,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+402,91,21,2024-06-14,12:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+403,79,5,2024-06-17,14:45,Urgency,No-Show,Scheduled imaging for further diagnostic clarity.
+404,121,35,2024-06-17,11:30,Follow-up,Completed,Discussed test results; no abnormalities found.
+405,60,5,2024-06-17,10:00,Urgency,Completed,Discussed test results; no abnormalities found.
+406,37,16,2024-06-17,11:30,Follow-up,Completed,Discussed test results; no abnormalities found.
+407,93,35,2024-06-17,15:15,Checkup,Completed,Addressed side effects from current medication.
+408,40,36,2024-06-17,9:15,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+409,165,31,2024-06-17,10:15,Urgency,Completed,Discussed test results; no abnormalities found.
+410,34,25,2024-06-17,16:45,Follow-up,Completed,Routine check-up; vitals within normal limits.
+411,144,23,2024-06-18,8:00,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+412,74,5,2024-06-18,12:15,Urgency,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+413,45,18,2024-06-18,16:15,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+414,137,29,2024-06-18,8:30,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+415,125,5,2024-06-18,12:45,Urgency,Cancelled,Discussed test results; no abnormalities found.
+416,144,37,2024-06-19,10:15,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+417,76,9,2024-06-19,12:00,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+418,200,34,2024-06-19,15:00,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+419,84,17,2024-06-19,8:00,Consultation,Cancelled,Reviewed blood test results; slight anemia detected.
+420,55,26,2024-06-20,14:00,Checkup,No-Show,Discussed test results; no abnormalities found.
+421,53,20,2024-06-20,12:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+422,178,13,2024-06-20,8:45,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+423,192,36,2024-06-20,15:00,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+424,103,15,2024-06-20,11:30,Follow-up,No-Show,Addressed side effects from current medication.
+425,89,5,2024-06-20,16:00,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+426,106,36,2024-06-20,10:15,Follow-up,No-Show,Follow-up on hypertension management; blood pressure stable.
+427,173,30,2024-06-20,8:15,Urgency,Completed,Routine check-up; vitals within normal limits.
+428,148,6,2024-06-20,9:45,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+429,71,11,2024-06-21,15:45,Follow-up,Cancelled,Reviewed blood test results; slight anemia detected.
+430,137,24,2024-06-21,15:45,Follow-up,No-Show,Patient complains of recurring migraines; prescribed medication.
+431,62,29,2024-06-21,15:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+432,113,24,2024-06-21,8:15,Urgency,Scheduled,Discussed test results; no abnormalities found.
+433,98,34,2024-06-21,13:30,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+434,183,8,2024-06-21,16:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+435,105,9,2024-06-21,8:00,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+436,178,37,2024-06-21,16:00,Urgency,No-Show,Routine check-up; vitals within normal limits.
+437,159,24,2024-06-21,10:45,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+438,173,20,2024-06-21,12:15,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+439,44,19,2024-06-24,14:00,Consultation,Completed,Routine check-up; vitals within normal limits.
+440,136,22,2024-06-24,13:15,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+441,184,26,2024-06-24,16:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+442,120,32,2024-06-24,14:00,Checkup,Scheduled,Addressed side effects from current medication.
+443,27,37,2024-06-24,9:30,Checkup,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+444,182,26,2024-06-25,11:00,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+445,79,5,2024-06-25,12:30,Checkup,Completed,Routine check-up; vitals within normal limits.
+446,50,29,2024-06-25,15:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+447,114,36,2024-06-25,10:15,Consultation,Cancelled,Patient advised to increase physical activity and hydrate.
+448,104,15,2024-06-25,11:30,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+449,101,11,2024-06-25,13:00,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+450,34,28,2024-06-25,16:30,Urgency,Completed,Addressed side effects from current medication.
+451,101,22,2024-06-25,9:15,Urgency,Completed,Discussed test results; no abnormalities found.
+452,73,24,2024-06-26,13:00,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+453,85,35,2024-06-26,13:00,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+454,174,10,2024-06-26,12:30,Urgency,Cancelled,Scheduled imaging for further diagnostic clarity.
+455,49,17,2024-06-26,14:15,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+456,148,7,2024-06-26,10:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+457,57,6,2024-06-26,8:30,Urgency,Completed,Discussed test results; no abnormalities found.
+458,42,12,2024-06-26,8:15,Checkup,Completed,Addressed side effects from current medication.
+459,130,26,2024-06-27,11:15,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+460,151,7,2024-06-27,12:45,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+461,38,31,2024-06-27,11:15,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+462,86,13,2024-06-27,14:15,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+463,54,34,2024-06-27,15:30,Consultation,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+464,32,6,2024-06-27,16:45,Urgency,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+465,33,21,2024-06-27,16:30,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+466,83,27,2024-06-27,16:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+467,58,10,2024-06-28,15:15,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+468,147,12,2024-06-28,10:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+469,86,25,2024-06-28,14:00,Follow-up,Completed,Addressed side effects from current medication.
+470,28,5,2024-06-28,16:45,Consultation,Completed,Addressed side effects from current medication.
+471,134,27,2024-06-28,8:00,Consultation,Scheduled,Reviewed blood test results; slight anemia detected.
+472,176,8,2024-07-01,11:45,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+473,116,8,2024-07-01,10:30,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+474,150,15,2024-07-01,10:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+475,51,8,2024-07-01,8:15,Follow-up,Scheduled,Patient complains of recurring migraines; prescribed medication.
+476,144,8,2024-07-02,10:30,Checkup,Scheduled,Discussed test results; no abnormalities found.
+477,163,6,2024-07-02,9:15,Checkup,Completed,Discussed test results; no abnormalities found.
+478,101,29,2024-07-02,10:30,Urgency,Completed,Discussed test results; no abnormalities found.
+479,142,13,2024-07-02,8:30,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+480,82,9,2024-07-02,16:30,Consultation,Cancelled,Scheduled imaging for further diagnostic clarity.
+481,39,18,2024-07-02,9:15,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+482,87,16,2024-07-02,16:00,Follow-up,Completed,Routine check-up; vitals within normal limits.
+483,122,21,2024-07-03,12:45,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+484,90,12,2024-07-03,12:15,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+485,48,16,2024-07-03,8:30,Follow-up,Cancelled,Scheduled imaging for further diagnostic clarity.
+486,57,29,2024-07-03,12:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+487,139,15,2024-07-03,14:15,Urgency,No-Show,Scheduled imaging for further diagnostic clarity.
+488,162,8,2024-07-03,15:30,Consultation,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+489,186,8,2024-07-03,13:00,Follow-up,Completed,Addressed side effects from current medication.
+490,119,6,2024-07-03,16:15,Consultation,Cancelled,Routine check-up; vitals within normal limits.
+491,82,33,2024-07-03,14:15,Follow-up,Scheduled,Addressed side effects from current medication.
+492,80,32,2024-07-03,14:45,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+493,194,5,2024-07-04,15:45,Consultation,Completed,Addressed side effects from current medication.
+494,158,35,2024-07-04,10:45,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+495,143,37,2024-07-04,16:00,Consultation,Completed,Addressed side effects from current medication.
+496,133,19,2024-07-04,11:45,Follow-up,Cancelled,Routine check-up; vitals within normal limits.
+497,152,35,2024-07-04,16:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+498,81,18,2024-07-05,12:00,Urgency,Scheduled,Addressed side effects from current medication.
+499,40,4,2024-07-05,13:15,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+500,155,5,2024-07-05,16:00,Urgency,Scheduled,Addressed side effects from current medication.
+501,138,5,2024-07-05,15:30,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+502,66,9,2024-07-05,9:45,Consultation,Completed,Discussed test results; no abnormalities found.
+503,85,24,2024-07-05,10:15,Urgency,No-Show,Routine check-up; vitals within normal limits.
+504,116,28,2024-07-08,14:30,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+505,183,21,2024-07-08,11:45,Checkup,No-Show,Patient advised to increase physical activity and hydrate.
+506,58,11,2024-07-08,13:45,Consultation,Cancelled,Patient advised to increase physical activity and hydrate.
+507,108,20,2024-07-08,9:15,Follow-up,Completed,Addressed side effects from current medication.
+508,150,15,2024-07-08,15:45,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+509,131,14,2024-07-08,12:15,Urgency,Completed,Discussed test results; no abnormalities found.
+510,84,13,2024-07-09,14:15,Urgency,No-Show,Routine check-up; vitals within normal limits.
+511,70,12,2024-07-09,13:15,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+512,43,33,2024-07-09,13:30,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+513,189,22,2024-07-09,13:45,Consultation,Cancelled,Follow-up on hypertension management; blood pressure stable.
+514,46,34,2024-07-09,12:15,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+515,175,7,2024-07-10,12:30,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+516,84,25,2024-07-10,8:15,Checkup,Cancelled,Addressed side effects from current medication.
+517,49,36,2024-07-10,14:00,Follow-up,No-Show,Discussed test results; no abnormalities found.
+518,47,19,2024-07-10,14:00,Follow-up,Scheduled,Reviewed blood test results; slight anemia detected.
+519,78,24,2024-07-10,14:30,Urgency,Cancelled,Reviewed blood test results; slight anemia detected.
+520,79,28,2024-07-10,16:45,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+521,33,35,2024-07-11,15:00,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+522,43,8,2024-07-11,11:00,Urgency,No-Show,Addressed side effects from current medication.
+523,148,8,2024-07-11,12:00,Checkup,Scheduled,Addressed side effects from current medication.
+524,33,16,2024-07-11,8:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+525,149,35,2024-07-11,8:45,Consultation,Scheduled,Patient complains of recurring migraines; prescribed medication.
+526,148,12,2024-07-11,11:30,Urgency,Cancelled,Addressed side effects from current medication.
+527,162,30,2024-07-12,10:30,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+528,99,14,2024-07-12,13:15,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+529,79,5,2024-07-12,10:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+530,171,25,2024-07-12,15:30,Checkup,No-Show,Patient advised to increase physical activity and hydrate.
+531,98,6,2024-07-12,15:45,Urgency,No-Show,Follow-up on hypertension management; blood pressure stable.
+532,179,6,2024-07-12,9:15,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+533,173,27,2024-07-12,14:30,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+534,103,7,2024-07-15,13:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+535,97,14,2024-07-15,14:15,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+536,23,20,2024-07-15,11:00,Checkup,Cancelled,Scheduled imaging for further diagnostic clarity.
+537,63,25,2024-07-15,8:15,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+538,136,7,2024-07-15,14:00,Consultation,No-Show,Patient complains of recurring migraines; prescribed medication.
+539,135,11,2024-07-16,8:15,Consultation,Completed,Addressed side effects from current medication.
+540,44,27,2024-07-16,9:45,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+541,188,12,2024-07-16,15:00,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+542,103,25,2024-07-16,8:30,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+543,134,25,2024-07-16,11:15,Follow-up,Scheduled,Reviewed blood test results; slight anemia detected.
+544,46,37,2024-07-17,11:30,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+545,101,35,2024-07-17,10:15,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+546,33,33,2024-07-17,12:00,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+547,97,7,2024-07-17,8:15,Urgency,No-Show,Discussed test results; no abnormalities found.
+548,55,23,2024-07-17,10:30,Checkup,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+549,187,36,2024-07-17,14:15,Checkup,No-Show,Follow-up on hypertension management; blood pressure stable.
+550,69,10,2024-07-17,9:15,Urgency,Completed,Routine check-up; vitals within normal limits.
+551,31,9,2024-07-17,16:30,Consultation,Scheduled,Routine check-up; vitals within normal limits.
+552,100,11,2024-07-17,16:15,Urgency,Cancelled,Follow-up on hypertension management; blood pressure stable.
+553,43,12,2024-07-18,16:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+554,41,28,2024-07-18,14:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+555,89,17,2024-07-18,13:15,Checkup,No-Show,Discussed test results; no abnormalities found.
+556,189,13,2024-07-18,12:15,Urgency,Completed,Discussed test results; no abnormalities found.
+557,66,4,2024-07-18,9:45,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+558,33,5,2024-07-18,14:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+559,151,8,2024-07-18,11:00,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+560,123,32,2024-07-18,15:30,Follow-up,Cancelled,Patient complains of recurring migraines; prescribed medication.
+561,188,16,2024-07-18,9:15,Urgency,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+562,153,18,2024-07-19,14:15,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+563,87,10,2024-07-19,16:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+564,167,28,2024-07-19,12:30,Urgency,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+565,62,8,2024-07-19,13:30,Consultation,Scheduled,Addressed side effects from current medication.
+566,33,6,2024-07-19,13:45,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+567,28,29,2024-07-19,14:15,Consultation,Completed,Discussed test results; no abnormalities found.
+568,163,19,2024-07-19,10:15,Follow-up,Completed,Addressed side effects from current medication.
+569,84,25,2024-07-22,10:15,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+570,105,35,2024-07-22,13:45,Follow-up,Completed,Routine check-up; vitals within normal limits.
+571,161,9,2024-07-22,11:15,Follow-up,Cancelled,Scheduled imaging for further diagnostic clarity.
+572,93,25,2024-07-22,12:45,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+573,113,28,2024-07-22,16:30,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+574,135,26,2024-07-22,12:45,Consultation,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+575,153,35,2024-07-22,14:15,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+576,180,27,2024-07-23,14:15,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+577,105,5,2024-07-23,13:00,Follow-up,Cancelled,Scheduled imaging for further diagnostic clarity.
+578,187,29,2024-07-23,10:00,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+579,73,20,2024-07-23,14:15,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+580,38,30,2024-07-23,14:00,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+581,42,6,2024-07-23,14:00,Consultation,Completed,Discussed test results; no abnormalities found.
+582,37,21,2024-07-23,10:15,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+583,145,21,2024-07-23,8:30,Checkup,Completed,Addressed side effects from current medication.
+584,26,34,2024-07-23,9:45,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+585,36,31,2024-07-23,8:45,Checkup,Completed,Discussed test results; no abnormalities found.
+586,120,24,2024-07-24,10:45,Checkup,Scheduled,Addressed side effects from current medication.
+587,70,34,2024-07-24,13:30,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+588,63,4,2024-07-24,12:45,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+589,149,36,2024-07-24,16:45,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+590,88,23,2024-07-25,9:00,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+591,100,16,2024-07-25,9:15,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+592,102,12,2024-07-25,10:45,Urgency,No-Show,Follow-up on hypertension management; blood pressure stable.
+593,116,33,2024-07-25,10:30,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+594,198,6,2024-07-26,10:15,Urgency,Completed,Discussed test results; no abnormalities found.
+595,111,31,2024-07-26,8:15,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+596,96,25,2024-07-26,8:15,Checkup,Completed,Discussed test results; no abnormalities found.
+597,45,33,2024-07-26,11:30,Consultation,Completed,Routine check-up; vitals within normal limits.
+598,103,10,2024-07-26,13:00,Consultation,Completed,Addressed side effects from current medication.
+599,191,4,2024-07-26,12:45,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+600,93,24,2024-07-29,11:30,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+601,152,18,2024-07-29,14:00,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+602,150,37,2024-07-29,11:00,Urgency,Scheduled,Addressed side effects from current medication.
+603,114,18,2024-07-29,13:00,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+604,139,11,2024-07-29,8:30,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+605,193,31,2024-07-29,14:45,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+606,150,27,2024-07-29,12:30,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+607,115,25,2024-07-29,15:30,Checkup,No-Show,Follow-up on hypertension management; blood pressure stable.
+608,34,9,2024-07-29,13:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+609,148,5,2024-07-30,15:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+610,72,36,2024-07-30,13:15,Checkup,No-Show,Patient complains of recurring migraines; prescribed medication.
+611,26,20,2024-07-30,13:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+612,102,14,2024-07-30,14:00,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+613,81,36,2024-07-30,16:00,Checkup,No-Show,Routine check-up; vitals within normal limits.
+614,107,26,2024-07-31,13:30,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+615,117,25,2024-07-31,14:15,Checkup,Scheduled,Scheduled imaging for further diagnostic clarity.
+616,47,16,2024-07-31,16:30,Follow-up,Completed,Routine check-up; vitals within normal limits.
+617,56,28,2024-07-31,11:00,Urgency,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+618,127,25,2024-07-31,13:00,Checkup,No-Show,Follow-up on hypertension management; blood pressure stable.
+619,91,6,2024-07-31,8:15,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+620,181,15,2024-08-01,12:30,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+621,129,34,2024-08-01,8:15,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+622,30,5,2024-08-01,14:15,Follow-up,Completed,Addressed side effects from current medication.
+623,33,24,2024-08-01,9:30,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+624,180,4,2024-08-01,16:30,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+625,85,25,2024-08-02,16:15,Checkup,Completed,Addressed side effects from current medication.
+626,145,14,2024-08-02,15:30,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+627,182,19,2024-08-02,14:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+628,61,20,2024-08-02,13:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+629,87,32,2024-08-05,12:30,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+630,110,12,2024-08-05,9:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+631,141,12,2024-08-05,11:45,Checkup,Completed,Discussed test results; no abnormalities found.
+632,200,34,2024-08-05,8:00,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+633,116,14,2024-08-06,15:30,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+634,22,25,2024-08-06,10:15,Urgency,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+635,37,17,2024-08-06,10:00,Urgency,Cancelled,Patient advised to increase physical activity and hydrate.
+636,74,23,2024-08-06,12:30,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+637,83,35,2024-08-06,13:45,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+638,127,28,2024-08-06,12:15,Urgency,Completed,Discussed test results; no abnormalities found.
+639,24,16,2024-08-06,15:45,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+640,72,16,2024-08-07,14:45,Urgency,Cancelled,Patient complains of recurring migraines; prescribed medication.
+641,176,30,2024-08-07,15:00,Follow-up,Cancelled,Patient advised to increase physical activity and hydrate.
+642,164,30,2024-08-07,10:00,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+643,50,7,2024-08-07,10:15,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+644,33,18,2024-08-07,15:30,Consultation,Scheduled,Reviewed blood test results; slight anemia detected.
+645,68,9,2024-08-07,11:45,Consultation,Scheduled,Addressed side effects from current medication.
+646,186,16,2024-08-07,14:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+647,156,24,2024-08-07,15:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+648,157,28,2024-08-07,12:30,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+649,98,7,2024-08-07,11:00,Consultation,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+650,137,25,2024-08-08,11:45,Checkup,Cancelled,Patient advised to increase physical activity and hydrate.
+651,53,13,2024-08-08,13:15,Checkup,Completed,Discussed test results; no abnormalities found.
+652,99,23,2024-08-08,11:30,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+653,131,37,2024-08-08,15:00,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+654,68,23,2024-08-08,8:45,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+655,143,17,2024-08-09,12:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+656,180,7,2024-08-09,9:45,Checkup,Cancelled,Reviewed blood test results; slight anemia detected.
+657,65,23,2024-08-09,11:45,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+658,69,28,2024-08-09,14:30,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+659,191,19,2024-08-09,15:00,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+660,98,37,2024-08-12,14:15,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+661,53,36,2024-08-12,15:30,Follow-up,Completed,Addressed side effects from current medication.
+662,47,16,2024-08-12,13:15,Checkup,No-Show,Patient complains of recurring migraines; prescribed medication.
+663,124,27,2024-08-12,12:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+664,78,22,2024-08-12,14:30,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+665,161,29,2024-08-12,13:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+666,162,13,2024-08-12,15:00,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+667,171,20,2024-08-12,10:30,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+668,196,14,2024-08-12,14:30,Urgency,Cancelled,Patient complains of recurring migraines; prescribed medication.
+669,56,9,2024-08-13,16:00,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+670,42,15,2024-08-13,8:30,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+671,22,33,2024-08-13,15:45,Follow-up,Completed,Addressed side effects from current medication.
+672,172,14,2024-08-13,15:15,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+673,144,23,2024-08-13,14:30,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+674,112,24,2024-08-13,16:15,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+675,115,19,2024-08-13,16:15,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+676,106,12,2024-08-13,15:45,Consultation,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+677,64,8,2024-08-14,8:30,Checkup,Completed,Routine check-up; vitals within normal limits.
+678,65,31,2024-08-14,14:00,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+679,133,29,2024-08-14,13:45,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+680,23,13,2024-08-14,12:00,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+681,60,20,2024-08-14,8:30,Urgency,No-Show,Routine check-up; vitals within normal limits.
+682,184,6,2024-08-14,14:30,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+683,150,18,2024-08-14,14:00,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+684,170,24,2024-08-14,9:45,Checkup,Cancelled,Addressed side effects from current medication.
+685,193,24,2024-08-14,15:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+686,111,5,2024-08-14,16:00,Checkup,Completed,Addressed side effects from current medication.
+687,154,19,2024-08-15,16:00,Follow-up,Completed,Addressed side effects from current medication.
+688,110,14,2024-08-15,11:00,Urgency,No-Show,Discussed test results; no abnormalities found.
+689,192,24,2024-08-15,13:15,Urgency,Scheduled,Discussed test results; no abnormalities found.
+690,154,10,2024-08-15,11:00,Consultation,Scheduled,Addressed side effects from current medication.
+691,187,15,2024-08-16,11:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+692,73,23,2024-08-16,11:30,Follow-up,Completed,Discussed test results; no abnormalities found.
+693,180,27,2024-08-16,8:15,Consultation,Cancelled,Discussed test results; no abnormalities found.
+694,83,8,2024-08-16,12:30,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+695,51,21,2024-08-16,8:30,Checkup,Completed,Discussed test results; no abnormalities found.
+696,96,22,2024-08-16,13:00,Follow-up,Cancelled,Routine check-up; vitals within normal limits.
+697,32,17,2024-08-16,16:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+698,111,19,2024-08-19,15:45,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+699,121,33,2024-08-19,10:45,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+700,167,4,2024-08-19,16:15,Checkup,Scheduled,Scheduled imaging for further diagnostic clarity.
+701,176,4,2024-08-19,12:15,Consultation,No-Show,Reviewed blood test results; slight anemia detected.
+702,73,34,2024-08-20,12:15,Urgency,No-Show,Patient advised to increase physical activity and hydrate.
+703,149,31,2024-08-20,16:00,Consultation,Completed,Addressed side effects from current medication.
+704,169,4,2024-08-20,12:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+705,88,11,2024-08-20,16:30,Urgency,Completed,Discussed test results; no abnormalities found.
+706,25,36,2024-08-21,11:45,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+707,117,15,2024-08-21,12:30,Checkup,Cancelled,Patient advised to increase physical activity and hydrate.
+708,84,5,2024-08-21,16:45,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+709,50,23,2024-08-21,16:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+710,58,34,2024-08-22,9:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+711,199,11,2024-08-22,14:45,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+712,180,15,2024-08-22,16:30,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+713,192,9,2024-08-22,14:30,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+714,130,26,2024-08-22,10:00,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+715,77,30,2024-08-22,11:15,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+716,75,29,2024-08-22,10:30,Consultation,Cancelled,Discussed test results; no abnormalities found.
+717,39,19,2024-08-22,9:15,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+718,137,26,2024-08-22,8:15,Checkup,No-Show,Patient complains of recurring migraines; prescribed medication.
+719,47,36,2024-08-23,8:15,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+720,161,10,2024-08-23,16:00,Follow-up,No-Show,Follow-up on hypertension management; blood pressure stable.
+721,148,4,2024-08-23,12:00,Checkup,Completed,Addressed side effects from current medication.
+722,74,9,2024-08-23,14:30,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+723,93,34,2024-08-23,9:15,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+724,33,4,2024-08-23,11:00,Checkup,Completed,Addressed side effects from current medication.
+725,110,15,2024-08-23,16:00,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+726,185,35,2024-08-23,16:30,Checkup,Completed,Discussed test results; no abnormalities found.
+727,179,11,2024-08-23,14:15,Follow-up,Completed,Discussed test results; no abnormalities found.
+728,48,4,2024-08-26,9:30,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+729,70,12,2024-08-26,9:30,Urgency,Completed,Addressed side effects from current medication.
+730,53,4,2024-08-26,12:30,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+731,198,31,2024-08-26,16:45,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+732,115,30,2024-08-26,10:45,Checkup,Scheduled,Routine check-up; vitals within normal limits.
+733,34,10,2024-08-27,8:45,Consultation,Scheduled,Routine check-up; vitals within normal limits.
+734,138,33,2024-08-27,16:00,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+735,200,34,2024-08-27,13:00,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+736,41,14,2024-08-27,16:15,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+737,182,8,2024-08-27,12:15,Follow-up,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+738,112,26,2024-08-27,10:00,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+739,81,23,2024-08-27,13:30,Follow-up,Completed,Addressed side effects from current medication.
+740,111,28,2024-08-28,12:30,Urgency,No-Show,Follow-up on hypertension management; blood pressure stable.
+741,97,22,2024-08-28,13:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+742,135,11,2024-08-28,15:15,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+743,57,21,2024-08-28,11:00,Follow-up,Completed,Addressed side effects from current medication.
+744,34,22,2024-08-28,8:30,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+745,172,23,2024-08-28,9:30,Urgency,Scheduled,Addressed side effects from current medication.
+746,80,27,2024-08-28,11:30,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+747,43,6,2024-08-28,13:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+748,157,20,2024-08-28,11:30,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+749,56,10,2024-08-28,11:00,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+750,78,28,2024-08-29,11:30,Checkup,Scheduled,Routine check-up; vitals within normal limits.
+751,47,20,2024-08-29,11:30,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+752,73,25,2024-08-29,10:15,Urgency,Cancelled,Discussed test results; no abnormalities found.
+753,72,6,2024-08-29,16:00,Follow-up,Completed,Addressed side effects from current medication.
+754,163,18,2024-08-29,9:15,Consultation,No-Show,Follow-up on hypertension management; blood pressure stable.
+755,29,35,2024-08-30,11:15,Checkup,Completed,Discussed test results; no abnormalities found.
+756,53,30,2024-08-30,9:30,Checkup,Completed,Discussed test results; no abnormalities found.
+757,155,31,2024-08-30,12:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+758,108,36,2024-08-30,9:30,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+759,133,11,2024-08-30,11:15,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+760,178,24,2024-08-30,8:00,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+761,90,11,2024-09-02,14:45,Consultation,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+762,186,26,2024-09-02,13:00,Consultation,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+763,45,22,2024-09-02,16:45,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+764,113,32,2024-09-02,15:45,Urgency,No-Show,Scheduled imaging for further diagnostic clarity.
+765,103,5,2024-09-02,13:00,Urgency,Completed,Routine check-up; vitals within normal limits.
+766,51,22,2024-09-02,13:00,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+767,55,29,2024-09-02,11:30,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+768,102,17,2024-09-02,10:00,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+769,157,30,2024-09-03,8:15,Follow-up,Completed,Discussed test results; no abnormalities found.
+770,200,9,2024-09-03,10:00,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+771,129,12,2024-09-03,10:00,Urgency,Cancelled,Patient advised to increase physical activity and hydrate.
+772,60,7,2024-09-03,11:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+773,188,18,2024-09-03,15:00,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+774,176,22,2024-09-03,16:00,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+775,175,17,2024-09-03,14:00,Urgency,Cancelled,Discussed test results; no abnormalities found.
+776,122,4,2024-09-03,13:00,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+777,62,15,2024-09-03,14:15,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+778,125,16,2024-09-04,15:15,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+779,73,4,2024-09-04,15:15,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+780,149,28,2024-09-04,14:15,Urgency,Cancelled,Patient complains of recurring migraines; prescribed medication.
+781,167,30,2024-09-04,14:45,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+782,138,18,2024-09-04,11:45,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+783,52,13,2024-09-04,10:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+784,103,14,2024-09-04,13:15,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+785,40,27,2024-09-04,8:45,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+786,24,4,2024-09-04,16:00,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+787,141,12,2024-09-04,16:45,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+788,45,9,2024-09-05,11:30,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+789,184,11,2024-09-05,9:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+790,63,28,2024-09-05,8:30,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+791,78,18,2024-09-05,16:00,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+792,34,27,2024-09-05,16:30,Follow-up,Cancelled,Patient complains of recurring migraines; prescribed medication.
+793,157,25,2024-09-05,8:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+794,25,25,2024-09-06,16:15,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+795,105,25,2024-09-06,14:15,Urgency,Completed,Discussed test results; no abnormalities found.
+796,120,34,2024-09-06,11:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+797,90,21,2024-09-06,8:15,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+798,71,27,2024-09-06,11:00,Consultation,No-Show,Discussed test results; no abnormalities found.
+799,65,35,2024-09-09,16:45,Urgency,No-Show,Patient complains of recurring migraines; prescribed medication.
+800,110,31,2024-09-09,11:00,Urgency,Scheduled,Discussed test results; no abnormalities found.
+801,141,6,2024-09-09,16:45,Urgency,Cancelled,Follow-up on hypertension management; blood pressure stable.
+802,66,36,2024-09-09,13:15,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+803,188,24,2024-09-09,16:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+804,50,21,2024-09-09,14:15,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+805,92,33,2024-09-09,11:15,Follow-up,No-Show,Addressed side effects from current medication.
+806,71,32,2024-09-09,9:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+807,147,29,2024-09-09,13:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+808,33,19,2024-09-09,15:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+809,197,37,2024-09-10,9:15,Follow-up,Completed,Discussed test results; no abnormalities found.
+810,60,35,2024-09-10,14:45,Consultation,Scheduled,Patient advised to increase physical activity and hydrate.
+811,192,8,2024-09-10,13:45,Checkup,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+812,94,25,2024-09-10,9:00,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+813,165,17,2024-09-10,9:15,Follow-up,Scheduled,Patient complains of recurring migraines; prescribed medication.
+814,157,10,2024-09-10,8:30,Urgency,Completed,Addressed side effects from current medication.
+815,155,29,2024-09-10,13:45,Urgency,Cancelled,Discussed test results; no abnormalities found.
+816,159,12,2024-09-10,14:45,Urgency,Cancelled,Discussed test results; no abnormalities found.
+817,195,5,2024-09-11,16:00,Urgency,Cancelled,Discussed test results; no abnormalities found.
+818,75,9,2024-09-11,12:15,Consultation,Completed,Discussed test results; no abnormalities found.
+819,77,10,2024-09-11,11:00,Urgency,Completed,Routine check-up; vitals within normal limits.
+820,119,29,2024-09-11,15:15,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+821,144,25,2024-09-12,14:45,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+822,160,20,2024-09-12,11:00,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+823,52,4,2024-09-12,10:15,Checkup,Completed,Discussed test results; no abnormalities found.
+824,189,17,2024-09-12,15:45,Urgency,Scheduled,Discussed test results; no abnormalities found.
+825,111,15,2024-09-12,11:15,Consultation,Scheduled,Routine check-up; vitals within normal limits.
+826,27,6,2024-09-12,16:00,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+827,27,17,2024-09-12,9:45,Consultation,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+828,189,9,2024-09-12,15:45,Urgency,Completed,Addressed side effects from current medication.
+829,56,5,2024-09-12,16:45,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+830,155,35,2024-09-12,10:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+831,123,34,2024-09-13,16:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+832,51,29,2024-09-13,14:45,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+833,91,15,2024-09-13,16:15,Follow-up,Cancelled,Patient complains of recurring migraines; prescribed medication.
+834,103,23,2024-09-13,13:45,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+835,184,14,2024-09-13,14:00,Follow-up,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+836,138,10,2024-09-16,14:15,Follow-up,Completed,Addressed side effects from current medication.
+837,96,37,2024-09-16,8:30,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+838,184,4,2024-09-16,13:30,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+839,120,12,2024-09-16,15:45,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+840,55,36,2024-09-16,11:45,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+841,69,28,2024-09-16,14:00,Consultation,Scheduled,Addressed side effects from current medication.
+842,44,10,2024-09-17,9:30,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+843,33,22,2024-09-17,13:15,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+844,141,19,2024-09-17,14:45,Consultation,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+845,45,24,2024-09-17,12:45,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+846,30,25,2024-09-17,11:30,Urgency,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+847,66,22,2024-09-17,13:00,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+848,112,18,2024-09-17,11:00,Checkup,Cancelled,Addressed side effects from current medication.
+849,87,11,2024-09-17,10:00,Urgency,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+850,169,24,2024-09-17,8:30,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+851,145,33,2024-09-17,12:30,Consultation,Completed,Discussed test results; no abnormalities found.
+852,65,19,2024-09-18,14:00,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+853,56,22,2024-09-18,14:45,Urgency,Completed,Routine check-up; vitals within normal limits.
+854,59,17,2024-09-18,13:45,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+855,94,24,2024-09-18,10:00,Consultation,Completed,Addressed side effects from current medication.
+856,91,11,2024-09-18,10:00,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+857,181,26,2024-09-18,16:00,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+858,151,22,2024-09-18,11:00,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+859,177,24,2024-09-18,12:30,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+860,40,22,2024-09-19,8:30,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+861,162,21,2024-09-19,16:15,Checkup,Scheduled,Addressed side effects from current medication.
+862,198,25,2024-09-19,10:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+863,145,25,2024-09-19,13:15,Consultation,Completed,Discussed test results; no abnormalities found.
+864,35,33,2024-09-19,12:00,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+865,197,26,2024-09-19,16:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+866,86,23,2024-09-19,11:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+867,54,6,2024-09-19,14:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+868,121,10,2024-09-19,14:45,Urgency,Completed,Discussed test results; no abnormalities found.
+869,127,22,2024-09-20,8:15,Follow-up,Completed,Addressed side effects from current medication.
+870,135,11,2024-09-20,12:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+871,135,18,2024-09-20,8:45,Consultation,Scheduled,Addressed side effects from current medication.
+872,41,16,2024-09-20,8:45,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+873,134,21,2024-09-20,16:30,Consultation,Cancelled,Routine check-up; vitals within normal limits.
+874,188,32,2024-09-20,9:15,Checkup,Scheduled,Scheduled imaging for further diagnostic clarity.
+875,84,7,2024-09-20,9:15,Urgency,Scheduled,Addressed side effects from current medication.
+876,198,36,2024-09-20,10:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+877,128,22,2024-09-20,11:45,Consultation,Completed,Addressed side effects from current medication.
+878,51,21,2024-09-23,14:45,Urgency,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+879,52,5,2024-09-23,12:45,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+880,74,22,2024-09-23,9:30,Checkup,No-Show,Scheduled imaging for further diagnostic clarity.
+881,22,36,2024-09-23,12:15,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+882,174,35,2024-09-23,10:15,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+883,117,4,2024-09-23,11:15,Checkup,Cancelled,Addressed side effects from current medication.
+884,67,21,2024-09-24,10:00,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+885,78,29,2024-09-24,9:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+886,168,12,2024-09-24,14:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+887,76,26,2024-09-24,14:15,Consultation,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+888,134,36,2024-09-24,16:15,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+889,69,27,2024-09-24,12:15,Urgency,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+890,143,21,2024-09-24,10:30,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+891,58,26,2024-09-25,15:45,Follow-up,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+892,36,24,2024-09-25,11:30,Checkup,No-Show,Addressed side effects from current medication.
+893,82,25,2024-09-25,10:45,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+894,99,6,2024-09-25,14:30,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+895,21,27,2024-09-26,14:15,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+896,72,25,2024-09-26,9:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+897,86,13,2024-09-26,12:30,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+898,100,32,2024-09-26,8:15,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+899,147,11,2024-09-26,15:45,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+900,99,20,2024-09-26,10:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+901,39,14,2024-09-26,14:00,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+902,138,7,2024-09-26,9:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+903,94,7,2024-09-26,12:15,Urgency,Completed,Addressed side effects from current medication.
+904,53,16,2024-09-26,15:45,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+905,114,8,2024-09-27,9:30,Urgency,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+906,89,18,2024-09-27,9:30,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+907,45,14,2024-09-27,15:00,Urgency,Completed,Addressed side effects from current medication.
+908,175,27,2024-09-27,12:00,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+909,21,13,2024-09-30,14:15,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+910,88,13,2024-09-30,8:45,Follow-up,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+911,168,37,2024-09-30,9:30,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+912,168,14,2024-09-30,14:30,Checkup,Cancelled,Discussed test results; no abnormalities found.
+913,81,4,2024-09-30,11:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+914,32,22,2024-09-30,8:00,Urgency,No-Show,Routine check-up; vitals within normal limits.
+915,73,25,2024-09-30,10:15,Follow-up,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+916,126,31,2024-09-30,16:15,Follow-up,Cancelled,Patient advised to increase physical activity and hydrate.
+917,196,7,2024-09-30,8:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+918,49,16,2024-10-01,9:15,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+919,177,13,2024-10-01,16:30,Follow-up,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+920,31,22,2024-10-01,13:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+921,46,19,2024-10-01,8:45,Urgency,No-Show,Follow-up on hypertension management; blood pressure stable.
+922,47,25,2024-10-01,14:45,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+923,58,20,2024-10-01,9:15,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+924,198,9,2024-10-01,15:00,Checkup,Cancelled,Routine check-up; vitals within normal limits.
+925,168,28,2024-10-02,16:15,Consultation,Scheduled,Scheduled imaging for further diagnostic clarity.
+926,133,5,2024-10-02,12:45,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+927,110,7,2024-10-02,9:00,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+928,163,21,2024-10-02,9:00,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+929,107,17,2024-10-02,11:45,Urgency,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+930,82,8,2024-10-02,14:00,Follow-up,Completed,Addressed side effects from current medication.
+931,127,18,2024-10-02,9:15,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+932,158,33,2024-10-02,14:15,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+933,44,5,2024-10-02,11:00,Urgency,Scheduled,Discussed test results; no abnormalities found.
+934,163,24,2024-10-02,9:00,Follow-up,Completed,Routine check-up; vitals within normal limits.
+935,174,12,2024-10-03,11:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+936,53,22,2024-10-03,9:15,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+937,177,5,2024-10-03,8:45,Checkup,Completed,Addressed side effects from current medication.
+938,92,5,2024-10-03,8:15,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+939,107,5,2024-10-03,12:00,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+940,94,14,2024-10-03,8:30,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+941,194,21,2024-10-03,14:00,Urgency,Completed,Addressed side effects from current medication.
+942,155,17,2024-10-03,15:15,Checkup,No-Show,Addressed side effects from current medication.
+943,136,22,2024-10-04,9:15,Urgency,Completed,Discussed test results; no abnormalities found.
+944,58,26,2024-10-04,12:15,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+945,170,20,2024-10-04,10:15,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+946,179,32,2024-10-04,10:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+947,128,8,2024-10-07,9:15,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+948,180,28,2024-10-07,14:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+949,181,17,2024-10-07,11:45,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+950,199,11,2024-10-07,12:00,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+951,59,25,2024-10-07,12:15,Urgency,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+952,162,25,2024-10-07,16:45,Follow-up,No-Show,Discussed test results; no abnormalities found.
+953,80,14,2024-10-07,15:30,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+954,54,7,2024-10-07,12:45,Checkup,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+955,91,9,2024-10-07,10:15,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+956,161,21,2024-10-08,16:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+957,36,30,2024-10-08,15:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+958,184,4,2024-10-08,13:00,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+959,128,17,2024-10-08,14:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+960,114,34,2024-10-09,13:00,Consultation,Scheduled,Reviewed blood test results; slight anemia detected.
+961,134,10,2024-10-09,16:15,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+962,44,17,2024-10-09,9:30,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+963,41,31,2024-10-09,9:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+964,183,6,2024-10-09,16:15,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+965,133,30,2024-10-09,8:00,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+966,191,33,2024-10-09,8:45,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+967,82,31,2024-10-09,16:30,Urgency,Completed,Addressed side effects from current medication.
+968,169,11,2024-10-09,8:15,Consultation,Completed,Addressed side effects from current medication.
+969,28,13,2024-10-10,13:00,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+970,43,35,2024-10-10,9:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+971,54,15,2024-10-10,9:15,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+972,113,14,2024-10-10,9:30,Consultation,Completed,Addressed side effects from current medication.
+973,45,32,2024-10-10,15:30,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+974,78,6,2024-10-10,13:00,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+975,145,28,2024-10-10,15:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+976,102,25,2024-10-10,13:45,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+977,68,5,2024-10-10,14:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+978,151,5,2024-10-11,11:00,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+979,115,30,2024-10-11,8:45,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+980,63,30,2024-10-11,14:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+981,150,25,2024-10-11,10:30,Follow-up,No-Show,Reviewed blood test results; slight anemia detected.
+982,69,34,2024-10-11,8:30,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+983,181,28,2024-10-11,12:45,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+984,199,15,2024-10-11,16:30,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+985,127,13,2024-10-11,16:30,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+986,50,9,2024-10-11,12:00,Consultation,Scheduled,Reviewed blood test results; slight anemia detected.
+987,190,13,2024-10-11,9:30,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+988,62,31,2024-10-14,13:30,Follow-up,Scheduled,Patient complains of recurring migraines; prescribed medication.
+989,50,24,2024-10-14,11:15,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+990,129,6,2024-10-14,16:30,Follow-up,No-Show,Patient complains of recurring migraines; prescribed medication.
+991,48,5,2024-10-14,8:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+992,158,21,2024-10-14,13:00,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+993,179,19,2024-10-14,10:30,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+994,87,4,2024-10-14,12:00,Consultation,Completed,Addressed side effects from current medication.
+995,85,15,2024-10-14,16:45,Urgency,Cancelled,Patient advised to increase physical activity and hydrate.
+996,32,12,2024-10-14,16:30,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+997,68,33,2024-10-15,12:00,Follow-up,Completed,Routine check-up; vitals within normal limits.
+998,98,12,2024-10-15,12:45,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+999,197,8,2024-10-15,9:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1000,91,7,2024-10-15,8:00,Follow-up,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1001,104,32,2024-10-15,14:15,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1002,152,27,2024-10-15,13:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1003,90,5,2024-10-15,9:15,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+1004,38,18,2024-10-15,12:30,Urgency,Completed,Addressed side effects from current medication.
+1005,200,6,2024-10-15,9:30,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1006,69,13,2024-10-16,12:00,Checkup,Cancelled,Routine check-up; vitals within normal limits.
+1007,172,33,2024-10-16,9:45,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+1008,196,19,2024-10-16,13:00,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1009,153,28,2024-10-16,11:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1010,67,20,2024-10-16,13:00,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+1011,61,32,2024-10-16,10:45,Urgency,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1012,97,11,2024-10-16,12:45,Consultation,Cancelled,Patient advised to increase physical activity and hydrate.
+1013,36,8,2024-10-16,10:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1014,155,20,2024-10-17,9:15,Urgency,Completed,Discussed test results; no abnormalities found.
+1015,181,10,2024-10-17,15:30,Consultation,Completed,Discussed test results; no abnormalities found.
+1016,25,18,2024-10-17,14:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1017,102,14,2024-10-17,13:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+1018,118,25,2024-10-18,13:30,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1019,173,18,2024-10-18,14:15,Urgency,Cancelled,Scheduled imaging for further diagnostic clarity.
+1020,142,13,2024-10-18,13:30,Follow-up,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1021,170,34,2024-10-18,8:30,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1022,139,23,2024-10-18,14:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1023,57,19,2024-10-18,9:45,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1024,97,15,2024-10-18,8:30,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1025,93,8,2024-10-18,8:45,Checkup,Completed,Discussed test results; no abnormalities found.
+1026,28,12,2024-10-18,10:00,Consultation,Completed,Discussed test results; no abnormalities found.
+1027,76,9,2024-10-21,12:15,Consultation,Cancelled,Addressed side effects from current medication.
+1028,188,6,2024-10-21,14:15,Checkup,No-Show,Patient advised to increase physical activity and hydrate.
+1029,167,7,2024-10-21,11:00,Checkup,Completed,Routine check-up; vitals within normal limits.
+1030,137,21,2024-10-21,13:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1031,86,24,2024-10-21,10:00,Checkup,No-Show,Scheduled imaging for further diagnostic clarity.
+1032,179,20,2024-10-22,8:00,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+1033,101,23,2024-10-22,12:45,Checkup,No-Show,Patient complains of recurring migraines; prescribed medication.
+1034,113,20,2024-10-22,8:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1035,59,19,2024-10-22,11:15,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1036,182,31,2024-10-22,15:45,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1037,173,4,2024-10-22,13:15,Checkup,Completed,Discussed test results; no abnormalities found.
+1038,134,21,2024-10-23,11:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1039,165,30,2024-10-23,12:30,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+1040,91,24,2024-10-23,16:00,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1041,80,18,2024-10-23,13:15,Follow-up,Scheduled,Reviewed blood test results; slight anemia detected.
+1042,33,21,2024-10-24,8:15,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1043,123,24,2024-10-24,11:00,Checkup,Cancelled,Discussed test results; no abnormalities found.
+1044,181,28,2024-10-24,12:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1045,188,36,2024-10-24,14:45,Urgency,Scheduled,Discussed test results; no abnormalities found.
+1046,148,18,2024-10-24,12:45,Follow-up,Scheduled,Addressed side effects from current medication.
+1047,153,16,2024-10-24,14:45,Checkup,Completed,Addressed side effects from current medication.
+1048,173,27,2024-10-24,12:30,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1049,31,10,2024-10-24,15:15,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1050,198,22,2024-10-25,13:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1051,34,19,2024-10-25,14:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+1052,197,28,2024-10-25,15:15,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1053,45,15,2024-10-25,10:45,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1054,164,16,2024-10-25,11:45,Consultation,No-Show,Follow-up on hypertension management; blood pressure stable.
+1055,81,23,2024-10-25,13:30,Urgency,Completed,Addressed side effects from current medication.
+1056,132,32,2024-10-25,16:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1057,72,4,2024-10-28,10:45,Checkup,No-Show,Routine check-up; vitals within normal limits.
+1058,168,21,2024-10-28,10:00,Checkup,Completed,Discussed test results; no abnormalities found.
+1059,160,4,2024-10-28,10:30,Checkup,Scheduled,Discussed test results; no abnormalities found.
+1060,81,13,2024-10-28,9:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1061,120,20,2024-10-28,13:15,Urgency,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1062,36,35,2024-10-28,15:30,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1063,200,16,2024-10-28,16:00,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1064,149,11,2024-10-28,10:45,Consultation,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1065,145,11,2024-10-28,16:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+1066,87,22,2024-10-28,14:30,Consultation,Scheduled,Discussed test results; no abnormalities found.
+1067,43,18,2024-10-29,14:00,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1068,128,13,2024-10-29,9:30,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1069,96,18,2024-10-29,9:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+1070,82,31,2024-10-29,10:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1071,159,12,2024-10-30,11:45,Checkup,No-Show,Reviewed blood test results; slight anemia detected.
+1072,31,13,2024-10-30,10:45,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1073,94,21,2024-10-30,13:15,Consultation,Completed,Discussed test results; no abnormalities found.
+1074,119,26,2024-10-30,16:00,Follow-up,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1075,136,9,2024-10-31,10:15,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+1076,85,31,2024-10-31,10:45,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1077,28,35,2024-10-31,16:15,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1078,25,7,2024-10-31,13:00,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1079,91,23,2024-10-31,10:00,Follow-up,Completed,Addressed side effects from current medication.
+1080,102,18,2024-10-31,9:00,Checkup,No-Show,Addressed side effects from current medication.
+1081,28,27,2024-10-31,16:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1082,192,24,2024-11-01,16:30,Urgency,Cancelled,Addressed side effects from current medication.
+1083,96,15,2024-11-01,13:30,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+1084,180,28,2024-11-01,8:45,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+1085,55,13,2024-11-01,16:30,Consultation,Scheduled,Patient advised to increase physical activity and hydrate.
+1086,136,7,2024-11-04,15:45,Urgency,Completed,Addressed side effects from current medication.
+1087,171,15,2024-11-04,8:45,Consultation,Completed,Addressed side effects from current medication.
+1088,39,4,2024-11-04,14:15,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+1089,43,29,2024-11-04,12:15,Follow-up,Completed,Addressed side effects from current medication.
+1090,112,5,2024-11-04,12:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1091,129,6,2024-11-04,16:30,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1092,166,24,2024-11-04,12:15,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1093,199,7,2024-11-04,16:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+1094,24,25,2024-11-04,16:30,Checkup,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1095,139,30,2024-11-04,8:15,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1096,188,7,2024-11-05,10:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1097,83,21,2024-11-05,12:45,Follow-up,No-Show,Addressed side effects from current medication.
+1098,137,32,2024-11-05,10:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1099,91,11,2024-11-05,16:30,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1100,108,22,2024-11-05,16:00,Consultation,Cancelled,Scheduled imaging for further diagnostic clarity.
+1101,172,4,2024-11-05,14:45,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1102,22,31,2024-11-06,10:30,Consultation,Completed,Addressed side effects from current medication.
+1103,123,25,2024-11-06,9:15,Urgency,No-Show,Scheduled imaging for further diagnostic clarity.
+1104,33,35,2024-11-06,13:45,Urgency,No-Show,Patient advised to increase physical activity and hydrate.
+1105,65,35,2024-11-06,11:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1106,191,35,2024-11-06,9:30,Consultation,No-Show,Routine check-up; vitals within normal limits.
+1107,104,32,2024-11-07,15:30,Urgency,No-Show,Scheduled imaging for further diagnostic clarity.
+1108,62,9,2024-11-07,11:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+1109,104,12,2024-11-07,9:15,Checkup,Completed,Addressed side effects from current medication.
+1110,71,29,2024-11-07,11:30,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+1111,63,33,2024-11-07,8:30,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1112,59,17,2024-11-07,10:30,Consultation,No-Show,Discussed test results; no abnormalities found.
+1113,46,30,2024-11-07,15:45,Urgency,Completed,Discussed test results; no abnormalities found.
+1114,121,11,2024-11-07,16:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1115,79,11,2024-11-07,11:00,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+1116,80,36,2024-11-08,10:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+1117,25,11,2024-11-08,8:45,Urgency,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1118,141,24,2024-11-08,16:45,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1119,124,15,2024-11-08,15:45,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1120,158,10,2024-11-11,14:00,Urgency,No-Show,Routine check-up; vitals within normal limits.
+1121,124,6,2024-11-11,16:45,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1122,84,24,2024-11-11,16:45,Urgency,Completed,Routine check-up; vitals within normal limits.
+1123,166,13,2024-11-11,10:00,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1124,74,28,2024-11-12,16:15,Checkup,Cancelled,Patient advised to increase physical activity and hydrate.
+1125,117,12,2024-11-12,8:15,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1126,32,25,2024-11-12,11:45,Checkup,Cancelled,Addressed side effects from current medication.
+1127,29,26,2024-11-12,10:30,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1128,148,24,2024-11-12,14:15,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1129,123,35,2024-11-12,11:45,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+1130,48,24,2024-11-12,16:30,Consultation,Completed,Routine check-up; vitals within normal limits.
+1131,23,17,2024-11-12,14:00,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1132,63,16,2024-11-12,12:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1133,129,10,2024-11-13,13:45,Consultation,Completed,Addressed side effects from current medication.
+1134,105,36,2024-11-13,12:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1135,50,13,2024-11-13,16:15,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1136,40,4,2024-11-13,11:15,Checkup,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1137,128,10,2024-11-13,14:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1138,111,23,2024-11-13,8:15,Consultation,Completed,Discussed test results; no abnormalities found.
+1139,120,13,2024-11-13,12:00,Consultation,Scheduled,Routine check-up; vitals within normal limits.
+1140,30,6,2024-11-13,11:00,Consultation,Cancelled,Patient advised to increase physical activity and hydrate.
+1141,93,16,2024-11-14,9:00,Urgency,Completed,Routine check-up; vitals within normal limits.
+1142,175,13,2024-11-14,10:15,Urgency,Completed,Discussed test results; no abnormalities found.
+1143,126,34,2024-11-14,16:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1144,58,32,2024-11-14,9:00,Consultation,No-Show,Discussed test results; no abnormalities found.
+1145,29,9,2024-11-14,11:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1146,125,22,2024-11-14,12:30,Follow-up,Scheduled,Addressed side effects from current medication.
+1147,54,24,2024-11-15,16:00,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1148,99,14,2024-11-15,10:00,Consultation,Completed,Routine check-up; vitals within normal limits.
+1149,111,32,2024-11-15,11:30,Urgency,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1150,106,19,2024-11-15,16:45,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+1151,153,32,2024-11-15,12:45,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1152,169,12,2024-11-15,9:30,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1153,98,4,2024-11-15,9:00,Checkup,Completed,Routine check-up; vitals within normal limits.
+1154,47,24,2024-11-15,12:45,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1155,173,33,2024-11-15,13:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1156,145,21,2024-11-15,9:15,Follow-up,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1157,78,29,2024-11-18,8:45,Urgency,Completed,Discussed test results; no abnormalities found.
+1158,172,17,2024-11-18,13:45,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+1159,132,13,2024-11-18,12:30,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1160,103,14,2024-11-18,8:30,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1161,59,15,2024-11-18,10:45,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+1162,124,15,2024-11-18,8:30,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1163,111,28,2024-11-19,8:00,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1164,162,17,2024-11-19,12:00,Consultation,Completed,Routine check-up; vitals within normal limits.
+1165,130,17,2024-11-19,12:15,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+1166,81,25,2024-11-19,15:45,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1167,133,4,2024-11-20,13:45,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1168,158,13,2024-11-20,13:00,Urgency,Scheduled,Discussed test results; no abnormalities found.
+1169,59,30,2024-11-20,8:00,Consultation,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1170,67,23,2024-11-20,16:00,Urgency,Completed,Discussed test results; no abnormalities found.
+1171,29,5,2024-11-20,12:45,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1172,71,18,2024-11-20,10:00,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1173,102,25,2024-11-20,13:45,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+1174,198,18,2024-11-20,15:00,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1175,91,24,2024-11-21,11:45,Checkup,No-Show,Scheduled imaging for further diagnostic clarity.
+1176,43,13,2024-11-21,10:45,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1177,132,26,2024-11-21,14:00,Consultation,Completed,Discussed test results; no abnormalities found.
+1178,76,9,2024-11-21,14:15,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1179,173,16,2024-11-21,12:00,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1180,156,23,2024-11-21,9:00,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+1181,51,16,2024-11-21,13:15,Follow-up,Completed,Addressed side effects from current medication.
+1182,152,13,2024-11-21,14:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1183,160,27,2024-11-21,8:00,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1184,79,30,2024-11-21,16:15,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1185,136,33,2024-11-22,14:00,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1186,35,37,2024-11-22,11:45,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1187,50,19,2024-11-22,16:45,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1188,162,28,2024-11-22,13:30,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1189,64,24,2024-11-22,12:45,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+1190,182,6,2024-11-22,8:00,Follow-up,Completed,Discussed test results; no abnormalities found.
+1191,148,13,2024-11-22,11:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1192,108,24,2024-11-22,12:00,Follow-up,Completed,Discussed test results; no abnormalities found.
+1193,86,7,2024-11-22,14:15,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1194,50,9,2024-11-25,14:30,Consultation,Scheduled,Routine check-up; vitals within normal limits.
+1195,126,14,2024-11-25,16:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1196,184,18,2024-11-25,11:15,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1197,29,24,2024-11-25,11:15,Checkup,Completed,Discussed test results; no abnormalities found.
+1198,164,28,2024-11-25,16:45,Follow-up,Cancelled,Routine check-up; vitals within normal limits.
+1199,72,33,2024-11-25,10:00,Checkup,Completed,Addressed side effects from current medication.
+1200,61,21,2024-11-25,15:30,Urgency,Completed,Discussed test results; no abnormalities found.
+1201,184,9,2024-11-26,12:45,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1202,194,25,2024-11-26,8:15,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+1203,191,6,2024-11-26,10:45,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1204,38,30,2024-11-26,9:45,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1205,125,10,2024-11-26,15:00,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1206,97,28,2024-11-26,16:45,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1207,79,21,2024-11-26,8:30,Checkup,Completed,Discussed test results; no abnormalities found.
+1208,168,15,2024-11-27,13:00,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1209,166,6,2024-11-27,11:15,Checkup,Scheduled,Discussed test results; no abnormalities found.
+1210,167,27,2024-11-27,8:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+1211,153,17,2024-11-27,15:30,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+1212,169,7,2024-11-27,9:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1213,148,17,2024-11-28,9:30,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+1214,34,28,2024-11-28,13:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1215,73,35,2024-11-28,16:30,Consultation,Cancelled,Scheduled imaging for further diagnostic clarity.
+1216,116,20,2024-11-28,14:00,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1217,142,28,2024-11-28,16:15,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1218,112,14,2024-11-28,10:30,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1219,185,13,2024-11-28,11:15,Urgency,Completed,Routine check-up; vitals within normal limits.
+1220,32,30,2024-11-28,13:00,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1221,180,17,2024-11-28,13:45,Consultation,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+1222,190,16,2024-11-29,16:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1223,139,32,2024-11-29,10:15,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1224,26,16,2024-11-29,15:30,Consultation,Cancelled,Discussed test results; no abnormalities found.
+1225,120,17,2024-11-29,14:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+1226,104,32,2024-12-02,9:00,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1227,98,31,2024-12-02,8:30,Checkup,No-Show,Scheduled imaging for further diagnostic clarity.
+1228,141,31,2024-12-02,16:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1229,82,7,2024-12-02,14:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1230,24,17,2024-12-02,9:30,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+1231,107,26,2024-12-02,10:30,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1232,114,24,2024-12-02,10:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1233,117,5,2024-12-02,8:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+1234,25,8,2024-12-03,13:00,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+1235,193,6,2024-12-03,15:30,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1236,87,6,2024-12-03,15:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1237,89,27,2024-12-03,11:45,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+1238,31,21,2024-12-03,11:30,Consultation,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1239,74,7,2024-12-03,9:45,Checkup,No-Show,Reviewed blood test results; slight anemia detected.
+1240,28,4,2024-12-04,16:15,Consultation,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1241,58,14,2024-12-04,10:30,Consultation,Completed,Discussed test results; no abnormalities found.
+1242,74,20,2024-12-04,9:15,Checkup,Cancelled,Routine check-up; vitals within normal limits.
+1243,155,14,2024-12-04,12:15,Urgency,Scheduled,Discussed test results; no abnormalities found.
+1244,39,27,2024-12-05,9:45,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1245,94,14,2024-12-05,14:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1246,155,11,2024-12-05,12:45,Urgency,Completed,Addressed side effects from current medication.
+1247,112,13,2024-12-05,8:30,Follow-up,Completed,Routine check-up; vitals within normal limits.
+1248,59,29,2024-12-05,15:15,Urgency,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1249,129,24,2024-12-05,15:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+1250,37,5,2024-12-05,8:00,Checkup,Completed,Discussed test results; no abnormalities found.
+1251,131,24,2024-12-05,14:00,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1252,120,26,2024-12-05,9:00,Follow-up,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1253,41,27,2024-12-06,16:00,Follow-up,No-Show,Follow-up on hypertension management; blood pressure stable.
+1254,116,37,2024-12-06,14:15,Urgency,No-Show,Patient complains of recurring migraines; prescribed medication.
+1255,121,9,2024-12-06,8:15,Consultation,Scheduled,Discussed test results; no abnormalities found.
+1256,59,24,2024-12-06,10:00,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1257,33,5,2024-12-06,14:15,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+1258,49,28,2024-12-06,14:45,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1259,37,21,2024-12-06,12:45,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1260,126,7,2024-12-06,8:15,Consultation,Scheduled,Discussed test results; no abnormalities found.
+1261,163,27,2024-12-06,13:00,Urgency,Completed,Addressed side effects from current medication.
+1262,179,36,2024-12-09,12:30,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1263,115,27,2024-12-09,11:00,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1264,64,17,2024-12-09,13:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+1265,113,32,2024-12-09,9:45,Urgency,Completed,Discussed test results; no abnormalities found.
+1266,152,5,2024-12-09,16:15,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1267,174,8,2024-12-09,16:45,Follow-up,Cancelled,Discussed test results; no abnormalities found.
+1268,60,25,2024-12-09,12:30,Urgency,Completed,Discussed test results; no abnormalities found.
+1269,43,24,2024-12-10,11:00,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1270,133,18,2024-12-10,14:30,Urgency,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1271,27,20,2024-12-10,12:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1272,143,5,2024-12-10,11:30,Follow-up,Scheduled,Addressed side effects from current medication.
+1273,42,36,2024-12-11,13:45,Checkup,Completed,Discussed test results; no abnormalities found.
+1274,185,30,2024-12-11,15:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1275,168,35,2024-12-11,13:45,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1276,37,9,2024-12-11,14:30,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1277,44,29,2024-12-11,15:15,Consultation,Completed,Discussed test results; no abnormalities found.
+1278,97,32,2024-12-11,15:00,Checkup,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1279,143,16,2024-12-11,9:45,Urgency,Completed,Routine check-up; vitals within normal limits.
+1280,141,18,2024-12-11,15:45,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1281,104,15,2024-12-11,9:30,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+1282,114,34,2024-12-11,8:00,Consultation,Scheduled,Discussed test results; no abnormalities found.
+1283,68,25,2024-12-12,15:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1284,158,8,2024-12-12,15:30,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1285,112,37,2024-12-12,13:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1286,148,7,2024-12-12,16:00,Urgency,Cancelled,Addressed side effects from current medication.
+1287,67,18,2024-12-12,10:45,Checkup,Cancelled,Follow-up on hypertension management; blood pressure stable.
+1288,167,33,2024-12-12,13:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1289,98,30,2024-12-12,15:15,Checkup,No-Show,Reviewed blood test results; slight anemia detected.
+1290,52,22,2024-12-12,8:45,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1291,38,36,2024-12-12,10:45,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1292,161,24,2024-12-12,8:30,Consultation,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1293,107,28,2024-12-13,8:30,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1294,126,5,2024-12-13,8:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1295,150,23,2024-12-13,11:45,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1296,84,9,2024-12-13,13:15,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1297,58,19,2024-12-13,13:00,Checkup,Completed,Addressed side effects from current medication.
+1298,96,7,2024-12-13,12:15,Urgency,No-Show,Addressed side effects from current medication.
+1299,68,5,2024-12-13,16:45,Checkup,Scheduled,Discussed test results; no abnormalities found.
+1300,199,29,2024-12-16,12:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+1301,140,13,2024-12-16,12:45,Follow-up,Cancelled,Patient advised to increase physical activity and hydrate.
+1302,36,21,2024-12-16,10:45,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1303,49,32,2024-12-16,9:00,Follow-up,Completed,Addressed side effects from current medication.
+1304,22,36,2024-12-17,12:30,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1305,36,37,2024-12-17,10:15,Follow-up,Completed,Discussed test results; no abnormalities found.
+1306,92,21,2024-12-17,8:30,Follow-up,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1307,37,36,2024-12-17,16:00,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1308,195,11,2024-12-17,16:00,Follow-up,No-Show,Patient complains of recurring migraines; prescribed medication.
+1309,167,32,2024-12-18,10:45,Follow-up,Cancelled,Addressed side effects from current medication.
+1310,91,4,2024-12-18,14:30,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1311,28,34,2024-12-18,10:00,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1312,171,14,2024-12-18,14:45,Checkup,No-Show,Patient advised to increase physical activity and hydrate.
+1313,135,14,2024-12-18,8:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1314,42,28,2024-12-18,11:45,Urgency,No-Show,Patient complains of recurring migraines; prescribed medication.
+1315,103,27,2024-12-19,14:30,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+1316,179,6,2024-12-19,11:15,Consultation,Completed,Discussed test results; no abnormalities found.
+1317,191,34,2024-12-19,9:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+1318,116,20,2024-12-19,10:45,Follow-up,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1319,128,6,2024-12-19,16:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+1320,43,34,2024-12-19,10:30,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1321,39,30,2024-12-20,10:30,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1322,161,29,2024-12-20,8:30,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1323,99,28,2024-12-20,10:15,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+1324,98,6,2024-12-20,10:45,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1325,121,18,2024-12-20,13:15,Checkup,Scheduled,Addressed side effects from current medication.
+1326,62,35,2024-12-20,12:00,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1327,43,7,2024-12-20,10:00,Follow-up,Scheduled,Addressed side effects from current medication.
+1328,23,30,2024-12-20,12:30,Follow-up,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+1329,194,35,2024-12-20,13:30,Consultation,No-Show,Discussed test results; no abnormalities found.
+1330,187,15,2024-12-23,16:00,Checkup,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1331,192,14,2024-12-23,9:00,Consultation,Completed,Routine check-up; vitals within normal limits.
+1332,171,14,2024-12-23,14:00,Follow-up,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+1333,110,31,2024-12-23,9:00,Urgency,Scheduled,Discussed test results; no abnormalities found.
+1334,90,8,2024-12-23,13:30,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1335,45,30,2024-12-23,9:00,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1336,46,20,2024-12-23,8:00,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+1337,65,35,2024-12-24,12:00,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1338,96,21,2024-12-24,12:30,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1339,109,11,2024-12-24,10:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1340,84,4,2024-12-24,12:30,Consultation,Completed,Discussed test results; no abnormalities found.
+1341,22,25,2024-12-25,8:15,Checkup,Completed,Addressed side effects from current medication.
+1342,23,9,2024-12-25,15:45,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1343,59,25,2024-12-25,15:45,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1344,166,28,2024-12-25,16:15,Consultation,Scheduled,Addressed side effects from current medication.
+1345,95,11,2024-12-25,16:30,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+1346,133,16,2024-12-25,10:30,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1347,189,21,2024-12-25,14:30,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1348,30,33,2024-12-25,11:45,Follow-up,Completed,Addressed side effects from current medication.
+1349,41,8,2024-12-25,16:00,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1350,187,21,2024-12-25,16:00,Consultation,No-Show,Follow-up on hypertension management; blood pressure stable.
+1351,137,16,2024-12-26,8:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1352,183,16,2024-12-26,13:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1353,124,16,2024-12-26,16:00,Follow-up,Completed,Addressed side effects from current medication.
+1354,65,32,2024-12-26,15:15,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1355,183,22,2024-12-26,16:15,Follow-up,Cancelled,Scheduled imaging for further diagnostic clarity.
+1356,106,15,2024-12-26,16:30,Follow-up,Cancelled,Patient advised to increase physical activity and hydrate.
+1357,91,27,2024-12-26,9:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1358,100,9,2024-12-26,11:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1359,83,17,2024-12-26,13:00,Consultation,Completed,Routine check-up; vitals within normal limits.
+1360,100,26,2024-12-26,10:30,Checkup,No-Show,Follow-up on hypertension management; blood pressure stable.
+1361,126,26,2024-12-27,14:15,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1362,143,19,2024-12-27,16:30,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1363,33,8,2024-12-27,14:45,Consultation,Completed,Addressed side effects from current medication.
+1364,166,15,2024-12-27,11:00,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1365,93,31,2024-12-27,9:45,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1366,63,25,2024-12-30,16:30,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1367,89,17,2024-12-30,15:30,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1368,175,27,2024-12-30,12:00,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1369,124,8,2024-12-30,8:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1370,40,32,2024-12-31,9:00,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1371,37,29,2024-12-31,9:30,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1372,177,4,2024-12-31,10:00,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1373,106,9,2024-12-31,9:00,Urgency,Cancelled,Patient advised to increase physical activity and hydrate.
+1374,89,22,2024-12-31,16:30,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+1375,193,24,2024-12-31,15:45,Urgency,Cancelled,Addressed side effects from current medication.
+1376,93,14,2024-12-31,8:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1377,53,23,2024-12-31,14:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1378,161,35,2024-12-31,10:00,Urgency,Completed,Discussed test results; no abnormalities found.
+1379,57,10,2025-01-01,10:45,Consultation,Scheduled,Discussed test results; no abnormalities found.
+1380,25,5,2025-01-01,12:00,Urgency,No-Show,Scheduled imaging for further diagnostic clarity.
+1381,61,24,2025-01-01,9:15,Follow-up,No-Show,Addressed side effects from current medication.
+1382,90,10,2025-01-01,13:45,Follow-up,Completed,Routine check-up; vitals within normal limits.
+1383,43,24,2025-01-01,8:00,Follow-up,Completed,Discussed test results; no abnormalities found.
+1384,101,4,2025-01-01,16:00,Checkup,Cancelled,Patient advised to increase physical activity and hydrate.
+1385,84,23,2025-01-01,14:30,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1386,47,7,2025-01-01,15:30,Checkup,Scheduled,Reviewed blood test results; slight anemia detected.
+1387,107,27,2025-01-01,15:15,Checkup,Scheduled,Discussed test results; no abnormalities found.
+1388,65,31,2025-01-01,11:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1389,180,26,2025-01-02,11:15,Consultation,Cancelled,Routine check-up; vitals within normal limits.
+1390,83,7,2025-01-02,13:45,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1391,45,36,2025-01-02,13:30,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1392,44,30,2025-01-02,13:45,Follow-up,Cancelled,Scheduled imaging for further diagnostic clarity.
+1393,28,20,2025-01-02,14:00,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1394,117,21,2025-01-02,12:30,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1395,105,15,2025-01-02,14:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1396,46,8,2025-01-02,9:15,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1397,140,34,2025-01-02,12:30,Urgency,Scheduled,Discussed test results; no abnormalities found.
+1398,166,13,2025-01-03,15:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+1399,119,10,2025-01-03,9:30,Checkup,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1400,105,24,2025-01-03,10:00,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1401,51,28,2025-01-03,12:15,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1402,121,27,2025-01-06,12:30,Consultation,No-Show,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1403,196,35,2025-01-06,16:45,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+1404,132,6,2025-01-06,11:00,Checkup,Scheduled,Discussed test results; no abnormalities found.
+1405,128,16,2025-01-06,8:30,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1406,176,16,2025-01-07,11:00,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1407,164,4,2025-01-07,16:45,Consultation,Scheduled,Scheduled imaging for further diagnostic clarity.
+1408,76,32,2025-01-07,8:00,Consultation,No-Show,Follow-up on hypertension management; blood pressure stable.
+1409,127,19,2025-01-07,11:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1410,72,15,2025-01-07,14:00,Follow-up,Completed,Discussed test results; no abnormalities found.
+1411,161,5,2025-01-07,12:30,Follow-up,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1412,151,21,2025-01-07,15:45,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1413,21,22,2025-01-07,15:45,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+1414,70,13,2025-01-07,13:00,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1415,37,36,2025-01-07,16:45,Checkup,No-Show,Routine check-up; vitals within normal limits.
+1416,73,25,2025-01-08,8:00,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1417,153,24,2025-01-08,14:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1418,96,16,2025-01-08,13:00,Consultation,Cancelled,Addressed side effects from current medication.
+1419,122,12,2025-01-08,11:15,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1420,156,9,2025-01-08,14:30,Urgency,Scheduled,Addressed side effects from current medication.
+1421,170,25,2025-01-09,15:45,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+1422,120,33,2025-01-09,10:15,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1423,79,28,2025-01-09,14:30,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1424,153,7,2025-01-09,12:30,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+1425,106,37,2025-01-09,15:30,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1426,157,18,2025-01-09,10:15,Follow-up,Completed,Addressed side effects from current medication.
+1427,173,32,2025-01-09,16:30,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+1428,153,23,2025-01-09,16:15,Consultation,Completed,Addressed side effects from current medication.
+1429,68,5,2025-01-09,12:00,Consultation,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1430,50,24,2025-01-10,15:15,Consultation,Completed,Addressed side effects from current medication.
+1431,72,17,2025-01-10,12:30,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1432,95,10,2025-01-10,10:45,Urgency,Completed,Routine check-up; vitals within normal limits.
+1433,150,31,2025-01-10,14:15,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1434,125,4,2025-01-10,15:00,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1435,200,27,2025-01-13,12:00,Checkup,Scheduled,Routine check-up; vitals within normal limits.
+1436,134,31,2025-01-13,8:45,Follow-up,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1437,195,36,2025-01-13,11:15,Follow-up,Scheduled,Addressed side effects from current medication.
+1438,53,35,2025-01-13,9:45,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1439,145,20,2025-01-13,14:30,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1440,92,6,2025-01-14,14:45,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1441,106,29,2025-01-14,16:45,Urgency,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1442,171,30,2025-01-14,9:00,Follow-up,No-Show,Reviewed blood test results; slight anemia detected.
+1443,81,21,2025-01-14,16:15,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1444,191,36,2025-01-14,12:30,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1445,125,8,2025-01-15,12:00,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1446,43,25,2025-01-15,10:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1447,177,15,2025-01-15,9:45,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1448,26,17,2025-01-15,12:15,Urgency,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1449,196,21,2025-01-16,15:00,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1450,103,25,2025-01-16,11:15,Consultation,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1451,93,30,2025-01-16,15:00,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1452,92,6,2025-01-16,15:30,Follow-up,No-Show,Patient complains of recurring migraines; prescribed medication.
+1453,121,18,2025-01-16,9:45,Urgency,Cancelled,Follow-up on hypertension management; blood pressure stable.
+1454,110,20,2025-01-16,14:15,Consultation,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1455,182,21,2025-01-16,12:00,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1456,21,33,2025-01-16,11:45,Urgency,Scheduled,Discussed test results; no abnormalities found.
+1457,49,33,2025-01-17,14:15,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1458,78,6,2025-01-17,15:15,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1459,80,31,2025-01-17,12:00,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1460,70,14,2025-01-17,14:00,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1461,185,24,2025-01-17,8:15,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+1462,80,26,2025-01-17,13:15,Consultation,Completed,Discussed test results; no abnormalities found.
+1463,61,34,2025-01-17,11:30,Checkup,Completed,Discussed test results; no abnormalities found.
+1464,196,22,2025-01-20,10:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1465,78,31,2025-01-20,12:00,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+1466,48,17,2025-01-20,13:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1467,38,26,2025-01-20,15:15,Urgency,No-Show,Reviewed blood test results; slight anemia detected.
+1468,83,31,2025-01-20,13:15,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1469,81,26,2025-01-20,16:30,Checkup,Scheduled,Discussed test results; no abnormalities found.
+1470,75,29,2025-01-20,16:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+1471,140,5,2025-01-20,16:45,Consultation,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1472,160,16,2025-01-20,10:30,Consultation,No-Show,Patient complains of recurring migraines; prescribed medication.
+1473,158,17,2025-01-21,10:30,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1474,171,11,2025-01-21,10:15,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+1475,61,29,2025-01-21,11:15,Consultation,Completed,Addressed side effects from current medication.
+1476,98,18,2025-01-21,9:45,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1477,183,33,2025-01-21,11:00,Checkup,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1478,102,13,2025-01-21,14:00,Checkup,Completed,Addressed side effects from current medication.
+1479,112,21,2025-01-21,12:00,Consultation,Completed,Discussed test results; no abnormalities found.
+1480,56,25,2025-01-21,10:00,Urgency,Scheduled,Patient advised to increase physical activity and hydrate.
+1481,192,27,2025-01-21,10:30,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1482,82,26,2025-01-21,10:00,Follow-up,Scheduled,Discussed test results; no abnormalities found.
+1483,25,30,2025-01-22,15:45,Urgency,Completed,Discussed test results; no abnormalities found.
+1484,150,17,2025-01-22,10:00,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1485,57,19,2025-01-22,10:15,Follow-up,Cancelled,Follow-up on hypertension management; blood pressure stable.
+1486,166,14,2025-01-22,8:00,Follow-up,Scheduled,Reviewed blood test results; slight anemia detected.
+1487,70,5,2025-01-22,15:30,Urgency,No-Show,Follow-up on hypertension management; blood pressure stable.
+1488,65,19,2025-01-22,14:15,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1489,109,14,2025-01-22,12:00,Consultation,Cancelled,Follow-up on hypertension management; blood pressure stable.
+1490,132,16,2025-01-23,16:00,Checkup,Completed,Discussed test results; no abnormalities found.
+1491,123,33,2025-01-23,12:30,Consultation,No-Show,Patient complains of recurring migraines; prescribed medication.
+1492,134,35,2025-01-23,14:30,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1493,189,15,2025-01-23,14:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1494,145,5,2025-01-23,9:45,Checkup,Completed,Discussed test results; no abnormalities found.
+1495,25,19,2025-01-23,16:30,Urgency,No-Show,Reviewed blood test results; slight anemia detected.
+1496,65,30,2025-01-23,15:00,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1497,136,36,2025-01-23,13:15,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1498,55,11,2025-01-23,13:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1499,168,28,2025-01-23,8:30,Checkup,No-Show,Patient complains of recurring migraines; prescribed medication.
+1500,68,35,2025-01-24,15:15,Urgency,Completed,Discussed test results; no abnormalities found.
+1501,61,6,2025-01-24,13:15,Checkup,Completed,Discussed test results; no abnormalities found.
+1502,40,9,2025-01-24,10:15,Consultation,Cancelled,Scheduled imaging for further diagnostic clarity.
+1503,188,15,2025-01-24,16:45,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1504,58,13,2025-01-24,12:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1505,143,9,2025-01-24,9:45,Urgency,Cancelled,Scheduled imaging for further diagnostic clarity.
+1506,171,14,2025-01-24,8:30,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1507,32,36,2025-01-27,10:45,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1508,41,12,2025-01-27,16:30,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1509,53,20,2025-01-27,10:45,Urgency,Cancelled,Discussed test results; no abnormalities found.
+1510,56,27,2025-01-27,15:45,Urgency,Completed,Routine check-up; vitals within normal limits.
+1511,97,9,2025-01-27,11:00,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1512,70,36,2025-01-27,13:00,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1513,150,14,2025-01-27,12:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1514,65,32,2025-01-27,13:15,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1515,127,26,2025-01-28,8:15,Urgency,Completed,Routine check-up; vitals within normal limits.
+1516,55,5,2025-01-28,15:45,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1517,193,29,2025-01-28,12:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+1518,148,23,2025-01-28,11:00,Urgency,Cancelled,Follow-up on hypertension management; blood pressure stable.
+1519,195,10,2025-01-28,16:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1520,79,37,2025-01-29,8:30,Urgency,Scheduled,Addressed side effects from current medication.
+1521,90,29,2025-01-29,15:15,Consultation,No-Show,Routine check-up; vitals within normal limits.
+1522,190,17,2025-01-29,11:45,Checkup,Completed,Routine check-up; vitals within normal limits.
+1523,159,19,2025-01-29,9:30,Consultation,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1524,169,8,2025-01-29,11:15,Follow-up,No-Show,Addressed side effects from current medication.
+1525,22,11,2025-01-30,8:15,Follow-up,Completed,Addressed side effects from current medication.
+1526,104,35,2025-01-30,15:00,Consultation,Completed,Routine check-up; vitals within normal limits.
+1527,197,15,2025-01-30,9:00,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1528,194,18,2025-01-30,15:30,Urgency,Completed,Addressed side effects from current medication.
+1529,55,35,2025-01-30,16:45,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+1530,161,35,2025-01-31,13:15,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1531,182,33,2025-01-31,10:15,Follow-up,Completed,Addressed side effects from current medication.
+1532,135,4,2025-01-31,15:00,Follow-up,Completed,Discussed test results; no abnormalities found.
+1533,151,36,2025-01-31,14:45,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1534,59,4,2025-02-03,16:15,Consultation,Completed,Discussed test results; no abnormalities found.
+1535,58,25,2025-02-03,12:00,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1536,125,29,2025-02-03,13:30,Urgency,Completed,Discussed test results; no abnormalities found.
+1537,26,14,2025-02-03,14:15,Urgency,No-Show,Addressed side effects from current medication.
+1538,162,14,2025-02-03,15:00,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1539,83,37,2025-02-04,13:15,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1540,53,19,2025-02-04,16:45,Checkup,No-Show,Patient advised to increase physical activity and hydrate.
+1541,22,6,2025-02-04,9:45,Consultation,Completed,Addressed side effects from current medication.
+1542,135,30,2025-02-04,15:00,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+1543,101,20,2025-02-04,15:00,Consultation,Scheduled,Routine check-up; vitals within normal limits.
+1544,54,26,2025-02-04,10:45,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+1545,144,22,2025-02-04,11:00,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+1546,50,26,2025-02-04,15:00,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1547,86,19,2025-02-05,12:45,Consultation,Scheduled,Patient advised to increase physical activity and hydrate.
+1548,49,14,2025-02-05,8:45,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1549,70,20,2025-02-05,12:45,Follow-up,Scheduled,Addressed side effects from current medication.
+1550,66,32,2025-02-05,16:45,Urgency,Cancelled,Reviewed blood test results; slight anemia detected.
+1551,86,14,2025-02-05,16:00,Checkup,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1552,180,14,2025-02-05,15:15,Urgency,Completed,Addressed side effects from current medication.
+1553,112,9,2025-02-05,15:45,Follow-up,No-Show,Follow-up on hypertension management; blood pressure stable.
+1554,75,8,2025-02-05,12:00,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+1555,103,22,2025-02-05,8:00,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1556,189,29,2025-02-06,12:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1557,184,34,2025-02-06,11:45,Checkup,Completed,Discussed test results; no abnormalities found.
+1558,188,35,2025-02-06,11:45,Consultation,Cancelled,Reviewed blood test results; slight anemia detected.
+1559,150,7,2025-02-06,14:45,Consultation,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1560,198,24,2025-02-06,13:00,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1561,167,4,2025-02-06,16:30,Checkup,Completed,Scheduled imaging for further diagnostic clarity.
+1562,183,16,2025-02-06,15:45,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1563,198,16,2025-02-06,9:15,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1564,35,28,2025-02-07,12:45,Checkup,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1565,199,25,2025-02-07,10:15,Consultation,No-Show,Patient advised to increase physical activity and hydrate.
+1566,55,26,2025-02-07,9:45,Consultation,No-Show,Reviewed blood test results; slight anemia detected.
+1567,63,33,2025-02-07,16:45,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1568,84,30,2025-02-10,16:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1569,80,20,2025-02-10,15:15,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1570,40,4,2025-02-10,14:15,Urgency,Cancelled,Addressed side effects from current medication.
+1571,44,10,2025-02-10,16:30,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1572,123,33,2025-02-10,13:00,Checkup,Scheduled,Routine check-up; vitals within normal limits.
+1573,143,32,2025-02-10,9:30,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1574,119,16,2025-02-10,8:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+1575,175,36,2025-02-10,16:45,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+1576,47,8,2025-02-10,12:45,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1577,97,28,2025-02-10,14:00,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1578,111,29,2025-02-11,12:15,Checkup,Scheduled,Scheduled imaging for further diagnostic clarity.
+1579,77,7,2025-02-11,9:15,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1580,55,6,2025-02-11,11:30,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1581,152,30,2025-02-11,15:00,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1582,153,24,2025-02-11,10:00,Checkup,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1583,72,6,2025-02-11,8:30,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1584,72,25,2025-02-11,16:30,Consultation,Completed,Addressed side effects from current medication.
+1585,134,13,2025-02-11,14:45,Consultation,No-Show,Addressed side effects from current medication.
+1586,186,16,2025-02-11,15:45,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1587,110,11,2025-02-11,10:45,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1588,177,27,2025-02-12,15:45,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1589,126,9,2025-02-12,12:00,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1590,120,4,2025-02-12,15:30,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+1591,62,6,2025-02-12,8:45,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1592,46,32,2025-02-12,15:45,Consultation,Completed,Patient advised to increase physical activity and hydrate.
+1593,53,18,2025-02-12,9:15,Urgency,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+1594,164,5,2025-02-12,15:00,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1595,155,17,2025-02-13,15:15,Follow-up,Completed,Routine check-up; vitals within normal limits.
+1596,76,34,2025-02-13,16:45,Consultation,Completed,Addressed side effects from current medication.
+1597,187,12,2025-02-13,14:15,Checkup,Completed,Discussed test results; no abnormalities found.
+1598,184,12,2025-02-13,16:30,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1599,193,12,2025-02-13,14:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+1600,112,18,2025-02-13,12:45,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+1601,37,20,2025-02-13,14:30,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1602,55,33,2025-02-13,12:15,Checkup,Completed,Patient complains of recurring migraines; prescribed medication.
+1603,146,13,2025-02-14,12:15,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1604,183,15,2025-02-14,11:30,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1605,116,36,2025-02-14,13:45,Follow-up,Scheduled,Addressed side effects from current medication.
+1606,181,34,2025-02-14,14:45,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1607,75,9,2025-02-14,12:00,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+1608,162,31,2025-02-14,10:45,Checkup,Completed,Discussed test results; no abnormalities found.
+1609,63,34,2025-02-17,14:15,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1610,152,31,2025-02-17,16:45,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1611,77,9,2025-02-17,13:30,Consultation,Completed,Routine check-up; vitals within normal limits.
+1612,170,6,2025-02-17,11:45,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1613,48,18,2025-02-17,11:00,Urgency,Completed,Discussed test results; no abnormalities found.
+1614,112,15,2025-02-17,16:15,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1615,174,31,2025-02-17,11:45,Checkup,No-Show,Follow-up on hypertension management; blood pressure stable.
+1616,49,34,2025-02-17,16:45,Consultation,Scheduled,Reviewed blood test results; slight anemia detected.
+1617,60,12,2025-02-17,14:00,Consultation,Cancelled,Reviewed blood test results; slight anemia detected.
+1618,35,23,2025-02-18,11:15,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1619,62,34,2025-02-18,14:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1620,52,11,2025-02-18,15:45,Checkup,Cancelled,Reviewed blood test results; slight anemia detected.
+1621,42,9,2025-02-18,11:15,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1622,137,7,2025-02-18,16:00,Checkup,Completed,Routine check-up; vitals within normal limits.
+1623,135,29,2025-02-18,14:00,Follow-up,Completed,Discussed test results; no abnormalities found.
+1624,186,12,2025-02-18,15:30,Urgency,Completed,Discussed test results; no abnormalities found.
+1625,50,26,2025-02-19,8:15,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1626,35,25,2025-02-19,10:45,Urgency,Completed,Follow-up on hypertension management; blood pressure stable.
+1627,136,17,2025-02-19,14:45,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1628,76,5,2025-02-19,14:15,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1629,124,35,2025-02-19,11:00,Checkup,Completed,Addressed side effects from current medication.
+1630,81,14,2025-02-19,9:15,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1631,125,18,2025-02-19,10:30,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1632,142,36,2025-02-20,9:00,Checkup,Completed,Routine check-up; vitals within normal limits.
+1633,198,35,2025-02-20,12:15,Checkup,Completed,Patient advised to increase physical activity and hydrate.
+1634,156,36,2025-02-20,10:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1635,172,20,2025-02-20,16:45,Checkup,Completed,Discussed test results; no abnormalities found.
+1636,25,13,2025-02-20,8:15,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1637,102,32,2025-02-20,14:45,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1638,70,6,2025-02-21,11:00,Urgency,Scheduled,Addressed side effects from current medication.
+1639,104,31,2025-02-21,9:00,Consultation,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1640,138,36,2025-02-21,14:15,Consultation,Completed,Addressed side effects from current medication.
+1641,162,26,2025-02-21,16:15,Checkup,Scheduled,Discussed test results; no abnormalities found.
+1642,45,36,2025-02-21,15:15,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1643,193,18,2025-02-21,15:15,Consultation,No-Show,Patient complains of recurring migraines; prescribed medication.
+1644,73,20,2025-02-21,15:45,Checkup,Completed,Discussed test results; no abnormalities found.
+1645,141,15,2025-02-24,14:30,Consultation,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1646,163,30,2025-02-24,12:00,Follow-up,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+1647,91,22,2025-02-24,14:00,Follow-up,Completed,Follow-up on hypertension management; blood pressure stable.
+1648,73,21,2025-02-24,12:15,Follow-up,Scheduled,Routine check-up; vitals within normal limits.
+1649,115,32,2025-02-24,12:45,Consultation,Completed,Discussed test results; no abnormalities found.
+1650,153,16,2025-02-24,16:45,Urgency,Completed,Routine check-up; vitals within normal limits.
+1651,150,34,2025-02-24,12:00,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+1652,44,31,2025-02-24,14:00,Consultation,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1653,23,34,2025-02-24,14:45,Follow-up,Scheduled,Patient reports mild abdominal pain; advised dietary changes.
+1654,112,22,2025-02-25,12:15,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1655,85,6,2025-02-25,16:15,Follow-up,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1656,191,7,2025-02-25,8:00,Consultation,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1657,109,37,2025-02-25,8:45,Urgency,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1658,97,19,2025-02-25,15:00,Follow-up,No-Show,Follow-up on hypertension management; blood pressure stable.
+1659,103,29,2025-02-25,10:45,Checkup,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1660,108,7,2025-02-25,11:30,Checkup,Completed,Reviewed blood test results; slight anemia detected.
+1661,59,17,2025-02-26,11:45,Follow-up,Cancelled,Discussed test results; no abnormalities found.
+1662,142,28,2025-02-26,9:30,Follow-up,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1663,73,15,2025-02-26,11:30,Urgency,Completed,Addressed side effects from current medication.
+1664,111,10,2025-02-26,13:00,Consultation,No-Show,Patient advised to increase physical activity and hydrate.
+1665,105,33,2025-02-26,13:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+1666,21,5,2025-02-26,12:45,Urgency,Scheduled,Addressed side effects from current medication.
+1667,164,11,2025-02-26,11:00,Consultation,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1668,78,11,2025-02-27,15:45,Urgency,Completed,Scheduled imaging for further diagnostic clarity.
+1669,49,34,2025-02-27,12:00,Follow-up,Scheduled,Scheduled imaging for further diagnostic clarity.
+1670,180,22,2025-02-27,9:30,Consultation,Completed,Discussed test results; no abnormalities found.
+1671,131,29,2025-02-27,10:45,Consultation,Completed,Discussed test results; no abnormalities found.
+1672,37,29,2025-02-27,16:30,Checkup,Completed,Addressed side effects from current medication.
+1673,78,32,2025-02-27,12:45,Checkup,Completed,Discussed test results; no abnormalities found.
+1674,41,34,2025-02-27,12:00,Consultation,Completed,Addressed side effects from current medication.
+1675,89,20,2025-02-27,8:45,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1676,59,24,2025-02-27,13:15,Follow-up,Completed,Addressed side effects from current medication.
+1677,38,7,2025-02-27,15:45,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1678,58,31,2025-02-28,13:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1679,128,30,2025-02-28,15:45,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+1680,115,19,2025-02-28,11:30,Checkup,Scheduled,Patient advised to increase physical activity and hydrate.
+1681,53,14,2025-02-28,9:15,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1682,87,18,2025-02-28,14:30,Checkup,Cancelled,Scheduled imaging for further diagnostic clarity.
+1683,69,27,2025-02-28,11:30,Consultation,No-Show,Patient reports mild abdominal pain; advised dietary changes.
+1684,41,21,2025-03-03,14:45,Consultation,Completed,Addressed side effects from current medication.
+1685,179,8,2025-03-03,9:00,Checkup,No-Show,Reviewed blood test results; slight anemia detected.
+1686,67,14,2025-03-03,16:00,Consultation,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1687,66,18,2025-03-03,15:30,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1688,179,10,2025-03-03,14:30,Consultation,Completed,Discussed test results; no abnormalities found.
+1689,23,33,2025-03-03,15:45,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1690,107,12,2025-03-03,15:45,Consultation,Completed,Follow-up on hypertension management; blood pressure stable.
+1691,120,36,2025-03-03,16:00,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1692,131,21,2025-03-03,13:15,Follow-up,Scheduled,Patient advised to increase physical activity and hydrate.
+1693,139,35,2025-03-03,12:45,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1694,163,35,2025-03-04,11:30,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1695,36,10,2025-03-04,14:30,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+1696,126,29,2025-03-04,13:15,Follow-up,Scheduled,Reviewed blood test results; slight anemia detected.
+1697,32,18,2025-03-04,12:00,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1698,188,30,2025-03-04,12:30,Consultation,Cancelled,Scheduled imaging for further diagnostic clarity.
+1699,180,37,2025-03-04,8:15,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1700,115,11,2025-03-04,9:15,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1701,26,21,2025-03-05,8:30,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1702,114,23,2025-03-05,8:45,Consultation,No-Show,Discussed test results; no abnormalities found.
+1703,163,6,2025-03-05,10:30,Urgency,Completed,Patient advised to increase physical activity and hydrate.
+1704,169,16,2025-03-05,14:15,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1705,108,14,2025-03-05,9:15,Checkup,Cancelled,Follow-up on hypertension management; blood pressure stable.
+1706,102,11,2025-03-05,15:45,Urgency,Completed,Routine check-up; vitals within normal limits.
+1707,56,16,2025-03-06,15:00,Urgency,Completed,Routine check-up; vitals within normal limits.
+1708,116,15,2025-03-06,16:15,Checkup,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1709,100,35,2025-03-06,15:00,Follow-up,Scheduled,Addressed side effects from current medication.
+1710,197,20,2025-03-06,16:45,Follow-up,Completed,Discussed test results; no abnormalities found.
+1711,109,30,2025-03-07,9:15,Urgency,Completed,Routine check-up; vitals within normal limits.
+1712,96,25,2025-03-07,12:15,Checkup,Completed,Follow-up on hypertension management; blood pressure stable.
+1713,168,25,2025-03-07,12:00,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1714,38,14,2025-03-07,11:00,Checkup,Completed,Routine check-up; vitals within normal limits.
+1715,117,23,2025-03-07,11:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1716,129,11,2025-03-07,12:15,Urgency,Cancelled,Follow-up on hypertension management; blood pressure stable.
+1717,140,4,2025-03-07,12:15,Urgency,Completed,Addressed side effects from current medication.
+1718,145,27,2025-03-10,13:45,Follow-up,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1719,139,13,2025-03-10,8:45,Checkup,No-Show,Routine check-up; vitals within normal limits.
+1720,71,5,2025-03-10,12:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1721,100,9,2025-03-10,15:30,Urgency,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1722,67,4,2025-03-10,16:30,Urgency,No-Show,Reviewed blood test results; slight anemia detected.
+1723,59,35,2025-03-10,10:00,Urgency,Completed,Reviewed blood test results; slight anemia detected.
+1724,50,19,2025-03-10,16:30,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.
+1725,117,12,2025-03-10,16:15,Consultation,Completed,Scheduled imaging for further diagnostic clarity.
+1726,44,5,2025-03-10,14:15,Urgency,Scheduled,Discussed test results; no abnormalities found.
+1727,79,35,2025-03-11,16:15,Consultation,Scheduled,Discussed test results; no abnormalities found.
+1728,126,34,2025-03-11,9:15,Follow-up,Completed,Patient advised to increase physical activity and hydrate.
+1729,49,5,2025-03-11,8:45,Follow-up,No-Show,Patient complains of recurring migraines; prescribed medication.
+1730,116,15,2025-03-11,15:15,Urgency,Scheduled,Reviewed blood test results; slight anemia detected.
+1731,191,11,2025-03-11,8:30,Consultation,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1732,155,22,2025-03-11,13:00,Checkup,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1733,39,25,2025-03-11,8:15,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1734,118,20,2025-03-11,16:45,Checkup,No-Show,Follow-up on hypertension management; blood pressure stable.
+1735,25,11,2025-03-11,10:30,Checkup,Completed,Addressed side effects from current medication.
+1736,100,18,2025-03-12,15:45,Urgency,Scheduled,Routine check-up; vitals within normal limits.
+1737,160,15,2025-03-12,9:30,Consultation,Completed,Addressed side effects from current medication.
+1738,141,4,2025-03-12,8:45,Checkup,Cancelled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1739,49,32,2025-03-12,16:15,Urgency,Completed,Discussed test results; no abnormalities found.
+1740,66,18,2025-03-12,12:45,Follow-up,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1741,131,16,2025-03-12,11:45,Consultation,Completed,Routine check-up; vitals within normal limits.
+1742,32,13,2025-03-12,12:45,Urgency,Completed,Patient complains of recurring migraines; prescribed medication.
+1743,90,29,2025-03-12,13:15,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1744,40,6,2025-03-12,13:15,Urgency,Completed,Addressed side effects from current medication.
+1745,114,27,2025-03-12,11:30,Consultation,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1746,193,7,2025-03-13,16:00,Urgency,Scheduled,Scheduled imaging for further diagnostic clarity.
+1747,177,37,2025-03-13,8:30,Consultation,Cancelled,Reviewed blood test results; slight anemia detected.
+1748,178,20,2025-03-13,9:15,Urgency,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1749,146,16,2025-03-13,9:30,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1750,49,11,2025-03-14,13:30,Urgency,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1751,108,21,2025-03-14,9:45,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1752,156,21,2025-03-14,14:15,Checkup,Completed,Routine check-up; vitals within normal limits.
+1753,88,9,2025-03-14,12:00,Urgency,Cancelled,Patient complains of recurring migraines; prescribed medication.
+1754,147,7,2025-03-14,14:30,Consultation,No-Show,Scheduled imaging for further diagnostic clarity.
+1755,99,32,2025-03-14,15:45,Checkup,No-Show,Addressed side effects from current medication.
+1756,182,36,2025-03-14,16:45,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+1757,22,8,2025-03-14,11:30,Follow-up,No-Show,Routine check-up; vitals within normal limits.
+1758,185,18,2025-03-17,10:15,Consultation,Cancelled,Scheduled imaging for further diagnostic clarity.
+1759,171,6,2025-03-17,12:45,Urgency,No-Show,Patient complains of recurring migraines; prescribed medication.
+1760,23,14,2025-03-17,11:00,Urgency,Cancelled,Patient reports mild abdominal pain; advised dietary changes.
+1761,126,27,2025-03-17,15:45,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1762,193,15,2025-03-17,15:00,Consultation,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1763,191,36,2025-03-18,10:45,Consultation,Completed,Addressed side effects from current medication.
+1764,104,20,2025-03-18,14:30,Checkup,Scheduled,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1765,40,35,2025-03-18,12:30,Follow-up,No-Show,Scheduled imaging for further diagnostic clarity.
+1766,118,14,2025-03-18,13:45,Follow-up,Completed,Scheduled imaging for further diagnostic clarity.
+1767,172,25,2025-03-18,8:30,Urgency,No-Show,Patient complains of recurring migraines; prescribed medication.
+1768,38,33,2025-03-18,9:00,Urgency,No-Show,Addressed side effects from current medication.
+1769,43,25,2025-03-18,9:15,Follow-up,Completed,Routine check-up; vitals within normal limits.
+1770,177,17,2025-03-18,16:00,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1771,161,24,2025-03-19,14:30,Urgency,Scheduled,Follow-up on hypertension management; blood pressure stable.
+1772,57,12,2025-03-19,16:30,Consultation,Scheduled,Discussed test results; no abnormalities found.
+1773,90,18,2025-03-19,13:15,Follow-up,Completed,Reviewed blood test results; slight anemia detected.
+1774,163,35,2025-03-19,15:30,Consultation,No-Show,Routine check-up; vitals within normal limits.
+1775,149,25,2025-03-19,16:00,Follow-up,Completed,Routine check-up; vitals within normal limits.
+1776,62,33,2025-03-19,15:30,Checkup,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1777,198,13,2025-03-19,14:00,Consultation,Cancelled,Discussed test results; no abnormalities found.
+1778,75,11,2025-03-20,12:15,Urgency,Completed,Routine check-up; vitals within normal limits.
+1779,92,17,2025-03-20,14:30,Follow-up,Completed,Patient complains of recurring migraines; prescribed medication.
+1780,151,36,2025-03-20,14:30,Consultation,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1781,108,6,2025-03-20,12:30,Consultation,Cancelled,Follow-up on hypertension management; blood pressure stable.
+1782,23,22,2025-03-20,10:15,Follow-up,Completed,Symptoms consistent with seasonal allergies; antihistamines recommended.
+1783,141,8,2025-03-20,8:15,Consultation,Completed,Routine check-up; vitals within normal limits.
+1784,53,30,2025-03-20,14:15,Consultation,Scheduled,Scheduled imaging for further diagnostic clarity.
+1785,36,24,2025-03-20,14:15,Urgency,Completed,Addressed side effects from current medication.
+1786,124,20,2025-03-20,9:30,Follow-up,Cancelled,Scheduled imaging for further diagnostic clarity.
+1787,167,25,2025-03-21,11:45,Urgency,Scheduled,Patient complains of recurring migraines; prescribed medication.
+1788,49,4,2025-03-21,12:15,Consultation,Completed,Reviewed blood test results; slight anemia detected.
+1789,195,18,2025-03-21,12:45,Consultation,Scheduled,Scheduled imaging for further diagnostic clarity.
+1790,27,37,2025-03-21,14:15,Follow-up,Completed,Patient reports mild abdominal pain; advised dietary changes.
+1791,160,36,2025-03-21,13:15,Urgency,Completed,Discussed test results; no abnormalities found.
+1792,150,36,2025-03-21,12:00,Consultation,No-Show,Addressed side effects from current medication.
+1793,164,13,2025-03-21,10:15,Consultation,Completed,Discussed test results; no abnormalities found.
+1794,171,9,2025-03-21,13:15,Consultation,Completed,Patient complains of recurring migraines; prescribed medication.

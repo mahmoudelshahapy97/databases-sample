@@ -7,12 +7,19 @@ FROM gvenzl/oracle-xe:21-slim-faststart
 
 USER root
 
-# Only the numbered shell scripts belong in the init hook — the gvenzl
-# entrypoint executes *every* .sh and .sql it finds there, so SQL assets that
-# are meant to be @-called by those scripts live in /opt/seed instead.
-COPY init/   /container-entrypoint-initdb.d/
+# Nothing goes into /container-entrypoint-initdb.d: the gvenzl entrypoint runs
+# every .sh and .sql found there itself, on the start that creates the database,
+# and entrypoint.sh drives the same scripts — so anything placed there is loaded
+# twice, concurrently, and the two passes drop each other's users mid-load.
+# entrypoint.sh is the single driver; the scripts and the SQL assets they
+# @-call both live under /opt/seed.
+COPY init/   /opt/seed/init/
 COPY assets/ /opt/seed/
-RUN chmod +x /container-entrypoint-initdb.d/*.sh \
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /opt/seed/init/*.sh /entrypoint.sh \
  && chmod -R a+rX /opt/seed
 
 USER oracle
+
+ENTRYPOINT ["/entrypoint.sh"]
+

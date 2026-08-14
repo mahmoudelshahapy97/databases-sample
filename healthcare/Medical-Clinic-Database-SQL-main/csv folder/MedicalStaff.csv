@@ -1,0 +1,35 @@
+MedStaffID,FirstName,LastName,Role,DepartmentID,Phone,Email,HireDate,Status
+4,Hannah,Wright,Dermatologist,4,4162495786,hannah.wright@clinic6sql.com,2022-10-31,Active
+5,Amy,Nguyen,Nurse,4,4164353774,amy.nguyen@clinic6sql.com,2015-03-23,Active
+6,Angela,Garner,Dermatologist,4,4169976831,angela.garner@clinic6sql.com,2016-05-24,Active
+7,Tyler,Brock,Orthopedic Surgeon,5,4166789426,tyler.brock@clinic6sql.com,2023-02-09,Active
+8,Leslie,Ingram,Nurse,5,4165699377,leslie.ingram@clinic6sql.com,2018-04-05,Active
+9,Tina,Fry,Orthopedic Surgeon,5,4167576318,tina.fry@clinic6sql.com,2021-11-06,Active
+10,Regina,Barnes,Nurse,5,4162565852,regina.barnes@clinic6sql.com,2024-01-31,Retired
+11,Joel,Benitez,Orthopedic Surgeon,5,4162298550,joel.benitez@clinic6sql.com,2022-01-03,On Leave
+12,Ruben,Maldonado,Gastroenterologist,6,4161137380,ruben.maldonado@clinic6sql.com,2019-09-25,Active
+13,Corey,Smith,Nurse,6,4166789895,corey.smith@clinic6sql.com,2016-08-27,Active
+14,Bruce,Robinson,Gastroenterologist,6,4161258494,bruce.robinson@clinic6sql.com,2015-11-25,Active
+15,Jennifer,Morales,Nurse,6,4168056259,jennifer.morales@clinic6sql.com,2016-10-03,On Leave
+16,Kristina,Turner,Gastroenterologist,6,4167316880,kristina.turner@clinic6sql.com,2022-08-01,Active
+17,Michelle,Baker,Endocrinologist,7,4164553956,michelle.baker@clinic6sql.com,2016-10-25,Active
+18,Brian,Moore,Nurse,7,4169327216,brian.moore@clinic6sql.com,2020-01-10,Active
+19,Sue,Hernandez,Endocrinologist,7,4169329225,sue.hernandez@clinic6sql.com,2023-05-08,Active
+20,Sarah,Cook,Nurse,7,4161189665,sarah.cook@clinic6sql.com,2021-09-08,Active
+21,Kenneth,Jackson,Endocrinologist,7,4160452378,kenneth.jackson@clinic6sql.com,2021-04-25,Active
+22,John,Taylor,Ophthalmologist,8,4165465137,john.taylor@clinic6sql.com,2015-04-01,Active
+23,Brittany,Johnson,Nurse,8,4163676624,brittany.johnson@clinic6sql.com,2017-02-28,Active
+24,Sandra,Cross,Ophthalmologist,8,4162272449,sandra.cross@clinic6sql.com,2019-09-25,On Leave
+25,Michael,Welch,Psychiatrist,9,4166708535,michael.welch@clinic6sql.com,2021-09-15,Active
+26,Dustin,Allen,Nurse,9,4160812431,dustin.allen@clinic6sql.com,2020-06-01,Active
+27,Alex,Johnson,Psychiatrist,9,4161077411,alex.johnson@clinic6sql.com,2019-07-01,Retired
+28,Dustin,Burns,Gynecologist,10,4168038095,dustin.burns@clinic6sql.com,2016-05-11,Active
+29,Cheryl,Long,Nurse,10,4168457961,cheryl.long@clinic6sql.com,2019-09-21,Active
+30,Jenny,Taylor,Gynecologist,10,4163721280,jenny.taylor@clinic6sql.com,2017-07-26,Active
+31,Adam,Cruz,Nurse,10,4165026414,adam.cruz@clinic6sql.com,2022-12-18,Active
+32,Timothy,Simpson,Gynecologist,10,4167061802,timothy.simpson@clinic6sql.com,2019-11-09,Active
+33,Robin,Guerrero,Urologist,12,4162201196,robin.guerrero@clinic6sql.com,2016-01-06,Active
+34,Mary,Thornton,Nurse,12,4161282216,mary.thornton@clinic6sql.com,2020-12-03,Active
+35,Marissa,Miller,Urologist,12,4168936886,marissa.miller@clinic6sql.com,2016-11-05,Retired
+36,Christine,Thomas,Nurse,12,4163654515,christine.thomas@clinic6sql.com,2016-12-29,Active
+37,Angela,Kelley,Urologist,12,4161778903,angela.kelley@clinic6sql.com,2022-09-26,Active

@@ -62,13 +62,13 @@ fi
 rm -f "$patched"
 
 report northwind "
-    SELECT 'Customer' AS table_name, COUNT(*) AS rows_loaded FROM Customer
+    SELECT 'Customer' AS table_name, COUNT(*) AS rows_loaded FROM Custome
     UNION ALL SELECT 'Employee',    COUNT(*) FROM Employee
     UNION ALL SELECT 'Product',     COUNT(*) FROM Product
     UNION ALL SELECT 'Category',    COUNT(*) FROM Category
-    UNION ALL SELECT 'Supplier',    COUNT(*) FROM Supplier
-    UNION ALL SELECT 'Shipper',     COUNT(*) FROM Shipper
-    UNION ALL SELECT 'SalesOrder',  COUNT(*) FROM SalesOrder
+    UNION ALL SELECT 'Supplier',    COUNT(*) FROM Supplie
+    UNION ALL SELECT 'Shipper',     COUNT(*) FROM Shippe
+    UNION ALL SELECT 'SalesOrder',  COUNT(*) FROM SalesOrde
     UNION ALL SELECT 'OrderDetail', COUNT(*) FROM OrderDetail
     UNION ALL SELECT 'Region',      COUNT(*) FROM Region
     UNION ALL SELECT 'Territory',   COUNT(*) FROM Territory;"

@@ -560,7 +560,8 @@ sqlserver/
   Dockerfile, entrypoint.sh
   data/     chinook/ northwind/ SOURCE.md    → /source
 oracle/
-  init/     01_chinook.sh … 04_sh.sh         → /container-entrypoint-initdb.d
+  init/     01_chinook.sh … 06_healthcare.sh → /opt/seed/init  (driven by
+                                             entrypoint.sh, NOT the gvenzl hook)
   assets/   chinook_oracle_fixed.sql         → /opt/seed      (@-called by init)
             sh_load_csv.sql
   data/     chinook/ human_resources/        → /source
@@ -594,10 +595,10 @@ verify.sh
 
 | Engine | Mechanism | Runs When |
 |--------|-----------|-----------|
-| PostgreSQL | Scripts in `/docker-entrypoint-initdb.d/` (alphabetical) | Once, on first container start |
+| PostgreSQL | Scripts in `/docker-entrypoint-initdb.d/` (alphabetical) | Once, on first container start. `99_done.sh` writes `PGDATA/.seed_complete`; the healthcheck requires it, so a partial seed reports UNHEALTHY instead of serving incomplete data |
 | MySQL | Scripts in `/docker-entrypoint-initdb.d/` (alphabetical), against a temporary socket-only server | Once, on first container start |
-| SQL Server | Custom entrypoint: polls readiness → runs `sqlcmd` | Once, on first container start |
-| Oracle | gvenzl init hook: scripts in `/container-entrypoint-initdb.d/` | Once, on first container start |
+| SQL Server | Custom entrypoint: polls readiness → runs `sqlcmd` | Each start, skips datasets with a marker under `/var/opt/mssql/data/.seeded/` |
+| Oracle | Custom entrypoint: polls XEPDB1 → runs `/opt/seed/init/*.sh` | Each start, skips schemas with a marker under `/opt/oracle/oradata/.seeded/` |
 | SQLite | Custom entrypoint: `sqlite3 db.db < script.sql` | Each start, skips if `.db` exists |
 
 > **Re-seeding**: remove the named volume to force re-initialization:

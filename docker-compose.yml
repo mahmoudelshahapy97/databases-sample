@@ -7,18 +7,28 @@
 # named schema — nothing is left in `public` / `dbo`, and nothing ships as
 # schema-only:
 #   postgres  → chinook.chinook, pagila.pagila, employees.employees,
-#               northwind.northwind, ecommerce.ecommerce, world.world
-#   mysql     → chinook, sakila, northwind, world, menagerie
+#               northwind.northwind, ecommerce.ecommerce, world.world,
+#               booking.booking, healthcare.healthcare
+#   mysql     → chinook, sakila, northwind, world, menagerie,
+#               booking, healthcare
 #               (a database *is* the schema in MySQL — no second level)
-#   sqlserver → Chinook.chinook, Northwind.northwind
-#   oracle    → CHINOOK, HR, CO, SH schemas  (inside XEPDB1)
-#   sqlite    → chinook.db, menagerie.db, northwind.db  (Datasette UI on :8001)
+#   sqlserver → Chinook.chinook, Northwind.northwind,
+#               Booking.booking, Healthcare.healthcare
+#   oracle    → CHINOOK, HR, CO, SH, BOOKING, HEALTHCARE  (inside XEPDB1)
+#   sqlite    → chinook.db, menagerie.db, northwind.db, booking.db,
+#               healthcare.db  (Datasette UI on :8001)
 #
 # Usage:
 #   docker compose up -d            # start all
+#   docker compose up -d --wait     # …and block until every engine is seeded
 #   docker compose up -d postgres   # start one engine only
 #   docker compose down -v          # stop + wipe volumes
 #   ./verify.sh                     # row counts across every engine
+#
+# Seeding only ever runs against an empty volume (postgres/mysql), a missing
+# .db file (sqlite), or an unpopulated schema (sqlserver/oracle). Editing a
+# loader therefore has no effect on a machine that already seeded — drop the
+# engine's volume to make it re-run. See README.md § Re-seeding.
 #
 # First run is slow: postgres spends a few minutes on the 4 M-row employees
 # data, and oracle 10–20 minutes on the 1 M-row SH schema (ORACLE_SKIP_SH=true
@@ -28,15 +38,23 @@
 services:
 
   # ---------------------------------------------------------------------------
-  # PostgreSQL 16  —  6 sample databases, one named schema each
+  # PostgreSQL 16  —  8 sample databases, one named schema each
   # ---------------------------------------------------------------------------
   postgres:
     image: postgres:16-alpine
     container_name: db_postgres
     restart: unless-stopped
-    # Raised from 384m: the employees bulk load (~4 M rows) needs headroom for
-    # index maintenance on top of shared_buffers.
-    mem_limit: 512m
+    # Raised from 512m, which was not enough and failed *silently*: the backend
+    # got OOM-killed partway through load_salaries1.dump, the entrypoint aborted,
+    # and the restart policy brought the container back onto a now-non-empty
+    # PGDATA — where the init hook no longer runs. Result was a permanently
+    # half-seeded server (chinook/pagila/part of employees, nothing after)
+    # reporting healthy.
+    #
+    # The employees dumps are the driver: ~170 MB of INSERT text in statements
+    # of ~25 000 row-value tuples each, so a single statement's parse tree is
+    # already tens of MB on top of shared_buffers, WAL and dirty pages.
+    mem_limit: 2g
     environment:
       POSTGRES_USER:     ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres123}
@@ -57,16 +75,29 @@ services:
       # ecommerce, world (see postgres/data/SOURCE.md)
       - ./postgres/data:/source:ro
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      # Two conditions, and both matter:
+      #  * .seed_complete is written by 99_done.sh only after every loader
+      #    succeeded — without it a run that died partway (see mem_limit above)
+      #    comes back up serving incomplete data and reporting healthy.
+      #  * -h 127.0.0.1 rather than the default socket: while the entrypoint is
+      #    running the init scripts it serves a temporary server with
+      #    listen_addresses='', so a socket probe reports ready minutes before
+      #    the data is loaded. TCP only opens once init has finished.
+      test:
+        - "CMD-SHELL"
+        - >
+          test -f /var/lib/postgresql/data/.seed_complete &&
+          pg_isready -h 127.0.0.1 -U ${POSTGRES_USER:-postgres}
       interval: 10s
       timeout: 5s
       retries: 5
-      start_period: 30s
+      # The employees dataset (~4 M rows) keeps init busy for a few minutes.
+      start_period: 600s
     networks:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # MySQL 8.4  —  5 sample databases (a database *is* the schema here)
+  # MySQL 8.4  —  7 sample databases (a database *is* the schema here)
   # ---------------------------------------------------------------------------
   mysql:
     image: mysql:8.4
@@ -99,7 +130,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # SQL Server 2022 Developer Edition  —  2 databases, one named schema each
+  # SQL Server 2022 Developer Edition  —  4 databases, one named schema each
   # ---------------------------------------------------------------------------
   sqlserver:
     build:
@@ -134,7 +165,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # Oracle XE 21c  —  CHINOOK + HR + CO + SH schemas  (inside XEPDB1)
+  # Oracle XE 21c  —  CHINOOK + HR + CO + SH + BOOKING + HEALTHCARE  (in XEPDB1)
   # ---------------------------------------------------------------------------
   oracle:
     build:
@@ -161,7 +192,10 @@ services:
       # oracle/data/SOURCE.md
       - ./oracle/data:/source:ro
     healthcheck:
-      test: ["CMD-SHELL", "healthcheck.sh"]
+      # seed_done is written by entrypoint.sh only after every schema landed, so
+      # `docker compose up -d --wait` blocks until the data is actually there
+      # rather than just until the listener answers.
+      test: ["CMD-SHELL", "test -f /tmp/seed_done && healthcheck.sh"]
       interval: 30s
       timeout: 20s
       retries: 15
@@ -172,7 +206,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # SQLite  —  chinook.db + menagerie.db + northwind.db  (Datasette on :8001)
+  # SQLite  —  5 .db files, one per dataset  (Datasette on :8001)
   # ---------------------------------------------------------------------------
   sqlite:
     build:

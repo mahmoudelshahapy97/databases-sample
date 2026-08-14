@@ -1,0 +1,16 @@
+StaffID,FirstName,LastName,Role,DepartmentID,Phone,Email,HireDate,Status
+4,Erika,Howard,Manager,11,4163068140,erika.howard@clinic6sql.com,2020-08-28,On Leave
+5,Nancy,Drake,IT Specialist,11,4161540419,nancy.drake@clinic6sql.com,2017-01-16,Active
+6,Rhonda,James,Receptionist,11,4166037390,rhonda.james@clinic6sql.com,2020-04-22,Active
+7,Jessica,Mosley,HR,11,4165549118,jessica.mosley@clinic6sql.com,2019-07-28,On Leave
+8,Laura,Pratt,Accountant,11,4166048864,laura.pratt@clinic6sql.com,2019-03-29,Active
+9,Peter,Silva,Security,11,4166286375,peter.silva@clinic6sql.com,2016-03-27,Active
+10,Barbara,Collier,Cleaning,11,4161755578,barbara.collier@clinic6sql.com,2021-06-07,Active
+11,Tracy,Harrington,Assistant,4,4163142967,tracy.harrington@clinic6sql.com,2019-09-14,Active
+12,Kimberly,Sellers,Assistant,5,4161936438,kimberly.sellers@clinic6sql.com,2017-01-15,Active
+13,Teresa,Taylor,Assistant,6,4166116740,teresa.taylor@clinic6sql.com,2020-05-01,Active
+14,Emily,Brown,Assistant,7,4169872820,emily.brown@clinic6sql.com,2015-08-11,Active
+15,James,Hopkins,Assistant,8,4168108517,james.hopkins@clinic6sql.com,2020-06-05,Active
+16,Amy,Johnson,Assistant,9,4168113185,amy.johnson@clinic6sql.com,2021-09-07,On Leave
+17,Tammy,Henderson,Assistant,10,4162757810,tammy.henderson@clinic6sql.com,2015-04-30,Active
+18,Anthony,Brandt,Assistant,12,4167647545,anthony.brandt@clinic6sql.com,2016-02-23,On Leave

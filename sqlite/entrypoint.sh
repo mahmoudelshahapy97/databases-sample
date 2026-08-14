@@ -1,6 +1,6 @@
 #!/bin/sh
 # =============================================================================
-# entrypoint.sh  —  SQLite database builder + Datasette launcher
+# entrypoint.sh  —  SQLite database builder + Datasette launche
 #
 # On first run, builds one .db file per dataset:
 #   1. chinook.db   from Chinook_Sqlite.sql   (~15 600 rows)
@@ -20,6 +20,8 @@ DATA_DIR="/data"
 CHINOOK_SRC="/source/chinook/Chinook_Sqlite.sql"
 MENAGERIE_SRC="/init/menagerie_sqlite.sql"
 NORTHWIND_SRC="/source/northwind/northwind_core.sql"
+BOOKING_SRC="/source/booking/booking_sqlite.sql"
+HEALTHCARE_SRC="/source/healthcare/healthcare_sqlite.sql"
 
 echo "======================================================"
 echo "  SQLite: Building databases"
@@ -49,19 +51,24 @@ build() {
     echo "  $1.db ready  ✓  ($(sqlite3 "$db" "SELECT COUNT(*) FROM sqlite_master WHERE type='table';") tables)"
 }
 
-build chinook   "$CHINOOK_SRC"   "Digital Music Store — ~15 600 rows"
-build menagerie "$MENAGERIE_SRC" "Pet Tutorial DB — 19 rows"
-build northwind "$NORTHWIND_SRC" "Classic ERP — ~3 300 rows"
+build chinook    "$CHINOOK_SRC"    "Digital Music Store — ~15 600 rows"
+build menagerie  "$MENAGERIE_SRC"  "Pet Tutorial DB — 19 rows"
+build northwind  "$NORTHWIND_SRC"  "Classic ERP — ~3 300 rows"
+build booking    "$BOOKING_SRC"    "Hotel Reservation — 18 rooms, 11 guests, 25 reservations"
+build healthcare "$HEALTHCARE_SRC" "OpenEMR core — 12 tables, 10 patients"
 
 echo "======================================================"
 echo "  Starting Datasette on http://0.0.0.0:8001"
-echo "  Serving: chinook.db, menagerie.db, northwind.db"
+echo "  Serving: chinook.db, menagerie.db, northwind.db,"
+echo "           booking.db, healthcare.db"
 echo "======================================================"
 
 exec datasette serve \
     "${DATA_DIR}/chinook.db" \
     "${DATA_DIR}/menagerie.db" \
     "${DATA_DIR}/northwind.db" \
+    "${DATA_DIR}/booking.db" \
+    "${DATA_DIR}/healthcare.db" \
     --host 0.0.0.0 \
     --port 8001 \
     --cors \

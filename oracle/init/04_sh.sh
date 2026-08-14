@@ -7,7 +7,7 @@
 #
 # SH is the heaviest dataset in this compose file: ~1.06 M rows across
 # partitioned + bitmap-indexed tables, two materialized views, five dimensions,
-# and a full stats gather. Budget 10–20 minutes of Oracle first-start time for
+# and a full stats gather. Budget 10–20 minutes of Oracle first-start time fo
 # it. Set ORACLE_SKIP_SH=true in .env to leave it out.
 #
 # ── Two upstream dependencies this script works around ───────────────────────
@@ -121,7 +121,7 @@ EOF
 
     # ── Step 3: Data ─────────────────────────────────────────────────────────
     # Rewrite the SQLcl-only bits. The first LOAD line becomes the @-call to the
-    # external-table loader, which handles all six tables at once; the other
+    # external-table loader, which handles all six tables at once; the othe
     # five LOAD lines and the `SET LOAD …` parameter line are dropped. Both
     # happen at the same point in the script — constraints disabled, bitmap
     # indexes not yet built — so the load order is unchanged in effect.

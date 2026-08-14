@@ -1,0 +1,316 @@
+---------Clinic System
+drop table clinic_system cascade constraints;
+CREATE TABLE Clinic_System (clinicName VARCHAR(25));
+ 
+ 
+----------Physician
+drop table physician cascade constraints;
+CREATE TABLE physician
+(physicianID CHAR(5) NOT NULL,
+fname VARCHAR2(20) NOT NULL,
+lname VARCHAR2(20) NOT NULL,
+specialty VARCHAR(30),
+CONSTRAINT physician_pk PRIMARY KEY (physicianID));
+ 
+ 
+----------Patient
+drop table patient cascade constraints;
+CREATE TABLE patient
+(patientID CHAR(5) NOT NULL,
+phoneNumber NUMBER(10),
+fname VARCHAR2(20) NOT NULL,
+lname VARCHAR2(20) NOT NULL,
+CONSTRAINT patient_pk PRIMARY KEY (patientID));
+ 
+ 
+----------Patienthistory
+drop table patienthistory cascade constraints;
+create table patienthistory
+(medrecordID char(5) not null,
+patientID char(5) not null,
+physicianID char(5) not null,
+startDate date null,
+description varchar2(500) null,
+constraint patienthistory_pk primary key (medrecordID, patientID),
+constraint patient_fk foreign key (patientID) references patient,
+constraint physician_fk foreign key (physicianID) references physician);
+ 
+ 
+----------Treatment
+drop table treatment cascade constraints;
+CREATE TABLE treatment
+(treatmentID CHAR(5) NOT NULL,
+medrecordID CHAR(5),
+treatmentDate DATE,
+treatmentDesc VARCHAR2(20),
+patientID CHAR(5),
+physicianID CHAR(5),
+CONSTRAINT treatment_pk PRIMARY KEY (treatmentID),
+CONSTRAINT treatment_fk_physician FOREIGN KEY (physicianID) REFERENCES physician,
+CONSTRAINTtreatment_fk_patient FOREIGN KEY (patientID) REFERENCES patient,
+CONSTRAINT treatment_fk_history FOREIGN KEY (medrecordID, patientID) REFERENCES patienthistory);
+ 
+ 
+----------Billing
+drop table billing cascade constraints;
+CREATE TABLE Billing (
+BillID	CHAR(3) NOT NULL,
+BillingDate	DATE,
+BillingAmt	NUMBER(8,2),
+treatmentID	CHAR(5),
+CONSTRAINT Billing_pk PRIMARY KEY (BillID),
+CONSTRAINT Billing_fk_Treatment FOREIGN KEY (treatmentID) REFERENCES treatment);
+ 
+ 
+----------Payment
+drop table payment cascade constraints;
+create table payment
+(paymentID char(6) not null,
+patientID char(5) not null, 
+paymentDate date null,
+paymentAmt number(8,2) null,
+constraint payment_pk primary key (paymentID),
+constraint payment_patient_fk foreign key (patientID) references patient);
+ 
+ 
+----------Insurance
+drop table insurance cascade constraints;
+CREATE TABLE Insurance
+(InsuranceID  	CHAR(3) NOT NULL,
+PatientID    	CHAR(5),
+InsuranceCompany	CHAR(30),
+CONSTRAINT Insurance_pk PRIMARY KEY (InsuranceID),
+CONSTRAINT Insurance_fk_Patient FOREIGN KEY (PatientID) REFERENCES Patient);
+ 
+ 
+----------Branch
+drop table branch cascade constraints;
+CREATE TABLE Branch (
+branchID	CHAR(3)	NOT NULL,
+branchName	VARCHAR2(20),
+branchAddress	VARCHAR2(100),
+managerID	CHAR(5),
+CONSTRAINT Branch_PK PRIMARY KEY (branchID)
+);
+ 
+----------Staff
+drop table staff cascade constraints;
+CREATE TABLE Staff
+(staffID 	CHAR(5) NOT NULL,
+fname 	CHAR(20),
+lname		CHAR(20),
+BranchID 	CHAR(3),
+CONSTRAINT Staff_pk PRIMARY KEY (StaffID),
+CONSTRAINT Staff_fk_Branch FOREIGN KEY (BranchID) REFERENCES Branch);
+  
+----------Manager
+drop table manager cascade constraints;
+CREATE TABLE Manager
+(ManagerID 	CHAR(5) NOT NULL,
+CONSTRAINT Manager_pk Primary Key (ManagerID));
+ 
+
+----------Adding manager constraint to table Branch
+ALTER TABLE Branch
+ADD CONSTRAINT Branch_FK1 FOREIGN KEY (managerID) 
+REFERENCES Manager(managerID);
+ 
+----------Receptionist
+drop table receptionist cascade constraints;
+CREATE TABLE receptionist
+(receptionistID CHAR(5) NOT NULL,
+CONSTRAINT Receptionist_pk Primary Key (receptionistID));
+ 
+ 
+----------Department
+drop table department cascade constraints;
+CREATE TABLE Department(
+deptID	CHAR(6)	NOT NULL,
+deptName	VARCHAR2(20),
+branchID	CHAR(3),
+CONSTRAINT Department_PK PRIMARY KEY (deptID),
+CONSTRAINT Department_FK1 FOREIGN KEY (branchID)
+REFERENCES Branch(branchID)
+);
+ 
+----------EmploymentRecord
+drop table EmploymentRecord cascade constraints;
+CREATE TABLE EmploymentRecord(
+deptID	CHAR(6)	NOT NULL,
+physicianID	CHAR(5)	NOT NULL,
+CONSTRAINT EmploymentRecord_PK PRIMARY KEY (deptID, physicianID),
+CONSTRAINT EmploymentRecord_FK1 FOREIGN KEY (deptID)
+REFERENCES Department(deptID),
+CONSTRAINT EmploymentRecord_FK2 FOREIGN KEY (physicianID)
+REFERENCES Physician(physicianID)
+);
+ 
+—-------- Appointment
+drop table appointment cascade constraints;
+create table appointment
+(apptID char(4) not null,
+receptionistID char(5) null,
+patientID char(5) not null, 
+apptTime timestamp not null,
+constraint appointment_pk primary key (apptID),
+constraint apt_patient_fk foreign key (patientID) references patient,
+constraint receptionist_fk foreign key (receptionistID) references receptionist);
+
+INSERT INTO Clinic_System VALUES ('National Family Clinic');
+ 
+INSERT INTO physician VALUES ('03426','Mary','Johnson','Surgery');
+INSERT INTO physician VALUES ('03427','Veronica','Brown','Medicine');
+INSERT INTO physician VALUES ('03428','Bejamin','Franklin','Paediatrics');
+INSERT INTO physician VALUES ('03429','Jenkins','Doe','Dental');
+INSERT INTO physician VALUES ('03430','Dennis','Brown','X-Ray');
+ 
+INSERT INTO patient VALUES ('02325','2158759835','John','Flomo');
+INSERT INTO patient VALUES ('02326','2155780098','Henry','Newton');
+INSERT INTO patient VALUES ('02327','2159820523','Emmanuel','Smith');
+INSERT INTO patient VALUES ('02328','2159029032','Samuel','Larry');
+INSERT INTO patient VALUES ('02329','2150098578','Joseph','Smith');
+INSERT INTO patient VALUES ('02423','2152089457','Michelle','Branch');
+INSERT INTO patient VALUES ('02456','2155780098','Larry','Page');
+INSERT INTO patient VALUES ('02457','2154529630','Harsh','Ramesh');
+INSERT INTO patient VALUES ('02458','2154529981','Gautam','Yami');
+INSERT INTO patient VALUES ('02463','2158970567','Dilmil','Singh');
+INSERT INTO patient VALUES ('02489','2153455430','Chris','Roland');
+ 
+INSERT INTO PATIENTHISTORY VALUES ('98205','02325','03426','19-OCT-22','Arthritis');
+INSERT INTO PATIENTHISTORY VALUES ('90290','02326','03427','01-MAY-03','Headache');
+INSERT INTO PATIENTHISTORY VALUES ('34357','02327','03428','20-NOV-10','Running nose');
+INSERT INTO PATIENTHISTORY VALUES ('32760','02328','03429','07-APR-21','Gum disease');
+INSERT INTO PATIENTHISTORY VALUES ('17221','02329','03430','09-AUG-22','Bone fracture');
+INSERT INTO PATIENTHISTORY VALUES ('17222','02423','03426','20-APR-22','Arthritis');
+INSERT INTO PATIENTHISTORY VALUES ('17223','02456','03427','21-SEP-19','Wound');
+INSERT INTO PATIENTHISTORY VALUES ('17224','02457','03428','20-NOV-22','Cough');
+INSERT INTO PATIENTHISTORY VALUES ('17225','02458','03429','10-SEP-18','Cavities');
+INSERT INTO PATIENTHISTORY VALUES ('17226','02463','03430','28-JUL-21','Bone fracture');
+INSERT INTO PATIENTHISTORY VALUES ('17227','02489','03426','09-JUL-17','Cardiovascular');
+ 
+ 
+INSERT INTO treatment VALUES ('55670','98205','21-OCT-22','Knee replacement','02325','03426');
+INSERT INTO treatment VALUES ('00675','90290','02-MAY-03','Xray','02326','03427');
+INSERT INTO treatment VALUES ('01123','34357','23-NOV-10','Wellness visit','02327','03428');
+INSERT INTO treatment VALUES ('40128','32760','09-APR-21','Dental cleaning','02328','03429');
+INSERT INTO treatment VALUES ('49087','17221','12-AUG-22','X-ray','02329','03430');
+INSERT INTO treatment VALUES ('50110','17222','23-APR-22','Hip replacement','02423','03426');
+INSERT INTO treatment VALUES ('50120','17223','24-SEP-19','Stiches','02456','03427');
+INSERT INTO treatment VALUES ('51000','17224','21-NOV-22','X-ray','02457','03428');
+INSERT INTO treatment VALUES ('51010','17225','12-SEP-18','Dental implant','02458','03429');
+INSERT INTO treatment VALUES ('52001','17226','30-JUL-21','X-ray','02463','03430');
+INSERT INTO treatment VALUES ('53001','17227','11-JUL-17','Pacemaker implant','02489','03426');
+ 
+INSERT INTO Billing VALUES ('501','21-OCT-22','1000.00','55670');
+INSERT INTO Billing VALUES ('502','02-MAY-03','200.00','00675');
+INSERT INTO Billing VALUES ('503','23-NOV-10','80.00','01123');
+INSERT INTO Billing VALUES ('504','09-APR-21','100.00','40128');
+INSERT INTO Billing VALUES ('505','12-AUG-22','200.00','49087');
+INSERT INTO Billing VALUES ('506','23-APR-22','1500.00','50110');
+INSERT INTO Billing VALUES ('507','24-SEP-19','250.00','50120');
+INSERT INTO Billing VALUES ('508','21-NOV-22','200.00','51000');
+INSERT INTO Billing VALUES ('509','12-SEP-18','600.00','51010');
+INSERT INTO Billing VALUES ('510','30-JUL-21','200.00','52001');
+INSERT INTO Billing VALUES ('511','11-JUL-17','2000.00','53001');
+ 
+INSERT INTO PAYMENT VALUES ('1031','02325','19-DEC-22','100.00');
+INSERT INTO PAYMENT VALUES ('1056','02463','01-JUN-20','150.00');
+INSERT INTO PAYMENT VALUES ('1186','02327','20-AUG-10','125.00');
+INSERT INTO PAYMENT VALUES ('2098','02458','07-MAY-21','200.00');
+INSERT INTO PAYMENT VALUES ('2135','02329','15-APR-22','175.00');
+INSERT INTO PAYMENT VALUES ('2136','02457','19-NOV-22','175.00');
+INSERT INTO PAYMENT VALUES ('2137','02458','21-SEP-17','500.00');
+INSERT INTO PAYMENT VALUES ('2138','02458','03-NOV-20','300.00');
+INSERT INTO PAYMENT VALUES ('2139','02463','10-OCT-18','200.00');
+INSERT INTO PAYMENT VALUES ('2140','02327','28-AUG-21','300.00');
+ 
+INSERT INTO Insurance VALUES ('901','02325','United Health');
+INSERT INTO Insurance VALUES ('906','02463','CIGNA');
+INSERT INTO Insurance VALUES ('905','02327','Humana');
+INSERT INTO Insurance VALUES ('908','02458','CIGNA');
+INSERT INTO Insurance VALUES ('913','02329','HCSC');
+INSERT INTO Insurance VALUES ('914','02326','Aetna'); 
+INSERT INTO Insurance VALUES ('915','02328','CIGNA');
+INSERT INTO Insurance VALUES ('916','02489','United Health');
+INSERT INTO Insurance VALUES ('917','02423','Aetna');
+ 
+INSERT INTO Manager VALUES ('00012');
+INSERT INTO Manager VALUES ('00015');
+INSERT INTO Manager VALUES ('00016');
+INSERT INTO Manager VALUES ('00017');
+INSERT INTO Manager VALUES ('00018');
+ 
+INSERT INTO Branch VALUES ('101', 'Alpha', 'New York', '00012');
+INSERT INTO Branch VALUES ('102', 'Epsilon', 'Philadelphia', '00015');
+INSERT INTO Branch VALUES ('103', 'Zeta', 'Chicago', '00016');
+INSERT INTO Branch VALUES ('104', 'Theta', 'Boston', '00017');
+INSERT INTO Branch VALUES ('105', 'Lambda', 'Los Angeles', '00018');
+ 
+INSERT INTO Receptionist VALUES ('00019');
+INSERT INTO Receptionist VALUES ('00020');
+INSERT INTO Receptionist VALUES ('00021');
+INSERT INTO Receptionist VALUES ('00025');
+INSERT INTO Receptionist VALUES ('00028');
+ 
+INSERT INTO Staff VALUES ('00012','John','Doe','101');
+INSERT INTO Staff VALUES ('00015','Leonardo','Dicaprio','102');
+INSERT INTO Staff VALUES ('00016','Paul','Smith','103');
+INSERT INTO Staff VALUES ('00017','Brad','Pitt','104');
+INSERT INTO Staff VALUES ('00018','Harry','Potter','105');
+INSERT INTO Staff VALUES ('00019','Zoey','Kravitz','103');
+INSERT INTO Staff VALUES ('00020','Freddy','Kreuger','105');
+INSERT INTO Staff VALUES ('00021','Dwayne','Carter','102');
+INSERT INTO Staff VALUES ('00025','Monica','Lewinsky','104');
+INSERT INTO Staff VALUES ('00028','Gareth','Bale','101');
+ 
+INSERT INTO Department VALUES ('D-0123','Surgery','101');
+INSERT INTO Department VALUES ('D-0122','Medicine','102');
+INSERT INTO Department VALUES ('D-0120','Paediatrics','103');
+INSERT INTO Department VALUES ('D-0124','Dental','104');
+INSERT INTO Department VALUES ('D-0125','X-Ray','105');
+ 
+INSERT INTO EmploymentRecord  VALUES ('D-0123','03426');
+INSERT INTO EmploymentRecord  VALUES ('D-0122','03427');
+INSERT INTO EmploymentRecord  VALUES ('D-0120','03428');
+INSERT INTO EmploymentRecord  VALUES ('D-0124','03429');
+INSERT INTO EmploymentRecord  VALUES ('D-0125','03430');
+ 
+INSERT INTO Appointment VALUES ('1604','00019','02325','28-MAY-2018 08:00:00');
+INSERT INTO Appointment VALUES ('1854','00020','02463','21-NOV-2019 09:00:00');
+INSERT INTO Appointment VALUES ('2109','00021','02327','28-AUG-2020 10:00:00');
+INSERT INTO Appointment VALUES ('7864','00025','02458','02-DEC-2021 11:00:00');
+INSERT INTO Appointment VALUES ('8856','00028','02329','30-MAY-2022 12:00:00');
+INSERT INTO Appointment VALUES ('1605','00019','02326','26-JUN-2019 08:30:00');
+INSERT INTO Appointment VALUES ('1855','00020','02328','16-NOV-2021 09:30:00');
+INSERT INTO Appointment VALUES ('2110','00021','02423','15-AUG-2020 10:30:00');
+INSERT INTO Appointment VALUES ('7865','00025','02456','08-JAN-2021 11:30:00');
+INSERT INTO Appointment VALUES ('8857','00028','02457','22-FEB-2022 12:30:00');
+INSERT INTO Appointment VALUES ('8858','00028','02489','21-MAR-2022 08:40:00');
+INSERT INTO Appointment VALUES ('1856','00020','02328','20-JAN-2022 09:40:00');
+INSERT INTO Appointment VALUES ('2111','00021','02423','05-OCT-2020 10:40:00');
+INSERT INTO Appointment VALUES ('7866','00025','02456','25-DEC-2022 11:40:00');
+INSERT INTO Appointment VALUES ('8859','00028','02457','25-DEC-2022 12:40:00');
+
+-- QUERY 1: Show the full name of the manager of each branch.
+SELECT B.branchID, B.branchName, M.managerID, S.fname, S.lname
+FROM Branch B, Manager M, Staff S
+WHERE M.managerID = B.managerID AND M.managerID = S.staffID;
+
+-- QUERY 2: Find the total number of bills for patient Henry Newton.
+SELECT SUM(B.BillingAmt)
+FROM Billing B, Treatment T, Patient P
+WHERE B.treatmentID = T.treatmentID AND T.patientID = P.patientID AND P.fname = 'Henry' AND P.lname = 'Newton';
+
+-- QUERY 3: Show all the departments in which each physician works. 
+SELECT P.physicianID, P.fname, P.lname, D.deptID, D.deptName
+FROM EmploymentRecord E, Department D, Physician P
+WHERE P.physicianID = E.physicianID AND D.deptID = E.deptID;
+
+UPDATE EmploymentRecord
+SET deptID = 'D-0122'
+WHERE physicianID = '03428';
+
+DELETE FROM Appointment
+WHERE apptDate = '25-DEC-22';
+
+
