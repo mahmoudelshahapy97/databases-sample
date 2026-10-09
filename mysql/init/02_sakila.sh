@@ -45,8 +45,8 @@ fi
 
 report sakila "
     SELECT 'film' AS table_name, COUNT(*) AS rows_loaded FROM film
-    UNION ALL SELECT 'actor',     COUNT(*) FROM acto
-    UNION ALL SELECT 'customer',  COUNT(*) FROM custome
+    UNION ALL SELECT 'actor',     COUNT(*) FROM actor
+    UNION ALL SELECT 'customer',  COUNT(*) FROM customer
     UNION ALL SELECT 'inventory', COUNT(*) FROM inventory
     UNION ALL SELECT 'rental',    COUNT(*) FROM rental
     UNION ALL SELECT 'payment',   COUNT(*) FROM payment
