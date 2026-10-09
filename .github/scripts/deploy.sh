@@ -63,7 +63,9 @@ if ! dc up -d --no-build --remove-orphans --wait --wait-timeout 3600; then
 fi
 
 # Keep the current and previous release of each image, nothing older.
-keep=$(cat release.env .deploy/release.env.previous 2>/dev/null | cut -d= -f2 | sort -u)
+# The previous file is absent on a host's first deploy; under pipefail that would
+# abort the script after a successful start.
+keep=$(cat release.env .deploy/release.env.previous 2>/dev/null | cut -d= -f2 | sort -u || true)
 for image in "$SQLSERVER_IMAGE" "$ORACLE_IMAGE" "$SQLITE_IMAGE"; do
   repo=${image%:*}
   docker image ls "$repo" --format '{{.Repository}}:{{.Tag}}' | while read -r ref; do
