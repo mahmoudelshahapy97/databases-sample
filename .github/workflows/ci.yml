@@ -2,6 +2,7 @@
 #
 #   lint     shellcheck on every loader/entrypoint, and the compose files parse
 #   mondial  the Mondial loaders run against a real MySQL and PostgreSQL
+#   seed-*   MySQL and SQLite seeded by their real init scripts, then verify.sh
 #   build    the three custom images (sqlserver, oracle, sqlite) build
 #
 # Seeding the full stack takes tens of minutes (Oracle SH, employees), so CI does not
@@ -26,6 +27,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Repo consistency (tests/check_repo.sh)
+        run: ./tests/check_repo.sh
+
+      - name: hadolint
+        run: |
+          docker run --rm -i hadolint/hadolint hadolint --failure-threshold error - < sqlserver/Dockerfile
+          docker run --rm -i hadolint/hadolint hadolint --failure-threshold error - < oracle/Dockerfile
+          docker run --rm -i hadolint/hadolint hadolint --failure-threshold error - < sqlite/Dockerfile
 
       - name: shellcheck (advisory until the existing scripts are clean)
         # Errors only: the loaders are `source`d, heredoc-heavy and deliberately
@@ -109,6 +119,27 @@ jobs:
           echo "tables=$tables countries=$countries"
           test "$tables" -eq 47
           test "$countries" -gt 200
+
+  # The real init scripts plus verify.sh, for the engines that seed in minutes.
+  seed-mysql:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose up -d --wait mysql
+      - run: ./verify.sh mysql
+      - if: failure()
+        run: docker compose logs mysql | tail -200
+
+  seed-sqlite:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose up -d --build --wait sqlite
+      - run: ./verify.sh sqlite
+      - if: failure()
+        run: docker compose logs sqlite | tail -200
 
   build:
     runs-on: ubuntu-latest

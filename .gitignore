@@ -1,5 +1,4 @@
-# Secrets
-.env
+# Secrets (.env is intentionally tracked)
 
 # Docker build artifacts
 *.log
@@ -7,3 +6,4 @@
 # Editor folders
 .vscode/
 .idea/
+__pycache__/
