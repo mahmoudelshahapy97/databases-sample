@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Repo consistency (tests/check_repo.sh)
-        run: ./tests/check_repo.sh
+        run: bash tests/check_repo.sh
 
       - name: hadolint
         run: |
@@ -127,7 +127,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: docker compose up -d --wait mysql
-      - run: ./verify.sh mysql
+      - run: bash verify.sh mysql
       - if: failure()
         run: docker compose logs mysql | tail -200
 
@@ -137,7 +137,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: docker compose up -d --build --wait sqlite
-      - run: ./verify.sh sqlite
+      - run: bash verify.sh sqlite
       - if: failure()
         run: docker compose logs sqlite | tail -200
 
