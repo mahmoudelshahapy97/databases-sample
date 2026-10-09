@@ -145,7 +145,7 @@ DECLARE
     v_rows NUMBER; v_total NUMBER; v_tables NUMBER;
 BEGIN
     FOR s IN (SELECT username FROM dba_users
-               WHERE username IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE')
+               WHERE username IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE')
                ORDER BY username) LOOP
         v_total := 0; v_tables := 0;
         FOR t IN (SELECT table_name FROM dba_tables WHERE owner = s.username

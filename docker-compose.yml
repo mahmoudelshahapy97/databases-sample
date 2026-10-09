@@ -8,15 +8,15 @@
 # schema-only:
 #   postgres  → chinook.chinook, pagila.pagila, employees.employees,
 #               northwind.northwind, ecommerce.ecommerce, world.world,
-#               booking.booking, healthcare.healthcare
+#               booking.booking, healthcare.healthcare, bookstore.bookstore
 #   mysql     → chinook, sakila, northwind, world, menagerie,
-#               booking, healthcare
+#               booking, healthcare, bookstore
 #               (a database *is* the schema in MySQL — no second level)
 #   sqlserver → Chinook.chinook, Northwind.northwind,
-#               Booking.booking, Healthcare.healthcare
-#   oracle    → CHINOOK, HR, CO, SH, BOOKING, HEALTHCARE  (inside XEPDB1)
+#               Booking.booking, Healthcare.healthcare, Bookstore.bookstore
+#   oracle    → CHINOOK, HR, CO, SH, BOOKING, HEALTHCARE, BOOKSTORE  (in XEPDB1)
 #   sqlite    → chinook.db, menagerie.db, northwind.db, booking.db,
-#               healthcare.db  (Datasette UI on :8001)
+#               healthcare.db, bookstore.db  (Datasette UI on :8001)
 #
 # Usage:
 #   docker compose up -d            # start all
@@ -38,7 +38,7 @@
 services:
 
   # ---------------------------------------------------------------------------
-  # PostgreSQL 16  —  8 sample databases, one named schema each
+  # PostgreSQL 16  —  9 sample databases, one named schema each
   # ---------------------------------------------------------------------------
   postgres:
     image: postgres:16-alpine
@@ -97,7 +97,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # MySQL 8.4  —  7 sample databases (a database *is* the schema here)
+  # MySQL 8.4  —  8 sample databases (a database *is* the schema here)
   # ---------------------------------------------------------------------------
   mysql:
     image: mysql:8.4
@@ -130,7 +130,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # SQL Server 2022 Developer Edition  —  4 databases, one named schema each
+  # SQL Server 2022 Developer Edition  —  5 databases, one named schema each
   # ---------------------------------------------------------------------------
   sqlserver:
     build:
@@ -165,7 +165,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # Oracle XE 21c  —  CHINOOK + HR + CO + SH + BOOKING + HEALTHCARE  (in XEPDB1)
+  # Oracle XE 21c  —  CHINOOK + HR + CO + SH + BOOKING + HEALTHCARE + BOOKSTORE  (in XEPDB1)
   # ---------------------------------------------------------------------------
   oracle:
     build:
@@ -206,7 +206,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # SQLite  —  5 .db files, one per dataset  (Datasette on :8001)
+  # SQLite  —  6 .db files, one per dataset  (Datasette on :8001)
   # ---------------------------------------------------------------------------
   sqlite:
     build:

@@ -22,6 +22,7 @@ MENAGERIE_SRC="/init/menagerie_sqlite.sql"
 NORTHWIND_SRC="/source/northwind/northwind_core.sql"
 BOOKING_SRC="/source/booking/booking_sqlite.sql"
 HEALTHCARE_SRC="/source/healthcare/healthcare_sqlite.sql"
+BOOKSTORE_SRC="/source/bookstore/bookstore_sqlite.sql"
 
 echo "======================================================"
 echo "  SQLite: Building databases"
@@ -56,11 +57,12 @@ build menagerie  "$MENAGERIE_SRC"  "Pet Tutorial DB — 19 rows"
 build northwind  "$NORTHWIND_SRC"  "Classic ERP — ~3 300 rows"
 build booking    "$BOOKING_SRC"    "Hotel Reservation — 18 rooms, 11 guests, 25 reservations"
 build healthcare "$HEALTHCARE_SRC" "OpenEMR core — 12 tables, 10 patients"
+build bookstore  "$BOOKSTORE_SRC"  "Online book sales — 11 tables"
 
 echo "======================================================"
 echo "  Starting Datasette on http://0.0.0.0:8001"
 echo "  Serving: chinook.db, menagerie.db, northwind.db,"
-echo "           booking.db, healthcare.db"
+echo "           booking.db, healthcare.db, bookstore.db"
 echo "======================================================"
 
 exec datasette serve \
@@ -69,6 +71,7 @@ exec datasette serve \
     "${DATA_DIR}/northwind.db" \
     "${DATA_DIR}/booking.db" \
     "${DATA_DIR}/healthcare.db" \
+    "${DATA_DIR}/bookstore.db" \
     --host 0.0.0.0 \
     --port 8001 \
     --cors \

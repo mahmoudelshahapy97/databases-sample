@@ -50,7 +50,7 @@ running() {   # running <container> → 0 if up
 is_num() { [[ "${1:-}" =~ ^[0-9]+$ ]]; }
 
 # ─────────────────────────────────────────────────────────────────────────────
-# PostgreSQL — 8 databases, one named schema each
+# PostgreSQL — 9 databases, one named schema each
 # ─────────────────────────────────────────────────────────────────────────────
 pg() { docker exec -i db_postgres psql -U "$PG_USER" -d "$1" -tAX -F'|' -c "$2" 2>&1; }
 
@@ -73,7 +73,7 @@ verify_postgres() {
     printf '  %-11s %-11s %7s %11s   %s\n' DATABASE SCHEMA TABLES ROWS SEARCH_PATH
     printf '  %-11s %-11s %7s %11s   %s\n' ----------- ----------- ------- ----------- -----------
 
-    for db in chinook pagila employees northwind ecommerce world booking healthcare; do
+    for db in chinook pagila employees northwind ecommerce world booking healthcare bookstore; do
         out=$(pg_schema_stats "$db" "$db")
         tables=${out%%|*}
         rows=${out##*|}
@@ -110,7 +110,7 @@ verify_postgres() {
     printf '  %-11s %-42s %11s\n' DATABASE VIEW ROWS
     printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
     _pg_any_views=0
-    for db in chinook pagila employees northwind ecommerce world booking healthcare; do
+    for db in chinook pagila employees northwind ecommerce world booking healthcare bookstore; do
         vout=$(pg "$db" "
             SELECT table_schema || '.' || table_name || '|' ||
                    (xpath('/row/c/text()',
@@ -150,7 +150,7 @@ verify_mysql() {
     printf '  %-11s %7s %11s\n' DATABASE TABLES ROWS
     printf '  %-11s %7s %11s\n' ----------- ------- -----------
 
-    for db in chinook sakila northwind world menagerie booking healthcare; do
+    for db in chinook sakila northwind world menagerie booking healthcare bookstore; do
         # information_schema.TABLE_ROWS is an estimate for InnoDB, so build a
         # UNION ALL of exact COUNT(*)s from the table list and run that instead.
         q=$(my_q "
@@ -193,7 +193,7 @@ verify_mysql() {
     printf '  %-11s %-42s %11s\n' DATABASE VIEW ROWS
     printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
     _my_any_views=0
-    for db in chinook sakila northwind world menagerie booking healthcare; do
+    for db in chinook sakila northwind world menagerie booking healthcare bookstore; do
         mapfile -t _vnames < <(my_q "SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA='$db' ORDER BY TABLE_NAME;" | grep -v '^$')
         for vname in "${_vnames[@]}"; do
             vname=$(printf '%s' "$vname" | tr -d '\r')
@@ -207,7 +207,7 @@ verify_mysql() {
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
-# SQL Server — 4 databases, one named schema each
+# SQL Server — 5 databases, one named schema each
 # ─────────────────────────────────────────────────────────────────────────────
 mssql() {
     docker exec -i db_sqlserver /opt/mssql-tools18/bin/sqlcmd \
@@ -222,7 +222,7 @@ verify_sqlserver() {
     printf '  %-11s %-11s %7s %11s\n' ----------- ----------- ------- -----------
 
     # database → the schema its objects are supposed to be in
-    for pair in "Chinook:chinook" "Northwind:northwind" "Booking:booking" "Healthcare:healthcare"; do
+    for pair in "Chinook:chinook" "Northwind:northwind" "Booking:booking" "Healthcare:healthcare" "Bookstore:bookstore"; do
         db=${pair%%:*}
         want=${pair##*:}
 
@@ -269,7 +269,7 @@ verify_sqlserver() {
     printf '  %-11s %-42s %11s\n' DATABASE VIEW ROWS
     printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
     _ms_any_views=0
-    for db in Chinook Northwind Booking Healthcare; do
+    for db in Chinook Northwind Booking Healthcare Bookstore; do
         # Emit schema TAB viewname — tab is safe (no object name contains a tab)
         mapfile -t _vlist < <(mssql -d "$db" -Q "
             SET NOCOUNT ON;
@@ -309,7 +309,7 @@ DECLARE
     v_tables NUMBER;
 BEGIN
     FOR s IN (SELECT username FROM dba_users
-               WHERE username IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE') ORDER BY username) LOOP
+               WHERE username IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE') ORDER BY username) LOOP
         v_total  := 0;
         v_tables := 0;
         FOR t IN (SELECT table_name FROM dba_tables
@@ -347,7 +347,7 @@ SQL
         [ "$rows" -gt 0 ] || fail "schema $schema has no rows"
     done
 
-    for want in CHINOOK HR CO SH BOOKING HEALTHCARE; do
+    for want in CHINOOK HR CO SH BOOKING HEALTHCARE BOOKSTORE; do
         case " $seen " in
             *" $want "*) ;;
             *)
@@ -372,12 +372,12 @@ DECLARE
     v_cnt NUMBER;
 BEGIN
     FOR v IN (SELECT owner, view_name AS oname FROM dba_views
-               WHERE owner IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE') ORDER BY owner, view_name) LOOP
+               WHERE owner IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE') ORDER BY owner, view_name) LOOP
         EXECUTE IMMEDIATE 'SELECT COUNT(*) FROM "' || v.owner || '"."' || v.oname || '"' INTO v_cnt;
         DBMS_OUTPUT.PUT_LINE('VROW|' || v.owner || '.' || v.oname || '|' || v_cnt);
     END LOOP;
     FOR m IN (SELECT owner, mview_name AS oname FROM dba_mviews
-               WHERE owner IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE') ORDER BY owner, mview_name) LOOP
+               WHERE owner IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE') ORDER BY owner, mview_name) LOOP
         EXECUTE IMMEDIATE 'SELECT COUNT(*) FROM "' || m.owner || '"."' || m.oname || '"' INTO v_cnt;
         DBMS_OUTPUT.PUT_LINE('VROW|' || m.owner || '.' || m.oname || ' (MVIEW)|' || v_cnt);
     END LOOP;
@@ -407,7 +407,7 @@ verify_sqlite() {
     printf '  %-14s %7s %11s\n' FILE TABLES ROWS
     printf '  %-14s %7s %11s\n' -------------- ------- -----------
 
-    for db in chinook menagerie northwind booking healthcare; do
+    for db in chinook menagerie northwind booking healthcare bookstore; do
         # sqlite3 has no "count all rows" builtin; build one UNION ALL query
         # from sqlite_master and run it. Quoting handles table names with
         # spaces (Northwind has none today, but Chinook-style dumps can).

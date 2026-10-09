@@ -41,6 +41,7 @@ CHINOOK_SRC="/source/chinook/Chinook_SqlServer.sql"
 NORTHWIND_SRC="/source/northwind/northwind.sql"
 BOOKING_SRC="/source/booking/booking_mssql.sql"
 HEALTHCARE_SRC="/source/healthcare/healthcare_mssql.sql"
+BOOKSTORE_SRC="/source/bookstore/bookstore_mssql.sql"
 
 # One marker file per dataset, on the persistent volume next to the .mdf files.
 SEED_STATE="/var/opt/mssql/data/.seeded"
@@ -248,12 +249,30 @@ BOOKING_PID=$!
 ) &
 HEALTHCARE_PID=$!
 
+(
+    if already_seeded bookstore; then
+        echo "  Bookstore already seeded — skipping."
+        exit 0
+    fi
+    echo "------------------------------------------------------"
+    echo "  Loading: Bookstore.bookstore  (Online book sales, 11 tables)"
+    echo "------------------------------------------------------"
+    $SQLCMD \
+        -S localhost -U sa -P "$PASS" -No \
+        -i "$BOOKSTORE_SRC" \
+        -b 2>&1 | tail -5
+    mark_seeded bookstore
+    echo "Bookstore loaded  ✓  (schema: bookstore)"
+) &
+BOOKSTORE_PID=$!
+
 # Collect all statuses without letting `set -e` tear the container down.
 SEED_RC=0
 wait "$CHINOOK_PID"    || { SEED_RC=1; echo "ERROR: Chinook seeding failed.";    }
 wait "$NORTHWIND_PID"  || { SEED_RC=1; echo "ERROR: Northwind seeding failed.";  }
 wait "$BOOKING_PID"    || { SEED_RC=1; echo "ERROR: Booking seeding failed.";    }
 wait "$HEALTHCARE_PID" || { SEED_RC=1; echo "ERROR: Healthcare seeding failed."; }
+wait "$BOOKSTORE_PID"  || { SEED_RC=1; echo "ERROR: Bookstore seeding failed.";  }
 
 # ── Drop the throwaway Northwind credential ──────────────────────────────────
 # Outside the Northwind block on purpose: a run that failed midway leaves the
@@ -288,6 +307,10 @@ SELECT 'Booking', s.name, COUNT(*)
 UNION ALL
 SELECT 'Healthcare', s.name, COUNT(*)
   FROM Healthcare.sys.tables t JOIN Healthcare.sys.schemas s ON s.schema_id = t.schema_id
+ GROUP BY s.name
+UNION ALL
+SELECT 'Bookstore', s.name, COUNT(*)
+  FROM Bookstore.sys.tables t JOIN Bookstore.sys.schemas s ON s.schema_id = t.schema_id
  GROUP BY s.name;
 " || true
 
@@ -296,6 +319,7 @@ if [ "$SEED_RC" -eq 0 ]; then
     echo "  SQL Server seeding complete!"
     echo "  Chinook.chinook  |  Northwind.northwind"
     echo "  Booking.booking  |  Healthcare.healthcare"
+    echo "  Bookstore.bookstore"
     echo "======================================================"
     touch /tmp/seed_done
 else

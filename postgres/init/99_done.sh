@@ -29,6 +29,6 @@ marker="${PGDATA:-/var/lib/postgresql/data}/.seed_complete"
 : > "$marker"
 
 echo "======================================================"
-echo "  PostgreSQL: all 8 databases seeded  ✓"
+echo "  PostgreSQL: all 9 databases seeded  ✓"
 echo "  marker: ${marker}"
 echo "======================================================"
