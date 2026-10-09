@@ -188,7 +188,7 @@ CREATE TABLE mountain
   Name VARCHAR(50) PRIMARY KEY,
   Mountains VARCHAR(50),
   Elevation DOUBLE,
-  [Type] VARCHAR(10),
+  `Type` VARCHAR(10),
   Latitude DOUBLE,
   Longitude DOUBLE,
   CONSTRAINT MountainCoord CHECK (
