@@ -149,7 +149,7 @@ CREATE TABLE citylocalname
 
 CREATE TABLE continent
 (Name VARCHAR(20) PRIMARY KEY,
- Area DOUBLE(10));
+ Area DOUBLE);
 
 CREATE TABLE borders
 (Country1 VARCHAR(4),
