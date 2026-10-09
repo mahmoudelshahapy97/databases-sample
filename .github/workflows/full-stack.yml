@@ -1,0 +1,30 @@
+# Nightly full seed of every engine, then verify.sh. Too slow for pull requests
+# (employees ~4M rows, Oracle SH 10-20 min).
+name: Full stack
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  full:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: [postgres, mysql, sqlserver, oracle, sqlite]
+    env:
+      ORACLE_SKIP_SH: "true"
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose up -d --build --wait ${{ matrix.engine }}
+      - run: ./verify.sh ${{ matrix.engine }}
+      - if: failure()
+        run: docker compose logs ${{ matrix.engine }} > ${{ matrix.engine }}.log
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ matrix.engine }}
+          path: ${{ matrix.engine }}.log
