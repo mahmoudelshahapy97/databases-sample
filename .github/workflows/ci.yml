@@ -1,0 +1,127 @@
+# Continuous integration.
+#
+#   lint     shellcheck on every loader/entrypoint, and the compose files parse
+#   mondial  the Mondial loaders run against a real MySQL and PostgreSQL
+#   build    the three custom images (sqlserver, oracle, sqlite) build
+#
+# Seeding the full stack takes tens of minutes (Oracle SH, employees), so CI does not
+# do it; it checks the parts that can be checked in a couple of minutes.
+
+name: CI
+
+# No `push` to main here: deploy.yml calls this workflow before it publishes, so a
+# merge runs CI once rather than twice.
+on:
+  pull_request:
+    branches: [main]
+  workflow_call:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: shellcheck (advisory until the existing scripts are clean)
+        # Errors only: the loaders are `source`d, heredoc-heavy and deliberately
+        # unquoted in places, so style warnings would be noise.
+        run: |
+          find . -name '*.sh' -not -path './.git/*' -print0 \
+            | xargs -0 shellcheck --severity=error --shell=bash
+        continue-on-error: true
+
+      - name: Compose files are valid
+        run: |
+          docker compose -f docker-compose.yml config --quiet
+          MULTIDB_SQLSERVER_IMAGE=x MULTIDB_ORACLE_IMAGE=x MULTIDB_SQLITE_IMAGE=x \
+            docker compose -f docker-compose.yml -f docker-compose.prod.yml config --quiet
+
+  mondial-mysql:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.4
+        env:
+          MYSQL_ROOT_PASSWORD: root
+        ports: ["3306:3306"]
+        options: >-
+          --health-cmd "mysqladmin ping -h 127.0.0.1 -proot"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Load Mondial
+        run: |
+          export MYSQL_PWD=root
+          for f in mondial_mysql.sql mondial_mysql_data.sql; do
+            mysql -h 127.0.0.1 -u root --default-character-set=utf8mb4 < "mysql/data/mondial/$f"
+          done
+
+      - name: Tables and rows are there
+        run: |
+          export MYSQL_PWD=root
+          tables=$(mysql -h 127.0.0.1 -u root -N -e "SELECT COUNT(*) FROM information_schema.tables WHERE table_schema='mondial'")
+          countries=$(mysql -h 127.0.0.1 -u root -N -e "SELECT COUNT(*) FROM mondial.country")
+          echo "tables=$tables countries=$countries"
+          test "$tables" -eq 47
+          test "$countries" -gt 200
+
+  mondial-postgres:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Load Mondial
+        env:
+          PGPASSWORD: postgres
+        run: |
+          psql -h localhost -U postgres -v ON_ERROR_STOP=1 -c "CREATE DATABASE mondial"
+          psql -h localhost -U postgres -d mondial -v ON_ERROR_STOP=1 -c "CREATE SCHEMA mondial"
+          { echo "SET search_path TO mondial;"
+            cat postgres/data/mondial/mondial-schema.psql postgres/data/mondial/mondial-inputs.psql
+          } | psql -h localhost -U postgres -d mondial -v ON_ERROR_STOP=1 --quiet
+
+      - name: Tables and rows are there
+        env:
+          PGPASSWORD: postgres
+        run: |
+          q() { psql -h localhost -U postgres -d mondial -At -c "$1"; }
+          tables=$(q "SELECT count(*) FROM information_schema.tables WHERE table_schema='mondial'")
+          countries=$(q "SELECT count(*) FROM mondial.country")
+          echo "tables=$tables countries=$countries"
+          test "$tables" -eq 47
+          test "$countries" -gt 200
+
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        image: [sqlserver, oracle, sqlite]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - name: Build ${{ matrix.image }}
+        uses: docker/build-push-action@v6
+        with:
+          context: ./${{ matrix.image }}
+          push: false
+          cache-from: type=gha,scope=${{ matrix.image }}

@@ -1,0 +1,14 @@
+# Production overlay, applied on the deploy host by .github/scripts/deploy.sh:
+#
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml ...
+#
+# The three services that have a Dockerfile (sqlserver, oracle, sqlite) run the images
+# CI published to Docker Hub, pinned by commit SHA through release.env, so the host
+# builds nothing. postgres and mysql are stock images and need no override.
+services:
+  sqlserver:
+    image: ${MULTIDB_SQLSERVER_IMAGE:?release.env is missing}
+  oracle:
+    image: ${MULTIDB_ORACLE_IMAGE:?release.env is missing}
+  sqlite:
+    image: ${MULTIDB_SQLITE_IMAGE:?release.env is missing}
