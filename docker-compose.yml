@@ -8,13 +8,13 @@
 # schema-only:
 #   postgres  → chinook.chinook, pagila.pagila, employees.employees,
 #               northwind.northwind, ecommerce.ecommerce, world.world,
-#               booking.booking, healthcare.healthcare, bookstore.bookstore
+#               booking.booking, healthcare.healthcare, bookstore.bookstore, mondial.mondial
 #   mysql     → chinook, sakila, northwind, world, menagerie,
-#               booking, healthcare, bookstore
+#               booking, healthcare, bookstore, mondial
 #               (a database *is* the schema in MySQL — no second level)
 #   sqlserver → Chinook.chinook, Northwind.northwind,
 #               Booking.booking, Healthcare.healthcare, Bookstore.bookstore
-#   oracle    → CHINOOK, HR, CO, SH, BOOKING, HEALTHCARE, BOOKSTORE  (in XEPDB1)
+#   oracle    → CHINOOK, HR, CO, SH, BOOKING, HEALTHCARE, BOOKSTORE, MONDIAL  (in XEPDB1)
 #   sqlite    → chinook.db, menagerie.db, northwind.db, booking.db,
 #               healthcare.db, bookstore.db  (Datasette UI on :8001)
 #
@@ -38,7 +38,7 @@
 services:
 
   # ---------------------------------------------------------------------------
-  # PostgreSQL 16  —  9 sample databases, one named schema each
+  # PostgreSQL 16  —  10 sample databases, one named schema each
   # ---------------------------------------------------------------------------
   postgres:
     image: postgres:16-alpine
@@ -97,7 +97,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # MySQL 8.4  —  8 sample databases (a database *is* the schema here)
+  # MySQL 8.4  —  9 sample databases (a database *is* the schema here)
   # ---------------------------------------------------------------------------
   mysql:
     image: mysql:8.4
@@ -165,7 +165,7 @@ services:
       - db_network
 
   # ---------------------------------------------------------------------------
-  # Oracle XE 21c  —  CHINOOK + HR + CO + SH + BOOKING + HEALTHCARE + BOOKSTORE  (in XEPDB1)
+  # Oracle XE 21c  —  CHINOOK + HR + CO + SH + BOOKING + HEALTHCARE + BOOKSTORE + MONDIAL  (in XEPDB1)
   # ---------------------------------------------------------------------------
   oracle:
     build:

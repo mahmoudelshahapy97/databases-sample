@@ -73,7 +73,7 @@ verify_postgres() {
     printf '  %-11s %-11s %7s %11s   %s\n' DATABASE SCHEMA TABLES ROWS SEARCH_PATH
     printf '  %-11s %-11s %7s %11s   %s\n' ----------- ----------- ------- ----------- -----------
 
-    for db in chinook pagila employees northwind ecommerce world booking healthcare bookstore; do
+    for db in chinook pagila employees northwind ecommerce world booking healthcare bookstore mondial; do
         out=$(pg_schema_stats "$db" "$db")
         tables=${out%%|*}
         rows=${out##*|}
@@ -110,7 +110,7 @@ verify_postgres() {
     printf '  %-11s %-42s %11s\n' DATABASE VIEW ROWS
     printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
     _pg_any_views=0
-    for db in chinook pagila employees northwind ecommerce world booking healthcare bookstore; do
+    for db in chinook pagila employees northwind ecommerce world booking healthcare bookstore mondial; do
         vout=$(pg "$db" "
             SELECT table_schema || '.' || table_name || '|' ||
                    (xpath('/row/c/text()',
@@ -150,7 +150,7 @@ verify_mysql() {
     printf '  %-11s %7s %11s\n' DATABASE TABLES ROWS
     printf '  %-11s %7s %11s\n' ----------- ------- -----------
 
-    for db in chinook sakila northwind world menagerie booking healthcare bookstore; do
+    for db in chinook sakila northwind world menagerie booking healthcare bookstore mondial; do
         # information_schema.TABLE_ROWS is an estimate for InnoDB, so build a
         # UNION ALL of exact COUNT(*)s from the table list and run that instead.
         q=$(my_q "
@@ -193,7 +193,7 @@ verify_mysql() {
     printf '  %-11s %-42s %11s\n' DATABASE VIEW ROWS
     printf '  %-11s %-42s %11s\n' ----------- ------------------------------------------ -----------
     _my_any_views=0
-    for db in chinook sakila northwind world menagerie booking healthcare bookstore; do
+    for db in chinook sakila northwind world menagerie booking healthcare bookstore mondial; do
         mapfile -t _vnames < <(my_q "SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA='$db' ORDER BY TABLE_NAME;" | grep -v '^$')
         for vname in "${_vnames[@]}"; do
             vname=$(printf '%s' "$vname" | tr -d '\r')
@@ -309,7 +309,7 @@ DECLARE
     v_tables NUMBER;
 BEGIN
     FOR s IN (SELECT username FROM dba_users
-               WHERE username IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE') ORDER BY username) LOOP
+               WHERE username IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE','MONDIAL') ORDER BY username) LOOP
         v_total  := 0;
         v_tables := 0;
         FOR t IN (SELECT table_name FROM dba_tables
@@ -347,7 +347,7 @@ SQL
         [ "$rows" -gt 0 ] || fail "schema $schema has no rows"
     done
 
-    for want in CHINOOK HR CO SH BOOKING HEALTHCARE BOOKSTORE; do
+    for want in CHINOOK HR CO SH BOOKING HEALTHCARE BOOKSTORE MONDIAL; do
         case " $seen " in
             *" $want "*) ;;
             *)
@@ -372,12 +372,12 @@ DECLARE
     v_cnt NUMBER;
 BEGIN
     FOR v IN (SELECT owner, view_name AS oname FROM dba_views
-               WHERE owner IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE') ORDER BY owner, view_name) LOOP
+               WHERE owner IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE','MONDIAL') ORDER BY owner, view_name) LOOP
         EXECUTE IMMEDIATE 'SELECT COUNT(*) FROM "' || v.owner || '"."' || v.oname || '"' INTO v_cnt;
         DBMS_OUTPUT.PUT_LINE('VROW|' || v.owner || '.' || v.oname || '|' || v_cnt);
     END LOOP;
     FOR m IN (SELECT owner, mview_name AS oname FROM dba_mviews
-               WHERE owner IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE') ORDER BY owner, mview_name) LOOP
+               WHERE owner IN ('CHINOOK','HR','CO','SH','BOOKING','HEALTHCARE','BOOKSTORE','MONDIAL') ORDER BY owner, mview_name) LOOP
         EXECUTE IMMEDIATE 'SELECT COUNT(*) FROM "' || m.owner || '"."' || m.oname || '"' INTO v_cnt;
         DBMS_OUTPUT.PUT_LINE('VROW|' || m.owner || '.' || m.oname || ' (MVIEW)|' || v_cnt);
     END LOOP;

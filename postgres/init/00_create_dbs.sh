@@ -14,10 +14,10 @@
 # =============================================================================
 set -euo pipefail
 
-DATASETS="chinook pagila employees northwind ecommerce world booking healthcare bookstore"
+DATASETS="chinook pagila employees northwind ecommerce world booking healthcare bookstore mondial"
 
 echo "======================================================"
-echo "  PostgreSQL: creating 9 databases, one schema each"
+echo "  PostgreSQL: creating 10 databases, one schema each"
 echo "======================================================"
 
 for db in $DATASETS; do
@@ -38,4 +38,4 @@ EOSQL
     echo "  database ${db}  →  schema ${db}  (search_path default)  ✓"
 done
 
-echo "All 9 databases and schemas created."
+echo "All 10 databases and schemas created."
