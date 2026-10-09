@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: docker compose up -d --build --wait ${{ matrix.engine }}
-      - run: ./verify.sh ${{ matrix.engine }}
+      - run: bash verify.sh ${{ matrix.engine }}
       - if: failure()
         run: docker compose logs ${{ matrix.engine }} > ${{ matrix.engine }}.log
       - if: failure()
