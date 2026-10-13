@@ -55,6 +55,11 @@ services:
     # of ~25 000 row-value tuples each, so a single statement's parse tree is
     # already tens of MB on top of shared_buffers, WAL and dirty pages.
     mem_limit: 2g
+    # Docker's default /dev/shm is 64 MB. Parallel query workers allocate their
+    # shared memory there, and a few concurrent analytical queries (the eval
+    # toolkit runs eight at once) failed with "could not resize shared memory
+    # segment ... No space left on device".
+    shm_size: 256mb
     environment:
       POSTGRES_USER:     ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres123}
